@@ -1,10 +1,10 @@
 {
   "date": "2026-10-31",
-  "generatedAt": "2026-10-31T17:32:27.123Z",
+  "generatedAt": "2026-10-31T17:41:00.375Z",
   "stats": {
     "wires": 40,
     "wiresOk": 39,
-    "fetched": 3885,
+    "fetched": 3965,
     "published": 54,
     "sources": 23,
     "regions": [
@@ -15,7 +15,7 @@
       "North America"
     ],
     "failures": [
-      "Contxto: The operation was aborted due to timeout"
+      "Tech.eu: HTTP 403"
     ]
   },
   "lead": {
@@ -33,10 +33,19 @@
       "slug": "development",
       "stories": [
         {
-          "title": "From 1 Minute 56 Seconds to 3 Seconds: Optimizing Database Inserts with Batch Processing",
-          "url": "https://dev.to/rishabhrawat05/from-1-minute-56-seconds-to-3-seconds-optimizing-database-inserts-with-batch-processing-1pi4",
-          "summary": "Sometimes, a feature works perfectly but takes so long that it becomes practically unusable. Recently, while working on a camera management feature at my office, I encountered exactly this problem. The Problem Whenever we assigned cameras to a user, the…",
-          "publishedAt": "2026-10-31T17:30:20.000Z",
+          "title": "How We Built a Zero-Database, High-Performance Multilingual Platform for German Relocation & Business Setup",
+          "url": "https://dev.to/werumoconsulting/how-we-built-a-zero-database-high-performance-multilingual-platform-for-german-relocation--2jap",
+          "summary": "When architecting software solutions for the German corporate and relocation ecosystem, technical architecture quickly collides with stringent legal frameworks. Between GDPR (DSGVO), statutory retention requirements, and cross-border identity processing…",
+          "publishedAt": "2026-10-31T17:39:10.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Vercel's agent-desktop Gives Your Coding Agent Hands on the Whole Desktop — Without Screenshots, Explained Honestly",
+          "url": "https://dev.to/paullovelace/vercels-agent-desktop-gives-your-coding-agent-hands-on-the-whole-desktop-without-screenshots-2ble",
+          "summary": "Vercel's agent-desktop Gives Your Coding Agent Hands on the Whole Desktop — Without Screenshots, Explained Honestly Vercel Labs has open-sourced agent-desktop, a tool that lets a coding agent operate native desktop apps on macOS, Windows and Linux — and it…",
+          "publishedAt": "2026-10-31T17:38:24.000Z",
           "source": "DEV Community",
           "region": "Global",
           "desk": "Development"
@@ -128,15 +137,6 @@
           "summary": "Akai teased its new MPC Sample Key on Instagram earlier this week, and said it plans to open-source its software so the modding community can hack it to their hearts' delight. While there's no word yet on when the device will launch or how much it will…",
           "publishedAt": "2026-10-30T21:01:32.000Z",
           "source": "The Verge",
-          "region": "North America",
-          "desk": "Development"
-        },
-        {
-          "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
-          "summary": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs).",
-          "publishedAt": "2026-10-30T20:05:58.000Z",
-          "source": "Dark Reading",
           "region": "North America",
           "desk": "Development"
         }
@@ -279,15 +279,6 @@
           "desk": "DevOps"
         },
         {
-          "title": "Digital Science acquires Jenni AI to bring verified research data to AI-powered academic writing",
-          "url": "https://tech.eu/2026/10/29/digital-science-acquires-jenni-ai-to-bring-verified-research-data-to-ai-powered-academic-writing/",
-          "summary": "Digital Science, a UK company providing researchers with data, tools and infrastructure, has acquired Jenni AI, an AI-native platform trusted by more than 8 million students and researchers in 189 co...",
-          "publishedAt": "2026-10-29T11:30:00.000Z",
-          "source": "Tech.eu",
-          "region": "Europe",
-          "desk": "DevOps"
-        },
-        {
           "title": "The French robotics startup promising to deploy industrial humanoids after just 20 minutes of training",
           "url": "https://sifted.eu/articles/french-robotics-startup-industrial-humanoids-20-minutes-of-training/",
           "summary": "",
@@ -313,6 +304,15 @@
           "source": "Thoughtworks",
           "region": "Global",
           "desk": "DevOps"
+        },
+        {
+          "title": "Azure DevOps Server RC (26H2) Is Now Available",
+          "url": "https://devblogs.microsoft.com/devops/azure-devops-server-rc-26h2-is-now-available/",
+          "summary": "Today we’re releasing the release candidate (RC) of the next Azure DevOps Server release. It brings new features previously available in our hosted version, along with security and quality improvements. You can download Azure DevOps Server RC (26H2) today…",
+          "publishedAt": "2026-10-27T20:31:59.000Z",
+          "source": "Microsoft DevOps",
+          "region": "Global",
+          "desk": "DevOps"
         }
       ]
     },
@@ -320,15 +320,6 @@
       "name": "DevSecOps",
       "slug": "devsecops",
       "stories": [
-        {
-          "title": "Supabase multi-tenant RLS: membership policy pattern",
-          "url": "https://dev.to/toritic/supabase-multi-tenant-rls-membership-policy-pattern-cck",
-          "summary": "Multi-tenant row level security in Supabase means every row carries a tenant id and a memberships table says which users belong to which tenant. Three policies read that table: members see their own memberships, and they read and write only documents whose…",
-          "publishedAt": "2026-10-31T17:30:06.000Z",
-          "source": "DEV Community",
-          "region": "Global",
-          "desk": "DevSecOps"
-        },
         {
           "title": "Malware uses LLMs to rank victims by how much they're worth",
           "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
@@ -418,6 +409,15 @@
           "source": "The Verge",
           "region": "North America",
           "desk": "DevSecOps"
+        },
+        {
+          "title": "Behind the Scenes of How Operation Blackout Went Down",
+          "url": "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down",
+          "summary": "A recent law enforcement operation to dismantle harmful scam centers was a big success. A threat intelligence expert walks us through what happened and why he wants more of the same.",
+          "publishedAt": "2026-10-30T19:46:08.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
         }
       ]
     },
@@ -426,19 +426,19 @@
       "slug": "etc",
       "stories": [
         {
-          "title": "Echoes: Keeping Memories Alive with Local AI",
-          "url": "https://dev.to/tripathiayush175/echoes-keeping-memories-alive-with-local-ai-adg",
-          "summary": "What I Built Echoes – A Local AI Memory Keeper What if the voices, stories, and memories of people we love could live on forever? For this week's Ghost in the Machine challenge, I explored the idea of Echoes, a local-first AI-powered memory preservation…",
-          "publishedAt": "2026-10-31T17:30:51.000Z",
+          "title": "MLH x DEV Writing Challenge: Building Autonomous Action Agents with Solomon AI",
+          "url": "https://dev.to/solomon1029/mlh-x-dev-writing-challenge-building-autonomous-action-agents-with-solomon-ai-3lj3",
+          "summary": "What I Built I built Solomon AI, a multi-agent orchestration engine designed to turn high-level user intent into structured, autonomous workflows. The Problem Most conversational AI systems stop at generating text or suggestions. Users are still left with…",
+          "publishedAt": "2026-10-31T17:39:15.000Z",
           "source": "DEV Community",
           "region": "Global",
           "desk": "Etc"
         },
         {
-          "title": "𝑫𝒂𝒚 14: 𝑺𝒚𝒔𝒕𝒆𝒎 𝑫𝒆𝒔𝒊𝒈𝒏 — 𝑺𝒕𝒂𝒕𝒆𝒍𝒆𝒔𝒔 𝒔𝒚𝒔𝒕𝒆𝒎𝒔 - 𝑷𝒂𝒓𝒕 2",
-          "url": "https://dev.to/muhammad_hassanobaid_908/14-2-1b87",
-          "summary": "System Design Day — Stateless Systems Series: System Design Day | Level: Beginner → Experienced | Reading time: 7–9 minutes 01. Understand the Problem Context — What is a Stateless System? A stateless system is a system in which a server does not retain…",
-          "publishedAt": "2026-10-31T17:30:15.000Z",
+          "title": "The $1 billion bank heist that a typo stopped",
+          "url": "https://dev.to/kstriabintang/the-1-billion-bank-heist-that-a-typo-stopped-4cn9",
+          "summary": "Imagine robbing a bank without ever touching its vault. No masks, no tunnels. You just log in as the bank, politely ask its other bank to send you a billion dollars, and wait for the weekend. That is almost exactly what happened to Bangladesh Bank, the…",
+          "publishedAt": "2026-10-31T17:38:22.000Z",
           "source": "DEV Community",
           "region": "Global",
           "desk": "Etc"
