@@ -106,3 +106,19 @@ which story leads the front page.
 | `test/core.test.mjs` | `node:test` self-checks |
 
 Headlines and excerpts belong to their publishers and link back to the original reporting.
+
+## Read in place
+
+Roughly a third to a half of publishers allow their pages to be framed; the rest send
+`X-Frame-Options` or a `Content-Security-Policy: frame-ancestors` that refuses us. Browsers
+enforce that but never expose those headers to cross-origin JavaScript, so the daily build asks
+each published story's publisher once and records the answer (`embeddable` in the edition JSON,
+via `framingAllowed()` in `core.mjs`).
+
+- **Embeddable** stories open in a reader panel over the page, marked with a small red square.
+  Esc or a click on the backdrop closes it; Ctrl/Cmd-click still opens the browser's own tab.
+- **Everything else** keeps the plain new-tab link — no blank frames.
+- `?read=<url>` opens the reader directly, for sharing a single story.
+
+Stories from a reader's own sources are never marked, because their publisher's headers cannot be
+checked from the browser; they open in a new tab.

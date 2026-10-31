@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { parseFeed, classify, decode, cleanSummary } from '../src/core.mjs';
+import { parseFeed, classify, decode, cleanSummary, framingAllowed } from '../src/core.mjs';
 import { renderEdition, renderContent } from '../src/render.mjs';
 import { select } from '../src/select.mjs';
 
@@ -84,6 +84,18 @@ test('dedupes, caps per source, and pulls the lead out of its desk', () => {
   assert.equal(dev.length, 3, 'per-source cap is 4 including the lead; duplicate is dropped');
   assert.equal(sections.find((s) => s.name === 'Testing').stories.length, 1);
   assert.equal(total, 5);
+});
+
+test('decides which publishers allow being framed', () => {
+  const headers = (init = {}) => new Headers(init);
+  assert.equal(framingAllowed(headers()), true, 'no headers means no objection');
+  assert.equal(framingAllowed(headers({ 'x-frame-options': 'DENY' })), false);
+  assert.equal(framingAllowed(headers({ 'x-frame-options': 'SAMEORIGIN' })), false);
+  assert.equal(framingAllowed(headers({ 'content-security-policy': "frame-ancestors 'self'" })), false);
+  assert.equal(framingAllowed(headers({ 'content-security-policy': "frame-ancestors 'none'" })), false);
+  assert.equal(framingAllowed(headers({ 'content-security-policy': 'frame-ancestors *' })), true);
+  assert.equal(framingAllowed(headers({ 'content-security-policy': 'frame-ancestors https://dev.to https://*.forem.com' })), false);
+  assert.equal(framingAllowed(headers({ 'content-security-policy': "default-src 'self'; script-src 'self'" })), true);
 });
 
 test('drops stories whose link is not a real web URL', () => {

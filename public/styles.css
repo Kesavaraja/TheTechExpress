@@ -621,6 +621,120 @@ a:focus-visible {
   list-style: none;
 }
 
+/* — Reader panel: stories the publisher lets us frame ————— */
+
+/* A drawn mark, not a glyph: "opens in the reader panel". */
+.embed-link::after {
+  content: "";
+  display: inline-block;
+  width: 0.4em;
+  height: 0.4em;
+  margin-left: 0.3em;
+  border: 1px solid var(--accent);
+  vertical-align: super;
+}
+
+body.reader-open { overflow: hidden; }
+
+.reader {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  padding: clamp(0.4rem, 2vw, 1.5rem);
+  background: rgb(23 19 14 / 0.62);
+}
+
+.reader-card {
+  display: flex;
+  flex-direction: column;
+  width: min(1100px, 100%);
+  height: 100%;
+  background: var(--sheet);
+  border: 1px solid var(--rule);
+  box-shadow: 0 30px 60px -24px rgb(0 0 0 / 0.55);
+}
+
+.reader-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 0.6rem 0.9rem;
+  border-bottom: 1px solid var(--rule-soft);
+  background: #f6efe0;
+}
+
+.reader-id {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.1rem;
+  min-width: 0;
+}
+
+.reader-kicker {
+  font: 700 9px/1.4 var(--sans);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.reader-title {
+  overflow: hidden;
+  font: 700 14px/1.3 var(--serif);
+  color: var(--ink);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.reader-meta {
+  font: 400 11px/1.4 var(--sans);
+  color: var(--ink-3);
+}
+
+.reader-open {
+  padding: 0.35rem 0.6rem;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  font: 700 9.5px/1.4 var(--sans);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.reader-open:hover { background: var(--ink); color: var(--sheet); }
+
+.reader-close {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid var(--rule-soft);
+  border-radius: 0;
+  background: transparent;
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.reader-close:hover { background: var(--accent); border-color: var(--accent); color: var(--sheet); }
+
+.reader-frame {
+  flex: 1;
+  width: 100%;
+  border: 0;
+  background: #fff;
+}
+
+.reader-foot {
+  margin: 0;
+  padding: 0.4rem 0.9rem;
+  border-top: 1px solid var(--rule-soft);
+  font: 400 10.5px/1.5 var(--sans);
+  color: var(--ink-3);
+}
+
 /* — Colophon ———————————————————————————————————— */
 
 .colophon {

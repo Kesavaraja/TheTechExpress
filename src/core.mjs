@@ -159,3 +159,23 @@ export function titleKey(title) {
 export function urlKey(url) {
   return String(url).replace(/^https?:\/\/[^/]+/i, '').replace(/[#?].*$/, '').replace(/\/$/, '').toLowerCase();
 }
+
+/**
+ * May this page be shown inside an iframe? Browsers enforce this but never expose the
+ * headers to cross-origin JavaScript, so it has to be answered at build time.
+ * Conservative on purpose: any allowlist we are not on counts as blocked.
+ */
+export function framingAllowed(headers) {
+  const xfo = (headers.get('x-frame-options') || '').toLowerCase();
+  if (xfo.includes('deny') || xfo.includes('sameorigin')) return false;
+
+  const csp = headers.get('content-security-policy') || '';
+  const ancestors = csp.match(/frame-ancestors([^;]*)/i);
+  if (ancestors) {
+    const list = ancestors[1].trim().toLowerCase();
+    if (!list) return false;
+    if (list.includes("'none'")) return false;
+    if (!list.split(/\s+/).includes('*')) return false;
+  }
+  return true;
+}

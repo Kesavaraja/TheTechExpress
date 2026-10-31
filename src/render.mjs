@@ -23,10 +23,16 @@ function byline(story, editionDate, className = 'story-meta') {
   return `<p class="${className}"><span class="wire">${esc(story.source)}</span><span class="sep">·</span><span class="region">${esc(story.region)}</span>${story.publishedAt ? `<span class="sep">·</span><time datetime="${esc(story.publishedAt)}">${esc(stamp(story.publishedAt, editionDate))}</time>` : ''}</p>`;
 }
 
+// An embeddable story opens in the reader panel instead of a new tab.
+const embedAttrs = (story) =>
+  story.embeddable
+    ? ` class="embed-link" data-embed data-title="${esc(story.title)}" data-source="${esc(story.source)}"`
+    : '';
+
 function storyItem(story, editionDate) {
   const dek = story.summary && story.summary !== story.title ? `<p class="story-dek">${esc(story.summary)}</p>` : '';
   return `<li class="story">
-        <h3 class="story-title"><a href="${href(story.url)}" rel="noopener noreferrer">${esc(story.title)}</a></h3>
+        <h3 class="story-title"><a href="${href(story.url)}" rel="noopener noreferrer"${embedAttrs(story)}>${esc(story.title)}</a></h3>
         ${dek}
         ${byline(story, editionDate)}
       </li>`;
@@ -57,7 +63,7 @@ export function renderContent(edition) {
   const leadHtml = lead
     ? `<article class="lead">
         <p class="kicker">${esc(lead.desk)} desk</p>
-        <h2 class="lead-title"><a href="${href(lead.url)}" rel="noopener noreferrer">${esc(lead.title)}</a></h2>
+        <h2 class="lead-title"><a href="${href(lead.url)}" rel="noopener noreferrer"${embedAttrs(lead)}>${esc(lead.title)}</a></h2>
         ${lead.summary && lead.summary !== lead.title ? `<p class="standfirst">${esc(lead.summary)}</p>` : ''}
         ${byline(lead, date, 'byline')}
       </article>`
