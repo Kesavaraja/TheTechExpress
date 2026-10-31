@@ -1,12 +1,12 @@
 {
   "date": "2026-10-31",
-  "generatedAt": "2026-10-31T18:50:31.512Z",
+  "generatedAt": "2026-10-31T18:53:14.120Z",
   "stats": {
     "wires": 40,
-    "wiresOk": 40,
-    "fetched": 3985,
+    "wiresOk": 39,
+    "fetched": 3965,
     "published": 54,
-    "sources": 24,
+    "sources": 23,
     "regions": [
       "Africa",
       "Asia",
@@ -14,7 +14,9 @@
       "Global",
       "North America"
     ],
-    "failures": []
+    "failures": [
+      "Tech.eu: HTTP 403"
+    ]
   },
   "lead": {
     "title": "Happy Pikmin Day Eve",
@@ -94,15 +96,6 @@
           "desk": "Development"
         },
         {
-          "title": "Amazon sends chills through its workforce with mixed message memo about AI use",
-          "url": "https://www.theregister.com/ai-and-ml/2026/10/31/amazon-sends-chills-through-its-workforce-with-mixed-message-memo-about-ai-use-corey-quinn/5306804",
-          "summary": "A lot of software engineers feel bleak about the future of the profession",
-          "publishedAt": "2026-10-31T11:00:00.000Z",
-          "source": "The Register",
-          "region": "Europe",
-          "desk": "Development"
-        },
-        {
           "title": "MeitY unveils DEPA handbook to enable trusted data sharing for AI training",
           "url": "https://yourstory.com/2026/10/meity-unveils-depa-handbook-to-enable-trusted-data-sharing-for-ai-training",
           "summary": "The handbook outlines a techno-legal framework that allows institutions to collaborate on data for AI training while keeping control of their data.",
@@ -126,6 +119,15 @@
           "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
           "publishedAt": "2026-10-30T21:09:54.000Z",
           "source": "Ars Technica",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
+          "summary": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs).",
+          "publishedAt": "2026-10-30T20:05:58.000Z",
+          "source": "Dark Reading",
           "region": "North America",
           "desk": "Development"
         }
@@ -241,6 +243,15 @@
           "desk": "DevOps"
         },
         {
+          "title": "Startup wants to make AI agents safe for DevOps duty",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/29/startup-wants-to-make-ai-agents-safe-for-devops-duty/5306477",
+          "summary": "Infrastructure automation needs something better than prompt and pray",
+          "publishedAt": "2026-10-29T19:46:08.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
           "title": "New Relic Change Tracking Brings Headless Intelligent Observability Directly into GitHub Copilot",
           "url": "https://sdtimes.com/telemetry/new-relic-change-tracking-brings-headless-intelligent-observability-directly-into-github-copilot/",
           "summary": "SAN FRANCISCO — New Relic has announced a suite of integrations for GitHub Copilot that bring continuous telemetry directly into developers’ workflows from coding through deployment. The integrations help engineers understand coding agent usage as they…",
@@ -256,15 +267,6 @@
           "publishedAt": "2026-10-29T15:39:58.000Z",
           "source": "freeCodeCamp News",
           "region": "Global",
-          "desk": "DevOps"
-        },
-        {
-          "title": "Digital Science acquires Jenni AI to bring verified research data to AI-powered academic writing",
-          "url": "https://tech.eu/2026/10/29/digital-science-acquires-jenni-ai-to-bring-verified-research-data-to-ai-powered-academic-writing/",
-          "summary": "Digital Science, a UK company providing researchers with data, tools and infrastructure, has acquired Jenni AI, an AI-native platform trusted by more than 8 million students and researchers in 189 co...",
-          "publishedAt": "2026-10-29T11:30:00.000Z",
-          "source": "Tech.eu",
-          "region": "Europe",
           "desk": "DevOps"
         },
         {
@@ -433,6 +435,15 @@
           "desk": "Etc"
         },
         {
+          "title": "Binance CEO says 90 percent of stolen assets have been ‘replenished’",
+          "url": "https://www.theverge.com/tech/1024091/binance-ceo-90-percent-stolen-crypto",
+          "summary": "After hackers stole a shocking $6.3 billion from Binance customers in a record-breaking crypto heist, the company's CEO says that 90 percent of the funds have been replaced, and the company plans to cover the remaining 10 percent as well. Binance is…",
+          "publishedAt": "2026-10-31T18:40:32.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
           "title": "Verve plans phone tap-to-pay and AI agent payments, CEO says",
           "url": "https://techcabal.com/2026/10/31/verve-ai-payment/",
           "summary": "Verve plans to let customers pay by tapping their phones and, eventually, to let AI assistants make payments on their behalf.",
@@ -520,15 +531,6 @@
           "publishedAt": "2026-10-31T15:16:55.000Z",
           "source": "TechCabal",
           "region": "Africa",
-          "desk": "Etc"
-        },
-        {
-          "title": "Windows 11 tries new shortcuts for Xbox gaming mode and search",
-          "url": "https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings",
-          "summary": "The latest Windows 11 Insider build adds some powerful new search features and quick settings while in Xbox mode. The Xbox shortcuts let you control things like Bluetooth, WiFi, and power settings without having to exit gaming mode. The search improvements…",
-          "publishedAt": "2026-10-31T15:12:19.000Z",
-          "source": "The Verge",
-          "region": "North America",
           "desk": "Etc"
         }
       ]
