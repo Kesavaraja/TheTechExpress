@@ -6,6 +6,23 @@ world and typeset as a broadsheet. Every story is filed under **Development**, *
 
 Read the latest edition: open `public/index.html` (or the published GitHub Pages site).
 
+## Read your own feeds
+
+The **Your Edition** panel on the front page takes any RSS or Atom link and files it under the
+same desks as the paper. Nothing is uploaded and nothing is committed: the list lives in this
+browser's `localStorage`, and only that reader sees it.
+
+- **Direct first** — the feed is fetched straight from the publisher. Only ~11 of 40 public
+  wires send the CORS headers that allow this, so…
+- **…then rss2json** — feeds that block browser reads go through the CORS-enabled
+  [rss2json](https://rss2json.com) API. Its free tier returns the newest 10 items per feed, and
+  chips marked `RSS2JSON` used that path.
+- **Shareable** — `?feeds=https://a/feed.xml,https://b/feed` seeds a personal edition, so one
+  reader can send another their exact mix.
+
+The panel reuses `src/core.mjs` in the browser (`parseFeed`, `classify`, `plain`), so a personal
+story is parsed and filed by exactly the same code as a printed one.
+
 ## How an edition is made
 
 ```
@@ -29,9 +46,11 @@ Requires Node 20+ (no dependencies, no API keys, no build step).
 ```bash
 npm test          # parser, classifier, de-duplication and render self-checks
 npm run build     # collect the wires and print today's edition
+npm run preview   # serve public/ on http://127.0.0.1:4180
 ```
 
-Then open `public/index.html`.
+Then open `public/index.html` — or use `npm run preview`, which is required for the
+"Your Edition" panel because browsers refuse to load ES modules from `file://`.
 
 ## Publish it daily
 
@@ -63,8 +82,10 @@ which story leads the front page.
 | `src/build.mjs` | collector, selection rules, edition builder |
 | `src/render.mjs` | broadsheet HTML |
 | `assets/styles.css` | the paper (system serif stack, print styles, responsive) |
+| `assets/app.js` | the reader's own feeds panel (browser only) |
+| `tools/serve.mjs` | local preview server |
 | `data/editions/` | one JSON edition per day |
-| `public/` | the newspaper, ready to serve |
+| `public/` | the newspaper, ready to serve (`core.js` is copied from `src/core.mjs`) |
 | `test/core.test.mjs` | `node:test` self-checks |
 
 Headlines and excerpts belong to their publishers and link back to the original reporting.

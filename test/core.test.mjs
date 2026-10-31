@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { parseFeed, classify, decode } from '../src/core.mjs';
+import { parseFeed, classify, decode, cleanSummary } from '../src/core.mjs';
 import { renderEdition } from '../src/render.mjs';
 import { select } from '../src/build.mjs';
 
@@ -59,6 +59,9 @@ test('strips aggregator boilerplate from descriptions', () => {
     <description>Article URL: https://e.test/enl Comments URL: https://e.test/c Points: 79 # Comments: 7</description>
   </item></channel></rss>`);
   assert.equal(story.summary, '');
+  // The browser's rss2json path reuses the same cleanup, so it needs the same guarantee.
+  assert.equal(cleanSummary('Article URL: https://e.test/x Points: 3'), '');
+  assert.equal(cleanSummary('Playwright adds a trace viewer'), 'Playwright adds a trace viewer');
 });
 
 test('decodes stray entities without throwing', () => {

@@ -38,7 +38,25 @@ function deskBlock(section, editionDate) {
     </section>`;
 }
 
-export function renderEdition(edition, { base = '', dates = [], number = 1 } = {}) {
+const PERSONAL = `<section class="my-edition" id="my-edition" aria-labelledby="my-edition-title">
+    <div class="my-head">
+      <h2 class="desk-title" id="my-edition-title"><span>Your Edition</span><span class="count" id="my-count">0</span></h2>
+      <p class="my-note">Paste any RSS or Atom link to read your own wires beside the paper. Saved in this browser only.</p>
+    </div>
+    <form class="feed-form" id="feed-form" novalidate>
+      <label class="skip" for="feed-url">RSS or Atom feed URL</label>
+      <input id="feed-url" name="url" type="url" inputmode="url" autocomplete="off" spellcheck="false" placeholder="https://example.com/feed.xml">
+      <button type="submit">Add feed</button>
+      <button type="button" id="feed-refresh">Refresh</button>
+    </form>
+    <p class="feed-status" id="feed-status" role="status" aria-live="polite"></p>
+    <ul class="feed-chips" id="feed-chips"></ul>
+    <ol class="my-stories" id="my-stories"></ol>
+  </section>
+
+  `;
+
+export function renderEdition(edition, { base = '', dates = [], number = 1, personal = false } = {}) {
   const { lead, sections, stats, date, generatedAt } = edition;
   const editionPage = (d) => (base === '' ? `editions/${d}.html` : `${d}.html`);
   const filled = sections.filter((s) => s.stories.length > 0);
@@ -104,7 +122,7 @@ export function renderEdition(edition, { base = '', dates = [], number = 1 } = {
     </aside>
   </div>
 
-  <div class="desks">
+  ${personal ? PERSONAL : ''}<div class="desks">
     ${filled.map((s) => deskBlock(s, date)).join('\n    ')}
   </div>
 </main>
@@ -122,7 +140,7 @@ export function renderEdition(edition, { base = '', dates = [], number = 1 } = {
     <p class="small">${stats.wiresOk}/${stats.wires} wires answered the phone. ${stats.fetched} items received, ${printed} went to press.</p>
   </div>
 </footer>
-</body>
+${personal ? `<script type="module" src="${esc(base)}app.js"></script>\n` : ''}</body>
 </html>
 `;
 }

@@ -66,6 +66,11 @@ export function dateOf(block) {
 // hnrss (and a few aggregators) append machine boilerplate to every description.
 const BOILERPLATE = /(?:^|\s)(?:Article URL|Comments URL|Points|# Comments)\s*:\s*\S+/gi;
 
+/** Drop aggregator boilerplate that would otherwise print as a dek. */
+export function cleanSummary(text) {
+  return String(text).replace(BOILERPLATE, ' ').replace(/\s+/g, ' ').trim();
+}
+
 /** Parse an RSS 2.0 or Atom document into flat stories. */
 export function parseFeed(xml) {
   const blocks = [...String(xml).matchAll(/<(item|entry)\b[^>]*>([\s\S]*?)<\/\1>/gi)].map((m) => m[2]);
@@ -74,10 +79,7 @@ export function parseFeed(xml) {
     const title = field(block, 'title');
     const url = linkOf(block);
     if (!title || !url) continue;
-    const summary = plain(field(block, 'description', 'summary', 'content:encoded', 'content'))
-      .replace(BOILERPLATE, ' ')
-      .replace(/\s+/g, ' ')
-      .trim();
+    const summary = cleanSummary(plain(field(block, 'description', 'summary', 'content:encoded', 'content')));
     stories.push({
       title: title.replace(/\s+/g, ' ').slice(0, 180),
       url,

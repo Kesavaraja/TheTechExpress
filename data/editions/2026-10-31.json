@@ -1,12 +1,12 @@
 {
   "date": "2026-10-31",
-  "generatedAt": "2026-10-31T17:12:45.207Z",
+  "generatedAt": "2026-10-31T17:32:27.123Z",
   "stats": {
     "wires": 40,
-    "wiresOk": 40,
-    "fetched": 3985,
+    "wiresOk": 39,
+    "fetched": 3885,
     "published": 54,
-    "sources": 24,
+    "sources": 23,
     "regions": [
       "Africa",
       "Asia",
@@ -14,7 +14,9 @@
       "Global",
       "North America"
     ],
-    "failures": []
+    "failures": [
+      "Contxto: The operation was aborted due to timeout"
+    ]
   },
   "lead": {
     "title": "OpenBSD 8.0 Brings Expanded Hardware Support, Security Enhancements, and Virtualization Improvements",
@@ -31,28 +33,10 @@
       "slug": "development",
       "stories": [
         {
-          "title": "Five Storage Rules for GPT Summarization Workflow — Combining Batch Processing in Game Reviews",
-          "url": "https://dev.to/lunarbreeze4173085/five-storage-rules-for-gpt-summarization-workflow-combining-batch-processing-in-game-reviews-2pfo",
-          "summary": "Short answer: store the review unit, its source digest, the prompt/schema version, the submission manifest, and the terminal result as separate records. A batch is useful only when a worker can restart without guessing which game-code changes were already…",
-          "publishedAt": "2026-10-31T17:07:13.000Z",
-          "source": "DEV Community",
-          "region": "Global",
-          "desk": "Development"
-        },
-        {
-          "title": "Booo!!! Happy Halloween!",
-          "url": "https://dev.to/canro91/booo-happy-halloween-5dh2",
-          "summary": "The Scariest Lines of Code I've Ever Written. Boooo!!! Cesar Aguirre Cesar Aguirre Cesar Aguirre Follow Oct 19 The Scariest Lines of Code I've Ever Written. Boooo!!! # discuss # beginners # sql # sqlserver 4 reactions Add Comment 2 min read",
-          "publishedAt": "2026-10-31T17:06:26.000Z",
-          "source": "DEV Community",
-          "region": "Global",
-          "desk": "Development"
-        },
-        {
-          "title": "Git Hooks Not Running for Teammates? Husky vs Lefthook vs pre-commit",
-          "url": "https://dev.to/libme/git-hooks-not-running-for-teammates-husky-vs-lefthook-vs-pre-commit-g6f",
-          "summary": "Git hooks don't run for teammates because.git/hooks/ is never committed, so every clone starts with no hooks at all. Husky, lefthook, and pre-commit all solve this the same way: the hook definitions live in the repo, and an install step points Git at them…",
-          "publishedAt": "2026-10-31T17:04:47.000Z",
+          "title": "From 1 Minute 56 Seconds to 3 Seconds: Optimizing Database Inserts with Batch Processing",
+          "url": "https://dev.to/rishabhrawat05/from-1-minute-56-seconds-to-3-seconds-optimizing-database-inserts-with-batch-processing-1pi4",
+          "summary": "Sometimes, a feature works perfectly but takes so long that it becomes practically unusable. Recently, while working on a camera management feature at my office, I encountered exactly this problem. The Problem Whenever we assigned cameras to a user, the…",
+          "publishedAt": "2026-10-31T17:30:20.000Z",
           "source": "DEV Community",
           "region": "Global",
           "desk": "Development"
@@ -135,6 +119,24 @@
           "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
           "publishedAt": "2026-10-30T21:09:54.000Z",
           "source": "Ars Technica",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Exclusive details about Akai’s MPC Sample Key",
+          "url": "https://www.theverge.com/gadgets/1023649/akai-mpc-sample-key-exclusive",
+          "summary": "Akai teased its new MPC Sample Key on Instagram earlier this week, and said it plans to open-source its software so the modding community can hack it to their hearts' delight. While there's no word yet on when the device will launch or how much it will…",
+          "publishedAt": "2026-10-30T21:01:32.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
+          "summary": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs).",
+          "publishedAt": "2026-10-30T20:05:58.000Z",
+          "source": "Dark Reading",
           "region": "North America",
           "desk": "Development"
         }
@@ -250,6 +252,15 @@
           "desk": "DevOps"
         },
         {
+          "title": "Startup wants to make AI agents safe for DevOps duty",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/29/startup-wants-to-make-ai-agents-safe-for-devops-duty/5306477",
+          "summary": "Infrastructure automation needs something better than prompt and pray",
+          "publishedAt": "2026-10-29T19:46:08.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
           "title": "New Relic Change Tracking Brings Headless Intelligent Observability Directly into GitHub Copilot",
           "url": "https://sdtimes.com/telemetry/new-relic-change-tracking-brings-headless-intelligent-observability-directly-into-github-copilot/",
           "summary": "SAN FRANCISCO — New Relic has announced a suite of integrations for GitHub Copilot that bring continuous telemetry directly into developers’ workflows from coding through deployment. The integrations help engineers understand coding agent usage as they…",
@@ -302,15 +313,6 @@
           "source": "Thoughtworks",
           "region": "Global",
           "desk": "DevOps"
-        },
-        {
-          "title": "Azure DevOps Server RC (26H2) Is Now Available",
-          "url": "https://devblogs.microsoft.com/devops/azure-devops-server-rc-26h2-is-now-available/",
-          "summary": "Today we’re releasing the release candidate (RC) of the next Azure DevOps Server release. It brings new features previously available in our hosted version, along with security and quality improvements. You can download Azure DevOps Server RC (26H2) today…",
-          "publishedAt": "2026-10-27T20:31:59.000Z",
-          "source": "Microsoft DevOps",
-          "region": "Global",
-          "desk": "DevOps"
         }
       ]
     },
@@ -318,6 +320,15 @@
       "name": "DevSecOps",
       "slug": "devsecops",
       "stories": [
+        {
+          "title": "Supabase multi-tenant RLS: membership policy pattern",
+          "url": "https://dev.to/toritic/supabase-multi-tenant-rls-membership-policy-pattern-cck",
+          "summary": "Multi-tenant row level security in Supabase means every row carries a tenant id and a memberships table says which users belong to which tenant. Three policies read that table: members see their own memberships, and they read and write only documents whose…",
+          "publishedAt": "2026-10-31T17:30:06.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
         {
           "title": "Malware uses LLMs to rank victims by how much they're worth",
           "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
@@ -337,12 +348,12 @@
           "desk": "DevSecOps"
         },
         {
-          "title": "Stablecoins gain ground in African trade but face hurdles to wider use",
-          "url": "https://techcabal.com/2026/10/31/stablecoins-face-hurdles-to-wider-use/",
-          "summary": "Stablecoins are giving African businesses an alternative way to pay overseas suppliers, but costs, security concerns and fragmented blockchain networks remain obstacles to wider use, industry executives told Moonshot by TechCabal in Lagos.",
-          "publishedAt": "2026-10-31T11:10:42.000Z",
-          "source": "TechCabal",
-          "region": "Africa",
+          "title": "Shielding the patch gap: The exploit doesn’t wait for Patch Tuesday",
+          "url": "https://thenewstack.io/shielding-the-patch-gap/",
+          "summary": "Four years after Log4Shell became one of the most consequential vulnerabilities in software history, vulnerable instances of the library are The post Shielding the patch gap: The exploit doesn’t wait for Patch Tuesday appeared first on The New Stack.",
+          "publishedAt": "2026-10-31T14:00:00.000Z",
+          "source": "The New Stack",
+          "region": "North America",
           "desk": "DevSecOps"
         },
         {
@@ -400,21 +411,12 @@
           "desk": "DevSecOps"
         },
         {
-          "title": "Behind the Scenes of How Operation Blackout Went Down",
-          "url": "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down",
-          "summary": "A recent law enforcement operation to dismantle harmful scam centers was a big success. A threat intelligence expert walks us through what happened and why he wants more of the same.",
-          "publishedAt": "2026-10-30T19:46:08.000Z",
-          "source": "Dark Reading",
+          "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+          "summary": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also…",
+          "publishedAt": "2026-10-30T20:48:43.000Z",
+          "source": "The Verge",
           "region": "North America",
-          "desk": "DevSecOps"
-        },
-        {
-          "title": "Crim spent $7K+ on AI services in extortion attacks, then left evidence for all to see",
-          "url": "https://www.theregister.com/security/2026/10/30/crim-spent-7k-on-ai-services-in-extortion-attacks-then-left-evidence-for-all-to-see/5306754",
-          "summary": "n0n-existent security",
-          "publishedAt": "2026-10-30T19:37:12.000Z",
-          "source": "The Register",
-          "region": "Europe",
           "desk": "DevSecOps"
         }
       ]
@@ -424,11 +426,47 @@
       "slug": "etc",
       "stories": [
         {
-          "title": "GistMyMail: An Open-Weight Gemma Agent for Lazy Morning Email Triage with Zero-Hallucination Proof",
-          "url": "https://dev.to/secuvortex/gistmymail-an-open-weight-gemma-agent-for-lazy-morning-email-triage-with-zero-hallucination-proof-129a",
-          "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge: Week 3 📬 GistMyMail: The Ultimate Lazy Morning Email Triage Powered by Google Gemma & Deterministic Proof October 20 was International Sloth Day, and sloths have it figured out: move at…",
-          "publishedAt": "2026-10-31T17:07:57.000Z",
+          "title": "Echoes: Keeping Memories Alive with Local AI",
+          "url": "https://dev.to/tripathiayush175/echoes-keeping-memories-alive-with-local-ai-adg",
+          "summary": "What I Built Echoes – A Local AI Memory Keeper What if the voices, stories, and memories of people we love could live on forever? For this week's Ghost in the Machine challenge, I explored the idea of Echoes, a local-first AI-powered memory preservation…",
+          "publishedAt": "2026-10-31T17:30:51.000Z",
           "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "𝑫𝒂𝒚 14: 𝑺𝒚𝒔𝒕𝒆𝒎 𝑫𝒆𝒔𝒊𝒈𝒏 — 𝑺𝒕𝒂𝒕𝒆𝒍𝒆𝒔𝒔 𝒔𝒚𝒔𝒕𝒆𝒎𝒔 - 𝑷𝒂𝒓𝒕 2",
+          "url": "https://dev.to/muhammad_hassanobaid_908/14-2-1b87",
+          "summary": "System Design Day — Stateless Systems Series: System Design Day | Level: Beginner → Experienced | Reading time: 7–9 minutes 01. Understand the Problem Context — What is a Stateless System? A stateless system is a system in which a server does not retain…",
+          "publishedAt": "2026-10-31T17:30:15.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "Verve plans phone tap-to-pay and AI agent payments, CEO says",
+          "url": "https://techcabal.com/2026/10/31/verve-ai-payment/",
+          "summary": "Verve plans to let customers pay by tapping their phones and, eventually, to let AI assistants make payments on their behalf.",
+          "publishedAt": "2026-10-31T17:13:49.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "Etc"
+        },
+        {
+          "title": "Intra-African payment rails are key to cutting cross-border friction, says Grey",
+          "url": "https://techcabal.com/2026/10/31/grey-ditch-the-dollar/",
+          "summary": "Grey is building direct payment connections and currency pairs in African markets so cross-border transfers no longer use the dollar.",
+          "publishedAt": "2026-10-31T17:12:57.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "Etc"
+        },
+        {
+          "title": "Show HN: Jointter – A daily word puzzle using dots and lines",
+          "url": "https://www.jointter.com/",
+          "summary": "Hello everyone. I’m a mathematician by training, and I love mathematical and logical puzzles and brain-teasers. Inspired by popular games like Sudoku and Wordle, I decided to come up with an engaging game of my own. As it turns out, that’s not so easy! I…",
+          "publishedAt": "2026-10-31T16:24:24.000Z",
+          "source": "Hacker News",
           "region": "Global",
           "desk": "Etc"
         },
@@ -493,42 +531,6 @@
           "publishedAt": "2026-10-31T15:16:55.000Z",
           "source": "TechCabal",
           "region": "Africa",
-          "desk": "Etc"
-        },
-        {
-          "title": "Windows 11 tries new shortcuts for Xbox gaming mode and search",
-          "url": "https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings",
-          "summary": "The latest Windows 11 Insider build adds some powerful new search features and quick settings while in Xbox mode. The Xbox shortcuts let you control things like Bluetooth, WiFi, and power settings without having to exit gaming mode. The search improvements…",
-          "publishedAt": "2026-10-31T15:12:19.000Z",
-          "source": "The Verge",
-          "region": "North America",
-          "desk": "Etc"
-        },
-        {
-          "title": "Best Buy is bundling a $100 gift card with touchscreen MacBook Pro preorders",
-          "url": "https://www.theverge.com/gadgets/1023302/best-buy-gift-card-macbook-pro-proled-xdr-preorder-deal-sale",
-          "summary": "While the new touch-enabled MacBook Pro with the PROLED XDR screen is available for preorder across a few major retailers, Best Buy is sweetening the deal by including a $100 gift card. The gift card will be automatically added to your cart when you…",
-          "publishedAt": "2026-10-31T15:00:00.000Z",
-          "source": "The Verge",
-          "region": "North America",
-          "desk": "Etc"
-        },
-        {
-          "title": "New-Age Tech Stocks Gain This Week Led By Ather & Zetwerk, CarTrade Sinks 22%",
-          "url": "https://inc42.com/buzz/new-age-tech-stocks-gain-this-week-led-by-ather-zetwerk-cartrade-sinks-22/",
-          "summary": "New-age tech stocks largely advanced this week, with quarterly earnings driving sharp moves in individual counters. Of the 69 stocks…",
-          "publishedAt": "2026-10-31T14:56:00.000Z",
-          "source": "Inc42",
-          "region": "Asia",
-          "desk": "Etc"
-        },
-        {
-          "title": "Amazon CEO predicts 6 to 8 AI models will be ‘good enough’ for almost everything",
-          "url": "https://thenewstack.io/jassy-bedrock-multimodel-prediction/",
-          "summary": "Amazon CEO Andy Jassy expects the frontier AI model race to produce several competitive models rather than a single winner, The post Amazon CEO predicts 6 to 8 AI models will be ‘good enough’ for almost everything appeared first on The New Stack.",
-          "publishedAt": "2026-10-31T14:30:00.000Z",
-          "source": "The New Stack",
-          "region": "North America",
           "desk": "Etc"
         }
       ]

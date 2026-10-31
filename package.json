@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "node src/build.mjs",
+    "preview": "node tools/serve.mjs",
     "test": "node test/core.test.mjs"
   }
 }

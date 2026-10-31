@@ -320,6 +320,134 @@ a:focus-visible {
 .story-meta .wire { color: var(--ink-2); }
 .sep { padding: 0 0.35rem; color: var(--rule-soft); }
 
+/* — Your Edition: the reader's own wires ——————————————— */
+
+.my-edition {
+  margin-top: 1.6rem;
+  padding: 1rem 0 1.4rem;
+  border-top: 3px solid var(--rule);
+  border-bottom: 3px double var(--rule);
+}
+
+.my-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.4rem 1.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.my-head .desk-title { margin: 0; }
+
+.my-note {
+  margin: 0;
+  max-width: 46ch;
+  font: 500 10px/1.6 var(--sans);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.feed-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.feed-form input {
+  flex: 1 1 18rem;
+  min-width: 0;
+  padding: 0.5rem 0.65rem;
+  border: 1px solid var(--rule);
+  border-radius: 0;
+  background: #fffdf7;
+  font: 500 13px/1.4 var(--sans);
+  color: var(--ink);
+}
+
+.feed-form input::placeholder { color: var(--ink-3); }
+
+.feed-form button {
+  padding: 0.55rem 0.95rem;
+  border: 1px solid var(--ink);
+  border-radius: 0;
+  background: var(--ink);
+  color: var(--sheet);
+  font: 700 10px/1.4 var(--sans);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.feed-form button[type="button"] { background: transparent; color: var(--ink); }
+
+.feed-form button:hover,
+.feed-form button:focus-visible {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--sheet);
+}
+
+.feed-status {
+  margin: 0.6rem 0 0;
+  font: 500 10px/1.7 var(--sans);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+
+.feed-status .err { color: var(--accent); }
+
+.feed-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.5rem;
+  margin: 0.7rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.feed-chips li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.2rem 0.25rem 0.2rem 0.55rem;
+  border: 1px solid var(--rule-soft);
+  background: #fffdf7;
+  font: 600 10px/1.5 var(--sans);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+
+.feed-chips .feed-via {
+  font-size: 8.5px;
+  letter-spacing: 0.1em;
+  color: var(--ink-3);
+}
+
+.feed-chips button {
+  padding: 0 0.2rem;
+  border: 0;
+  background: none;
+  color: var(--ink-3);
+  font-size: 15px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.feed-chips button:hover { color: var(--accent); }
+
+.my-stories {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 2.2rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
 /* — Colophon ———————————————————————————————————— */
 
 .colophon {
@@ -373,6 +501,7 @@ a:focus-visible {
   .lead { padding-right: 0; }
   .ledger { border-left: 0; border-top: 1px solid var(--rule-soft); padding: 1.2rem 0 0; }
   .desks { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 1.8rem; }
+  .my-stories { grid-template-columns: minmax(0, 1fr); }
   .colophon { grid-template-columns: minmax(0, 1fr); gap: 1.2rem; }
   .ear { font-size: 9px; letter-spacing: 0.1em; }
 }

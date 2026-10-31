@@ -149,13 +149,16 @@ async function renderAll() {
 
   await mkdir(join(PUBLIC, 'editions'), { recursive: true });
   await copyFile(join(ROOT, 'assets', 'styles.css'), join(PUBLIC, 'styles.css'));
+  // The reader's own feeds run the same parser in the browser.
+  await copyFile(join(ROOT, 'src', 'core.mjs'), join(PUBLIC, 'core.js'));
+  await copyFile(join(ROOT, 'assets', 'app.js'), join(PUBLIC, 'app.js'));
 
   for (const edition of editions) {
     const number = dates.length - dates.indexOf(edition.date);
     await writeFile(join(PUBLIC, 'editions', `${edition.date}.html`), renderEdition(edition, { base: '../', dates, number }));
   }
   const latest = editions.at(-1);
-  await writeFile(join(PUBLIC, 'index.html'), renderEdition(latest, { base: '', dates, number: dates.length }));
+  await writeFile(join(PUBLIC, 'index.html'), renderEdition(latest, { base: '', dates, number: dates.length, personal: true }));
   await writeFile(join(PUBLIC, '.nojekyll'), '');
   console.log(`Rendered ${editions.length} edition(s) to public/`);
 }
