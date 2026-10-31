@@ -56,6 +56,9 @@ story is parsed and filed by exactly the same code as a printed one.
 Each edition is archived as JSON in `data/editions/YYYY-MM-DD.json`, then re-rendered, so
 the back-issue list and older pages stay in sync.
 
+Stories run across the page: one full-width band per desk, four headlines to a row on a wide
+screen, three, two and one as it narrows.
+
 ## Run it
 
 Requires Node 20+ (no dependencies, no API keys, no build step).
@@ -115,9 +118,10 @@ enforce that but never expose those headers to cross-origin JavaScript, so the d
 each published story's publisher once and records the answer (`embeddable` in the edition JSON,
 via `framingAllowed()` in `core.mjs`).
 
-- **Embeddable** stories open in a reader panel over the page, marked with a small red square.
-  Esc or a click on the backdrop closes it; Ctrl/Cmd-click still opens the browser's own tab.
-- **Everything else** keeps the plain new-tab link — no blank frames.
+- **Embeddable** stories open in a reader panel over the page, marked with a red frame icon after
+  the headline. Esc or a click on the backdrop closes it; Ctrl/Cmd-click still opens the browser's
+  own tab.
+- **Everything else** keeps the plain new-tab link, marked with an arrow icon — no blank frames.
 - `?read=<url>` opens the reader directly, for sharing a single story.
 
 Stories from a reader's own sources are never marked, because their publisher's headers cannot be

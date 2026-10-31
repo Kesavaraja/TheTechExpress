@@ -51,6 +51,17 @@ a:focus-visible {
 
 .skip:focus { left: 0; }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 /* — Masthead ————————————————————————————————————— */
 
 .masthead {
@@ -250,15 +261,15 @@ a:focus-visible {
 
 /* — Desks ——————————————————————————————————————— */
 
-.desks {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  column-gap: 2.4rem;
-  row-gap: 2rem;
-  padding-top: 1.8rem;
+.desks { padding-top: 1.8rem; }
+
+.desk {
+  border-top: 3px solid var(--rule);
+  padding-top: 0.55rem;
+  margin-bottom: 2rem;
 }
 
-.desk { border-top: 3px solid var(--rule); padding-top: 0.5rem; }
+.desk:last-child { margin-bottom: 0; }
 
 .desk-title {
   display: flex;
@@ -289,14 +300,21 @@ a:focus-visible {
   color: var(--ink-3);
 }
 
-.stories { margin: 0; padding: 0; list-style: none; }
-
-.story {
-  padding: 0.75rem 0;
-  border-bottom: 1px solid var(--rule-soft);
+/* Stories run across the page, a row per desk, instead of stacking in one column. */
+.stories {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  column-gap: 2rem;
+  row-gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.story:last-child { border-bottom: 0; padding-bottom: 0; }
+.story {
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--rule-soft);
+}
 
 .story-title {
   margin: 0 0 0.28rem;
@@ -623,16 +641,24 @@ a:focus-visible {
 
 /* — Reader panel: stories the publisher lets us frame ————— */
 
-/* A drawn mark, not a glyph: "opens in the reader panel". */
-.embed-link::after {
-  content: "";
-  display: inline-block;
-  width: 0.4em;
-  height: 0.4em;
+/* A frame icon means "opens in the reader panel"; an arrow means "opens in a new tab". */
+.link-icon {
+  width: 0.7em;
+  height: 0.7em;
   margin-left: 0.3em;
-  border: 1px solid var(--accent);
-  vertical-align: super;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.25;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vertical-align: 0.1em;
 }
+
+.link-icon.is-reader { stroke: var(--accent); }
+.link-icon.is-external { stroke: var(--ink-3); }
+
+.story-title a:hover .link-icon.is-external,
+.lead-title a:hover .link-icon.is-external { stroke: var(--ink); }
 
 body.reader-open { overflow: hidden; }
 
@@ -783,11 +809,15 @@ body.reader-open { overflow: hidden; }
 
 /* — Narrow screens —————————————————————————————— */
 
+@media (max-width: 1150px) {
+  .stories { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
 @media (max-width: 940px) {
   .front { grid-template-columns: minmax(0, 1fr); }
   .lead { padding-right: 0; }
   .ledger { border-left: 0; border-top: 1px solid var(--rule-soft); padding: 1.2rem 0 0; }
-  .desks { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 1.8rem; }
+  .stories { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .my-stories { grid-template-columns: minmax(0, 1fr); }
   .colophon { grid-template-columns: minmax(0, 1fr); gap: 1.2rem; }
   .ear { font-size: 9px; letter-spacing: 0.1em; }
@@ -796,7 +826,7 @@ body.reader-open { overflow: hidden; }
 @media (max-width: 620px) {
   body { padding: 1rem 1.1rem 2rem; font-size: 16px; }
   .ear { flex-direction: column; gap: 0.15rem; }
-  .desks { grid-template-columns: minmax(0, 1fr); }
+  .stories { grid-template-columns: minmax(0, 1fr); }
   .tagline { letter-spacing: 0.24em; }
 }
 

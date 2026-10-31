@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "generatedAt": "2026-10-31T18:23:48.414Z",
+  "generatedAt": "2026-10-31T18:33:08.693Z",
   "stats": {
     "wires": 40,
     "wiresOk": 40,
@@ -17,13 +17,13 @@
     "failures": []
   },
   "lead": {
-    "title": "OpenBSD 8.0 Brings Expanded Hardware Support, Security Enhancements, and Virtualization Improvements",
-    "url": "https://www.infoq.com/news/2026/10/openbsd-8-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "summary": "OpenBSD 8.0 is a substantial upgrade bringing broader hardware compatibility, enhanced security, an expanded virtual address space, and support for modern architectures, including Intel Arc A-Series graphics support, ARM64 hibernation, RISC-V improvements…",
-    "publishedAt": "2026-10-31T17:00:00.000Z",
-    "source": "InfoQ",
-    "region": "Global",
-    "desk": "DevSecOps",
+    "title": "Happy Pikmin Day Eve",
+    "url": "https://www.theverge.com/games/1024085/happy-pikmin-day-eve",
+    "summary": "This morning, Nintendo announced that tomorrow, November 1st, would be the first annual Pikmin Day. As part of the short Pikmin Day Direct, Shigeru Miyamoto shared new info about Pikmin 4 for the Switch 2, as well as an update for the mobile app Pikmin…",
+    "publishedAt": "2026-10-31T17:50:12.000Z",
+    "source": "The Verge",
+    "region": "North America",
+    "desk": "Development",
     "embeddable": false
   },
   "sections": [
@@ -32,10 +32,20 @@
       "slug": "development",
       "stories": [
         {
-          "title": "How to Use Howler AI for Beginners",
-          "url": "https://dev.to/aitoolsteps/how-to-use-howler-ai-for-beginners-77j",
-          "summary": "Every AI chat app you have ever used keeps a record. Your questions, your follow-ups, your late-night ideas — they all sit in a sidebar, searchable forever. Howler AI does the opposite. It is a free, open-source app for Mac that lets you ask an AI a…",
-          "publishedAt": "2026-10-31T18:21:13.000Z",
+          "title": "AFTERLIGHT: Giving Forgotten Software a Second Life with Open-Weight AI",
+          "url": "https://dev.to/raghuraj2008/afterlight-giving-forgotten-software-a-second-life-with-open-weight-ai-2hif",
+          "summary": "AFTERLIGHT: Bringing Forgotten Software Back to Life with Open-Weight AI Some code deserves a second life. Software projects are created every day. Some become successful products. Others are abandoned when developers move on, documentation disappears…",
+          "publishedAt": "2026-10-31T18:28:15.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development",
+          "embeddable": false
+        },
+        {
+          "title": "👻 RepoSeance: Talk to the Ghosts of Your Codebase",
+          "url": "https://dev.to/subhamduary/reposeance-talk-to-the-ghosts-of-your-codebase-4l4",
+          "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine What I Built RepoSeance is an open-source, local-first AI codebase archaeologist that helps developers understand unfamiliar repositories, investigate…",
+          "publishedAt": "2026-10-31T18:27:03.000Z",
           "source": "DEV Community",
           "region": "Global",
           "desk": "Development",
@@ -127,26 +137,6 @@
           "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
           "publishedAt": "2026-10-30T21:09:54.000Z",
           "source": "Ars Technica",
-          "region": "North America",
-          "desk": "Development",
-          "embeddable": false
-        },
-        {
-          "title": "Exclusive details about Akai’s MPC Sample Key",
-          "url": "https://www.theverge.com/gadgets/1023649/akai-mpc-sample-key-exclusive",
-          "summary": "Akai teased its new MPC Sample Key on Instagram earlier this week, and said it plans to open-source its software so the modding community can hack it to their hearts' delight. While there's no word yet on when the device will launch or how much it will…",
-          "publishedAt": "2026-10-30T21:01:32.000Z",
-          "source": "The Verge",
-          "region": "North America",
-          "desk": "Development",
-          "embeddable": false
-        },
-        {
-          "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
-          "summary": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs).",
-          "publishedAt": "2026-10-30T20:05:58.000Z",
-          "source": "Dark Reading",
           "region": "North America",
           "desk": "Development",
           "embeddable": false
@@ -350,6 +340,16 @@
       "slug": "devsecops",
       "stories": [
         {
+          "title": "OpenBSD 8.0 Brings Expanded Hardware Support, Security Enhancements, and Virtualization Improvements",
+          "url": "https://www.infoq.com/news/2026/10/openbsd-8-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "OpenBSD 8.0 is a substantial upgrade bringing broader hardware compatibility, enhanced security, an expanded virtual address space, and support for modern architectures, including Intel Arc A-Series graphics support, ARM64 hibernation, RISC-V improvements…",
+          "publishedAt": "2026-10-31T17:00:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevSecOps",
+          "embeddable": false
+        },
+        {
           "title": "Malware uses LLMs to rank victims by how much they're worth",
           "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
           "summary": "",
@@ -378,16 +378,6 @@
           "region": "North America",
           "desk": "DevSecOps",
           "embeddable": false
-        },
-        {
-          "title": "Stablecoins gain ground in African trade but face hurdles to wider use",
-          "url": "https://techcabal.com/2026/10/31/stablecoins-face-hurdles-to-wider-use/",
-          "summary": "Stablecoins are giving African businesses an alternative way to pay overseas suppliers, but costs, security concerns and fragmented blockchain networks remain obstacles to wider use, industry executives told Moonshot by TechCabal in Lagos.",
-          "publishedAt": "2026-10-31T11:10:42.000Z",
-          "source": "TechCabal",
-          "region": "Africa",
-          "desk": "DevSecOps",
-          "embeddable": true
         },
         {
           "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
@@ -458,6 +448,16 @@
           "region": "North America",
           "desk": "DevSecOps",
           "embeddable": false
+        },
+        {
+          "title": "Behind the Scenes of How Operation Blackout Went Down",
+          "url": "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down",
+          "summary": "A recent law enforcement operation to dismantle harmful scam centers was a big success. A threat intelligence expert walks us through what happened and why he wants more of the same.",
+          "publishedAt": "2026-10-30T19:46:08.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps",
+          "embeddable": false
         }
       ]
     },
@@ -466,30 +466,20 @@
       "slug": "etc",
       "stories": [
         {
-          "title": "\"Echoes: The Offline Memory Keeper — Preserving Family Oral History with Local Open-Source AI\" published: false",
-          "url": "https://dev.to/ashutoshranjan/echoes-the-offline-memory-keeper-preserving-family-oral-history-with-local-open-source-ai-4id3",
-          "summary": "Description: \"A 100% offline, privacy-first personal AI vault preserving family oral histories, memories, and personal anecdotes. Built for Hacktoberfest 2026: Ghost in the Machine.\" tags: \"devchallenge, hacktoberfest, opensource, ai\" canonical_url: false…",
-          "publishedAt": "2026-10-31T18:20:58.000Z",
+          "title": "# 👻 Ghost Games Arcade: 20 Spooky Mini-Games in One Haunted Website",
+          "url": "https://dev.to/ayush_barai_549a691bc4f6d/-ghost-games-arcade-20-spooky-mini-games-in-one-haunted-website-2487",
+          "summary": "What if you could enter a haunted arcade, discover 20 different ghost games, and start playing instantly — without creating an account, downloading anything, or paying a single rupee? That's the idea behind Ghost Games Arcade, my project for the…",
+          "publishedAt": "2026-10-31T18:28:34.000Z",
           "source": "DEV Community",
           "region": "Global",
           "desk": "Etc",
           "embeddable": false
         },
         {
-          "title": "When Will You Charge Me Next? A Billing Page Owes That Answer.",
-          "url": "https://dev.to/fuxiaohua/when-will-you-charge-me-next-a-billing-page-owes-that-answer-58ja",
-          "summary": "Every subscription interface eventually gets the same two questions: when is the next charge, and what happens if I cancel right now. A page that only shows a plan name and a status word answers neither. It also hides the case that matters most: the…",
-          "publishedAt": "2026-10-31T18:20:34.000Z",
-          "source": "DEV Community",
-          "region": "Global",
-          "desk": "Etc",
-          "embeddable": false
-        },
-        {
-          "title": "How does a computer know this is a 3?",
-          "url": "https://dev.to/logitsolutionsai/how-does-a-computer-know-this-is-a-3-33e3",
-          "summary": "A neural network, explained with one handwritten digit and a few simple numbers. You look at a scribbled 3 and know it in a fraction of a second. A computer has no eyes and no idea what a \"3\" is. It only has numbers. So how does it get from a grid of…",
-          "publishedAt": "2026-10-31T18:20:00.000Z",
+          "title": "First Hackathon!",
+          "url": "https://dev.to/zack0x0ea/first-hackathon-17e6",
+          "summary": "Hi everyone! I recently attended my first hackathon! I met amazing people working on amazing projects, and I’m looking forward to attending more!",
+          "publishedAt": "2026-10-31T18:27:23.000Z",
           "source": "DEV Community",
           "region": "Global",
           "desk": "Etc",
@@ -582,6 +572,16 @@
           "publishedAt": "2026-10-31T15:36:14.000Z",
           "source": "The Register",
           "region": "Europe",
+          "desk": "Etc",
+          "embeddable": true
+        },
+        {
+          "title": "Nigeria’s AI ambitions depend on building for local realities",
+          "url": "https://techcabal.com/2026/10/31/nigerias-ai-progress/",
+          "summary": "Nigeria’s AI progress will be judged by the local problems it solves, panellists said at “The State of AI in Nigeria\", a session at Moonshot by TechCabal.",
+          "publishedAt": "2026-10-31T15:16:55.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
           "desk": "Etc",
           "embeddable": true
         }

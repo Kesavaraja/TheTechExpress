@@ -23,16 +23,26 @@ function byline(story, editionDate, className = 'story-meta') {
   return `<p class="${className}"><span class="wire">${esc(story.source)}</span><span class="sep">·</span><span class="region">${esc(story.region)}</span>${story.publishedAt ? `<span class="sep">·</span><time datetime="${esc(story.publishedAt)}">${esc(stamp(story.publishedAt, editionDate))}</time>` : ''}</p>`;
 }
 
-// An embeddable story opens in the reader panel instead of a new tab.
+// Each headline says where it will open: a frame for the reader panel, an arrow for a new tab.
+const ICON = {
+  reader: '<svg class="link-icon is-reader" viewBox="0 0 12 12" aria-hidden="true"><rect x="1.9" y="1.9" width="8.2" height="8.2" rx="0.6"/></svg>',
+  external: '<svg class="link-icon is-external" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg>',
+};
+
+/** Icon plus a screen-reader note, so the destination is never colour-only. */
+function linkMark(story) {
+  return story.embeddable
+    ? `${ICON.reader}<span class="sr-only"> (opens in the reader panel)</span>`
+    : `${ICON.external}<span class="sr-only"> (opens in a new tab)</span>`;
+}
+
 const embedAttrs = (story) =>
-  story.embeddable
-    ? ` class="embed-link" data-embed data-title="${esc(story.title)}" data-source="${esc(story.source)}"`
-    : '';
+  story.embeddable ? ` data-embed data-title="${esc(story.title)}" data-source="${esc(story.source)}"` : '';
 
 function storyItem(story, editionDate) {
   const dek = story.summary && story.summary !== story.title ? `<p class="story-dek">${esc(story.summary)}</p>` : '';
   return `<li class="story">
-        <h3 class="story-title"><a href="${href(story.url)}" rel="noopener noreferrer"${embedAttrs(story)}>${esc(story.title)}</a></h3>
+        <h3 class="story-title"><a href="${href(story.url)}" rel="noopener noreferrer"${embedAttrs(story)}>${esc(story.title)}${linkMark(story)}</a></h3>
         ${dek}
         ${byline(story, editionDate)}
       </li>`;
@@ -63,7 +73,7 @@ export function renderContent(edition) {
   const leadHtml = lead
     ? `<article class="lead">
         <p class="kicker">${esc(lead.desk)} desk</p>
-        <h2 class="lead-title"><a href="${href(lead.url)}" rel="noopener noreferrer"${embedAttrs(lead)}>${esc(lead.title)}</a></h2>
+        <h2 class="lead-title"><a href="${href(lead.url)}" rel="noopener noreferrer"${embedAttrs(lead)}>${esc(lead.title)}${linkMark(lead)}</a></h2>
         ${lead.summary && lead.summary !== lead.title ? `<p class="standfirst">${esc(lead.summary)}</p>` : ''}
         ${byline(lead, date, 'byline')}
       </article>`

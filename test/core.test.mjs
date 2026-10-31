@@ -115,6 +115,7 @@ test('renderContent is the swappable half of the page and refuses javascript: li
     sections: [
       { name: 'Development', slug: 'development', stories: [
         { title: 'Fine story', url: 'https://e.test/ok', summary: 'Ship it.', source: 'Mine', region: 'Your feed', desk: 'Development', publishedAt: '2026-10-30T10:00:00.000Z' },
+        { title: 'Frameable story', url: 'https://e.test/frame', summary: '', source: 'Mine', region: 'Your feed', desk: 'Development', publishedAt: '2026-10-30T09:00:00.000Z', embeddable: true },
       ] },
       { name: 'Testing', slug: 'testing', stories: [] },
     ],
@@ -125,6 +126,10 @@ test('renderContent is the swappable half of the page and refuses javascript: li
   assert.ok(html.includes('https://e.test/ok'));
   assert.ok(html.includes('Fine story'));
   assert.ok(!html.includes('<main'), 'content does not include the page shell');
+  assert.ok(html.includes('is-external'), 'a plain link is marked as opening a new tab');
+  assert.ok(html.includes('is-reader'), 'a frameable link is marked as opening here');
+  assert.ok(html.includes('data-embed'), 'only the frameable link carries data-embed');
+  assert.equal((html.match(/data-embed/g) || []).length, 1);
 });
 
 test('renders a page that links every story and escapes markup', () => {
