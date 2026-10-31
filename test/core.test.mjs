@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { parseFeed, classify, decode, cleanSummary, framingAllowed } from '../src/core.mjs';
+import { parseFeed, classify, decode, cleanSummary } from '../src/core.mjs';
 import { renderEdition, renderContent } from '../src/render.mjs';
 import { select } from '../src/select.mjs';
 
@@ -86,18 +86,6 @@ test('dedupes, caps per source, and pulls the lead out of its desk', () => {
   assert.equal(total, 5);
 });
 
-test('decides which publishers allow being framed', () => {
-  const headers = (init = {}) => new Headers(init);
-  assert.equal(framingAllowed(headers()), true, 'no headers means no objection');
-  assert.equal(framingAllowed(headers({ 'x-frame-options': 'DENY' })), false);
-  assert.equal(framingAllowed(headers({ 'x-frame-options': 'SAMEORIGIN' })), false);
-  assert.equal(framingAllowed(headers({ 'content-security-policy': "frame-ancestors 'self'" })), false);
-  assert.equal(framingAllowed(headers({ 'content-security-policy': "frame-ancestors 'none'" })), false);
-  assert.equal(framingAllowed(headers({ 'content-security-policy': 'frame-ancestors *' })), true);
-  assert.equal(framingAllowed(headers({ 'content-security-policy': 'frame-ancestors https://dev.to https://*.forem.com' })), false);
-  assert.equal(framingAllowed(headers({ 'content-security-policy': "default-src 'self'; script-src 'self'" })), true);
-});
-
 test('drops stories whose link is not a real web URL', () => {
   const stories = parseFeed(`<rss><channel>
     <item><title>Bad</title><link>javascript:alert(1)</link></item>
@@ -115,7 +103,7 @@ test('renderContent is the swappable half of the page and refuses javascript: li
     sections: [
       { name: 'Development', slug: 'development', stories: [
         { title: 'Fine story', url: 'https://e.test/ok', summary: 'Ship it.', source: 'Mine', region: 'Your feed', desk: 'Development', publishedAt: '2026-10-30T10:00:00.000Z' },
-        { title: 'Frameable story', url: 'https://e.test/frame', summary: '', source: 'Mine', region: 'Your feed', desk: 'Development', publishedAt: '2026-10-30T09:00:00.000Z', embeddable: true },
+        { title: 'Second story', url: 'https://e.test/two', summary: '', source: 'Mine', region: 'Your feed', desk: 'Development', publishedAt: '2026-10-30T09:00:00.000Z' },
       ] },
       { name: 'Testing', slug: 'testing', stories: [] },
     ],
@@ -126,10 +114,9 @@ test('renderContent is the swappable half of the page and refuses javascript: li
   assert.ok(html.includes('https://e.test/ok'));
   assert.ok(html.includes('Fine story'));
   assert.ok(!html.includes('<main'), 'content does not include the page shell');
-  assert.ok(html.includes('is-external'), 'a plain link is marked as opening a new tab');
-  assert.ok(html.includes('is-reader'), 'a frameable link is marked as opening here');
-  assert.ok(html.includes('data-embed'), 'only the frameable link carries data-embed');
-  assert.equal((html.match(/data-embed/g) || []).length, 1);
+  assert.ok(html.includes('target="_blank"'), 'stories open in a new tab');
+  assert.ok(!html.includes('data-embed'), 'nothing opens in an in-page panel any more');
+  assert.equal((html.match(/class="link-icon"/g) || []).length, 3, 'the lead and both stories carry the arrow');
 });
 
 test('renders a page that links every story and escapes markup', () => {

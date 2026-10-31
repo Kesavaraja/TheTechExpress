@@ -2,7 +2,7 @@ name: Daily Edition
 
 on:
   schedule:
-    - cron: '40 1 * * *' # every day at 07:10 IST (01:40 UTC)
+    - cron: '40 0 * * *' # every day at 06:10 IST (00:40 UTC)
   workflow_dispatch:
   push:
     branches: [main]

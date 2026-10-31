@@ -4,7 +4,7 @@ import { mkdir, readdir, readFile, writeFile, copyFile } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url';
 import { dirname, join, resolve } from 'node:path';
 import { FEEDS } from './feeds.mjs';
-import { parseFeed, classify, framingAllowed } from './core.mjs';
+import { parseFeed, classify } from './core.mjs';
 import { select } from './select.mjs';
 import { renderEdition } from './render.mjs';
 
@@ -40,22 +40,6 @@ async function grab(feed) {
   }
 }
 
-/** Ask the publisher whether we may frame the story. Unknown or refused counts as no. */
-async function embeddable(url) {
-  for (const method of ['HEAD', 'GET']) {
-    try {
-      const res = await fetch(url, { method, headers: { 'user-agent': UA }, redirect: 'follow', signal: AbortSignal.timeout(8000) });
-      if (res.ok) {
-        res.body?.cancel?.();
-        return framingAllowed(res.headers);
-      }
-    } catch {
-      /* too slow or hostile — treat as not embeddable */
-    }
-  }
-  return false;
-}
-
 async function main() {
   const started = new Date();
   const date = started.toISOString().slice(0, 10);
@@ -64,12 +48,6 @@ async function main() {
   const failures = results.filter((r) => r.error).map((r) => r.error);
   const stories = results.flatMap((r) => r.stories);
   const { lead, sections, total } = select(stories);
-
-  // Only the published stories matter: the reader panel can open those it is allowed to frame.
-  const picked = [lead, ...sections.flatMap((s) => s.stories)].filter(Boolean);
-  await mapLimit(picked, 6, async (story) => {
-    story.embeddable = await embeddable(story.url);
-  });
 
   const edition = {
     date,

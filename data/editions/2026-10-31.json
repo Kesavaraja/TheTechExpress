@@ -1,12 +1,12 @@
 {
   "date": "2026-10-31",
-  "generatedAt": "2026-10-31T18:33:08.693Z",
+  "generatedAt": "2026-10-31T18:50:31.512Z",
   "stats": {
     "wires": 40,
     "wiresOk": 40,
     "fetched": 3985,
     "published": 54,
-    "sources": 23,
+    "sources": 24,
     "regions": [
       "Africa",
       "Asia",
@@ -23,8 +23,7 @@
     "publishedAt": "2026-10-31T17:50:12.000Z",
     "source": "The Verge",
     "region": "North America",
-    "desk": "Development",
-    "embeddable": false
+    "desk": "Development"
   },
   "sections": [
     {
@@ -32,24 +31,22 @@
       "slug": "development",
       "stories": [
         {
-          "title": "AFTERLIGHT: Giving Forgotten Software a Second Life with Open-Weight AI",
-          "url": "https://dev.to/raghuraj2008/afterlight-giving-forgotten-software-a-second-life-with-open-weight-ai-2hif",
-          "summary": "AFTERLIGHT: Bringing Forgotten Software Back to Life with Open-Weight AI Some code deserves a second life. Software projects are created every day. Some become successful products. Others are abandoned when developers move on, documentation disappears…",
-          "publishedAt": "2026-10-31T18:28:15.000Z",
+          "title": "How to stop Cursor and Claude Code breaking your project: a free AGENTS.md starter",
+          "url": "https://dev.to/theodorecreatesco/how-to-stop-cursor-and-claude-code-breaking-your-project-a-free-agentsmd-starter-2273",
+          "summary": "If you build with Cursor, Claude Code, Copilot or Windsurf, you've probably had at least one of these happen: You asked for a small fix and the agent \"tidied up\" four other files. An API key ended up hard-coded in a component, or behind a NEXT_PUBLIC_…",
+          "publishedAt": "2026-10-31T18:49:50.000Z",
           "source": "DEV Community",
           "region": "Global",
-          "desk": "Development",
-          "embeddable": false
+          "desk": "Development"
         },
         {
-          "title": "👻 RepoSeance: Talk to the Ghosts of Your Codebase",
-          "url": "https://dev.to/subhamduary/reposeance-talk-to-the-ghosts-of-your-codebase-4l4",
-          "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine What I Built RepoSeance is an open-source, local-first AI codebase archaeologist that helps developers understand unfamiliar repositories, investigate…",
-          "publishedAt": "2026-10-31T18:27:03.000Z",
+          "title": "São Paulo and Rio asking prices per square metre by neighborhood: 19,000 new Zap Imóveis and VivaReal listings (November 2026)",
+          "url": "https://dev.to/datadaemon/sao-paulo-and-rio-asking-prices-per-m2-by-neighborhood-19000-new-zap-imoveis-and-vivareal-38ll",
+          "summary": "Zap Imóveis and VivaReal are the two largest property portals in Brazil. Both belong to OLX Brasil, neither offers a public API for listing data, and the \"preço do m² em São Paulo\" figures you find online are usually index numbers without the listings…",
+          "publishedAt": "2026-10-31T18:48:30.000Z",
           "source": "DEV Community",
           "region": "Global",
-          "desk": "Development",
-          "embeddable": false
+          "desk": "Development"
         },
         {
           "title": "From restaurant guides to payments, here’s how TikTok is building a super app",
@@ -58,8 +55,7 @@
           "publishedAt": "2026-10-31T15:41:57.000Z",
           "source": "TechCrunch",
           "region": "North America",
-          "desk": "Development",
-          "embeddable": false
+          "desk": "Development"
         },
         {
           "title": "Vic Mensa can’t live without the Voice Memos app",
@@ -68,8 +64,7 @@
           "publishedAt": "2026-10-31T15:00:00.000Z",
           "source": "The Verge",
           "region": "North America",
-          "desk": "Development",
-          "embeddable": false
+          "desk": "Development"
         },
         {
           "title": "Developers ask AI which tool to use. Here’s how we track the answer.",
@@ -78,8 +73,7 @@
           "publishedAt": "2026-10-31T15:00:00.000Z",
           "source": "The New Stack",
           "region": "North America",
-          "desk": "Development",
-          "embeddable": false
+          "desk": "Development"
         },
         {
           "title": "Spring News Roundup: First Release Candidates of Boot, Framework, Data, Security, Modulith, AI",
@@ -88,8 +82,7 @@
           "publishedAt": "2026-10-31T13:30:00.000Z",
           "source": "InfoQ",
           "region": "Global",
-          "desk": "Development",
-          "embeddable": false
+          "desk": "Development"
         },
         {
           "title": "Prospero: A new coding harness for a more civilized age",
@@ -98,8 +91,7 @@
           "publishedAt": "2026-10-31T11:54:59.000Z",
           "source": "Hacker News",
           "region": "Global",
-          "desk": "Development",
-          "embeddable": true
+          "desk": "Development"
         },
         {
           "title": "Amazon sends chills through its workforce with mixed message memo about AI use",
@@ -108,8 +100,7 @@
           "publishedAt": "2026-10-31T11:00:00.000Z",
           "source": "The Register",
           "region": "Europe",
-          "desk": "Development",
-          "embeddable": true
+          "desk": "Development"
         },
         {
           "title": "MeitY unveils DEPA handbook to enable trusted data sharing for AI training",
@@ -118,8 +109,7 @@
           "publishedAt": "2026-10-31T10:46:16.000Z",
           "source": "YourStory",
           "region": "Asia",
-          "desk": "Development",
-          "embeddable": false
+          "desk": "Development"
         },
         {
           "title": "Applebee’s exposed customers’ personal data after leaving database password in app",
@@ -128,8 +118,7 @@
           "publishedAt": "2026-10-30T21:48:53.000Z",
           "source": "TechCrunch",
           "region": "North America",
-          "desk": "Development",
-          "embeddable": false
+          "desk": "Development"
         },
         {
           "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
@@ -138,8 +127,7 @@
           "publishedAt": "2026-10-30T21:09:54.000Z",
           "source": "Ars Technica",
           "region": "North America",
-          "desk": "Development",
-          "embeddable": false
+          "desk": "Development"
         }
       ]
     },
@@ -154,8 +142,7 @@
           "publishedAt": "2026-10-29T21:00:09.000Z",
           "source": "freeCodeCamp News",
           "region": "Global",
-          "desk": "Testing",
-          "embeddable": false
+          "desk": "Testing"
         },
         {
           "title": "Living Document or Dead Weight? Rethinking Test Plans for the Real World",
@@ -164,8 +151,7 @@
           "publishedAt": "2026-10-28T17:33:22.000Z",
           "source": "SD Times",
           "region": "North America",
-          "desk": "Testing",
-          "embeddable": true
+          "desk": "Testing"
         },
         {
           "title": "Windows finally gets a built-in internet speed test tool – how to try it",
@@ -174,8 +160,7 @@
           "publishedAt": "2026-10-27T16:59:12.000Z",
           "source": "ZDNET",
           "region": "North America",
-          "desk": "Testing",
-          "embeddable": true
+          "desk": "Testing"
         },
         {
           "title": "Why Your AI Tests Pass When Your Features Fail with Donovan Brady",
@@ -184,8 +169,7 @@
           "publishedAt": "2026-10-27T14:34:17.000Z",
           "source": "TestGuild",
           "region": "Global",
-          "desk": "Testing",
-          "embeddable": true
+          "desk": "Testing"
         },
         {
           "title": "VegaLoad, Leapwork Play, and the End of Untrustworthy AI Tests TGNS199",
@@ -194,8 +178,7 @@
           "publishedAt": "2026-10-26T19:28:49.000Z",
           "source": "TestGuild",
           "region": "Global",
-          "desk": "Testing",
-          "embeddable": true
+          "desk": "Testing"
         },
         {
           "title": "UK pentester 'killa' claims $2K Bitcoin prize in PHP2Shell capture-the-flag contest",
@@ -204,8 +187,7 @@
           "publishedAt": "2026-10-26T16:14:00.000Z",
           "source": "The Register Security",
           "region": "Europe",
-          "desk": "Testing",
-          "embeddable": true
+          "desk": "Testing"
         }
       ]
     },
@@ -220,8 +202,7 @@
           "publishedAt": "2026-10-31T11:12:35.000Z",
           "source": "TechCabal",
           "region": "Africa",
-          "desk": "DevOps",
-          "embeddable": true
+          "desk": "DevOps"
         },
         {
           "title": "Kubernetes Confidential Containers Get Fortanix Attestation and Key Management",
@@ -230,8 +211,7 @@
           "publishedAt": "2026-10-31T08:18:00.000Z",
           "source": "InfoQ",
           "region": "Global",
-          "desk": "DevOps",
-          "embeddable": false
+          "desk": "DevOps"
         },
         {
           "title": "5 Spooky Things About Trusting AI with Reliability",
@@ -240,8 +220,7 @@
           "publishedAt": "2026-10-30T17:36:27.000Z",
           "source": "SD Times",
           "region": "North America",
-          "desk": "DevOps",
-          "embeddable": true
+          "desk": "DevOps"
         },
         {
           "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
@@ -250,8 +229,7 @@
           "publishedAt": "2026-10-30T09:33:51.000Z",
           "source": "BBC Technology",
           "region": "Europe",
-          "desk": "DevOps",
-          "embeddable": false
+          "desk": "DevOps"
         },
         {
           "title": "AWS installs an AI accelerator every 14 seconds and eyes $1 trillion annual revenue",
@@ -260,18 +238,7 @@
           "publishedAt": "2026-10-30T05:42:24.000Z",
           "source": "The Register",
           "region": "Europe",
-          "desk": "DevOps",
-          "embeddable": true
-        },
-        {
-          "title": "Startup wants to make AI agents safe for DevOps duty",
-          "url": "https://www.theregister.com/ai-and-ml/2026/10/29/startup-wants-to-make-ai-agents-safe-for-devops-duty/5306477",
-          "summary": "Infrastructure automation needs something better than prompt and pray",
-          "publishedAt": "2026-10-29T19:46:08.000Z",
-          "source": "The Register",
-          "region": "Europe",
-          "desk": "DevOps",
-          "embeddable": true
+          "desk": "DevOps"
         },
         {
           "title": "New Relic Change Tracking Brings Headless Intelligent Observability Directly into GitHub Copilot",
@@ -280,8 +247,7 @@
           "publishedAt": "2026-10-29T19:32:12.000Z",
           "source": "SD Times",
           "region": "North America",
-          "desk": "DevOps",
-          "embeddable": true
+          "desk": "DevOps"
         },
         {
           "title": "Cloud Service Models Explained: IaaS vs PaaS vs SaaS",
@@ -290,8 +256,7 @@
           "publishedAt": "2026-10-29T15:39:58.000Z",
           "source": "freeCodeCamp News",
           "region": "Global",
-          "desk": "DevOps",
-          "embeddable": false
+          "desk": "DevOps"
         },
         {
           "title": "Digital Science acquires Jenni AI to bring verified research data to AI-powered academic writing",
@@ -300,8 +265,7 @@
           "publishedAt": "2026-10-29T11:30:00.000Z",
           "source": "Tech.eu",
           "region": "Europe",
-          "desk": "DevOps",
-          "embeddable": true
+          "desk": "DevOps"
         },
         {
           "title": "The French robotics startup promising to deploy industrial humanoids after just 20 minutes of training",
@@ -310,8 +274,7 @@
           "publishedAt": "2026-10-29T05:00:50.000Z",
           "source": "Sifted",
           "region": "Europe",
-          "desk": "DevOps",
-          "embeddable": false
+          "desk": "DevOps"
         },
         {
           "title": "Win the Agentic Era, Together: Introducing the Docker Navigator Partner Program",
@@ -320,8 +283,7 @@
           "publishedAt": "2026-10-28T13:00:00.000Z",
           "source": "Docker Blog",
           "region": "Global",
-          "desk": "DevOps",
-          "embeddable": false
+          "desk": "DevOps"
         },
         {
           "title": "The 14 GB cold-start problem: Rebuilding self-hosted GitHub Actions runners on Azure Kubernetes Service",
@@ -330,8 +292,16 @@
           "publishedAt": "2026-10-28T00:00:00.000Z",
           "source": "Thoughtworks",
           "region": "Global",
-          "desk": "DevOps",
-          "embeddable": false
+          "desk": "DevOps"
+        },
+        {
+          "title": "Azure DevOps Server RC (26H2) Is Now Available",
+          "url": "https://devblogs.microsoft.com/devops/azure-devops-server-rc-26h2-is-now-available/",
+          "summary": "Today we’re releasing the release candidate (RC) of the next Azure DevOps Server release. It brings new features previously available in our hosted version, along with security and quality improvements. You can download Azure DevOps Server RC (26H2) today…",
+          "publishedAt": "2026-10-27T20:31:59.000Z",
+          "source": "Microsoft DevOps",
+          "region": "Global",
+          "desk": "DevOps"
         }
       ]
     },
@@ -340,14 +310,22 @@
       "slug": "devsecops",
       "stories": [
         {
+          "title": "WordPress Core RCE Vulnerability: Upgrade-Window Race Condition Guide",
+          "url": "https://dev.to/veduis/wordpress-core-rce-vulnerability-upgrade-window-race-condition-guide-21a7",
+          "summary": "On October 28, 2026, the WordPress security team deployed an emergency maintenance release: WordPress 7.1.4. While the release notes listed fixes for 22 individual bugs, security researchers and threat intelligence desks immediately focused on one critical…",
+          "publishedAt": "2026-10-31T18:48:30.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
           "title": "OpenBSD 8.0 Brings Expanded Hardware Support, Security Enhancements, and Virtualization Improvements",
           "url": "https://www.infoq.com/news/2026/10/openbsd-8-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "summary": "OpenBSD 8.0 is a substantial upgrade bringing broader hardware compatibility, enhanced security, an expanded virtual address space, and support for modern architectures, including Intel Arc A-Series graphics support, ARM64 hibernation, RISC-V improvements…",
           "publishedAt": "2026-10-31T17:00:00.000Z",
           "source": "InfoQ",
           "region": "Global",
-          "desk": "DevSecOps",
-          "embeddable": false
+          "desk": "DevSecOps"
         },
         {
           "title": "Malware uses LLMs to rank victims by how much they're worth",
@@ -356,8 +334,7 @@
           "publishedAt": "2026-10-31T14:29:03.000Z",
           "source": "Hacker News",
           "region": "Global",
-          "desk": "DevSecOps",
-          "embeddable": true
+          "desk": "DevSecOps"
         },
         {
           "title": "[Update] Forensic Audit Finds External Breach Behind €3 Mn Capillary Fraud",
@@ -366,8 +343,7 @@
           "publishedAt": "2026-10-31T14:03:37.000Z",
           "source": "Inc42",
           "region": "Asia",
-          "desk": "DevSecOps",
-          "embeddable": false
+          "desk": "DevSecOps"
         },
         {
           "title": "Shielding the patch gap: The exploit doesn’t wait for Patch Tuesday",
@@ -376,8 +352,7 @@
           "publishedAt": "2026-10-31T14:00:00.000Z",
           "source": "The New Stack",
           "region": "North America",
-          "desk": "DevSecOps",
-          "embeddable": false
+          "desk": "DevSecOps"
         },
         {
           "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
@@ -386,8 +361,7 @@
           "publishedAt": "2026-10-31T11:00:00.000Z",
           "source": "SecurityWeek",
           "region": "North America",
-          "desk": "DevSecOps",
-          "embeddable": true
+          "desk": "DevSecOps"
         },
         {
           "title": "LocalStack for Azure Enters Public Preview with Security Settings Stored but Not Enforced",
@@ -396,8 +370,7 @@
           "publishedAt": "2026-10-31T07:57:00.000Z",
           "source": "InfoQ",
           "region": "Global",
-          "desk": "DevSecOps",
-          "embeddable": false
+          "desk": "DevSecOps"
         },
         {
           "title": "AU SFB Probes Potential Data Leak, Vijay Sales’ Admin Access Allegedly Listed For $25K",
@@ -406,18 +379,7 @@
           "publishedAt": "2026-10-31T06:05:23.000Z",
           "source": "Inc42",
           "region": "Asia",
-          "desk": "DevSecOps",
-          "embeddable": false
-        },
-        {
-          "title": "Tell HN: Scribd Breached",
-          "url": "https://news.ycombinator.com/item?id=50312756",
-          "summary": "Not seeing anything posted about this anywhere, received on Monday, 26th of Oct 2026: Subject: Notice of Security Incident This notice is being sent on behalf of Scribd, Inc., the parent company of Scribd, Slideshare, Everand, and Fable, by Epiq, Scribd…",
-          "publishedAt": "2026-10-31T02:46:36.000Z",
-          "source": "Hacker News",
-          "region": "Global",
-          "desk": "DevSecOps",
-          "embeddable": false
+          "desk": "DevSecOps"
         },
         {
           "title": "Binance hit with $6.3B breach; Delhivery reports net profit of Rs 41 Cr in Q2",
@@ -426,8 +388,7 @@
           "publishedAt": "2026-10-31T02:00:00.000Z",
           "source": "YourStory",
           "region": "Asia",
-          "desk": "DevSecOps",
-          "embeddable": false
+          "desk": "DevSecOps"
         },
         {
           "title": "Last-minute Halloween costumes for tech nerds",
@@ -436,18 +397,7 @@
           "publishedAt": "2026-10-30T21:26:59.000Z",
           "source": "TechCrunch",
           "region": "North America",
-          "desk": "DevSecOps",
-          "embeddable": false
-        },
-        {
-          "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
-          "summary": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also…",
-          "publishedAt": "2026-10-30T20:48:43.000Z",
-          "source": "The Verge",
-          "region": "North America",
-          "desk": "DevSecOps",
-          "embeddable": false
+          "desk": "DevSecOps"
         },
         {
           "title": "Behind the Scenes of How Operation Blackout Went Down",
@@ -456,8 +406,16 @@
           "publishedAt": "2026-10-30T19:46:08.000Z",
           "source": "Dark Reading",
           "region": "North America",
-          "desk": "DevSecOps",
-          "embeddable": false
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Crim spent $7K+ on AI services in extortion attacks, then left evidence for all to see",
+          "url": "https://www.theregister.com/security/2026/10/30/crim-spent-7k-on-ai-services-in-extortion-attacks-then-left-evidence-for-all-to-see/5306754",
+          "summary": "n0n-existent security",
+          "publishedAt": "2026-10-30T19:37:12.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevSecOps"
         }
       ]
     },
@@ -466,24 +424,13 @@
       "slug": "etc",
       "stories": [
         {
-          "title": "# 👻 Ghost Games Arcade: 20 Spooky Mini-Games in One Haunted Website",
-          "url": "https://dev.to/ayush_barai_549a691bc4f6d/-ghost-games-arcade-20-spooky-mini-games-in-one-haunted-website-2487",
-          "summary": "What if you could enter a haunted arcade, discover 20 different ghost games, and start playing instantly — without creating an account, downloading anything, or paying a single rupee? That's the idea behind Ghost Games Arcade, my project for the…",
-          "publishedAt": "2026-10-31T18:28:34.000Z",
+          "title": "The perceptron: the 1958 machine that learned from its mistakes",
+          "url": "https://dev.to/logitsolutionsai/the-perceptron-the-1958-machine-that-learned-from-its-mistakes-2eoc",
+          "summary": "How one artificial neuron makes a decision, and how it fixes itself when it's wrong. In 1958, psychologist Frank Rosenblatt unveiled the perceptron at the Cornell Aeronautical Laboratory. The press got excited. The New York Times wrote that the Navy…",
+          "publishedAt": "2026-10-31T18:50:00.000Z",
           "source": "DEV Community",
           "region": "Global",
-          "desk": "Etc",
-          "embeddable": false
-        },
-        {
-          "title": "First Hackathon!",
-          "url": "https://dev.to/zack0x0ea/first-hackathon-17e6",
-          "summary": "Hi everyone! I recently attended my first hackathon! I met amazing people working on amazing projects, and I’m looking forward to attending more!",
-          "publishedAt": "2026-10-31T18:27:23.000Z",
-          "source": "DEV Community",
-          "region": "Global",
-          "desk": "Etc",
-          "embeddable": false
+          "desk": "Etc"
         },
         {
           "title": "Verve plans phone tap-to-pay and AI agent payments, CEO says",
@@ -492,8 +439,7 @@
           "publishedAt": "2026-10-31T17:13:49.000Z",
           "source": "TechCabal",
           "region": "Africa",
-          "desk": "Etc",
-          "embeddable": true
+          "desk": "Etc"
         },
         {
           "title": "Intra-African payment rails are key to cutting cross-border friction, says Grey",
@@ -502,8 +448,7 @@
           "publishedAt": "2026-10-31T17:12:57.000Z",
           "source": "TechCabal",
           "region": "Africa",
-          "desk": "Etc",
-          "embeddable": true
+          "desk": "Etc"
         },
         {
           "title": "Show HN: Jointter – A daily word puzzle using dots and lines",
@@ -512,8 +457,7 @@
           "publishedAt": "2026-10-31T16:24:24.000Z",
           "source": "Hacker News",
           "region": "Global",
-          "desk": "Etc",
-          "embeddable": true
+          "desk": "Etc"
         },
         {
           "title": "IPO-Bound StockGro’s FY26 Profit Jumps 3.3X YoY To ₹113 Cr, Revenue Doubles",
@@ -522,8 +466,7 @@
           "publishedAt": "2026-10-31T16:20:30.000Z",
           "source": "Inc42",
           "region": "Asia",
-          "desk": "Etc",
-          "embeddable": false
+          "desk": "Etc"
         },
         {
           "title": "The context problem: How Docusign built agents that understand the business behind contracts",
@@ -532,8 +475,7 @@
           "publishedAt": "2026-10-31T16:13:35.000Z",
           "source": "The New Stack",
           "region": "North America",
-          "desk": "Etc",
-          "embeddable": false
+          "desk": "Etc"
         },
         {
           "title": "OpenAI reportedly lowers funding target for new round",
@@ -542,8 +484,7 @@
           "publishedAt": "2026-10-31T16:12:55.000Z",
           "source": "TechCrunch",
           "region": "North America",
-          "desk": "Etc",
-          "embeddable": false
+          "desk": "Etc"
         },
         {
           "title": "I built an AI Tamagotchi before Meta could",
@@ -552,8 +493,7 @@
           "publishedAt": "2026-10-31T16:05:00.000Z",
           "source": "The Verge",
           "region": "North America",
-          "desk": "Etc",
-          "embeddable": false
+          "desk": "Etc"
         },
         {
           "title": "Five years after the fork, OpenSearch is slowly stepping out of AWS’s shadow",
@@ -562,8 +502,7 @@
           "publishedAt": "2026-10-31T16:02:34.000Z",
           "source": "The New Stack",
           "region": "North America",
-          "desk": "Etc",
-          "embeddable": false
+          "desk": "Etc"
         },
         {
           "title": "Google's AI satellite sends a very expensive haiku to Earth",
@@ -572,8 +511,7 @@
           "publishedAt": "2026-10-31T15:36:14.000Z",
           "source": "The Register",
           "region": "Europe",
-          "desk": "Etc",
-          "embeddable": true
+          "desk": "Etc"
         },
         {
           "title": "Nigeria’s AI ambitions depend on building for local realities",
@@ -582,8 +520,16 @@
           "publishedAt": "2026-10-31T15:16:55.000Z",
           "source": "TechCabal",
           "region": "Africa",
-          "desk": "Etc",
-          "embeddable": true
+          "desk": "Etc"
+        },
+        {
+          "title": "Windows 11 tries new shortcuts for Xbox gaming mode and search",
+          "url": "https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings",
+          "summary": "The latest Windows 11 Insider build adds some powerful new search features and quick settings while in Xbox mode. The Xbox shortcuts let you control things like Bluetooth, WiFi, and power settings without having to exit gaming mode. The search improvements…",
+          "publishedAt": "2026-10-31T15:12:19.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
         }
       ]
     }
