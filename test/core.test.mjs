@@ -1,8 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { parseFeed, classify, decode, cleanSummary } from '../src/core.mjs';
-import { renderEdition } from '../src/render.mjs';
-import { select } from '../src/build.mjs';
+import { renderEdition, renderContent } from '../src/render.mjs';
+import { select } from '../src/select.mjs';
 
 const RSS = `<?xml version="1.0"?>
 <rss version="2.0"><channel><title>Wire</title><link>https://example.com/</link>
@@ -84,6 +84,35 @@ test('dedupes, caps per source, and pulls the lead out of its desk', () => {
   assert.equal(dev.length, 3, 'per-source cap is 4 including the lead; duplicate is dropped');
   assert.equal(sections.find((s) => s.name === 'Testing').stories.length, 1);
   assert.equal(total, 5);
+});
+
+test('drops stories whose link is not a real web URL', () => {
+  const stories = parseFeed(`<rss><channel>
+    <item><title>Bad</title><link>javascript:alert(1)</link></item>
+    <item><title>Good</title><link>https://e.test/good</link></item>
+  </channel></rss>`);
+  assert.equal(stories.length, 1);
+  assert.equal(stories[0].title, 'Good');
+});
+
+test('renderContent is the swappable half of the page and refuses javascript: links', () => {
+  const html = renderContent({
+    date: '2026-10-30',
+    stats: { sources: 1, regions: ['Your feed'] },
+    lead: { title: 'Bad lead', url: 'javascript:alert(1)', summary: '', source: 'Mine', region: 'Your feed', desk: 'Etc' },
+    sections: [
+      { name: 'Development', slug: 'development', stories: [
+        { title: 'Fine story', url: 'https://e.test/ok', summary: 'Ship it.', source: 'Mine', region: 'Your feed', desk: 'Development', publishedAt: '2026-10-30T10:00:00.000Z' },
+      ] },
+      { name: 'Testing', slug: 'testing', stories: [] },
+    ],
+  });
+
+  assert.ok(html.includes('href="#"'), 'unsafe lead becomes a dead link');
+  assert.ok(!html.includes('javascript:'), 'no javascript: URL is printed');
+  assert.ok(html.includes('https://e.test/ok'));
+  assert.ok(html.includes('Fine story'));
+  assert.ok(!html.includes('<main'), 'content does not include the page shell');
 });
 
 test('renders a page that links every story and escapes markup', () => {

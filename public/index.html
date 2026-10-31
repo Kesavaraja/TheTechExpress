@@ -15,34 +15,36 @@
   <div class="ear">
     <span>Vol. I · No. 1</span>
     <span class="ear-date">Saturday, 31 October 2026</span>
-    <span>Final edition · 17:32 UTC</span>
+    <span>Final edition · 18:08 UTC</span>
   </div>
   <h1 class="wordmark">The Tech Express</h1>
   <p class="tagline">All the code that&rsquo;s fit to ship</p>
-  <nav class="rail" aria-label="Desks">
+  <nav class="rail" aria-label="Desks" id="rail">
     <a href="#development">Development</a>
     <a href="#testing">Testing</a>
     <a href="#devops">DevOps</a>
     <a href="#devsecops">DevSecOps</a>
     <a href="#etc">Etc</a>
+    <a class="rail-more" href="#my-edition">Your sources</a>
   </nav>
 </header>
 
+<p class="invite" id="invite" hidden>Read the paper from sources of your own. <a href="#my-edition">Add a feed &rarr;</a></p>
 <main id="main">
   <div class="front">
     <article class="lead">
-        <p class="kicker">DevSecOps desk</p>
-        <h2 class="lead-title"><a href="https://www.infoq.com/news/2026/10/openbsd-8-released/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" rel="noopener noreferrer">OpenBSD 8.0 Brings Expanded Hardware Support, Security Enhancements, and Virtualization Improvements</a></h2>
-        <p class="standfirst">OpenBSD 8.0 is a substantial upgrade bringing broader hardware compatibility, enhanced security, an expanded virtual address space, and support for modern architectures, including Intel Arc A-Series graphics support, ARM64 hibernation, RISC-V improvements…</p>
-        <p class="byline"><span class="wire">InfoQ</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-10-31T17:00:00.000Z">17:00 UTC</time></p>
+        <p class="kicker">Development desk</p>
+        <h2 class="lead-title"><a href="https://www.theverge.com/games/1024085/happy-pikmin-day-eve" rel="noopener noreferrer">Happy Pikmin Day Eve</a></h2>
+        <p class="standfirst">This morning, Nintendo announced that tomorrow, November 1st, would be the first annual Pikmin Day. As part of the short Pikmin Day Direct, Shigeru Miyamoto shared new info about Pikmin 4 for the Switch 2, as well as an update for the mobile app Pikmin…</p>
+        <p class="byline"><span class="wire">The Verge</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-10-31T17:50:12.000Z">17:50 UTC</time></p>
       </article>
     <aside class="ledger" aria-label="In this edition">
       <h2 class="ledger-title">Inside</h2>
       <ul class="ledger-list">
-          <li><a href="#development"><span>Development</span><span class="n">12</span></a></li>
+          <li><a href="#development"><span>Development</span><span class="n">11</span></a></li>
           <li><a href="#testing"><span>Testing</span><span class="n">6</span></a></li>
           <li><a href="#devops"><span>DevOps</span><span class="n">12</span></a></li>
-          <li><a href="#devsecops"><span>DevSecOps</span><span class="n">11</span></a></li>
+          <li><a href="#devsecops"><span>DevSecOps</span><span class="n">12</span></a></li>
           <li><a href="#etc"><span>Etc</span><span class="n">12</span></a></li>
       </ul>
       <dl class="ledger-stats">
@@ -54,30 +56,24 @@
     </aside>
   </div>
 
-  <section class="my-edition" id="my-edition" aria-labelledby="my-edition-title">
-    <div class="my-head">
-      <h2 class="desk-title" id="my-edition-title"><span>Your Edition</span><span class="count" id="my-count">0</span></h2>
-      <p class="my-note">Paste any RSS or Atom link to read your own wires beside the paper. Saved in this browser only.</p>
-    </div>
-    <form class="feed-form" id="feed-form" novalidate>
-      <label class="skip" for="feed-url">RSS or Atom feed URL</label>
-      <input id="feed-url" name="url" type="url" inputmode="url" autocomplete="off" spellcheck="false" placeholder="https://example.com/feed.xml">
-      <button type="submit">Add feed</button>
-      <button type="button" id="feed-refresh">Refresh</button>
-    </form>
-    <p class="feed-status" id="feed-status" role="status" aria-live="polite"></p>
-    <ul class="feed-chips" id="feed-chips"></ul>
-    <ol class="my-stories" id="my-stories"></ol>
-  </section>
-
   <div class="desks">
     <section class="desk" id="development">
-      <h2 class="desk-title"><span>Development</span><span class="count">12</span></h2>
+      <h2 class="desk-title"><span>Development</span><span class="count">11</span></h2>
       <ol class="stories">
       <li class="story">
-        <h3 class="story-title"><a href="https://dev.to/rishabhrawat05/from-1-minute-56-seconds-to-3-seconds-optimizing-database-inserts-with-batch-processing-1pi4" rel="noopener noreferrer">From 1 Minute 56 Seconds to 3 Seconds: Optimizing Database Inserts with Batch Processing</a></h3>
-        <p class="story-dek">Sometimes, a feature works perfectly but takes so long that it becomes practically unusable. Recently, while working on a camera management feature at my office, I encountered exactly this problem. The Problem Whenever we assigned cameras to a user, the…</p>
-        <p class="story-meta"><span class="wire">DEV Community</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-10-31T17:30:20.000Z">17:30 UTC</time></p>
+        <h3 class="story-title"><a href="https://dev.to/flashsource/i-built-a-study-where-you-write-a-will-for-your-own-repos-1f26" rel="noopener noreferrer">I built a study where you write a will for your own repos</a></h3>
+        <p class="story-dek">The Last Commit: Drafting a Digital Will for Open Source Hacktoberfest 2026 DEV Challenge: Week 4 — Ghost in the Machine What I Built The Last Commit is a 3D spatial &quot;study&quot; where you write the digital will for one of your own GitHub repos. You type a…</p>
+        <p class="story-meta"><span class="wire">DEV Community</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-10-31T18:06:08.000Z">18:06 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://dev.to/pub404/my-free-qr-code-stopped-working-so-i-built-my-own-5fn2" rel="noopener noreferrer">My &quot;Free&quot; QR Code Stopped Working, So I Built My Own</a></h3>
+        <p class="story-dek">A while ago I needed a simple QR code that opened a website. I found a free generator on Google, pasted my URL, downloaded the image and started using it. A few days later, the code stopped working. That made no sense to me at first. A QR code is just a…</p>
+        <p class="story-meta"><span class="wire">DEV Community</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-10-31T18:05:08.000Z">18:05 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://dev.to/devhugopinon/designing-a-3d-periodic-table-for-iphone-duo-reimagining-foldable-uiux-50b2" rel="noopener noreferrer">Designing a 3D Periodic Table for iPhone Duo: Reimagining Foldable UI/UX</a></h3>
+        <p class="story-dek">A deep dive into the UI/UX design decisions behind building an immersive, dual-screen 3D Periodic Table app optimized for foldable iPhone hardware Designing interface layouts for dual-screen and foldable devices like the iPhone Duo requires rethinking…</p>
+        <p class="story-meta"><span class="wire">DEV Community</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-10-31T18:04:44.000Z">18:04 UTC</time></p>
       </li>
       <li class="story">
         <h3 class="story-title"><a href="https://techcrunch.com/2026/10/31/tiktoks-road-to-becoming-a-super-app/" rel="noopener noreferrer">From restaurant guides to payments, here’s how TikTok is building a super app</a></h3>
@@ -118,21 +114,6 @@
         <h3 class="story-title"><a href="https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/" rel="noopener noreferrer">Applebee’s exposed customers’ personal data after leaving database password in app</a></h3>
         <p class="story-dek">EXCLUSIVE: A security researcher discovered the hardcoded credential in Applebee's app, allowing unrestricted access to customers' personal data.</p>
         <p class="story-meta"><span class="wire">TechCrunch</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-10-30T21:48:53.000Z">30 Oct · 21:48 UTC</time></p>
-      </li>
-      <li class="story">
-        <h3 class="story-title"><a href="https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/" rel="noopener noreferrer">Anthropic VS code extension on Cursor backdoored for nearly 12 hours</a></h3>
-        <p class="story-dek">It's still unknown how attackers got access to Anthropic's verified Cursor account.</p>
-        <p class="story-meta"><span class="wire">Ars Technica</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-10-30T21:09:54.000Z">30 Oct · 21:09 UTC</time></p>
-      </li>
-      <li class="story">
-        <h3 class="story-title"><a href="https://www.theverge.com/gadgets/1023649/akai-mpc-sample-key-exclusive" rel="noopener noreferrer">Exclusive details about Akai’s MPC Sample Key</a></h3>
-        <p class="story-dek">Akai teased its new MPC Sample Key on Instagram earlier this week, and said it plans to open-source its software so the modding community can hack it to their hearts' delight. While there's no word yet on when the device will launch or how much it will…</p>
-        <p class="story-meta"><span class="wire">The Verge</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-10-30T21:01:32.000Z">30 Oct · 21:01 UTC</time></p>
-      </li>
-      <li class="story">
-        <h3 class="story-title"><a href="https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor" rel="noopener noreferrer">Devs Hit by Trojanized Claude Code Extension for Cursor</a></h3>
-        <p class="story-dek">Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs).</p>
-        <p class="story-meta"><span class="wire">Dark Reading</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-10-30T20:05:58.000Z">30 Oct · 20:05 UTC</time></p>
       </li>
       </ol>
     </section>
@@ -200,11 +181,6 @@
         <p class="story-meta"><span class="wire">The Register</span><span class="sep">·</span><span class="region">Europe</span><span class="sep">·</span><time datetime="2026-10-30T05:42:24.000Z">30 Oct · 05:42 UTC</time></p>
       </li>
       <li class="story">
-        <h3 class="story-title"><a href="https://www.theregister.com/ai-and-ml/2026/10/29/startup-wants-to-make-ai-agents-safe-for-devops-duty/5306477" rel="noopener noreferrer">Startup wants to make AI agents safe for DevOps duty</a></h3>
-        <p class="story-dek">Infrastructure automation needs something better than prompt and pray</p>
-        <p class="story-meta"><span class="wire">The Register</span><span class="sep">·</span><span class="region">Europe</span><span class="sep">·</span><time datetime="2026-10-29T19:46:08.000Z">29 Oct · 19:46 UTC</time></p>
-      </li>
-      <li class="story">
         <h3 class="story-title"><a href="https://sdtimes.com/telemetry/new-relic-change-tracking-brings-headless-intelligent-observability-directly-into-github-copilot/" rel="noopener noreferrer">New Relic Change Tracking Brings Headless Intelligent Observability Directly into GitHub Copilot</a></h3>
         <p class="story-dek">SAN FRANCISCO — New Relic has announced a suite of integrations for GitHub Copilot that bring continuous telemetry directly into developers’ workflows from coding through deployment. The integrations help engineers understand coding agent usage as they…</p>
         <p class="story-meta"><span class="wire">SD Times</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-10-29T19:32:12.000Z">29 Oct · 19:32 UTC</time></p>
@@ -234,15 +210,20 @@
         
         <p class="story-meta"><span class="wire">Thoughtworks</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-10-28T00:00:00.000Z">28 Oct · 00:00 UTC</time></p>
       </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://devblogs.microsoft.com/devops/azure-devops-server-rc-26h2-is-now-available/" rel="noopener noreferrer">Azure DevOps Server RC (26H2) Is Now Available</a></h3>
+        <p class="story-dek">Today we’re releasing the release candidate (RC) of the next Azure DevOps Server release. It brings new features previously available in our hosted version, along with security and quality improvements. You can download Azure DevOps Server RC (26H2) today…</p>
+        <p class="story-meta"><span class="wire">Microsoft DevOps</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-10-27T20:31:59.000Z">27 Oct · 20:31 UTC</time></p>
+      </li>
       </ol>
     </section>
     <section class="desk" id="devsecops">
-      <h2 class="desk-title"><span>DevSecOps</span><span class="count">11</span></h2>
+      <h2 class="desk-title"><span>DevSecOps</span><span class="count">12</span></h2>
       <ol class="stories">
       <li class="story">
-        <h3 class="story-title"><a href="https://dev.to/toritic/supabase-multi-tenant-rls-membership-policy-pattern-cck" rel="noopener noreferrer">Supabase multi-tenant RLS: membership policy pattern</a></h3>
-        <p class="story-dek">Multi-tenant row level security in Supabase means every row carries a tenant id and a memberships table says which users belong to which tenant. Three policies read that table: members see their own memberships, and they read and write only documents whose…</p>
-        <p class="story-meta"><span class="wire">DEV Community</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-10-31T17:30:06.000Z">17:30 UTC</time></p>
+        <h3 class="story-title"><a href="https://www.infoq.com/news/2026/10/openbsd-8-released/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" rel="noopener noreferrer">OpenBSD 8.0 Brings Expanded Hardware Support, Security Enhancements, and Virtualization Improvements</a></h3>
+        <p class="story-dek">OpenBSD 8.0 is a substantial upgrade bringing broader hardware compatibility, enhanced security, an expanded virtual address space, and support for modern architectures, including Intel Arc A-Series graphics support, ARM64 hibernation, RISC-V improvements…</p>
+        <p class="story-meta"><span class="wire">InfoQ</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-10-31T17:00:00.000Z">17:00 UTC</time></p>
       </li>
       <li class="story">
         <h3 class="story-title"><a href="https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/" rel="noopener noreferrer">Malware uses LLMs to rank victims by how much they're worth</a></h3>
@@ -290,9 +271,14 @@
         <p class="story-meta"><span class="wire">TechCrunch</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-10-30T21:26:59.000Z">30 Oct · 21:26 UTC</time></p>
       </li>
       <li class="story">
-        <h3 class="story-title"><a href="https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers" rel="noopener noreferrer">Sam Altman says it’s better for RAM to be in a data center than on your desk</a></h3>
-        <p class="story-dek">Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's &quot;terrible&quot; to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also…</p>
-        <p class="story-meta"><span class="wire">The Verge</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-10-30T20:48:43.000Z">30 Oct · 20:48 UTC</time></p>
+        <h3 class="story-title"><a href="https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down" rel="noopener noreferrer">Behind the Scenes of How Operation Blackout Went Down</a></h3>
+        <p class="story-dek">A recent law enforcement operation to dismantle harmful scam centers was a big success. A threat intelligence expert walks us through what happened and why he wants more of the same.</p>
+        <p class="story-meta"><span class="wire">Dark Reading</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-10-30T19:46:08.000Z">30 Oct · 19:46 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.theregister.com/security/2026/10/30/crim-spent-7k-on-ai-services-in-extortion-attacks-then-left-evidence-for-all-to-see/5306754" rel="noopener noreferrer">Crim spent $7K+ on AI services in extortion attacks, then left evidence for all to see</a></h3>
+        <p class="story-dek">n0n-existent security</p>
+        <p class="story-meta"><span class="wire">The Register</span><span class="sep">·</span><span class="region">Europe</span><span class="sep">·</span><time datetime="2026-10-30T19:37:12.000Z">30 Oct · 19:37 UTC</time></p>
       </li>
       </ol>
     </section>
@@ -300,14 +286,9 @@
       <h2 class="desk-title"><span>Etc</span><span class="count">12</span></h2>
       <ol class="stories">
       <li class="story">
-        <h3 class="story-title"><a href="https://dev.to/tripathiayush175/echoes-keeping-memories-alive-with-local-ai-adg" rel="noopener noreferrer">Echoes: Keeping Memories Alive with Local AI</a></h3>
-        <p class="story-dek">What I Built Echoes – A Local AI Memory Keeper What if the voices, stories, and memories of people we love could live on forever? For this week's Ghost in the Machine challenge, I explored the idea of Echoes, a local-first AI-powered memory preservation…</p>
-        <p class="story-meta"><span class="wire">DEV Community</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-10-31T17:30:51.000Z">17:30 UTC</time></p>
-      </li>
-      <li class="story">
-        <h3 class="story-title"><a href="https://dev.to/muhammad_hassanobaid_908/14-2-1b87" rel="noopener noreferrer">𝑫𝒂𝒚 14: 𝑺𝒚𝒔𝒕𝒆𝒎 𝑫𝒆𝒔𝒊𝒈𝒏 — 𝑺𝒕𝒂𝒕𝒆𝒍𝒆𝒔𝒔 𝒔𝒚𝒔𝒕𝒆𝒎𝒔 - 𝑷𝒂𝒓𝒕 2</a></h3>
-        <p class="story-dek">System Design Day — Stateless Systems Series: System Design Day | Level: Beginner → Experienced | Reading time: 7–9 minutes 01. Understand the Problem Context — What is a Stateless System? A stateless system is a system in which a server does not retain…</p>
-        <p class="story-meta"><span class="wire">DEV Community</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-10-31T17:30:15.000Z">17:30 UTC</time></p>
+        <h3 class="story-title"><a href="https://dev.to/joyfunc/whats-actually-inside-a-bambuorca-3mf-24p0" rel="noopener noreferrer">What’s actually inside a Bambu/Orca.3mf</a></h3>
+        <p class="story-dek">A painted model can open in another application with the right shape and the wrong colors. A project with several build plates can turn into one sprawling scene. Sometimes the preview is empty even though the archive contains plenty of mesh data. Those…</p>
+        <p class="story-meta"><span class="wire">DEV Community</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-10-31T18:05:19.000Z">18:05 UTC</time></p>
       </li>
       <li class="story">
         <h3 class="story-title"><a href="https://techcabal.com/2026/10/31/verve-ai-payment/" rel="noopener noreferrer">Verve plans phone tap-to-pay and AI agent payments, CEO says</a></h3>
@@ -359,10 +340,51 @@
         <p class="story-dek">Nigeria’s AI progress will be judged by the local problems it solves, panellists said at “The State of AI in Nigeria&quot;, a session at Moonshot by TechCabal.</p>
         <p class="story-meta"><span class="wire">TechCabal</span><span class="sep">·</span><span class="region">Africa</span><span class="sep">·</span><time datetime="2026-10-31T15:16:55.000Z">15:16 UTC</time></p>
       </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings" rel="noopener noreferrer">Windows 11 tries new shortcuts for Xbox gaming mode and search</a></h3>
+        <p class="story-dek">The latest Windows 11 Insider build adds some powerful new search features and quick settings while in Xbox mode. The Xbox shortcuts let you control things like Bluetooth, WiFi, and power settings without having to exit gaming mode. The search improvements…</p>
+        <p class="story-meta"><span class="wire">The Verge</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-10-31T15:12:19.000Z">15:12 UTC</time></p>
+      </li>
       </ol>
     </section>
   </div>
 </main>
+
+<section class="my-edition" id="my-edition" aria-labelledby="my-edition-title">
+  <div class="my-head">
+    <h2 class="desk-title" id="my-edition-title"><span>Your Sources</span><span class="count" id="my-count">0</span></h2>
+    <p class="my-note">Read from sources of your own, or print a paper from them. Everything here stays on this device.</p>
+  </div>
+
+  <form class="feed-form" id="feed-form" novalidate>
+    <label class="feed-label" for="feed-url">Feed URL</label>
+    <input id="feed-url" name="url" type="url" inputmode="url" autocomplete="off" spellcheck="false" placeholder="https://example.com/feed.xml">
+    <button type="submit" id="feed-add">Add source</button>
+  </form>
+
+  <div class="feed-suggest" id="feed-suggest">
+    <span>Try one:</span>
+    <button type="button" class="suggest" data-feed="https://www.theregister.com/headlines.atom">The Register</button>
+    <button type="button" class="suggest" data-feed="https://github.blog/feed/">GitHub Blog</button>
+    <button type="button" class="suggest" data-feed="https://dev.to/feed">dev.to</button>
+    <button type="button" class="suggest" data-feed="https://hnrss.org/frontpage">Hacker News</button>
+  </div>
+
+  <div class="feed-bar">
+    <p class="feed-status" id="feed-status" role="status" aria-live="polite">No sources yet.</p>
+    <button type="button" class="feed-refresh" id="feed-refresh">Refresh all</button>
+  </div>
+
+  <ul class="feed-rows" id="feed-rows"></ul>
+
+  <label class="paper-switch" id="paper-switch">
+    <input type="checkbox" id="own-paper">
+    <span>Print the whole paper from these sources</span>
+  </label>
+  <p class="my-hint" id="my-hint">Replaces the edition's 40 wires with yours until you switch it off.</p>
+
+  <ol class="my-stories" id="my-stories"></ol>
+</section>
 
 <footer class="colophon">
   <section class="back-issues">
@@ -374,7 +396,7 @@
   <div class="imprint">
     <p class="imprint-mark">The Tech Express</p>
     <p>Compiled automatically from 40 public RSS wires on Saturday, 31 October 2026. Headlines and excerpts belong to their publishers and link back to the original reporting.</p>
-    <p class="small">39/40 wires answered the phone. 3885 items received, 54 went to press.</p>
+    <p class="small">40/40 wires answered the phone. 3985 items received, 54 went to press.</p>
   </div>
 </footer>
 <script type="module" src="app.js"></script>

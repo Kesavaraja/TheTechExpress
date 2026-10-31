@@ -1,7 +1,11 @@
-// Renders an edition as a broadsheet page. Pure template — no I/O here.
+// Renders an edition as a broadsheet page. Pure template — no I/O, no DOM.
+// Shared by the daily build and by the reader's own edition in the browser.
 
 const esc = (value = '') =>
   String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+// Feed URLs are untrusted; only real links become anchors.
+const href = (url) => (/^https?:\/\//i.test(String(url ?? '')) ? esc(url) : '#');
 
 const longDate = (iso) =>
   new Date(`${iso}T12:00:00Z`).toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
@@ -22,7 +26,7 @@ function byline(story, editionDate, className = 'story-meta') {
 function storyItem(story, editionDate) {
   const dek = story.summary && story.summary !== story.title ? `<p class="story-dek">${esc(story.summary)}</p>` : '';
   return `<li class="story">
-        <h3 class="story-title"><a href="${esc(story.url)}" rel="noopener noreferrer">${esc(story.title)}</a></h3>
+        <h3 class="story-title"><a href="${href(story.url)}" rel="noopener noreferrer">${esc(story.title)}</a></h3>
         ${dek}
         ${byline(story, editionDate)}
       </li>`;
@@ -38,29 +42,14 @@ function deskBlock(section, editionDate) {
     </section>`;
 }
 
-const PERSONAL = `<section class="my-edition" id="my-edition" aria-labelledby="my-edition-title">
-    <div class="my-head">
-      <h2 class="desk-title" id="my-edition-title"><span>Your Edition</span><span class="count" id="my-count">0</span></h2>
-      <p class="my-note">Paste any RSS or Atom link to read your own wires beside the paper. Saved in this browser only.</p>
-    </div>
-    <form class="feed-form" id="feed-form" novalidate>
-      <label class="skip" for="feed-url">RSS or Atom feed URL</label>
-      <input id="feed-url" name="url" type="url" inputmode="url" autocomplete="off" spellcheck="false" placeholder="https://example.com/feed.xml">
-      <button type="submit">Add feed</button>
-      <button type="button" id="feed-refresh">Refresh</button>
-    </form>
-    <p class="feed-status" id="feed-status" role="status" aria-live="polite"></p>
-    <ul class="feed-chips" id="feed-chips"></ul>
-    <ol class="my-stories" id="my-stories"></ol>
-  </section>
-
-  `;
-
-export function renderEdition(edition, { base = '', dates = [], number = 1, personal = false } = {}) {
-  const { lead, sections, stats, date, generatedAt } = edition;
-  const editionPage = (d) => (base === '' ? `editions/${d}.html` : `${d}.html`);
+/**
+ * The part of the page that is *the edition*: front page plus desks.
+ * Swapped in place when a reader prints the paper from their own sources.
+ */
+export function renderContent(edition) {
+  const { lead, sections, stats, date } = edition;
   const filled = sections.filter((s) => s.stories.length > 0);
-  const printed = stats.published;
+  const printed = stats.published ?? filled.reduce((n, s) => n + s.stories.length, 0) + (lead ? 1 : 0);
   const desksList = filled
     .map((s) => `<li><a href="#${esc(s.slug)}"><span>${esc(s.name)}</span><span class="n">${s.stories.length}</span></a></li>`)
     .join('\n          ');
@@ -68,11 +57,80 @@ export function renderEdition(edition, { base = '', dates = [], number = 1, pers
   const leadHtml = lead
     ? `<article class="lead">
         <p class="kicker">${esc(lead.desk)} desk</p>
-        <h2 class="lead-title"><a href="${esc(lead.url)}" rel="noopener noreferrer">${esc(lead.title)}</a></h2>
+        <h2 class="lead-title"><a href="${href(lead.url)}" rel="noopener noreferrer">${esc(lead.title)}</a></h2>
         ${lead.summary && lead.summary !== lead.title ? `<p class="standfirst">${esc(lead.summary)}</p>` : ''}
         ${byline(lead, date, 'byline')}
       </article>`
-    : `<article class="lead"><p class="kicker">Wire silence</p><h2 class="lead-title">No dispatches reached the desk today.</h2><p class="standfirst">Every feed failed or came back empty. Tomorrow's edition will retry.</p></article>`;
+    : `<article class="lead"><p class="kicker">Wire silence</p><h2 class="lead-title">No dispatches reached the desk today.</h2><p class="standfirst">These feeds failed or came back empty. Try refreshing, or add another source.</p></article>`;
+
+  return `<div class="front">
+    ${leadHtml}
+    <aside class="ledger" aria-label="In this edition">
+      <h2 class="ledger-title">Inside</h2>
+      <ul class="ledger-list">
+          ${desksList}
+      </ul>
+      <dl class="ledger-stats">
+        <div><dt>Stories</dt><dd>${printed}</dd></div>
+        <div><dt>Wires</dt><dd>${stats.sources}</dd></div>
+        <div><dt>Regions</dt><dd>${stats.regions.length}</dd></div>
+      </dl>
+      <p class="ledger-note">${esc(stats.regions.slice(0, 8).join(' · '))}</p>
+    </aside>
+  </div>
+
+  <div class="desks">
+    ${filled.map((s) => deskBlock(s, date)).join('\n    ')}
+  </div>`;
+}
+
+const SUGGESTIONS = [
+  ['The Register', 'https://www.theregister.com/headlines.atom'],
+  ['GitHub Blog', 'https://github.blog/feed/'],
+  ['dev.to', 'https://dev.to/feed'],
+  ['Hacker News', 'https://hnrss.org/frontpage'],
+];
+
+const PERSONAL = `<section class="my-edition" id="my-edition" aria-labelledby="my-edition-title">
+  <div class="my-head">
+    <h2 class="desk-title" id="my-edition-title"><span>Your Sources</span><span class="count" id="my-count">0</span></h2>
+    <p class="my-note">Read from sources of your own, or print a paper from them. Everything here stays on this device.</p>
+  </div>
+
+  <form class="feed-form" id="feed-form" novalidate>
+    <label class="feed-label" for="feed-url">Feed URL</label>
+    <input id="feed-url" name="url" type="url" inputmode="url" autocomplete="off" spellcheck="false" placeholder="https://example.com/feed.xml">
+    <button type="submit" id="feed-add">Add source</button>
+  </form>
+
+  <div class="feed-suggest" id="feed-suggest">
+    <span>Try one:</span>
+    ${SUGGESTIONS.map(([name, url]) => `<button type="button" class="suggest" data-feed="${esc(url)}">${esc(name)}</button>`).join('\n    ')}
+  </div>
+
+  <div class="feed-bar">
+    <p class="feed-status" id="feed-status" role="status" aria-live="polite">No sources yet.</p>
+    <button type="button" class="feed-refresh" id="feed-refresh">Refresh all</button>
+  </div>
+
+  <ul class="feed-rows" id="feed-rows"></ul>
+
+  <label class="paper-switch" id="paper-switch">
+    <input type="checkbox" id="own-paper">
+    <span>Print the whole paper from these sources</span>
+  </label>
+  <p class="my-hint" id="my-hint">Replaces the edition's 40 wires with yours until you switch it off.</p>
+
+  <ol class="my-stories" id="my-stories"></ol>
+</section>
+
+`;
+
+export function renderEdition(edition, { base = '', dates = [], number = 1, personal = false } = {}) {
+  const { stats, date, generatedAt, sections } = edition;
+  const filled = sections.filter((s) => s.stories.length > 0);
+  const printed = stats.published;
+  const editionPage = (d) => (base === '' ? `editions/${d}.html` : `${d}.html`);
 
   const backIssues = dates
     .slice(0, 30)
@@ -100,34 +158,18 @@ export function renderEdition(edition, { base = '', dates = [], number = 1, pers
   </div>
   <h1 class="wordmark">The Tech Express</h1>
   <p class="tagline">All the code that&rsquo;s fit to ship</p>
-  <nav class="rail" aria-label="Desks">
+  <nav class="rail" aria-label="Desks" id="rail">
     ${filled.map((s) => `<a href="#${esc(s.slug)}">${esc(s.name)}</a>`).join('\n    ')}
+    ${personal ? '<a class="rail-more" href="#my-edition">Your sources</a>' : ''}
   </nav>
 </header>
 
+${personal ? `<p class="invite" id="invite" hidden>Read the paper from sources of your own. <a href="#my-edition">Add a feed &rarr;</a></p>` : ''}
 <main id="main">
-  <div class="front">
-    ${leadHtml}
-    <aside class="ledger" aria-label="In this edition">
-      <h2 class="ledger-title">Inside</h2>
-      <ul class="ledger-list">
-          ${desksList}
-      </ul>
-      <dl class="ledger-stats">
-        <div><dt>Stories</dt><dd>${printed}</dd></div>
-        <div><dt>Wires</dt><dd>${stats.sources}</dd></div>
-        <div><dt>Regions</dt><dd>${stats.regions.length}</dd></div>
-      </dl>
-      <p class="ledger-note">${esc(stats.regions.join(' · '))}</p>
-    </aside>
-  </div>
-
-  ${personal ? PERSONAL : ''}<div class="desks">
-    ${filled.map((s) => deskBlock(s, date)).join('\n    ')}
-  </div>
+  ${renderContent(edition)}
 </main>
 
-<footer class="colophon">
+${personal ? PERSONAL : ''}<footer class="colophon">
   <section class="back-issues">
     <h2>Back Issues</h2>
     <ul>

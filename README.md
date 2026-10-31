@@ -8,9 +8,26 @@ Read the latest edition: open `public/index.html` (or the published GitHub Pages
 
 ## Read your own feeds
 
-The **Your Edition** panel on the front page takes any RSS or Atom link and files it under the
-same desks as the paper. Nothing is uploaded and nothing is committed: the list lives in this
+The **Your Sources** panel at the foot of the page (linked from the masthead as `Your sources`)
+takes any RSS or Atom link. Nothing is uploaded and nothing is committed: the list lives in this
 browser's `localStorage`, and only that reader sees it.
+
+Each source is a row you can manage:
+
+| Action | What it does |
+| --- | --- |
+| **Edit** | Change the URL or give the source a name of your own |
+| **Mute** | Keep it on the list but leave it out of the paper for now |
+| **Retry** | Fetch that one source again after a failure |
+| **Remove** | Forget it |
+
+Rows carry their own state — reading, ok with a story count, or the reason it failed — so a broken
+URL never disappears quietly.
+
+**Print the whole paper from these sources** turns the reader's list into the front page: the lead,
+the desks and the "Inside" ledger are rebuilt by the same `select.mjs` ranking and `render.mjs`
+template the daily build uses, then swapped into `<main>`. The masthead, back issues and colophon
+stay. Switch it off and the daily edition comes back untouched.
 
 - **Direct first** — the feed is fetched straight from the publisher. Only ~11 of 40 public
   wires send the CORS headers that allow this, so…

@@ -78,7 +78,7 @@ export function parseFeed(xml) {
   for (const block of blocks) {
     const title = field(block, 'title');
     const url = linkOf(block);
-    if (!title || !url) continue;
+    if (!title || !/^https?:\/\//i.test(url)) continue;
     const summary = cleanSummary(plain(field(block, 'description', 'summary', 'content:encoded', 'content')));
     stories.push({
       title: title.replace(/\s+/g, ' ').slice(0, 180),
