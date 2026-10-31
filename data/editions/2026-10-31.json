@@ -1,0 +1,537 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T17:12:45.207Z",
+  "stats": {
+    "wires": 40,
+    "wiresOk": 40,
+    "fetched": 3985,
+    "published": 54,
+    "sources": 24,
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Global",
+      "North America"
+    ],
+    "failures": []
+  },
+  "lead": {
+    "title": "OpenBSD 8.0 Brings Expanded Hardware Support, Security Enhancements, and Virtualization Improvements",
+    "url": "https://www.infoq.com/news/2026/10/openbsd-8-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "summary": "OpenBSD 8.0 is a substantial upgrade bringing broader hardware compatibility, enhanced security, an expanded virtual address space, and support for modern architectures, including Intel Arc A-Series graphics support, ARM64 hibernation, RISC-V improvements…",
+    "publishedAt": "2026-10-31T17:00:00.000Z",
+    "source": "InfoQ",
+    "region": "Global",
+    "desk": "DevSecOps"
+  },
+  "sections": [
+    {
+      "name": "Development",
+      "slug": "development",
+      "stories": [
+        {
+          "title": "Five Storage Rules for GPT Summarization Workflow — Combining Batch Processing in Game Reviews",
+          "url": "https://dev.to/lunarbreeze4173085/five-storage-rules-for-gpt-summarization-workflow-combining-batch-processing-in-game-reviews-2pfo",
+          "summary": "Short answer: store the review unit, its source digest, the prompt/schema version, the submission manifest, and the terminal result as separate records. A batch is useful only when a worker can restart without guessing which game-code changes were already…",
+          "publishedAt": "2026-10-31T17:07:13.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Booo!!! Happy Halloween!",
+          "url": "https://dev.to/canro91/booo-happy-halloween-5dh2",
+          "summary": "The Scariest Lines of Code I've Ever Written. Boooo!!! Cesar Aguirre Cesar Aguirre Cesar Aguirre Follow Oct 19 The Scariest Lines of Code I've Ever Written. Boooo!!! # discuss # beginners # sql # sqlserver 4 reactions Add Comment 2 min read",
+          "publishedAt": "2026-10-31T17:06:26.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Git Hooks Not Running for Teammates? Husky vs Lefthook vs pre-commit",
+          "url": "https://dev.to/libme/git-hooks-not-running-for-teammates-husky-vs-lefthook-vs-pre-commit-g6f",
+          "summary": "Git hooks don't run for teammates because.git/hooks/ is never committed, so every clone starts with no hooks at all. Husky, lefthook, and pre-commit all solve this the same way: the hook definitions live in the repo, and an install step points Git at them…",
+          "publishedAt": "2026-10-31T17:04:47.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "From restaurant guides to payments, here’s how TikTok is building a super app",
+          "url": "https://techcrunch.com/2026/10/31/tiktoks-road-to-becoming-a-super-app/",
+          "summary": "TikTok may be working to become the app that people use for most of their digital activities.",
+          "publishedAt": "2026-10-31T15:41:57.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Vic Mensa can’t live without the Voice Memos app",
+          "url": "https://www.theverge.com/entertainment/1023477/vic-mensa-voice-memos-app-interview",
+          "summary": "Vic Mensa is one of those people who has done so many things that it's hard to remember where you were first introduced to him. Was it his debut mixtape Innanetape, which finally hit the major streaming services for the first time in September? Or maybe…",
+          "publishedAt": "2026-10-31T15:00:00.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Developers ask AI which tool to use. Here’s how we track the answer.",
+          "url": "https://thenewstack.io/tracking-ai-tool-recommendations/",
+          "summary": "We asked Claude “Which CMS platforms support MCP integration?” It searched the web and put Webflow in its first group, The post Developers ask AI which tool to use. Here’s how we track the answer. appeared first on The New Stack.",
+          "publishedAt": "2026-10-31T15:00:00.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Spring News Roundup: First Release Candidates of Boot, Framework, Data, Security, Modulith, AI",
+          "url": "https://www.infoq.com/news/2026/10/spring-news-roundup-oct19-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "There was a flurry of activity during the week of October 19th, 2026, highlighting: first release candidates of: Spring Boot, Spring Framework, Spring Data, Spring Cloud, Spring Security, Spring for GraphQL, Spring Session, Spring Integration, Spring…",
+          "publishedAt": "2026-10-31T13:30:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Prospero: A new coding harness for a more civilized age",
+          "url": "https://nullprogram.com/blog/2026/10/31/",
+          "summary": "",
+          "publishedAt": "2026-10-31T11:54:59.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Amazon sends chills through its workforce with mixed message memo about AI use",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/31/amazon-sends-chills-through-its-workforce-with-mixed-message-memo-about-ai-use-corey-quinn/5306804",
+          "summary": "A lot of software engineers feel bleak about the future of the profession",
+          "publishedAt": "2026-10-31T11:00:00.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Development"
+        },
+        {
+          "title": "MeitY unveils DEPA handbook to enable trusted data sharing for AI training",
+          "url": "https://yourstory.com/2026/10/meity-unveils-depa-handbook-to-enable-trusted-data-sharing-for-ai-training",
+          "summary": "The handbook outlines a techno-legal framework that allows institutions to collaborate on data for AI training while keeping control of their data.",
+          "publishedAt": "2026-10-31T10:46:16.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Development"
+        },
+        {
+          "title": "Applebee’s exposed customers’ personal data after leaving database password in app",
+          "url": "https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/",
+          "summary": "EXCLUSIVE: A security researcher discovered the hardcoded credential in Applebee's app, allowing unrestricted access to customers' personal data.",
+          "publishedAt": "2026-10-30T21:48:53.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+          "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+          "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+          "publishedAt": "2026-10-30T21:09:54.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "Development"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "slug": "testing",
+      "stories": [
+        {
+          "title": "Learn Real-World Penetration Testing: Hands-On Ethical Hacking Crash Course",
+          "url": "https://www.freecodecamp.org/news/learn-real-world-penetration-testing-hands-on-ethical-hacking-crash-course/",
+          "summary": "Understanding how malicious actors infiltrate networks is the first step to building resilient infrastructure. To help developers and aspiring security analysts learn the fundamentals of offensive sec",
+          "publishedAt": "2026-10-29T21:00:09.000Z",
+          "source": "freeCodeCamp News",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "Living Document or Dead Weight? Rethinking Test Plans for the Real World",
+          "url": "https://sdtimes.com/software-testing/living-document-or-dead-weight-rethinking-test-plans-for-the-real-world/",
+          "summary": "There’s a familiar moment on a lot of software projects. The test plan gets written, reviewed and approved. Everyone agrees it covers what needs to happen. Then development actually starts. A requirement changes. A feature gets pushed to the next release…",
+          "publishedAt": "2026-10-28T17:33:22.000Z",
+          "source": "SD Times",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "Windows finally gets a built-in internet speed test tool – how to try it",
+          "url": "https://www.zdnet.com/tech/microsoft-is-finally-adding-an-integrated-network-speed-test-tool-to-windows-how-to-try-it/",
+          "summary": "Available to Windows Insiders, the built-in tool measures your upload and download speeds over Ethernet or Wi-Fi.",
+          "publishedAt": "2026-10-27T16:59:12.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "Why Your AI Tests Pass When Your Features Fail with Donovan Brady",
+          "url": "https://testguild.com/podcast/a609-donovan/",
+          "summary": "About This Episode: Why Your AI Tests Pass When Your Features Fail? Donovan Brady of Leapwork shows how to make […]",
+          "publishedAt": "2026-10-27T14:34:17.000Z",
+          "source": "TestGuild",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "VegaLoad, Leapwork Play, and the End of Untrustworthy AI Tests TGNS199",
+          "url": "https://testguild.com/podcast/n199-oct26/",
+          "summary": "About This Episode: Can you actually trust the Playwright tests your AI generates? A new free tool says it can […]",
+          "publishedAt": "2026-10-26T19:28:49.000Z",
+          "source": "TestGuild",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "UK pentester 'killa' claims $2K Bitcoin prize in PHP2Shell capture-the-flag contest",
+          "url": "https://www.theregister.com/security/2026/10/26/uk-pentester-killa-claims-2k-bitcoin-prize-in-php2shell-capture-the-flag-contest/5305429",
+          "summary": "Jaydip Modhwadia beats challenge designed to test real-world exploitability of PHP2Shell in around 3 hours",
+          "publishedAt": "2026-10-26T16:14:00.000Z",
+          "source": "The Register Security",
+          "region": "Europe",
+          "desk": "Testing"
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "slug": "devops",
+      "stories": [
+        {
+          "title": "How Vectar Energy moved from selling solar generators to building carbon-market infrastructure",
+          "url": "https://techcabal.com/2026/10/31/vectar-energy-day-1-1000/",
+          "summary": "Vectar Energy is a climate finance company that began as a maker of solar-powered portable power stations and now brings small solar projects together to access carbon markets they could not enter on their own.",
+          "publishedAt": "2026-10-31T11:12:35.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Kubernetes Confidential Containers Get Fortanix Attestation and Key Management",
+          "url": "https://www.infoq.com/news/2026/10/k8s-confidential-containers/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Fortanix's CoCo integration connects workload attestation to decryption-key release for Kubernetes AI workloads. GPU-verification settings affect protection, while upstream Trustee and Azure Secure Key Release offer alternative routes to attestation-based…",
+          "publishedAt": "2026-10-31T08:18:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "5 Spooky Things About Trusting AI with Reliability",
+          "url": "https://sdtimes.com/ai/5-spooky-things-about-trusting-ai-with-reliability/",
+          "summary": "The scariest engineering story I read this year wasn’t fiction. In August, Reuters reported on internal Meta posts showing what happened as the company pushed its engineers toward AI tooling. Code changes to internal platforms rose 220% year over year…",
+          "publishedAt": "2026-10-30T17:36:27.000Z",
+          "source": "SD Times",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
+          "url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss",
+          "summary": "Two analytics firms have attributed the incident to a North Korean hacking unit called TraderTraitor.",
+          "publishedAt": "2026-10-30T09:33:51.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "AWS installs an AI accelerator every 14 seconds and eyes $1 trillion annual revenue",
+          "url": "https://www.theregister.com/off-prem/2026/10/30/aws-installs-an-ai-accelerator-every-14-seconds-and-eyes-1-trillion-annual-revenue/5306547",
+          "summary": "Before long, we could be writing about a cloud company with a retail side hustle",
+          "publishedAt": "2026-10-30T05:42:24.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "New Relic Change Tracking Brings Headless Intelligent Observability Directly into GitHub Copilot",
+          "url": "https://sdtimes.com/telemetry/new-relic-change-tracking-brings-headless-intelligent-observability-directly-into-github-copilot/",
+          "summary": "SAN FRANCISCO — New Relic has announced a suite of integrations for GitHub Copilot that bring continuous telemetry directly into developers’ workflows from coding through deployment. The integrations help engineers understand coding agent usage as they…",
+          "publishedAt": "2026-10-29T19:32:12.000Z",
+          "source": "SD Times",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Cloud Service Models Explained: IaaS vs PaaS vs SaaS",
+          "url": "https://www.freecodecamp.org/news/cloud-service-models-explained-iaas-vs-paas-vs-saas/",
+          "summary": "You likely use cloud services every day. When you check Gmail, join a Zoom meeting, or message your team on Slack, you use cloud-hosted software. But you don't manage the servers it runs on or maintai",
+          "publishedAt": "2026-10-29T15:39:58.000Z",
+          "source": "freeCodeCamp News",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Digital Science acquires Jenni AI to bring verified research data to AI-powered academic writing",
+          "url": "https://tech.eu/2026/10/29/digital-science-acquires-jenni-ai-to-bring-verified-research-data-to-ai-powered-academic-writing/",
+          "summary": "Digital Science, a UK company providing researchers with data, tools and infrastructure, has acquired Jenni AI, an AI-native platform trusted by more than 8 million students and researchers in 189 co...",
+          "publishedAt": "2026-10-29T11:30:00.000Z",
+          "source": "Tech.eu",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "The French robotics startup promising to deploy industrial humanoids after just 20 minutes of training",
+          "url": "https://sifted.eu/articles/french-robotics-startup-industrial-humanoids-20-minutes-of-training/",
+          "summary": "",
+          "publishedAt": "2026-10-29T05:00:50.000Z",
+          "source": "Sifted",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Win the Agentic Era, Together: Introducing the Docker Navigator Partner Program",
+          "url": "https://www.docker.com/blog/docker-navigator-partner-program/",
+          "summary": "Docker is launching the Navigator Partner Program, with three tiers, co-selling benefits, and a new incentive for every registered AI governance deal.",
+          "publishedAt": "2026-10-28T13:00:00.000Z",
+          "source": "Docker Blog",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "The 14 GB cold-start problem: Rebuilding self-hosted GitHub Actions runners on Azure Kubernetes Service",
+          "url": "https://www.thoughtworks.com/insights/articles/rebuilding-self-hosted-github-actions-runners-on-aks",
+          "summary": "The 14 GB cold-start problem: Rebuilding self-hosted GitHub Actions runners on Azure Kubernetes Service",
+          "publishedAt": "2026-10-28T00:00:00.000Z",
+          "source": "Thoughtworks",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Azure DevOps Server RC (26H2) Is Now Available",
+          "url": "https://devblogs.microsoft.com/devops/azure-devops-server-rc-26h2-is-now-available/",
+          "summary": "Today we’re releasing the release candidate (RC) of the next Azure DevOps Server release. It brings new features previously available in our hosted version, along with security and quality improvements. You can download Azure DevOps Server RC (26H2) today…",
+          "publishedAt": "2026-10-27T20:31:59.000Z",
+          "source": "Microsoft DevOps",
+          "region": "Global",
+          "desk": "DevOps"
+        }
+      ]
+    },
+    {
+      "name": "DevSecOps",
+      "slug": "devsecops",
+      "stories": [
+        {
+          "title": "Malware uses LLMs to rank victims by how much they're worth",
+          "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+          "summary": "",
+          "publishedAt": "2026-10-31T14:29:03.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "[Update] Forensic Audit Finds External Breach Behind €3 Mn Capillary Fraud",
+          "url": "https://inc42.com/buzz/capillary-technologies-subsidiary-hit-by-e3-mn-cyber-fraud/",
+          "summary": "Update | October 31, 19:33 IST A forensic audit by KPMG has found that the €3.04 Mn banking fraud at…",
+          "publishedAt": "2026-10-31T14:03:37.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Stablecoins gain ground in African trade but face hurdles to wider use",
+          "url": "https://techcabal.com/2026/10/31/stablecoins-face-hurdles-to-wider-use/",
+          "summary": "Stablecoins are giving African businesses an alternative way to pay overseas suppliers, but costs, security concerns and fragmented blockchain networks remain obstacles to wider use, industry executives told Moonshot by TechCabal in Lagos.",
+          "publishedAt": "2026-10-31T11:10:42.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+          "url": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+          "summary": "A US court sentenced Syrian hacker Ahmad Umar Agha to 42 months for pro-Assad attacks on media, businesses, and government entities. The post Syrian Hacker Gets Prison Time in US After Over a Decade on the Run appeared first on SecurityWeek.",
+          "publishedAt": "2026-10-31T11:00:00.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "LocalStack for Azure Enters Public Preview with Security Settings Stored but Not Enforced",
+          "url": "https://www.infoq.com/news/2026/10/localstack-azure-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "LocalStack has opened its Azure emulator to a free public preview, running Azure services locally and accepting existing ARM, Bicep, and Terraform without rewrites. Its own documentation reports partial operation coverage per service and a consistent…",
+          "publishedAt": "2026-10-31T07:57:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "AU SFB Probes Potential Data Leak, Vijay Sales’ Admin Access Allegedly Listed For $25K",
+          "url": "https://inc42.com/buzz/au-sfb-probes-potential-data-leak-vijay-sales-admin-access-allegedly-listed-for-25k/",
+          "summary": "AU Small Finance Bank (AU SFB) is investigating a potential data leak involving a Salesforce-hosted software platform holding limited information…",
+          "publishedAt": "2026-10-31T06:05:23.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Tell HN: Scribd Breached",
+          "url": "https://news.ycombinator.com/item?id=50312756",
+          "summary": "Not seeing anything posted about this anywhere, received on Monday, 26th of Oct 2026: Subject: Notice of Security Incident This notice is being sent on behalf of Scribd, Inc., the parent company of Scribd, Slideshare, Everand, and Fable, by Epiq, Scribd…",
+          "publishedAt": "2026-10-31T02:46:36.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Binance hit with $6.3B breach; Delhivery reports net profit of Rs 41 Cr in Q2",
+          "url": "https://yourstory.com/2026/10/binance-hit-with-63b-breach-delhivery-reports-net-profit-of-rs-41-cr-in-q2",
+          "summary": "Dear Reader, Atomberg Technologies is gearing up for its public outing. The smart appliance disruptor has officially secured SEBI's green light to float its initial public offering, blending a Rs 450 crore fresh issue with an offer for sale of over 76.5…",
+          "publishedAt": "2026-10-31T02:00:00.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Last-minute Halloween costumes for tech nerds",
+          "url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
+          "summary": "No Halloween costume? Just be a deceptively cute AI agent icon, a PHP vulnerability, or sleepy time Bryan Johnson.",
+          "publishedAt": "2026-10-30T21:26:59.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Behind the Scenes of How Operation Blackout Went Down",
+          "url": "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down",
+          "summary": "A recent law enforcement operation to dismantle harmful scam centers was a big success. A threat intelligence expert walks us through what happened and why he wants more of the same.",
+          "publishedAt": "2026-10-30T19:46:08.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Crim spent $7K+ on AI services in extortion attacks, then left evidence for all to see",
+          "url": "https://www.theregister.com/security/2026/10/30/crim-spent-7k-on-ai-services-in-extortion-attacks-then-left-evidence-for-all-to-see/5306754",
+          "summary": "n0n-existent security",
+          "publishedAt": "2026-10-30T19:37:12.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevSecOps"
+        }
+      ]
+    },
+    {
+      "name": "Etc",
+      "slug": "etc",
+      "stories": [
+        {
+          "title": "GistMyMail: An Open-Weight Gemma Agent for Lazy Morning Email Triage with Zero-Hallucination Proof",
+          "url": "https://dev.to/secuvortex/gistmymail-an-open-weight-gemma-agent-for-lazy-morning-email-triage-with-zero-hallucination-proof-129a",
+          "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge: Week 3 📬 GistMyMail: The Ultimate Lazy Morning Email Triage Powered by Google Gemma & Deterministic Proof October 20 was International Sloth Day, and sloths have it figured out: move at…",
+          "publishedAt": "2026-10-31T17:07:57.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "IPO-Bound StockGro’s FY26 Profit Jumps 3.3X YoY To ₹113 Cr, Revenue Doubles",
+          "url": "https://inc42.com/buzz/ipo-bound-stockgros-fy26-profit-jumps-3-3x-yoy-to-%e2%82%b9113-cr-revenue-doubles/",
+          "summary": "StockGro-parent AssetGro Fintech Ltd net profit for the fiscal year FY26 jumped threefold while its operating revenue doubled year-on-year. The…",
+          "publishedAt": "2026-10-31T16:20:30.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "The context problem: How Docusign built agents that understand the business behind contracts",
+          "url": "https://thenewstack.io/docusign-contract-ai-agents/",
+          "summary": "Ask a general-purpose language model to summarize a contract, and it will probably do a reasonable job. Ask it to The post The context problem: How Docusign built agents that understand the business behind contracts appeared first on The New Stack.",
+          "publishedAt": "2026-10-31T16:13:35.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "OpenAI reportedly lowers funding target for new round",
+          "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+          "summary": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+          "publishedAt": "2026-10-31T16:12:55.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "I built an AI Tamagotchi before Meta could",
+          "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+          "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have…",
+          "publishedAt": "2026-10-31T16:05:00.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Five years after the fork, OpenSearch is slowly stepping out of AWS’s shadow",
+          "url": "https://thenewstack.io/opensearch-foundation-aws-elasticsearch/",
+          "summary": "OpenSearch has come a long way since Amazon Web Services first announced the project back in January 2021, in response The post Five years after the fork, OpenSearch is slowly stepping out of AWS’s shadow appeared first on The New Stack.",
+          "publishedAt": "2026-10-31T16:02:34.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Google's AI satellite sends a very expensive haiku to Earth",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/31/googles-ai-satellite-sends-a-very-expensive-haiku-to-earth/5306818",
+          "summary": "Experimental orbital datacenter prototype puts its TPU to work producing poetry",
+          "publishedAt": "2026-10-31T15:36:14.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Nigeria’s AI ambitions depend on building for local realities",
+          "url": "https://techcabal.com/2026/10/31/nigerias-ai-progress/",
+          "summary": "Nigeria’s AI progress will be judged by the local problems it solves, panellists said at “The State of AI in Nigeria\", a session at Moonshot by TechCabal.",
+          "publishedAt": "2026-10-31T15:16:55.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "Etc"
+        },
+        {
+          "title": "Windows 11 tries new shortcuts for Xbox gaming mode and search",
+          "url": "https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings",
+          "summary": "The latest Windows 11 Insider build adds some powerful new search features and quick settings while in Xbox mode. The Xbox shortcuts let you control things like Bluetooth, WiFi, and power settings without having to exit gaming mode. The search improvements…",
+          "publishedAt": "2026-10-31T15:12:19.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Best Buy is bundling a $100 gift card with touchscreen MacBook Pro preorders",
+          "url": "https://www.theverge.com/gadgets/1023302/best-buy-gift-card-macbook-pro-proled-xdr-preorder-deal-sale",
+          "summary": "While the new touch-enabled MacBook Pro with the PROLED XDR screen is available for preorder across a few major retailers, Best Buy is sweetening the deal by including a $100 gift card. The gift card will be automatically added to your cart when you…",
+          "publishedAt": "2026-10-31T15:00:00.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "New-Age Tech Stocks Gain This Week Led By Ather & Zetwerk, CarTrade Sinks 22%",
+          "url": "https://inc42.com/buzz/new-age-tech-stocks-gain-this-week-led-by-ather-zetwerk-cartrade-sinks-22/",
+          "summary": "New-age tech stocks largely advanced this week, with quarterly earnings driving sharp moves in individual counters. Of the 69 stocks…",
+          "publishedAt": "2026-10-31T14:56:00.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Amazon CEO predicts 6 to 8 AI models will be ‘good enough’ for almost everything",
+          "url": "https://thenewstack.io/jassy-bedrock-multimodel-prediction/",
+          "summary": "Amazon CEO Andy Jassy expects the frontier AI model race to produce several competitive models rather than a single winner, The post Amazon CEO predicts 6 to 8 AI models will be ‘good enough’ for almost everything appeared first on The New Stack.",
+          "publishedAt": "2026-10-31T14:30:00.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Etc"
+        }
+      ]
+    }
+  ]
+}

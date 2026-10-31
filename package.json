@@ -1,0 +1,14 @@
+{
+  "name": "the-tech-express",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Tech Express — a daily newspaper of technology news, filed under Development, Testing, DevOps and DevSecOps.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node src/build.mjs",
+    "test": "node test/core.test.mjs"
+  }
+}
