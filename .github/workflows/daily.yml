@@ -35,8 +35,9 @@ jobs:
 
       - name: Commit the edition
         run: |
-          git config user.name "The Tech Express"
-          git config user.email "actions@users.noreply.github.com"
+          # Commit as the repo owner so the nightly editions are attributed, not shown as a grey identicon.
+          git config user.name "Kesavaraja Krishnan"
+          git config user.email "12864243+Kesavaraja@users.noreply.github.com"
           git add data public
           git diff --cached --quiet || git commit -m "edition: $(date -u +%F)"
           git push
