@@ -1,12 +1,12 @@
 {
   "date": "2026-11-03",
-  "generatedAt": "2026-11-03T05:47:07.655Z",
+  "generatedAt": "2026-11-03T08:32:46.872Z",
   "stats": {
     "wires": 40,
     "wiresOk": 39,
     "fetched": 3966,
-    "published": 55,
-    "sources": 21,
+    "published": 56,
+    "sources": 22,
     "regions": [
       "Africa",
       "Asia",
@@ -19,13 +19,13 @@
     ]
   },
   "lead": {
-    "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
-    "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
-    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering…",
-    "publishedAt": "2026-11-03T04:18:47.000Z",
-    "source": "MIT Technology Review",
-    "region": "North America",
-    "desk": "Testing"
+    "title": "Forget retraining - AI can now tweak another AI's weights",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/03/forget-retraining-ai-can-now-tweak-another-ais-weights/5307105",
+    "summary": "'Weight-Space Programming' fiddles with nerd knobs to boost benchmark scores",
+    "publishedAt": "2026-11-03T08:15:00.000Z",
+    "source": "The Register",
+    "region": "Europe",
+    "desk": "Development"
   },
   "sections": [
     {
@@ -33,12 +33,30 @@
       "slug": "development",
       "stories": [
         {
-          "title": "The text/plain part is not optional",
-          "url": "https://dev.to/volanea/the-textplain-part-is-not-optional-1h38",
-          "summary": "Plenty of sending pipelines generate HTML only, let the library add an empty text part, and move on. It works until a recipient client renders the empty part, or a filter scores the message as suspicious for having no readable alternative. What the text…",
-          "publishedAt": "2026-11-03T05:39:18.000Z",
+          "title": "AI Coding Agent 2026 เลือกตัวไหนดี? เงิน 20 ดอลลาร์ซื้ออะไรได้จากสี่ค่าย",
+          "url": "https://dev.to/sarantoon/ai-coding-agent-2026-eluuektawaihndii-engin-20-dllaarchuueaairaidcchaaksiikhaay-d10",
+          "summary": "โดย Nokka (นก-กา) | 1 พ.ย. 2026 คำถามที่ผมเจอบ่อยในวงสนทนาช่วงนี้คือ Claude Code, Codex, Cursor หรือ Copilot ตัวไหนดีที่สุด ผมคิดว่าคำถามนี้ตั้งผิดตั้งแต่ต้น เพราะทั้งสี่ตัวไม่ได้ขายสิ่งเดียวกัน บางตัวขายโมเดล บางตัวขายหน้าจอ…",
+          "publishedAt": "2026-11-03T08:30:54.000Z",
           "source": "DEV Community",
           "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "CSS anchor positioning: tooltips that flip",
+          "url": "https://dev.to/richicodes/css-anchor-positioning-tooltips-that-flip-3ld6",
+          "summary": "This note has an interactive demo. Try it in the original A tooltip that sticks to its button and jumps to the other side when it hits an edge used to mean a positioning library. Now it takes a handful of CSS lines, and the core of it has been Baseline…",
+          "publishedAt": "2026-11-03T08:30:42.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Google launches Dreambeans app in India",
+          "url": "https://yourstory.com/2026/11/google-launches-dreambeans-india-today",
+          "summary": "Dreambeans is an experimental AI-powered app that creates personalised daily story collections.",
+          "publishedAt": "2026-11-03T07:31:42.000Z",
+          "source": "YourStory",
+          "region": "Asia",
           "desk": "Development"
         },
         {
@@ -112,33 +130,6 @@
           "source": "Hacker News",
           "region": "Global",
           "desk": "Development"
-        },
-        {
-          "title": "Firefox’s new Mini Window is every multitasker’s dream – Chrome can’t do this",
-          "url": "https://www.zdnet.com/home-and-office/firefox-mini-window-browser-feature/",
-          "summary": "The open-source browser’s newest feature lets you pop out a page – or part of a page – into its own mini window. See why this is incredibly cool.",
-          "publishedAt": "2026-11-02T17:15:17.000Z",
-          "source": "ZDNET",
-          "region": "North America",
-          "desk": "Development"
-        },
-        {
-          "title": "Bitmovin (YC S15) Is Hiring Technical Graduates in Denver (Engineering/CS Focus)",
-          "url": "https://bitmovin.com/careers/8660599002/",
-          "summary": "",
-          "publishedAt": "2026-11-02T17:00:41.000Z",
-          "source": "Hacker News",
-          "region": "Global",
-          "desk": "Development"
-        },
-        {
-          "title": "Google and Meta Open-source TorchTPU to Bring Native PyTorch Support to Google TPUs",
-          "url": "https://www.infoq.com/news/2026/11/torchtpu-native-pythorch-tpu/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "summary": "TorchTPU is an open-source project developed by Google in collaboration with Meta that provides a native PyTorch backend for Google TPUs. It enables PyTorch workloads to execute on TPU hardware with minimal code modifications, supporting eager and compiled…",
-          "publishedAt": "2026-11-02T17:00:00.000Z",
-          "source": "InfoQ",
-          "region": "Global",
-          "desk": "Development"
         }
       ]
     },
@@ -146,6 +137,24 @@
       "name": "Testing",
       "slug": "testing",
       "stories": [
+        {
+          "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+          "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+          "summary": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations.",
+          "publishedAt": "2026-11-03T07:20:00.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+          "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+          "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering…",
+          "publishedAt": "2026-11-03T04:18:47.000Z",
+          "source": "MIT Technology Review",
+          "region": "North America",
+          "desk": "Testing"
+        },
         {
           "title": "Hinge tests a cheaper plan as users become more fed up paying for dating apps",
           "url": "https://techcrunch.com/2026/11/02/hinge-tests-a-cheaper-plan-as-users-become-more-fed-up-paying-for-dating-apps/",
@@ -234,19 +243,19 @@
           "desk": "DevOps"
         },
         {
-          "title": "ESDS Q2 Profit Zooms 41% YoY To ₹31.1 Cr, Revenue Up 48%",
-          "url": "https://inc42.com/buzz/esds-q2-profit-zooms-41-yoy-to-%e2%82%b931-1-cr-revenue-up-48/",
-          "summary": "Enterprise cloud and AI company ESDS Software Solution reported a 40.7% year-on-year (YoY) increase in consolidated net profit to ₹31.1…",
-          "publishedAt": "2026-11-02T12:14:04.000Z",
-          "source": "Inc42",
-          "region": "Asia",
-          "desk": "DevOps"
-        },
-        {
           "title": "Clinics On Cloud raises $12.5M to expand microclinic network",
           "url": "https://yourstory.com/2026/11/clinics-on-cloud-raises-125m-expand-microclinic-network",
           "summary": "The Pune-based firm will use the funding to strengthen its artificial intelligence capabilities, expand research and development, and grow its connected microclinic network.",
           "publishedAt": "2026-11-02T12:00:29.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "DevOps"
+        },
+        {
+          "title": "NTT DATA explores expansion in Mangaluru and Udupi, meets Priyank Kharge",
+          "url": "https://yourstory.com/2026/11/ntt-data-explores-expansion-in-mangaluru-and-udupi-meets-priyank-kharge",
+          "summary": "NTT DATA is exploring expansion in Mangaluru and Udupi, with IT Minister Priyank Kharge discussing opportunities in data centres, cloud services, digital infrastructure, biotechnology and startup collaboration.",
+          "publishedAt": "2026-11-02T11:35:39.000Z",
           "source": "YourStory",
           "region": "Asia",
           "desk": "DevOps"
@@ -297,21 +306,21 @@
           "desk": "DevOps"
         },
         {
-          "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
-          "url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss",
-          "summary": "Two analytics firms have attributed the incident to a North Korean hacking unit called TraderTraitor.",
-          "publishedAt": "2026-10-30T09:33:51.000Z",
-          "source": "BBC Technology",
-          "region": "Europe",
-          "desk": "DevOps"
-        },
-        {
           "title": "New Relic Change Tracking Brings Headless Intelligent Observability Directly into GitHub Copilot",
           "url": "https://sdtimes.com/telemetry/new-relic-change-tracking-brings-headless-intelligent-observability-directly-into-github-copilot/",
           "summary": "SAN FRANCISCO — New Relic has announced a suite of integrations for GitHub Copilot that bring continuous telemetry directly into developers’ workflows from coding through deployment. The integrations help engineers understand coding agent usage as they…",
           "publishedAt": "2026-10-29T19:32:12.000Z",
           "source": "SD Times",
           "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Cloud Service Models Explained: IaaS vs PaaS vs SaaS",
+          "url": "https://www.freecodecamp.org/news/cloud-service-models-explained-iaas-vs-paas-vs-saas/",
+          "summary": "You likely use cloud services every day. When you check Gmail, join a Zoom meeting, or message your team on Slack, you use cloud-hosted software. But you don't manage the servers it runs on or maintai",
+          "publishedAt": "2026-10-29T15:39:58.000Z",
+          "source": "freeCodeCamp News",
+          "region": "Global",
           "desk": "DevOps"
         }
       ]
@@ -333,7 +342,7 @@
           "title": "North Korea denies being behind record $6.3bn Binance hack",
           "url": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo?at_medium=RSS&at_campaign=rss",
           "summary": "US government agencies and cyber analysts have blamed Pyongyang for the record-breaking heist.",
-          "publishedAt": "2026-11-03T01:23:03.000Z",
+          "publishedAt": "2026-11-03T06:22:29.000Z",
           "source": "BBC Technology",
           "region": "Europe",
           "desk": "DevSecOps"
@@ -393,15 +402,6 @@
           "desk": "DevSecOps"
         },
         {
-          "title": "Germany says lawmakers’ iPhones may have been hacked with spyware",
-          "url": "https://techcrunch.com/2026/11/02/germany-says-lawmakers-iphones-may-have-been-hacked-with-spyware/",
-          "summary": "German lawmakers and a filmmaker are among the people who received notifications from Apple warning that their phones may have been hacked.",
-          "publishedAt": "2026-11-02T19:45:54.000Z",
-          "source": "TechCrunch",
-          "region": "North America",
-          "desk": "DevSecOps"
-        },
-        {
           "title": "Cops bust botnet of 1.3M infected Android TV boxes",
           "url": "https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/5307045",
           "summary": "Videostrong accused of shipping devices with a backdoor baked in",
@@ -427,6 +427,15 @@
           "source": "ZDNET",
           "region": "North America",
           "desk": "DevSecOps"
+        },
+        {
+          "title": "Security risk assessments include repository protection status",
+          "url": "https://github.blog/changelog/2026-11-02-security-risk-assessments-include-repository-protection-status",
+          "summary": "The GitHub code security risk assessment and secret risk assessment now show whether findings are in protected or unprotected repositories, helping you identify where to extend your security coverage. Organization… The post Security risk assessments…",
+          "publishedAt": "2026-11-02T15:47:21.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "DevSecOps"
         }
       ]
     },
@@ -435,110 +444,110 @@
       "slug": "etc",
       "stories": [
         {
-          "title": "Taiga title matches need project ownership context",
-          "url": "https://dev.to/johnettagaweraks/taiga-title-matches-need-project-ownership-context-35ga",
-          "summary": "Taiga title matches need project ownership context Taiga is a project and issue management application. A public instance may contain backlogs, user stories, sprint plans, repository links, and discussions about an unreleased product. The service's value…",
-          "publishedAt": "2026-11-03T05:40:24.000Z",
+          "title": "5 Tasks After Launching a Website to Get Visitors",
+          "url": "https://dev.to/israr-kundi/5-tasks-after-launching-a-website-to-get-visitors-dba",
+          "summary": "Here are the 5 tasks after launching a website to get visitors: set up Google Search Console, submit a sitemap, add an llms.txt file, add Open Graph tags, and set up Bing Webmaster Tools. None of them is hard. You can finish all five in one sitting. The…",
+          "publishedAt": "2026-11-03T08:31:00.000Z",
           "source": "DEV Community",
           "region": "Global",
           "desk": "Etc"
         },
         {
-          "title": "How to Write a Cover Letter That Gets Read (2026)",
-          "url": "https://dev.to/alldonetools/how-to-write-a-cover-letter-that-gets-read-2026-2d0m",
-          "summary": "Nobody reads generic cover letters. Here is the 3-paragraph formula, with real examples, that makes hiring managers keep reading. Disclosure: I am the maker of All Done, a free collection of online tools at https://all-done.xyz. This post is a cross-post…",
-          "publishedAt": "2026-11-03T05:39:57.000Z",
+          "title": "EUDI wallets with OpenID4VP in action (1/2): on the same device",
+          "url": "https://dev.to/jleleu/eudi-wallets-with-openid4vp-in-action-12-on-the-same-device-37kf",
+          "summary": "The European Digital Identity wallet is coming, and applications accepting it will need to talk to it. This is the first of two posts showing how to do that with pac4j. Here, the wallet runs on the same phone as the browser; in the second post, it runs on…",
+          "publishedAt": "2026-11-03T08:30:28.000Z",
           "source": "DEV Community",
           "region": "Global",
           "desk": "Etc"
         },
         {
-          "title": "Attachments you should refuse before they reach the parser",
-          "url": "https://dev.to/volanea/attachments-you-should-refuse-before-they-reach-the-parser-2oe7",
-          "summary": "Accepting any attachment is a decision to run a parser on bytes a stranger chose. The cheap defences are at the boundary: extension and content-type allowlists, size caps, and a hard limit on the number of parts. Trust the decoded bytes, not the header The…",
-          "publishedAt": "2026-11-03T05:39:43.000Z",
-          "source": "DEV Community",
-          "region": "Global",
+          "title": "Circle taps ex-Yellow Card executive Gillian Darko to lead Africa expansion",
+          "url": "https://techcabal.com/2026/11/03/circle-appoints-gillian-darko/",
+          "summary": "The move comes as Circle seeks to expand stablecoins’ use in cross-border payments, remittances, and business transactions across emerging economies.",
+          "publishedAt": "2026-11-03T08:29:59.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
           "desk": "Etc"
         },
         {
-          "title": "PowerUp Money raises $10M to expand AI-led wealth management",
-          "url": "https://yourstory.com/2026/11/powerup-money-raises-10m-expand-ai-led-wealth-management-india",
-          "summary": "The Bengaluru-based company plans to use a significant portion of the capital to develop its AI-powered wealth management platform and expand its managed advisory business.",
-          "publishedAt": "2026-11-03T05:34:32.000Z",
-          "source": "YourStory",
-          "region": "Asia",
-          "desk": "Etc"
-        },
-        {
-          "title": "The Second Life Of Festive Gift Boxes",
-          "url": "https://inc42.com/features/the-second-life-of-festive-gift-boxes/",
-          "summary": "Some gifts can be more than just gifts; they can be keepsakes. At least that’s what brands are hoping for…",
-          "publishedAt": "2026-11-03T05:30:45.000Z",
-          "source": "Inc42",
-          "region": "Asia",
-          "desk": "Etc"
-        },
-        {
-          "title": "India shines in Apple’s record September quarter",
-          "url": "https://yourstory.com/2026/11/india-shines-in-apples-record-september-quarter",
-          "summary": "Apple achieved an all-time revenue record in India during CEO John Ternus’s debut quarter, as global revenue reached $114.48 billion despite unprecedented memory cost inflation.",
-          "publishedAt": "2026-11-03T05:28:34.000Z",
-          "source": "YourStory",
-          "region": "Asia",
-          "desk": "Etc"
-        },
-        {
-          "title": "Architect creates open-source replacement for VM migration tool VMware has hidden",
-          "url": "https://www.theregister.com/virtualization/2026/11/03/architect-creates-open-source-replacement-for-vm-migration-tool-vmware-has-hidden/5307124",
-          "summary": "OpenVDDK is reportedly already being used in production, at scale",
-          "publishedAt": "2026-11-03T04:45:59.000Z",
-          "source": "The Register",
-          "region": "Europe",
-          "desk": "Etc"
-        },
-        {
-          "title": "Exclusive: Nuuk To Raise ₹100 Cr From Wipro Consumer Care Ventures, RPSG At ₹500 Cr Valuation",
-          "url": "https://inc42.com/buzz/nuuk-to-raise-%e2%82%b9100-cr-from-wipro-consumer-care-ventures-rpsg-at-%e2%82%b9500-cr-valuation/",
-          "summary": "D2C home appliances brand Nuuk is raising around ₹100 Cr (about $10.5 Mn) in a funding round led by Wipro…",
-          "publishedAt": "2026-11-03T04:39:16.000Z",
-          "source": "Inc42",
-          "region": "Asia",
-          "desk": "Etc"
-        },
-        {
-          "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
-          "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
-          "summary": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
-          "publishedAt": "2026-11-03T03:30:00.000Z",
+          "title": "Yvonne Bajela is bringing $17M in fresh capital to Europe’s startup scene",
+          "url": "https://techcrunch.com/2026/11/03/yvonne-bajela-is-bringing-17m-in-fresh-capital-to-europes-startup-scene/",
+          "summary": "Evertrue Capital announces $17M debut fund to back early stage AI and fintech.",
+          "publishedAt": "2026-11-03T08:01:00.000Z",
           "source": "TechCrunch",
           "region": "North America",
           "desk": "Etc"
         },
         {
-          "title": "Toyota shows off SoC that stores model weights and its OS on integrated memory",
-          "url": "https://www.theregister.com/systems/2026/11/03/toyota-shows-off-soc-that-stores-model-weights-and-its-os-on-integrated-memory/5307117",
-          "summary": "Accessing external memory puts the brakes on physical AI, so carmaker has found an economical and speedy shortcut",
-          "publishedAt": "2026-11-03T03:25:32.000Z",
+          "title": "Over 100 European Stores Hit as Supermarket Fridge Attacks Return",
+          "url": "https://www.securityweek.com/over-100-european-stores-hit-as-supermarket-fridge-attacks-resume/",
+          "summary": "Attackers again tampered with internet-exposed refrigeration controllers, this time at stores in Belgium, Sweden, Ireland and beyond. The post Over 100 European Stores Hit as Supermarket Fridge Attacks Return appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-03T07:43:24.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "VC funding into Indian startups plunges 66% in October",
+          "url": "https://yourstory.com/2026/11/vc-funding-into-indian-startups-plunges-66-in-october",
+          "summary": "The steep drop in venture capital funding into Indian startups has been primarily due to near absence of large value deals in the month of October.",
+          "publishedAt": "2026-11-03T07:13:23.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Apple unsure when more foldable iPhones will be available after selling out",
+          "url": "https://www.bbc.co.uk/news/articles/c6n8dn457ypko?at_medium=RSS&at_campaign=rss",
+          "summary": "Apple’s foldable iPhone Duo was a hit with people willing to spend $2,000 on a new mobile.",
+          "publishedAt": "2026-11-03T07:03:03.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Apple Logs Record India Revenue, Mac And Services Hit New Highs",
+          "url": "https://inc42.com/buzz/apple-logs-record-india-revenue-mac-and-services-hit-new/",
+          "summary": "Apple reported an all-time revenue record in India in Q4 FY26, with its iPhone business setting a September quarter revenue…",
+          "publishedAt": "2026-11-03T06:54:59.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Open models can do 90 percent of agentic work at a twentieth of the cost of a frontier LLM: Gartner",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/03/open-models-can-do-90-percent-of-agentic-work-at-a-twentieth-of-the-cost-of-a-frontier-llm-gartner/5307132",
+          "summary": "Models are commodities, harnesses are the valuable part",
+          "publishedAt": "2026-11-03T06:19:50.000Z",
           "source": "The Register",
           "region": "Europe",
           "desk": "Etc"
         },
         {
-          "title": "Show HN: I built a little browser game to practice Vim commands",
-          "url": "https://hjkl.duy.run",
-          "summary": "I made hjkl to help myself remember Vim commands. It’s a little browser game you can play when you want to unwind and get a bit of Vim practice in. There are still a lot of commands I want to add, but I hope someone finds it useful in the meantime:)",
-          "publishedAt": "2026-11-03T03:10:04.000Z",
-          "source": "Hacker News",
-          "region": "Global",
+          "title": "👨🏿‍🚀TechCabal Daily – AGOA, going, gone",
+          "url": "https://techcabal.com/2026/11/03/%f0%9f%91%a8%f0%9f%8f%bf%f0%9f%9a%80techcabal-daily-agoa-going-gone/",
+          "summary": "In today's edition: SA, Rwanda lose AGOA privileges || BII bullish on Africa's frontier markets || Netflix: South African titles remain relevant || Global firms have a deadline to comply with Kenyan tax rules",
+          "publishedAt": "2026-11-03T06:12:38.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
           "desk": "Etc"
         },
         {
-          "title": "Why AI-powered intelligence is every winning brand’s secret sauce",
-          "url": "https://yourstory.com/2026/11/why-ai-powered-intelligence-is-every-winning-brands-secret-sauce",
-          "summary": "As AI reshapes ecommerce, brands are shifting focus from customer acquisition to intelligent fulfilment, inventory management and customer experience. The article explores how AI and agentic systems enable smarter, faster operational decisions.",
-          "publishedAt": "2026-11-03T02:50:00.000Z",
-          "source": "YourStory",
+          "title": "India Becomes ChatGPT’s Largest Market Globally, User Base Doubles Since January",
+          "url": "https://inc42.com/buzz/india-becomes-chatgpts-largest-market-globally-user-base-doubles-since-january/",
+          "summary": "India has become ChatGPT’s largest market globally by weekly active users, with its local user base doubling since January 2026,…",
+          "publishedAt": "2026-11-03T06:09:53.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "LenDenClub Parent Vartis Platforms Launches UdhaarSaathi For Small Business Loans",
+          "url": "https://inc42.com/buzz/lendenclub-parent-vartis-platforms-launches-udhaarsaathi-for-small-business-loans/",
+          "summary": "Peer-to-peer (P2P) lending startup LenDenClub’s parent Vartis Platforms has launched UdhaarSaathi, a digital loan marketplace for small businesses, expanding its…",
+          "publishedAt": "2026-11-03T05:50:52.000Z",
+          "source": "Inc42",
           "region": "Asia",
           "desk": "Etc"
         }
