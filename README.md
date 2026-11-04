@@ -70,13 +70,19 @@ npm run preview   # serve public/ on http://127.0.0.1:4180
 ```
 
 Then open `public/index.html` — or use `npm run preview`, which is required for the
-"Your Edition" panel because browsers refuse to load ES modules from `file://`.
+"Your Sources" panel because browsers refuse to load ES modules from `file://`.
 
 ## Publish it daily
 
-`.github/workflows/daily.yml` runs at **01:40 UTC (07:10 IST)** every day, and on demand:
+`.github/workflows/daily.yml` builds the paper once a day, and on demand:
 
 - runs the self-checks, builds the edition, commits `data/` + `public/`, deploys `public/` to GitHub Pages.
+
+It wakes **hourly** and skips unless it is past 01:40 UTC and today's edition is still missing.
+That is deliberate: GitHub's scheduler can start a scheduled run minutes — often hours — late, so a
+single `40 1 * * *` trigger sometimes produced the paper mid-afternoon. Hourly wake-ups with a cheap
+guard make the first run after 01:40 the one that prints it. Public repos get unlimited Actions
+minutes, so the extra wake-ups cost nothing.
 
 One-time setup on GitHub: **Settings → Pages → Source: GitHub Actions**. The next scheduled
 or manual run (Actions → Daily Edition → Run workflow) publishes the paper.

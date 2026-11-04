@@ -2,11 +2,15 @@ name: Daily Edition
 
 on:
   schedule:
-    - cron: '40 1 * * *' # every day at 06:10 IST (00:40 UTC)
+    # Hourly, on purpose. GitHub's scheduler can start a run minutes — sometimes hours —
+    # late, so pinning the paper to exactly 01:40 UTC risks it arriving mid-afternoon.
+    # Waking every hour and skipping cheaply means the first run after 01:40 prints it.
+    # The repo is public, so these extra wake-ups cost nothing.
+    - cron: '7 * * * *'
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['src/**', 'assets/**', 'test/**', 'package.json']
+    paths: ['src/**', 'assets/**', 'test/**', 'package.json', '.github/workflows/**']
 
 permissions:
   contents: write
@@ -22,25 +26,56 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # rebasing before the push needs real history
+
+      - name: Is it time, and is today's edition already out?
+        id: edition
+        run: |
+          today=$(date -u +%F)
+          hm=$((10#$(date -u +%H%M)))
+          if [ -f "data/editions/$today.json" ]; then exists=true; else exists=false; fi
+          # A morning paper: never print at 00:07 UTC just because the runner woke up.
+          if [ "$hm" -ge 140 ]; then ready=true; else ready=false; fi
+          echo "exists=$exists" >> "$GITHUB_OUTPUT"
+          echo "ready=$ready" >> "$GITHUB_OUTPUT"
+          echo "today=$today (${hm} UTC) edition_present=$exists ready=$ready"
 
       - uses: actions/setup-node@v4
+        if: github.event_name != 'schedule' || (steps.edition.outputs.exists == 'false' && steps.edition.outputs.ready == 'true')
         with:
           node-version: 22
 
       - name: Self-check
+        if: github.event_name != 'schedule' || (steps.edition.outputs.exists == 'false' && steps.edition.outputs.ready == 'true')
         run: npm test
 
       - name: Collect the wires and print the edition
+        if: github.event_name != 'schedule' || (steps.edition.outputs.exists == 'false' && steps.edition.outputs.ready == 'true')
         run: npm run build
 
       - name: Commit the edition
+        if: github.event_name != 'schedule' || (steps.edition.outputs.exists == 'false' && steps.edition.outputs.ready == 'true')
         run: |
           # Commit as the repo owner so the nightly editions are attributed, not shown as a grey identicon.
           git config user.name "Kesavaraja Krishnan"
           git config user.email "12864243+Kesavaraja@users.noreply.github.com"
           git add data public
-          git diff --cached --quiet || git commit -m "edition: $(date -u +%F)"
-          git push
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git commit -m "edition: $(date -u +%F)"
+          # Someone may have pushed while we were building; land on top of them instead of failing.
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "could not push the edition after 3 attempts" >&2
+          exit 1
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
