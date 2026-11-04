@@ -1,12 +1,12 @@
 {
   "date": "2026-11-04",
-  "generatedAt": "2026-11-04T07:59:07.986Z",
+  "generatedAt": "2026-11-04T17:27:15.573Z",
   "stats": {
     "wires": 40,
     "wiresOk": 39,
-    "fetched": 3968,
+    "fetched": 3970,
     "published": 56,
-    "sources": 23,
+    "sources": 22,
     "regions": [
       "Africa",
       "Asia",
@@ -19,13 +19,13 @@
     ]
   },
   "lead": {
-    "title": "AMD on track to overtake Intel as biggest x86 outfit",
-    "url": "https://www.theregister.com/systems/2026/11/04/amd-on-track-to-overtake-intel-as-biggest-x86-outfit/5307448",
-    "summary": "CEO says supply chain can cope with surging datacenter and AI demand",
-    "publishedAt": "2026-11-04T04:24:06.000Z",
-    "source": "The Register",
-    "region": "Europe",
-    "desk": "DevSecOps"
+    "title": "God of War Laufey delayed until May",
+    "url": "https://www.theverge.com/games/1026448/sony-playstation-god-of-war-laufey-delay",
+    "summary": "God of War Laufey's release date is being delayed to May 20th, 2027, developer Santa Monica Studio announced today. It was previously set to launch on PS5 on February 16th. Here is Santa Monica Studio's full message about the delay: Since the reveal of God…",
+    "publishedAt": "2026-11-04T17:10:31.000Z",
+    "source": "The Verge",
+    "region": "North America",
+    "desk": "Development"
   },
   "sections": [
     {
@@ -33,111 +33,102 @@
       "slug": "development",
       "stories": [
         {
-          "title": "Beyond Asking Questions: How Prompt Engineering Makes AI More Useful",
-          "url": "https://dev.to/vishal_042006/beyond-asking-questions-how-prompt-engineering-makes-ai-more-useful-1ha1",
-          "summary": "Artificial Intelligence has changed the way we approach everyday tasks, from writing and research to software development and problem-solving. Tools like ChatGPT and Google Gemini can generate impressive results, but the quality of those results often…",
-          "publishedAt": "2026-11-04T07:50:55.000Z",
+          "title": "Managing Automation Debt in AI Agents and Workflows",
+          "url": "https://dev.to/procwire/managing-automation-debt-in-ai-agents-and-workflows-3hmj",
+          "summary": "The rise of AI agents and no-code workflows has transformed how we build software. In an afternoon, you can spin up a multi-step agent that queries a database, calls an external API, and drafts a report. It feels like pure leverage. But this speed comes…",
+          "publishedAt": "2026-11-04T17:16:33.000Z",
           "source": "DEV Community",
           "region": "Global",
           "desk": "Development"
         },
         {
-          "title": "Build-time content linting: transpiling data files in memory and grading strictness by entry date",
-          "url": "https://dev.to/picraftai/build-time-content-linting-transpiling-data-files-in-memory-and-grading-strictness-by-entry-date-3co7",
-          "summary": "MakeInfographics.ai keeps its infographic gallery entries, fill-in templates, blog posts and Pinterest pin metadata in TypeScript arrays: 270 records at the time of writing. The editing rules for them live in a checklist in the repository, and the header…",
-          "publishedAt": "2026-11-04T07:50:41.000Z",
+          "title": "I got tired of my portfolio going stale, so I made one that rebuilds itself from GitHub",
+          "url": "https://dev.to/louey_lahwel_413f2b7772ce/i-got-tired-of-my-portfolio-going-stale-so-i-made-one-that-rebuilds-itself-from-github-mch",
+          "summary": "Every developer portfolio I have made was accurate for about a month. After that it showed what I had built last spring, and the projects I was actually proud of lived only on GitHub. I'm a data engineer, and data that has to be copied by hand into a…",
+          "publishedAt": "2026-11-04T17:16:15.000Z",
           "source": "DEV Community",
           "region": "Global",
           "desk": "Development"
         },
         {
-          "title": "Safe Download Filenames in JavaScript: Turning Whatever the User Uploaded into bruh-trim.mp3",
-          "url": "https://dev.to/abidali671/safe-download-filenames-in-javascript-turning-whatever-the-user-uploaded-into-bruh-trimmp3-4ikj",
-          "summary": "Every browser tool that edits a file ends the same way: it hands a new file back. And the moment it does, it has to answer a question nobody thinks about while building the editing part: what should the new file be called? On Meme Tap, the tools I build…",
-          "publishedAt": "2026-11-04T07:50:23.000Z",
+          "title": "The 11 CMS SEO Features That Should Be Standard",
+          "url": "https://dev.to/alifar/the-11-cms-seo-features-that-should-be-standard-4ek",
+          "summary": "A content management system can make routine SEO work either manageable or unnecessarily dependent on developers. A recent Search Engine Journal checklist by Sally Mills argues that many platforms still omit baseline controls that affect how pages are…",
+          "publishedAt": "2026-11-04T17:15:30.000Z",
           "source": "DEV Community",
           "region": "Global",
           "desk": "Development"
         },
         {
-          "title": "Airtel Nigeria puts its network map in subscribers’ hands",
-          "url": "https://techcabal.com/2026/11/04/airtel-nigerias-app-to-show-nearby-sites/",
-          "summary": "The feature, called Airtel Open Network, also allows customers to report poor network experiences directly to the telecom operator.",
-          "publishedAt": "2026-11-04T06:08:00.000Z",
-          "source": "TechCabal",
-          "region": "Africa",
+          "title": "demo week 2",
+          "url": "https://dev.to/minhlong2605/demo-week-2-47e1",
+          "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle What I Built Demo Code How I Built It Why Does Open Innovation Matter? My Agent Session My First User Prize Categories",
+          "publishedAt": "2026-11-04T17:15:13.000Z",
+          "source": "DEV Community",
+          "region": "Global",
           "desk": "Development"
         },
         {
-          "title": "All the news about The Legend of Zelda: Ocarina of Time remake",
-          "url": "https://www.theverge.com/games/1026112/the-legend-of-zelda-ocarina-of-time-remake-nintendo-switch-2-news",
-          "summary": "Ahead of the release of Rockstar Games’ Grand Theft Auto VI, Nintendo is launching its own fall juggernaut: a Switch 2 remake of The Legend of Zelda: Ocarina of Time. The remake, which is releasing 28 years after the launch of the original version on…",
-          "publishedAt": "2026-11-04T01:02:53.000Z",
+          "title": "Can Netflix’s new AI tool stop your TV-streaming doomscrolling? How to try it",
+          "url": "https://www.zdnet.com/home-and-office/netflix-ai-tool-discover-feature/",
+          "summary": "Netflix is adding a new Discover feature, which recommends tailored streaming selections. Here’s how it works.",
+          "publishedAt": "2026-11-04T17:05:06.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Rian Johnson explains why he had to build his own iPhone camera app",
+          "url": "https://www.theverge.com/tech/1025659/rian-johnson-chromagraph-camera-interview",
+          "summary": "Rian Johnson is an analog photography devotee. The director of Knives Out and The Last Jedi can often be spotted on set with a Leica M6 at his side, documenting production on film. But sometimes, it's still easier to reach for a phone. So Johnson started…",
+          "publishedAt": "2026-11-04T16:10:05.000Z",
           "source": "The Verge",
           "region": "North America",
           "desk": "Development"
         },
         {
-          "title": "BYOK and enterprise custom models in the Copilot usage API",
-          "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
-          "summary": "The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of… The post BYOK and enterprise custom models in the Copilot usage API appeared…",
-          "publishedAt": "2026-11-04T00:32:19.000Z",
-          "source": "GitHub Changelog",
+          "title": "Inkitt Builds a One-Shot PR Creator with Resumable Agent Orchestration",
+          "url": "https://www.infoq.com/news/2026/11/inkitt-one-shot-pr-creator-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Inkitt built a one-shot pull request creator that automates small, low-risk code changes from task intake to draft PR creation. Its event-driven orchestrator persists workflow state, coordinates short-lived coding agent containers, bounds retries, and…",
+          "publishedAt": "2026-11-04T14:36:00.000Z",
+          "source": "InfoQ",
           "region": "Global",
           "desk": "Development"
         },
         {
-          "title": "A developer opened Postman. Then two AI coding agents changed without their permission.",
-          "url": "https://thenewstack.io/postman-plugin-coding-agents/",
-          "summary": "A developer says Postman’s desktop app installed plugins into Claude Code and OpenAI Codex without their permission. The app also The post A developer opened Postman. Then two AI coding agents changed without their permission. appeared first on The New Stack.",
-          "publishedAt": "2026-11-03T23:17:04.000Z",
-          "source": "The New Stack",
-          "region": "North America",
-          "desk": "Development"
-        },
-        {
-          "title": "Sonos adds new Presets and prepares for the 27voice AI beta",
-          "url": "https://www.theverge.com/tech/1025903/sonos-presets-27voice-ai-early-access",
-          "summary": "Sonos is rolling out a big app update that includes new Presets and early access to its AI voice assistant. You can create a preset to play music at a specific volume in a certain room, which will appear directly on the homescreen so you can quickly start…",
-          "publishedAt": "2026-11-03T22:20:50.000Z",
-          "source": "The Verge",
-          "region": "North America",
-          "desk": "Development"
-        },
-        {
-          "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
-          "url": "https://github.com/finic-ai/kairos",
-          "summary": "Hey HN, Ayan here from Finic. We’re launching Kairos, an open source alternative to Sift, Sardine, and other real-time fraud decisioning platforms. Kairos addresses two of the biggest problems facing traditional decisioning tools: a lack of labeled data to…",
-          "publishedAt": "2026-11-03T21:16:48.000Z",
-          "source": "Hacker News",
-          "region": "Global",
-          "desk": "Development"
-        },
-        {
-          "title": "Devart Updates Its Entire Delphi Line",
-          "url": "https://sdtimes.com/devart-updates-its-entire-delphi-line/",
-          "summary": "Devart has updated its entire Delphi product line with support for RAD Studio 13 Florence Release 2, Microsoft SQL Server 2025, and MySQL 9.7. The update, dubbed 2026.2, also introduces client-side encryption for sensitive SQL Server data. Overall, the…",
-          "publishedAt": "2026-11-03T20:44:42.000Z",
-          "source": "SD Times",
-          "region": "North America",
-          "desk": "Development"
-        },
-        {
-          "title": "British fintech Revolut slashes AI coding costs 10x by cutting out Claude and going self-hosted",
-          "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345",
-          "summary": "Turns out cheap tokens get engineers doing things that save time, like debugging and tackling Jira tickets",
-          "publishedAt": "2026-11-03T20:07:29.000Z",
-          "source": "The Register",
-          "region": "Europe",
-          "desk": "Development"
-        },
-        {
-          "title": "Introduction to Programming in ATS",
-          "url": "https://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/book1.html",
+          "title": "Mocktastic: A Meshtastic Node on Arduino",
+          "url": "https://github.com/Vapmuz/Mocktastic",
           "summary": "",
-          "publishedAt": "2026-11-03T19:25:18.000Z",
+          "publishedAt": "2026-11-04T13:51:52.000Z",
           "source": "Hacker News",
           "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Presentation: Panel: Who Builds the Frontend Now? (And What Breaks When They Do)",
+          "url": "https://www.infoq.com/presentations/panel-ai-frontend-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "The panelists explain how AI tools and vibe coding reshape frontend and mobile engineering. They share insights on evolving junior developer roles, managing AI-generated code review fatigue, designing systems for autonomous agents, enforcing architectural…",
+          "publishedAt": "2026-11-04T11:00:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "ForgeCode’s Tushar Mathur wants software development to run like a factory, not a project",
+          "url": "https://yourstory.com/2026/11/forgecodes-tushar-mathur-wants-software-development-to-run-like-a-factory-not-a-project",
+          "summary": "At TechSparks 2026, ForgeCode Founder and CEO Tushar Mathur demonstrated how AI agents can manage software development from specification to deployment, while engineers focus on supervision and decision-making.",
+          "publishedAt": "2026-11-04T10:05:15.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Development"
+        },
+        {
+          "title": "DSCI Floats Framework To Determine Liability For Harm Caused By AI Agents",
+          "url": "https://inc42.com/buzz/dsci-floats-framework-to-determine-liability-for-harm-caused-by-ai-agents/",
+          "summary": "The Data Security Council of India (DSCI) has proposed an industry framework to determine liability when autonomous AI agents cause…",
+          "publishedAt": "2026-11-04T04:14:57.000Z",
+          "source": "Inc42",
+          "region": "Asia",
           "desk": "Development"
         }
       ]
@@ -146,6 +137,15 @@
       "name": "Testing",
       "slug": "testing",
       "stories": [
+        {
+          "title": "How to Conduct Root Cause Analysis After a Failed Testing Sprint",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/how-to-conduct-root-cause-analysis-after-a-failed-testing-sprint/",
+          "summary": "Your QA team runs final regression testing two days before release. Half the critical tests fail: checkout is broken, staging data checks are inconsistent, and a late feature branch introduced regressions. The release is at risk. The instinct may be to…",
+          "publishedAt": "2026-11-04T15:54:46.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
         {
           "title": "Reddit tests ads in search results as traffic declines and growth concerns mount",
           "url": "https://techcrunch.com/2026/11/03/reddit-tests-ads-in-search-results-as-traffic-declines-and-growth-concerns-mount/",
@@ -162,15 +162,6 @@
           "publishedAt": "2026-11-03T17:29:33.000Z",
           "source": "Software Testing Magazine",
           "region": "Europe",
-          "desk": "Testing"
-        },
-        {
-          "title": "Vitest 5: Prioritises Performance with a Shared Vite Server, Trace View, and Stricter Test Defaults",
-          "url": "https://www.infoq.com/news/2026/11/vite-5-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "summary": "Vitest 5.0 focuses on speed, with reported gains of 8 to 25 percent in most setups and up to 53 percent in VM pools. It adds a vitest doctor command, Browser Mode Trace View, and vi.when. Defaults are stricter: clearMocks is true and unawaited async…",
-          "publishedAt": "2026-11-03T16:47:00.000Z",
-          "source": "InfoQ",
-          "region": "Global",
           "desk": "Testing"
         },
         {
@@ -225,21 +216,66 @@
       "slug": "devops",
       "stories": [
         {
-          "title": "How We Built a Real-Time Edge-AI Theft Detection System on a Raspberry Pi 4 + Telegram Alerts",
-          "url": "https://dev.to/devdestiny/how-we-built-a-real-time-edge-ai-theft-detection-system-on-a-raspberry-pi-4-telegram-alerts-20p1",
-          "summary": "Traditional surveillance systems often rely on heavy cloud infrastructure or manual monitoring, which introduces latency and high bandwidth costs. For retail environments, security needs to be instantaneous, local, and cost-effective. To solve this, we…",
-          "publishedAt": "2026-11-04T07:51:36.000Z",
-          "source": "DEV Community",
+          "title": "AFIS 2026: African banks must rethink digital transformation, says CR2 CEO",
+          "url": "https://techcabal.com/2026/11/04/african-banks-need-digital-transformation/",
+          "summary": "African banks must move beyond launching digital apps and invest in stronger banking infrastructure to cut costs, improve customer experience, and compete with fintechs, says Fintan Byrne, CEO of CR2, at AFIS 2026 in Luanda.",
+          "publishedAt": "2026-11-04T16:49:20.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Helium Health secures $2.5 million Google grant to tackle maternal deaths with AI",
+          "url": "https://techcabal.com/2026/11/04/helium-health-2-5-million-google-grant/",
+          "summary": "Helium Health has received $2.5 million grant from Google.org to deploy AI tools that help identify pregnancy risks and improve maternal healthcare delivery in Nigeria.",
+          "publishedAt": "2026-11-04T16:37:30.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Your.NET parallel loop can become serial in a one-CPU container",
+          "url": "https://stackoverflow.blog/2026/11/04/your-net-parallel-loop-can-become-serial-in-a-one-cpu-container/",
+          "summary": "CPU-based defaults can leave an I/O-heavy loop processing one record at a time. Raising the limit helps, but each downstream service still needs a concurrency budget it can handle.",
+          "publishedAt": "2026-11-04T16:34:13.000Z",
+          "source": "Stack Overflow Blog",
           "region": "Global",
           "desk": "DevOps"
         },
         {
-          "title": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist",
-          "url": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained",
-          "summary": "The largest crypto theft to date was pulled off by combining some well-known hacking techniques over the course of a few months, according to Binance. A postmortem from the company says the process started in June with one developer downloading a tampered…",
-          "publishedAt": "2026-11-03T22:04:02.000Z",
-          "source": "The Verge",
-          "region": "North America",
+          "title": "Guerrilla Bike Lanes: San Francisco Makes Illicit Infrastructure Permanent (2016)",
+          "url": "https://99percentinvisible.org/article/guerrilla-bike-lanes-san-francisco-makes-illicit-infrastructure-permanent/",
+          "summary": "",
+          "publishedAt": "2026-11-04T15:01:44.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Pine Labs Partners With Stripe To Unify Online, In-Store Payments In Singapore",
+          "url": "https://inc42.com/buzz/pine-labs-partners-with-stripe-to-unify-online-in-store-payments-in-singapore/",
+          "summary": "Listed fintech major Pine Labs has partnered with global payments infrastructure provider Stripe to launch a solution that allows eligible…",
+          "publishedAt": "2026-11-04T10:07:41.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Article: The App Is Just the Tip: What It Takes to Build Mobile Infrastructure at Scale",
+          "url": "https://www.infoq.com/articles/mobile-app-infrastructure-at-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "What determines whether your app feels fast, ships often, and stays stable at scale is not the app itself. It is what sits behind it. This article is about that layer: what it does, why it exists, what it takes to design it correctly, and what happens when…",
+          "publishedAt": "2026-11-04T09:00:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Priyank Kharge asks EV companies to shape Karnataka's growth roadmap",
+          "url": "https://yourstory.com/2026/11/priyank-kharge-asks-ev-companies-to-shape-karnatakas-growth-roadmap",
+          "summary": "Ahead of the Bengaluru Tech Summit 2026, Priyank Kharge held talks with leaders in the EV industry on specialised skilling, testing infrastructure, and manufacturing support.",
+          "publishedAt": "2026-11-04T07:52:18.000Z",
+          "source": "YourStory",
+          "region": "Asia",
           "desk": "DevOps"
         },
         {
@@ -261,21 +297,12 @@
           "desk": "DevOps"
         },
         {
-          "title": "Safaricom’s cleaner energy push struggles to keep pace with growth",
-          "url": "https://techcabal.com/2026/11/03/safaricom-power-supply-next-growth-phase/",
-          "summary": "Safaricom is combining solar installations with lithium-ion batteries, more efficient power systems, additional grid connections and remote monitoring.",
-          "publishedAt": "2026-11-03T14:31:12.000Z",
-          "source": "TechCabal",
-          "region": "Africa",
-          "desk": "DevOps"
-        },
-        {
-          "title": "Africa’s crypto market has proved there is demand. Now it needs infrastructure",
-          "url": "https://techcabal.com/2026/11/03/africa-crypto-stronger-infrastructure/",
-          "summary": "Africa’s crypto adoption has surged, moving rapidly from speculation to real-world utility like cross-border payments. As demand grows, the continent's next challenge is establishing the reliable financial infrastructure needed to support it at scale.",
-          "publishedAt": "2026-11-03T11:58:56.000Z",
-          "source": "TechCabal",
-          "region": "Africa",
+          "title": "Broadcom denied names of cloud providers backing VMware merger challenge",
+          "url": "https://www.theregister.com/virtualization/2026/11/03/broadcom-denied-names-of-cloud-providers-backing-vmware-merger-challenge/5307178",
+          "summary": "EU court's confidentiality ruling clears a procedural hurdle, not the merits of CISPE's case against Commission approval",
+          "publishedAt": "2026-11-03T11:00:00.000Z",
+          "source": "The Register",
+          "region": "Europe",
           "desk": "DevOps"
         },
         {
@@ -295,42 +322,6 @@
           "source": "GitHub Changelog",
           "region": "Global",
           "desk": "DevOps"
-        },
-        {
-          "title": "The Ecosystem is the Answer: Docker, the Blueprint Alliance, and the Importance of Collaboration in the Agentic Era",
-          "url": "https://www.docker.com/blog/docker-blueprint-alliance-agent-baseline/",
-          "summary": "Docker is a founding member of the Blueprint Alliance, a 12-company reference architecture for securing AI agents, built around four governance questions.",
-          "publishedAt": "2026-11-02T14:00:00.000Z",
-          "source": "Docker Blog",
-          "region": "Global",
-          "desk": "DevOps"
-        },
-        {
-          "title": "Shopify Overexposed Scans GKE Ingresses and Cloud Run for Exposure",
-          "url": "https://www.infoq.com/news/2026/11/shopify-kubernetes-ingresses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "summary": "Shopify has introduced Overexposed. This internal scanner locates Kubernetes Ingresses on GKE and Cloud Run services. It checks for those that are accessible from the internet without authentication. By Claudio Masolo",
-          "publishedAt": "2026-11-02T09:00:00.000Z",
-          "source": "InfoQ",
-          "region": "Global",
-          "desk": "DevOps"
-        },
-        {
-          "title": "Binance users withdraw $3.6bn after largest-ever crypto hack",
-          "url": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss",
-          "summary": "The exchange froze transactions following the incident which has been linked to a North Korean group.",
-          "publishedAt": "2026-11-02T07:42:33.000Z",
-          "source": "BBC Technology",
-          "region": "Europe",
-          "desk": "DevOps"
-        },
-        {
-          "title": "AWS Capacity Largely Sold out through 2027, with On-Demand Headroom Reserved",
-          "url": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "summary": "Amazon CEO Andy Jassy says AWS’s large committed cloud capacity is largely sold out through 2027, with part of 2028 already allocated, while the company continues to reserve headroom for On Demand, EC2 and Bedrock. Practitioners discussing the remarks…",
-          "publishedAt": "2026-11-01T08:03:00.000Z",
-          "source": "InfoQ",
-          "region": "Global",
-          "desk": "DevOps"
         }
       ]
     },
@@ -339,101 +330,110 @@
       "slug": "devsecops",
       "stories": [
         {
-          "title": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
-          "summary": "An unknown operator appears to have exfiltrated SQL Server backups from the Philippine Overseas Employment Administration in under a half hour.",
-          "publishedAt": "2026-11-04T02:00:00.000Z",
+          "title": "Anker’s new window-mounted camera monitors the outside of your home from within it",
+          "url": "https://www.theverge.com/tech/1026360/anker-eufy-window-camera-e10-indoors-security-ai-color-night-vision",
+          "summary": "Anker announced a new indoor security camera that's designed to watch your yard, driveway, or front porch through a window, instead of monitoring what's inside your home. The new Anker Eufy Window Camera E10 takes a similar approach to the Wyze Window Cam…",
+          "publishedAt": "2026-11-04T16:36:21.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Google, Partners Disrupts 1.3 Million-Device-Strong XCPE Botnet",
+          "url": "https://www.darkreading.com/endpoint-security/google-13-million-device-strong-xcpe-botnet",
+          "summary": "Google alleges that Android device manufacturer Videostrong ran the operation, which infected set-top boxes and IoT devices with a backdoor to create infrastructure for criminal activity.",
+          "publishedAt": "2026-11-04T16:24:08.000Z",
           "source": "Dark Reading",
           "region": "North America",
           "desk": "DevSecOps"
         },
         {
-          "title": "Fresh European Fridge Attacks Put Cold-Chain Security in Focus",
-          "url": "https://www.darkreading.com/ics-ot-security/fresh-european-fridge-attacks-cold-chain-security",
-          "summary": "Beyond food storage, the same combination of Internet connectivity, remote access, and inadequate security practices can put temperature-controlled infrastructure across other critical sectors at risk.",
-          "publishedAt": "2026-11-03T22:16:49.000Z",
-          "source": "Dark Reading",
+          "title": "Letting users trust their own MCP clients, without opening a phishing hole",
+          "url": "https://streamvessel.com/blog/mcp-trusted-redirect-uris",
+          "summary": "",
+          "publishedAt": "2026-11-04T15:30:57.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Debian apt security update (man-in-the-middle)",
+          "url": "https://lists.debian.org/debian-security-announce/2026/msg00526.html?pow_referer=",
+          "summary": "",
+          "publishedAt": "2026-11-04T15:04:14.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Sysdig Adds Runtime Security and Governance for AI Agents",
+          "url": "https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/",
+          "summary": "Sysdig’s platform uses runtime visibility to track AI agent actions and block risky behavior before it reaches production systems. The post Sysdig Adds Runtime Security and Governance for AI Agents appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-04T14:34:44.000Z",
+          "source": "SecurityWeek",
           "region": "North America",
           "desk": "DevSecOps"
         },
         {
-          "title": "North Korean fake job interview led to $6.3B Binance heist",
-          "url": "https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398",
-          "summary": "'It was not a single isolated breach or a simple phishing incident,' exchange says",
-          "publishedAt": "2026-11-03T22:04:45.000Z",
+          "title": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root",
+          "url": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
+          "summary": "An authentication bypass and a command injection flaw can be chained for root access on Barracuda’s Email Security Gateway appliances. The post Barracuda ESG Authentication Bypass Flaw Opens Path to Root appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-04T14:24:54.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Agentic Data Security Firm Sentra Raises $150 Million",
+          "url": "https://www.securityweek.com/agentic-data-security-firm-sentra-raises-150-million/",
+          "summary": "The company will invest in agentic data security capabilities and expand its go-to-market organization. The post Agentic Data Security Firm Sentra Raises $150 Million appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-04T14:09:20.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Cyberattack on French plasma stores is enough to make your blood boil",
+          "url": "https://www.theregister.com/security/2026/11/04/cyberattack-on-french-plasma-stores-is-enough-to-make-your-blood-boil/5307519",
+          "summary": "Attackers reportedly set cold-room controls to 110°C, but safeguards prevented stock losses",
+          "publishedAt": "2026-11-04T11:56:54.000Z",
           "source": "The Register",
           "region": "Europe",
           "desk": "DevSecOps"
         },
         {
-          "title": "Researchers warned of North Korean hacking tactics years before record $6.3B Binance heist",
-          "url": "https://techcrunch.com/2026/11/03/researchers-warned-of-north-korean-hacking-tactics-years-before-record-6-3b-binance-heist/",
-          "summary": "Cybersecurity experts have long warned of the persistent and patient threat from North Korea's long-running hacks. The world's largest crypto exchange was still caught off-guard.",
-          "publishedAt": "2026-11-03T19:45:48.000Z",
-          "source": "TechCrunch",
+          "title": "Malicious cPGuard Updates Served in OpsShield Supply Chain Attack",
+          "url": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/",
+          "summary": "Using compromised credentials, the attackers accessed OpsShield’s update servers and poisoned multiple cPGuard versions. The post Malicious cPGuard Updates Served in OpsShield Supply Chain Attack appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-04T10:54:48.000Z",
+          "source": "SecurityWeek",
           "region": "North America",
           "desk": "DevSecOps"
         },
         {
-          "title": "CrowdStrike to shell out nearly $500M for 2 AI security startups as the market for securing agents takes off",
-          "url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/",
-          "summary": "CrowdStrike said it will buy Fiddler AI, which makes AI agent observability software, and Dreadnode, which helps companies automate AI security testing.",
-          "publishedAt": "2026-11-03T17:56:52.000Z",
-          "source": "TechCrunch",
-          "region": "North America",
+          "title": "Docker Urges Isolation and Governance for AI Agent Security",
+          "url": "https://www.infoq.com/news/2026/11/docker-ai-agent-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Docker has published a guide to five security risks that arise when AI agents are allowed to browse, run code and call tools with limited human oversight. They argue that the autonomy that makes agents useful also makes conventional application security…",
+          "publishedAt": "2026-11-04T09:00:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
           "desk": "DevSecOps"
         },
         {
-          "title": "Google dismantles botnet secretly running on 1.3 million Android TV boxes",
-          "url": "https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/",
-          "summary": "Google has cut ties with the company behind the botnet campaign.",
-          "publishedAt": "2026-11-03T17:08:21.000Z",
-          "source": "Ars Technica",
-          "region": "North America",
+          "title": "AMD on track to overtake Intel as biggest x86 outfit",
+          "url": "https://www.theregister.com/systems/2026/11/04/amd-on-track-to-overtake-intel-as-biggest-x86-outfit/5307448",
+          "summary": "CEO says supply chain can cope with surging datacenter and AI demand",
+          "publishedAt": "2026-11-04T04:24:06.000Z",
+          "source": "The Register",
+          "region": "Europe",
           "desk": "DevSecOps"
         },
         {
-          "title": "UEFI bootkit infected fully patched Windows machines. Is Microsoft to blame?",
-          "url": "https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame/",
-          "summary": "UEFI bootkit BlackX exploits Microsoft's lack of clarity around Secure Boot protections.",
-          "publishedAt": "2026-11-03T16:03:13.000Z",
-          "source": "Ars Technica",
-          "region": "North America",
-          "desk": "DevSecOps"
-        },
-        {
-          "title": "9 Cyber Awareness Tips That Actually Match Today's Maze of Threats",
-          "url": "https://www.darkreading.com/cyber-risk/9-cyber-awareness-tips-todays-maze-threats",
-          "summary": "Practical guidance on safer search, stronger login security, better executive protection, and other habits that help reduce enterprise risk.",
-          "publishedAt": "2026-11-03T15:38:20.000Z",
+          "title": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
+          "summary": "An unknown operator appears to have exfiltrated SQL Server backups from the Philippine Overseas Employment Administration in under a half hour.",
+          "publishedAt": "2026-11-04T02:00:00.000Z",
           "source": "Dark Reading",
-          "region": "North America",
-          "desk": "DevSecOps"
-        },
-        {
-          "title": "Frontline Education Data Breach Impacts Over 1.3 Million",
-          "url": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
-          "summary": "Hackers exploited a flaw in third-party software and stole the personal information of school district staff and students. The post Frontline Education Data Breach Impacts Over 1.3 Million appeared first on SecurityWeek.",
-          "publishedAt": "2026-11-03T14:32:38.000Z",
-          "source": "SecurityWeek",
-          "region": "North America",
-          "desk": "DevSecOps"
-        },
-        {
-          "title": "This clever banking scam keeps phishing by faking its own demise – how it works",
-          "url": "https://www.zdnet.com/tech/bank-phishing-scam-kela/",
-          "summary": "You won’t see the ‘suspended’ sign because it’s not meant for you.",
-          "publishedAt": "2026-11-03T14:15:36.000Z",
-          "source": "ZDNET",
-          "region": "North America",
-          "desk": "DevSecOps"
-        },
-        {
-          "title": "CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode",
-          "url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/",
-          "summary": "The acquisitions will add AI agent observability and automated AI security testing capabilities to the CrowdStrike Falcon platform. The post CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode appeared first on SecurityWeek.",
-          "publishedAt": "2026-11-03T14:12:44.000Z",
-          "source": "SecurityWeek",
           "region": "North America",
           "desk": "DevSecOps"
         }
@@ -444,111 +444,111 @@
       "slug": "etc",
       "stories": [
         {
-          "title": "Every fibre cut sets Nigeria’s digital economy back, but who pays?",
-          "url": "https://techcabal.com/2026/11/04/fibre-cuts-and-nigerias-digital-economy/",
-          "summary": "These disruptions expose significant enforcement gaps, raising a central question of who ultimately pays when statutory protections fail to stop contractors and vandals from repeatedly severing the nation’s digital backbone",
-          "publishedAt": "2026-11-04T07:23:42.000Z",
+          "title": "The 20-year experiment: Why IFC thinks African agritech has finally come of age",
+          "url": "https://techcabal.com/2026/11/04/ifc-to-back-15-african-agritechs/",
+          "summary": "The IFC is backing 15 African agritech companies and connecting them to nearly 200 commercial banks to expand financing for smallholder farmers, reduce lending risks, and boost agricultural productivity.",
+          "publishedAt": "2026-11-04T17:19:01.000Z",
           "source": "TechCabal",
           "region": "Africa",
           "desk": "Etc"
         },
         {
-          "title": "Peppermint Robotics bags Rs 100 Cr in pre-Series B funding round",
-          "url": "https://yourstory.com/2026/11/peppermint-robotics-bags-rs-100-cr-in-pre-series-b-funding-round",
-          "summary": "The startup, which makes autonomous cleaning robots, is backed by pi Ventures and Crane Venture Partners.",
-          "publishedAt": "2026-11-04T07:00:39.000Z",
-          "source": "YourStory",
-          "region": "Asia",
-          "desk": "Etc"
-        },
-        {
-          "title": "Indian startups with over $500M valuation grow to 51 despite low number of AI entities: Report",
-          "url": "https://yourstory.com/2026/11/indian-startups-over-500m-valuation-grow-51-despite-low-number-ai-entities-report",
-          "summary": "The combined value of these 51 entities is about Rs 3.3 lakh crore ($34.1 billion), with an average valuation of about Rs 6,400 crore, and they employ over 60,000 people.",
-          "publishedAt": "2026-11-04T06:55:48.000Z",
-          "source": "YourStory",
-          "region": "Asia",
-          "desk": "Etc"
-        },
-        {
-          "title": "Fractal Analytics net profit more than doubles to Rs 79 Cr in Q2",
-          "url": "https://yourstory.com/2026/11/fractal-analytics-net-profit-more-than-doubles-to-rs-79-cr-in-q2",
-          "summary": "Consolidated revenue from operations grew by 19.7% to Rs 956.5 crore during the reported quarter from Rs 798.5 crore in the September 2025 quarter.",
-          "publishedAt": "2026-11-04T06:40:03.000Z",
-          "source": "YourStory",
-          "region": "Asia",
-          "desk": "Etc"
-        },
-        {
-          "title": "Awfis Q2 profit jumps 93% to Rs 31 Cr, revenue rises to Rs 464 Cr",
-          "url": "https://yourstory.com/2026/11/awfis-q2-profit-jumps-93-to-rs-31-cr-revenue-rises-to-rs-464-cr",
-          "summary": "During April-September period of FY27, the company's net profit rose to Rs 54.76 crore from Rs 25.95 crore in the year-ago period.",
-          "publishedAt": "2026-11-04T06:32:18.000Z",
-          "source": "YourStory",
-          "region": "Asia",
-          "desk": "Etc"
-        },
-        {
-          "title": "Freshworks Swings To $18 Mn Profit In Q3, Revenue Rises 14% YoY To $245 Mn",
-          "url": "https://inc42.com/buzz/freshworks-swings-to-18-mn-profit-in-q3-revenue-rises-14-yoy-to-245-mn/",
-          "summary": "Nasdaq-listed SaaS company Freshworks swung to a consolidated net profit of $18.3 Mn in the third quarter of 2026 (Q3…",
-          "publishedAt": "2026-11-04T06:16:18.000Z",
-          "source": "Inc42",
-          "region": "Asia",
-          "desk": "Etc"
-        },
-        {
-          "title": "China outlines plans for moonshot it hopes to land by 2030",
-          "url": "https://www.theregister.com/offbeat/2026/11/04/china-outlines-plans-for-moonshot-it-hopes-to-land-by-2030/5307457",
-          "summary": "We have go for launch, and the ethernet and Wi-Fi standards that will make it happen",
-          "publishedAt": "2026-11-04T05:58:41.000Z",
-          "source": "The Register",
-          "region": "Europe",
-          "desk": "Etc"
-        },
-        {
-          "title": "Peppermint Robotics Bags ₹100 Cr To Scale Its Industrial Robotics Bet",
-          "url": "https://inc42.com/buzz/peppermint-robotics-bags-%e2%82%b9100-cr-to-scale-its-industrial-robotics-bet/",
-          "summary": "Keeping hospital corridors clean or moving goods across factory floors involves repetitive, physically demanding work. For facility management companies, finding…",
-          "publishedAt": "2026-11-04T05:55:33.000Z",
-          "source": "Inc42",
-          "region": "Asia",
-          "desk": "Etc"
-        },
-        {
-          "title": "Razorpay Gets SEBI Nod For ₹6,000 Cr IPO",
-          "url": "https://inc42.com/buzz/razorpay-gets-sebi-nod-for-%e2%82%b96000-cr-ipo/",
-          "summary": "Fintech major Razorpay has received SEBI’s approval for its proposed ₹5,000-6,000 Cr IPO, sources told Inc42. The IPO is expected…",
-          "publishedAt": "2026-11-04T05:38:13.000Z",
-          "source": "Inc42",
-          "region": "Asia",
-          "desk": "Etc"
-        },
-        {
-          "title": "Inside The New Wave Of Private AI",
-          "url": "https://inc42.com/features/inside-the-new-wave-of-private-ai/",
-          "summary": "Can you trust a stranger with your login credentials, personal information, or private conversations? Of course not! Yet, we are…",
-          "publishedAt": "2026-11-04T05:30:15.000Z",
-          "source": "Inc42",
-          "region": "Asia",
-          "desk": "Etc"
-        },
-        {
-          "title": "India’s EloElo nabs $80M from NBCUniversal to bet on the country’s rising microdrama market",
-          "url": "https://techcrunch.com/2026/11/03/indias-eloelo-nabs-80m-from-nbc-universal-to-bet-on-the-countrys-rising-microdrama-market/",
-          "summary": "StoryTV has more than 33 million monthly active users according to Sensor Tower figures",
-          "publishedAt": "2026-11-04T04:45:00.000Z",
+          "title": "Sequoia hits rewind, undoing 20 years of expansion",
+          "url": "https://techcrunch.com/2026/11/04/sequoia-hits-rewind-undoing-20-years-of-expansion/",
+          "summary": "Sequoia is consolidating into a smaller, Bay Area–centered firm, shutting down the programs and offices it built during a 20-year expansion while announcing roughly $10 billion in new funds.",
+          "publishedAt": "2026-11-04T17:11:15.000Z",
           "source": "TechCrunch",
           "region": "North America",
           "desk": "Etc"
         },
         {
-          "title": "AMD rides data center riches to ‘largest and most profitable’ quarter in history",
-          "url": "https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc",
-          "summary": "AMD CEO Lisa Su said in the company's quarterly earnings call on Tuesday that Q3 2026 was \"was the largest and most profitable in our history.\" AMD reported a record $13.4 billion in quarterly revenue, and it's predicting it will hit another record high…",
-          "publishedAt": "2026-11-04T01:15:34.000Z",
+          "title": "What’s next for US energy policy after the midterm elections?",
+          "url": "https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/",
+          "summary": "I’ve been locked in to my various screens since results from midterm elections started to roll in last night. And it didn’t take long to see the beginning of the blue wave: Democrats took control of both the US House of Representatives and the Senate, a…",
+          "publishedAt": "2026-11-04T17:08:00.000Z",
+          "source": "MIT Technology Review",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Nintendo is losing a Switch cartridge supplier",
+          "url": "https://www.theverge.com/games/1026426/nintendo-switch-cartridges-rom-supplier-data-center",
+          "summary": "Nintendo is about to lose a major memory supplier for its Switch cartridges. The supplier, Macronix, announced during a recent quarterly earnings call that it would be gradually phasing out ROM production and is instead focusing on NOR flash memory for…",
+          "publishedAt": "2026-11-04T17:03:32.000Z",
           "source": "The Verge",
           "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "VMware returns to low-end server virtualization with 'vSphere Express'",
+          "url": "https://www.theregister.com/virtualization/2026/11/04/vmware-returns-to-low-end-server-virtualization-with-vsphere-express/5307466",
+          "summary": "128-cores max, sold on distributors' marketplaces, and in with a shot of restoring some trust",
+          "publishedAt": "2026-11-04T17:01:00.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "“Signing in to your company’s plugins one by one is annoying”: Anthropic’s fix puts Claude in the identity business",
+          "url": "https://thenewstack.io/claude-plugin-identity-issuer/",
+          "summary": "Anthropic is now letting businesses automatically connect employees to approved Claude plugins, saving staff from having to sign in to The post “Signing in to your company’s plugins one by one is annoying”: Anthropic’s fix puts Claude in the identity…",
+          "publishedAt": "2026-11-04T16:59:22.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
+          "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
+          "summary": "Apple's AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there's still room for improvement.",
+          "publishedAt": "2026-11-04T16:51:35.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Farouk Ibrahim is learning to build what people actually need",
+          "url": "https://techcabal.com/2026/11/04/farouk-ibrahim-is-building-peoples-need/",
+          "summary": "Growing up in Ibadan, he repaired broken toys or made paper replacements, sometimes selling them to schoolmates for ₦5 ($0.0037).",
+          "publishedAt": "2026-11-04T16:45:49.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "Etc"
+        },
+        {
+          "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
+          "url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
+          "summary": "The French Blood Establishment (EFS) said cold rooms storing blood were impacted by hackers.",
+          "publishedAt": "2026-11-04T16:26:15.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
+          "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
+          "summary": "Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly.",
+          "publishedAt": "2026-11-04T16:17:22.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Binance says hackers who stole billions in crypto spent months planning heist",
+          "url": "https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/",
+          "summary": "Techniques included laptop infections, compromised internal tooling, and fake job interviews.",
+          "publishedAt": "2026-11-04T16:06:03.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Elon Musk's millions fail to deliver Texas for the Republicans in fierce midterms",
+          "url": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
+          "summary": "The billionaire's political action committee (Pac) contributed $47m (£35m) to Ken Paxton's campaign.",
+          "publishedAt": "2026-11-04T15:51:37.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
           "desk": "Etc"
         }
       ]
