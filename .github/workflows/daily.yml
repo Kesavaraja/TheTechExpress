@@ -25,7 +25,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0 # rebasing before the push needs real history
 
@@ -41,10 +41,10 @@ jobs:
           echo "ready=$ready" >> "$GITHUB_OUTPUT"
           echo "today=$today (${hm} UTC) edition_present=$exists ready=$ready"
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         if: github.event_name != 'schedule' || (steps.edition.outputs.exists == 'false' && steps.edition.outputs.ready == 'true')
         with:
-          node-version: 22
+          node-version: 22 # the project's Node; unrelated to the actions' own runtime
 
       - name: Self-check
         if: github.event_name != 'schedule' || (steps.edition.outputs.exists == 'false' && steps.edition.outputs.ready == 'true')
@@ -77,8 +77,8 @@ jobs:
           echo "could not push the edition after 3 attempts" >&2
           exit 1
 
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: public
 
@@ -90,4 +90,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
