@@ -1,11 +1,11 @@
 {
   "date": "2026-11-04",
-  "generatedAt": "2026-11-04T07:20:17.666Z",
+  "generatedAt": "2026-11-04T07:59:07.986Z",
   "stats": {
     "wires": 40,
     "wiresOk": 39,
     "fetched": 3968,
-    "published": 57,
+    "published": 56,
     "sources": 23,
     "regions": [
       "Africa",
@@ -33,10 +33,28 @@
       "slug": "development",
       "stories": [
         {
-          "title": "Dennis Ritchie's Legacy: The Most Influential Programmer in 21st Century Computing",
-          "url": "https://dev.to/serbyte/dennis-ritchies-legacy-the-most-influential-programmer-in-21st-century-computing-2e44",
-          "summary": "Introduction: The Quest for Influence In the fast-paced world of technology, where innovation is the currency and relevance is fleeting, identifying the programmer with the most significant impact on 21st-century computing is no small feat. This article…",
-          "publishedAt": "2026-11-04T07:14:46.000Z",
+          "title": "Beyond Asking Questions: How Prompt Engineering Makes AI More Useful",
+          "url": "https://dev.to/vishal_042006/beyond-asking-questions-how-prompt-engineering-makes-ai-more-useful-1ha1",
+          "summary": "Artificial Intelligence has changed the way we approach everyday tasks, from writing and research to software development and problem-solving. Tools like ChatGPT and Google Gemini can generate impressive results, but the quality of those results often…",
+          "publishedAt": "2026-11-04T07:50:55.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Build-time content linting: transpiling data files in memory and grading strictness by entry date",
+          "url": "https://dev.to/picraftai/build-time-content-linting-transpiling-data-files-in-memory-and-grading-strictness-by-entry-date-3co7",
+          "summary": "MakeInfographics.ai keeps its infographic gallery entries, fill-in templates, blog posts and Pinterest pin metadata in TypeScript arrays: 270 records at the time of writing. The editing rules for them live in a checklist in the repository, and the header…",
+          "publishedAt": "2026-11-04T07:50:41.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Safe Download Filenames in JavaScript: Turning Whatever the User Uploaded into bruh-trim.mp3",
+          "url": "https://dev.to/abidali671/safe-download-filenames-in-javascript-turning-whatever-the-user-uploaded-into-bruh-trimmp3-4ikj",
+          "summary": "Every browser tool that edits a file ends the same way: it hands a new file back. And the moment it does, it has to answer a question nobody thinks about while building the editing part: what should the new file be called? On Meme Tap, the tools I build…",
+          "publishedAt": "2026-11-04T07:50:23.000Z",
           "source": "DEV Community",
           "region": "Global",
           "desk": "Development"
@@ -121,24 +139,6 @@
           "source": "Hacker News",
           "region": "Global",
           "desk": "Development"
-        },
-        {
-          "title": "Goldman Sachs restricted Claude Code for bankers — but made one surprising exception",
-          "url": "https://thenewstack.io/ai-coding-agents-security/",
-          "summary": "Replit CEO Amjad Masad is warning that AI coding agents running on employee devices are becoming a security risk for The post Goldman Sachs restricted Claude Code for bankers — but made one surprising exception appeared first on The New Stack.",
-          "publishedAt": "2026-11-03T19:18:34.000Z",
-          "source": "The New Stack",
-          "region": "North America",
-          "desk": "Development"
-        },
-        {
-          "title": "Google Launches LiteRT Tensor API for Building, Customizing, and Optimizing ML Models for On-Device",
-          "url": "https://www.infoq.com/news/2026/11/litert-tensor-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "summary": "Google has introduced the LiteRT Tensor API, a lightweight C++ API that allows developers to build, customize, and optimize machine learning models directly for on-device execution. According to Google, it combines the flexibility of native model authoring…",
-          "publishedAt": "2026-11-03T19:00:00.000Z",
-          "source": "InfoQ",
-          "region": "Global",
-          "desk": "Development"
         }
       ]
     },
@@ -146,15 +146,6 @@
       "name": "Testing",
       "slug": "testing",
       "stories": [
-        {
-          "title": "Broken Access Control Tops the OWASP List. Your Scanner Still Can't See It.",
-          "url": "https://dev.to/hackbox/broken-access-control-tops-the-owasp-list-your-scanner-still-cant-see-it-4412",
-          "summary": "Disclosure: the author works at HACKBOX PTE. LTD., which builds HackBox — referenced once below, in the section on autonomous decision-making. Everything else here is a technical argument you can test yourself. Broken access control has held the top spot…",
-          "publishedAt": "2026-11-04T07:15:32.000Z",
-          "source": "DEV Community",
-          "region": "Global",
-          "desk": "Testing"
-        },
         {
           "title": "Reddit tests ads in search results as traffic declines and growth concerns mount",
           "url": "https://techcrunch.com/2026/11/03/reddit-tests-ads-in-search-results-as-traffic-declines-and-growth-concerns-mount/",
@@ -234,12 +225,21 @@
       "slug": "devops",
       "stories": [
         {
-          "title": "AWS User Group Kozhikode: September Meetup",
-          "url": "https://dev.to/gunnerjyo/aws-user-group-kozhikode-september-meetup-1i13",
-          "summary": "On September 26, 2026, I had the opportunity to attend the AWS User Group Kozhikode September Community Meetup at TinkerSpace, Calicut, organized in collaboration with DevOps Malayalam. The meetup brought together students, developers, DevOps…",
-          "publishedAt": "2026-11-04T07:16:00.000Z",
+          "title": "How We Built a Real-Time Edge-AI Theft Detection System on a Raspberry Pi 4 + Telegram Alerts",
+          "url": "https://dev.to/devdestiny/how-we-built-a-real-time-edge-ai-theft-detection-system-on-a-raspberry-pi-4-telegram-alerts-20p1",
+          "summary": "Traditional surveillance systems often rely on heavy cloud infrastructure or manual monitoring, which introduces latency and high bandwidth costs. For retail environments, security needs to be instantaneous, local, and cost-effective. To solve this, we…",
+          "publishedAt": "2026-11-04T07:51:36.000Z",
           "source": "DEV Community",
           "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist",
+          "url": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained",
+          "summary": "The largest crypto theft to date was pulled off by combining some well-known hacking techniques over the course of a few months, according to Binance. A postmortem from the company says the process started in June with one developer downloading a tampered…",
+          "publishedAt": "2026-11-03T22:04:02.000Z",
+          "source": "The Verge",
+          "region": "North America",
           "desk": "DevOps"
         },
         {
@@ -331,15 +331,6 @@
           "source": "InfoQ",
           "region": "Global",
           "desk": "DevOps"
-        },
-        {
-          "title": "Busy GPUs can hide slow AI inference on Kubernetes",
-          "url": "https://thenewstack.io/ai-inference-kubernetes-observability/",
-          "summary": "A Kubernetes cluster can be healthy while the AI service running on it disappoints users. A model might return its The post Busy GPUs can hide slow AI inference on Kubernetes appeared first on The New Stack.",
-          "publishedAt": "2026-10-30T19:56:41.000Z",
-          "source": "The New Stack",
-          "region": "North America",
-          "desk": "DevOps"
         }
       ]
     },
@@ -381,15 +372,6 @@
           "publishedAt": "2026-11-03T19:45:48.000Z",
           "source": "TechCrunch",
           "region": "North America",
-          "desk": "DevSecOps"
-        },
-        {
-          "title": "AI policy wonks declare 'sovereign agents' a threat to civilization",
-          "url": "https://www.theregister.com/security/2026/11/03/ai-policy-wonks-declare-sovereign-agents-a-threat-to-civilization/5307354",
-          "summary": "These are AI agents that operate outside of human control and 'pursue open-ended, evolving survival'",
-          "publishedAt": "2026-11-03T19:33:01.000Z",
-          "source": "The Register",
-          "region": "Europe",
           "desk": "DevSecOps"
         },
         {
@@ -445,6 +427,15 @@
           "source": "ZDNET",
           "region": "North America",
           "desk": "DevSecOps"
+        },
+        {
+          "title": "CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode",
+          "url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/",
+          "summary": "The acquisitions will add AI agent observability and automated AI security testing capabilities to the CrowdStrike Falcon platform. The post CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-03T14:12:44.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
         }
       ]
     },
@@ -453,12 +444,12 @@
       "slug": "etc",
       "stories": [
         {
-          "title": "133,334 Projections for 66,667 Receipts",
-          "url": "https://dev.to/ssukhpinder/133334-projections-for-66667-receipts-a3m",
-          "summary": "A reporting method on a dashboard endpoint started showing up in the traces twice as heavy as the numbers it returned could explain. It pulled a filtered set of orders, logged how many there were, then summed them. Two cheap-sounding operations. The…",
-          "publishedAt": "2026-11-04T07:17:09.000Z",
-          "source": "DEV Community",
-          "region": "Global",
+          "title": "Every fibre cut sets Nigeria’s digital economy back, but who pays?",
+          "url": "https://techcabal.com/2026/11/04/fibre-cuts-and-nigerias-digital-economy/",
+          "summary": "These disruptions expose significant enforcement gaps, raising a central question of who ultimately pays when statutory protections fail to stop contractors and vandals from repeatedly severing the nation’s digital backbone",
+          "publishedAt": "2026-11-04T07:23:42.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
           "desk": "Etc"
         },
         {
@@ -507,6 +498,15 @@
           "desk": "Etc"
         },
         {
+          "title": "China outlines plans for moonshot it hopes to land by 2030",
+          "url": "https://www.theregister.com/offbeat/2026/11/04/china-outlines-plans-for-moonshot-it-hopes-to-land-by-2030/5307457",
+          "summary": "We have go for launch, and the ethernet and Wi-Fi standards that will make it happen",
+          "publishedAt": "2026-11-04T05:58:41.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
           "title": "Peppermint Robotics Bags ₹100 Cr To Scale Its Industrial Robotics Bet",
           "url": "https://inc42.com/buzz/peppermint-robotics-bags-%e2%82%b9100-cr-to-scale-its-industrial-robotics-bet/",
           "summary": "Keeping hospital corridors clean or moving goods across factory floors involves repetitive, physically demanding work. For facility management companies, finding…",
@@ -547,15 +547,6 @@
           "url": "https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc",
           "summary": "AMD CEO Lisa Su said in the company's quarterly earnings call on Tuesday that Q3 2026 was \"was the largest and most profitable in our history.\" AMD reported a record $13.4 billion in quarterly revenue, and it's predicting it will hit another record high…",
           "publishedAt": "2026-11-04T01:15:34.000Z",
-          "source": "The Verge",
-          "region": "North America",
-          "desk": "Etc"
-        },
-        {
-          "title": "The biggest modding site in PC gaming is taking a stance on AI",
-          "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
-          "summary": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about…",
-          "publishedAt": "2026-11-04T00:42:10.000Z",
           "source": "The Verge",
           "region": "North America",
           "desk": "Etc"
