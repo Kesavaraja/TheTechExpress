@@ -1,0 +1,584 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T06:32:26.899Z",
+  "stats": {
+    "wires": 40,
+    "wiresOk": 39,
+    "fetched": 3970,
+    "published": 59,
+    "sources": 22,
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Global",
+      "North America"
+    ],
+    "failures": [
+      "Tech.eu: HTTP 403"
+    ]
+  },
+  "lead": {
+    "title": "Linux Mint 27 arrives next month, and I like it already: New features and other upgrades to expect",
+    "url": "https://www.zdnet.com/tech/linux-mint-27-release-date/",
+    "summary": "It starts with a surprise version number: Linux Mint 27 instead of 24. But the next release brings far more changes than that.",
+    "publishedAt": "2026-11-05T02:35:58.000Z",
+    "source": "ZDNET",
+    "region": "North America",
+    "desk": "Development"
+  },
+  "sections": [
+    {
+      "name": "Development",
+      "slug": "development",
+      "stories": [
+        {
+          "title": "Engineering a Real-Time Event Analytics Dashboard for Enterprise Exhibitions",
+          "url": "https://dev.to/stampiq/engineering-a-real-time-event-analytics-dashboard-for-enterprise-exhibitions-229h",
+          "summary": "When building digital infrastructure for mega-events—especially those scaling to 10,000+ attendees in Riyadh and Jeddah under Saudi Vision 2030—the most significant engineering bottleneck isn't hardware; it's data silos. Organizers frequently use one SaaS…",
+          "publishedAt": "2026-11-05T06:26:33.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "A crafted regex runs code on GitLab servers",
+          "url": "https://dev.to/randomchaos/a-crafted-regex-runs-code-on-gitlab-servers-305h",
+          "summary": "CISA added CVE-2026-97229 to its Known Exploited Vulnerabilities catalog on Thursday and gave federal agencies until Sunday to patch, under Binding Operational Directive 26-04. The flaw carries GitLab's maximum severity rating, and it lets a remote…",
+          "publishedAt": "2026-11-05T06:25:08.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "The future of engineering: fewer people, more work, and the end of tokenmaxxing",
+          "url": "https://sifted.eu/articles/the-future-of-engineering-2026/",
+          "summary": "",
+          "publishedAt": "2026-11-05T05:00:06.000Z",
+          "source": "Sifted",
+          "region": "Europe",
+          "desk": "Development"
+        },
+        {
+          "title": "Uber says it alone can make robotaxis pay, hours after Waymo quit its app",
+          "url": "https://www.theregister.com/personal-tech/2026/11/05/uber-says-it-alone-can-make-robotaxis-pay-hours-after-waymo-quit-its-app/5307718",
+          "summary": "Oh, the irony, as platform players fight",
+          "publishedAt": "2026-11-05T01:45:07.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Development"
+        },
+        {
+          "title": "Apple is reportedly cutting budgets for its internal AI usage",
+          "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+          "summary": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams.",
+          "publishedAt": "2026-11-05T01:26:22.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "altM raises $10.3M in Series A funding led by Rainmatter, Mela Ventures",
+          "url": "https://yourstory.com/2026/11/altm-raises-103m-series-a-funding-rainmatter-mela-ventures",
+          "summary": "Bengaluru-based altM will use the funds to expand its manufacturing capacity, strengthen research and development, support customer qualification programmes, and grow its engineering and commercial teams.",
+          "publishedAt": "2026-11-05T00:30:00.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Development"
+        },
+        {
+          "title": "X says its updated web app is way faster",
+          "url": "https://www.theverge.com/tech/1027113/x-says-its-updated-web-app-is-way-faster",
+          "summary": "X is introducing a new version of its web app that it says is much faster than before, and it's now rolling out the updated app \"one country at a time\" for signed-in users. \"Open a profile on X.com over a slow connection,\" principal engineer Yagiz Nizipli…",
+          "publishedAt": "2026-11-05T00:25:12.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Building AI factories at enterprise scale",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/05/sponsored-building-ai-factories-at-enterprise-scale/5306629",
+          "summary": "SPONSORED FEATURE: ASUS wants to scale AI everywhere in the enterprise",
+          "publishedAt": "2026-11-05T00:01:00.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Development"
+        },
+        {
+          "title": "Anthropic found a way to prove which AI model answered you — but there’s a costly catch",
+          "url": "https://thenewstack.io/anthropic-flashprove-model-verification/",
+          "summary": "Developers using AI APIs have little way of knowing whether the model answering their requests is actually the one they’re The post Anthropic found a way to prove which AI model answered you — but there’s a costly catch appeared first on The New Stack.",
+          "publishedAt": "2026-11-04T22:50:18.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Snapchat surpasses 30M paid subscribers",
+          "url": "https://techcrunch.com/2026/11/04/snapchat-surpasses-30m-paid-subscribers/",
+          "summary": "The milestone comes a year after Snapchat announced a controversial limit on free storage for its Memories feature and informed users it would start requiring users to pay $1.99 per month for additional storage or subscribe to Snapchat+ to retain their…",
+          "publishedAt": "2026-11-04T21:49:29.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Mahadev Betting App Promoter Ravi Uppal Arrested In The UAE: Report",
+          "url": "https://inc42.com/buzz/mahadev-betting-app-promoter-ravi-uppal-arrested-in-the-uae-report/",
+          "summary": "Ravi Uppal, co-promoter of the Mahadev online betting app, has reportedly been arrested in the United Arab Emirates (UAE). Officials…",
+          "publishedAt": "2026-11-04T21:37:36.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Development"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "slug": "testing",
+      "stories": [
+        {
+          "title": "80.6% at Chores, 12% at Real Work: AI's Benchmark Week",
+          "url": "https://dev.to/toolpilotpro/806-at-chores-12-at-real-work-ais-benchmark-week-4lnj",
+          "summary": "On Monday, November 2, 2026, two benchmarks landed on the same day and told two opposite stories about the same machines. OpenAI published LifeVal, its new test of everyday life — enrolling a child in school, ordering groceries on a budget, wrestling a…",
+          "publishedAt": "2026-11-05T06:26:25.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "What QA Leads Overlook When Planning Client Site Visits",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/what-qa-leads-overlook-when-planning-client-site-visits/",
+          "summary": "A client site visit can expose gaps that remain invisible during remote test cycles. QA leads often prepare test cases, access credentials and defect reports, yet overlook the physical and operational details that determine how much work the team can…",
+          "publishedAt": "2026-11-05T05:52:39.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "People say they want small smartphones—the Enough Phone will put that to the test",
+          "url": "https://arstechnica.com/gadgets/2026/11/people-say-they-want-small-smartphones-the-enough-phone-will-put-that-to-the-test/",
+          "summary": "It won't win the specs race, but it will actually fit in your hand.",
+          "publishedAt": "2026-11-04T18:00:40.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "How to Conduct Root Cause Analysis After a Failed Testing Sprint",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/how-to-conduct-root-cause-analysis-after-a-failed-testing-sprint/",
+          "summary": "Your QA team runs final regression testing two days before release. Half the critical tests fail: checkout is broken, staging data checks are inconsistent, and a late feature branch introduced regressions. The release is at risk. The instinct may be to…",
+          "publishedAt": "2026-11-04T15:54:46.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "When Component Tests Fail Before the First Assertion: Separating Module, DOM, and Application Errors",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/when-component-tests-fail-before-the-first-assertion/",
+          "summary": "The article helps to distinguish ESM/CommonJS import failures, missing browser APIs in the test environment, and genuine component defects. It uses a small reproducible fixture, compares a DOM simulator with a real browser, and demonstrates a focused…",
+          "publishedAt": "2026-11-03T17:29:33.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "Vitest 5: Prioritises Performance with a Shared Vite Server, Trace View, and Stricter Test Defaults",
+          "url": "https://www.infoq.com/news/2026/11/vite-5-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Vitest 5.0 focuses on speed, with reported gains of 8 to 25 percent in most setups and up to 53 percent in VM pools. It adds a vitest doctor command, Browser Mode Trace View, and vi.when. Defaults are stricter: clearMocks is true and unawaited async…",
+          "publishedAt": "2026-11-03T16:47:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "The Download: controlling AI agents and “Super Intelligence” loyalty tests",
+          "url": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/",
+          "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How “reverse game theory” could keep AI agents in check A new approach known as “reverse game theory” aims to control…",
+          "publishedAt": "2026-11-03T13:10:00.000Z",
+          "source": "MIT Technology Review",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "A New Look for the Next Era of BrowserStack",
+          "url": "https://www.browserstack.com/blog/a-new-look-for-the-next-era-of-browserstack/",
+          "summary": "Meet the new BrowserStack logo and wordmark, made for one platform where all your testing lives.",
+          "publishedAt": "2026-11-03T11:19:28.000Z",
+          "source": "BrowserStack Blog",
+          "region": "Asia",
+          "desk": "Testing"
+        },
+        {
+          "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+          "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+          "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering…",
+          "publishedAt": "2026-11-03T04:18:47.000Z",
+          "source": "MIT Technology Review",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "GPT-6.1 Terra vs. Claude Opus 5.5: Cheaper and faster in three tests at max effort",
+          "url": "https://thenewstack.io/gpt-6-1-terra-vs-claude-opus-5-5/",
+          "summary": "OpenAI launched GPT-6.1 Terra on October 26, and included two direct comparisons with Opus 5.5 in its marketing materials. It The post GPT-6.1 Terra vs. Claude Opus 5.5: Cheaper and faster in three tests at max effort appeared first on The New Stack.",
+          "publishedAt": "2026-10-31T14:00:00.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "Learn Real-World Penetration Testing: Hands-On Ethical Hacking Crash Course",
+          "url": "https://www.freecodecamp.org/news/learn-real-world-penetration-testing-hands-on-ethical-hacking-crash-course/",
+          "summary": "Understanding how malicious actors infiltrate networks is the first step to building resilient infrastructure. To help developers and aspiring security analysts learn the fundamentals of offensive sec",
+          "publishedAt": "2026-10-29T21:00:09.000Z",
+          "source": "freeCodeCamp News",
+          "region": "Global",
+          "desk": "Testing"
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "slug": "devops",
+      "stories": [
+        {
+          "title": "Apple turns iCloud into spy cloud, will start looking at public share links",
+          "url": "https://www.theregister.com/security/2026/11/04/apple-turns-icloud-into-spy-cloud-will-start-looking-at-public-share-links/5307681",
+          "summary": "Content shared with anyone who has the URL will be scanned for 'harmful content,' though the iMaker hasn't defined that term",
+          "publishedAt": "2026-11-04T21:49:38.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
+          "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+          "summary": "",
+          "publishedAt": "2026-11-04T19:55:14.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Xbox previews two new ways to control cloud games",
+          "url": "https://www.theverge.com/news/1026455/xbox-nano-direct-cloud-wifi-connection-xbox-cloud-gaming-phone-controller",
+          "summary": "I revealed yesterday that the new Xbox Nano controller supports a Wi-Fi connection directly to Xbox Cloud Gaming, and now Microsoft is making it official today. Two new Xbox previews will let players try out using a phone as a controller on smart TVs, as…",
+          "publishedAt": "2026-11-04T19:00:00.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Want an AI job? Deployment engineers are earning executive-level pay – up to $1.45M a year",
+          "url": "https://www.zdnet.com/innovation/ai-deployment-engineers-salary-christian-timbers-report/",
+          "summary": "AI has ushered in new jobs, and some of them are paying handsomely, according to a new study.",
+          "publishedAt": "2026-11-04T18:02:01.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "AFIS 2026: African banks must rethink digital transformation, says CR2 CEO",
+          "url": "https://techcabal.com/2026/11/04/african-banks-need-digital-transformation/",
+          "summary": "African banks must move beyond launching digital apps and invest in stronger banking infrastructure to cut costs, improve customer experience, and compete with fintechs, says Fintan Byrne, CEO of CR2, at AFIS 2026 in Luanda.",
+          "publishedAt": "2026-11-04T16:49:20.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Helium Health secures $2.5 million Google grant to tackle maternal deaths with AI",
+          "url": "https://techcabal.com/2026/11/04/helium-health-2-5-million-google-grant/",
+          "summary": "Helium Health has received $2.5 million grant from Google.org to deploy AI tools that help identify pregnancy risks and improve maternal healthcare delivery in Nigeria.",
+          "publishedAt": "2026-11-04T16:37:30.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Your.NET parallel loop can become serial in a one-CPU container",
+          "url": "https://stackoverflow.blog/2026/11/04/your-net-parallel-loop-can-become-serial-in-a-one-cpu-container/",
+          "summary": "CPU-based defaults can leave an I/O-heavy loop processing one record at a time. Raising the limit helps, but each downstream service still needs a concurrency budget it can handle.",
+          "publishedAt": "2026-11-04T16:34:13.000Z",
+          "source": "Stack Overflow Blog",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Guerrilla bike lanes: San Francisco makes illicit infrastructure permanent (2016)",
+          "url": "https://99percentinvisible.org/article/guerrilla-bike-lanes-san-francisco-makes-illicit-infrastructure-permanent/",
+          "summary": "",
+          "publishedAt": "2026-11-04T15:01:44.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Article: The App Is Just the Tip: What It Takes to Build Mobile Infrastructure at Scale",
+          "url": "https://www.infoq.com/articles/mobile-app-infrastructure-at-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "What determines whether your app feels fast, ships often, and stays stable at scale is not the app itself. It is what sits behind it. This article is about that layer: what it does, why it exists, what it takes to design it correctly, and what happens when…",
+          "publishedAt": "2026-11-04T09:00:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Priyank Kharge asks EV companies to shape Karnataka's growth roadmap",
+          "url": "https://yourstory.com/2026/11/priyank-kharge-asks-ev-companies-to-shape-karnatakas-growth-roadmap",
+          "summary": "Ahead of the Bengaluru Tech Summit 2026, Priyank Kharge held talks with leaders in the EV industry on specialised skilling, testing infrastructure, and manufacturing support.",
+          "publishedAt": "2026-11-04T07:52:18.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
+          "url": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
+          "summary": "Russia tries to fix exposed digital infrastructure as data center war backfires.",
+          "publishedAt": "2026-11-03T20:39:55.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Introducing IBM Cloud Secrets Manager Vault Dedicated: HashiCorp Vault Enterprise, managed by IBM",
+          "url": "https://www.hashicorp.com/blog/introducing-ibm-cloud-secrets-manager-vault-dedicated",
+          "summary": "A new way for IBM Cloud® customers to consume HashiCorp® Vault® Enterprise on dedicated infrastructure without the operational burden of running it themselves.",
+          "publishedAt": "2026-11-03T08:00:00.000Z",
+          "source": "HashiCorp",
+          "region": "Global",
+          "desk": "DevOps"
+        }
+      ]
+    },
+    {
+      "name": "DevSecOps",
+      "slug": "devsecops",
+      "stories": [
+        {
+          "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
+          "url": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
+          "summary": "An attacker could write arbitrary files and read sensitive files via images uploaded to the Rails Active Storage ImageMagick integration, possibly positioning a threat actor for lateral movement.",
+          "publishedAt": "2026-11-04T21:48:18.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Gemini for Home now plugs into AT&T’s smart security system",
+          "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
+          "summary": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that can summarize…",
+          "publishedAt": "2026-11-04T20:23:24.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "CodeQL 2.27.4 improves accuracy and query metadata",
+          "url": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata",
+          "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.27.4 with query accuracy improvements across several… The post CodeQL 2.27.4 improves accuracy and…",
+          "publishedAt": "2026-11-04T20:04:52.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Google, Partners Disrupt 1.3 Million-Device-Strong XCPE Botnet",
+          "url": "https://www.darkreading.com/endpoint-security/google-13-million-device-strong-xcpe-botnet",
+          "summary": "Google alleges that Android device manufacturer Videostrong ran the operation, which infected set-top boxes and IoT devices with a backdoor to create infrastructure for criminal activity.",
+          "publishedAt": "2026-11-04T16:24:08.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Sysdig Adds Runtime Security and Governance for AI Agents",
+          "url": "https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/",
+          "summary": "Sysdig’s platform uses runtime visibility to track AI agent actions and block risky behavior before it reaches production systems. The post Sysdig Adds Runtime Security and Governance for AI Agents appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-04T14:34:44.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root",
+          "url": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
+          "summary": "An authentication bypass and a command injection flaw can be chained for root access on Barracuda’s Email Security Gateway appliances. The post Barracuda ESG Authentication Bypass Flaw Opens Path to Root appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-04T14:24:54.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Agentic Data Security Firm Sentra Raises $150 Million",
+          "url": "https://www.securityweek.com/agentic-data-security-firm-sentra-raises-150-million/",
+          "summary": "The company will invest in agentic data security capabilities and expand its go-to-market organization. The post Agentic Data Security Firm Sentra Raises $150 Million appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-04T14:09:20.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Malicious cPGuard Updates Served in OpsShield Supply Chain Attack",
+          "url": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/",
+          "summary": "Using compromised credentials, the attackers accessed OpsShield’s update servers and poisoned multiple cPGuard versions. The post Malicious cPGuard Updates Served in OpsShield Supply Chain Attack appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-04T10:54:48.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Docker Urges Isolation and Governance for AI Agent Security",
+          "url": "https://www.infoq.com/news/2026/11/docker-ai-agent-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Docker has published a guide to five security risks that arise when AI agents are allowed to browse, run code and call tools with limited human oversight. They argue that the autonomy that makes agents useful also makes conventional application security…",
+          "publishedAt": "2026-11-04T09:00:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
+          "summary": "An unknown operator appears to have exfiltrated SQL Server backups from the Philippine Overseas Employment Administration in under a half hour.",
+          "publishedAt": "2026-11-04T02:00:00.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Phishing-Resistant Isn't Enough; Yubico Takes Aim at Identity-Verification Gap",
+          "url": "https://www.darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap",
+          "summary": "The new YubiID service bridges identity verification with credential enrollment and recovery across existing identity platforms, closing a phishing-resistant authentication gap. Plus: post-quantum YubiKey beta.",
+          "publishedAt": "2026-11-04T01:05:40.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Google dismantles botnet secretly running on 1.3 million Android TV boxes",
+          "url": "https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/",
+          "summary": "Google has cut ties with the company behind the botnet campaign.",
+          "publishedAt": "2026-11-03T17:08:21.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "DevSecOps"
+        }
+      ]
+    },
+    {
+      "name": "Etc",
+      "slug": "etc",
+      "stories": [
+        {
+          "title": "Last-Mile ETA Drift: Recalculating Delivery Windows When Dwell Time and Failed Stops Break the Route Plan",
+          "url": "https://dev.to/williamsj04/last-mile-eta-drift-recalculating-delivery-windows-when-dwell-time-and-failed-stops-break-the-19pp",
+          "summary": "A delivery route can look perfect when it leaves the depot. The driver has an optimized sequence of stops, estimated arrival times, assigned delivery windows, and a planned return time. Yet by the middle of the route, the schedule may already be…",
+          "publishedAt": "2026-11-05T06:26:37.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "👨🏿‍🚀TechCabal Daily – A Chinese plot twist",
+          "url": "https://techcabal.com/2026/11/05/techcabal-daily-a-chinese-plot-twist/",
+          "summary": "In today's edition: China inquiry prompted OPay to halt US IPO || Kenyan Treasury calls for cheaper bank loans || Africa’s credit rating agency to debut in 2027 || Helium Health raises $2.5 million",
+          "publishedAt": "2026-11-05T06:14:09.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "Etc"
+        },
+        {
+          "title": "SaaS Company Amagi’s Q2 Profit Jumps Nearly 30X To ₹74.8 Cr",
+          "url": "https://inc42.com/buzz/saas-company-amagis-q2-profit-jumps-nearly-30x-to-%e2%82%b974-8-cr/",
+          "summary": "Listed media SaaS company Amagi reported a nearly 30X YoY jump in its consolidated net profit to ₹74.8 Cr in…",
+          "publishedAt": "2026-11-05T05:26:11.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Nintendo’s designers strove for ‘elegance’ when remaking Ocarina of Time",
+          "url": "https://www.theverge.com/games/1026380/zelda-ocarina-of-time-interview-eiji-aonuma-hidemaro-fujibayashi",
+          "summary": "The Ocarina of Time remake on the Switch 2 smashes together the past and present. The game retains much of the original N64 experience while updating it with modern graphics and gameplay that make it feel contemporary. But the mingling of time periods also…",
+          "publishedAt": "2026-11-05T05:00:00.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "PhysicsWallah’s Q2 Profit Surge, Elo Elo Bags $80 Mn & More",
+          "url": "https://inc42.com/buzz/physicswallahs-q2-profit-surge-elo-elo-bags-80-mn-more/",
+          "summary": "PhysicsWallah Back Among Profits PhysicsWallah had a blockbuster Q2 FY27. The quarter saw the edtech giant swing back to profitability.…",
+          "publishedAt": "2026-11-05T02:30:11.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "How Bariflo uses AI to help factories treat wastewater",
+          "url": "https://yourstory.com/2026/11/bariflo-ai-help-factories-treat-wastewater",
+          "summary": "Odisha-based Bariflo uses AI to help factories lower wastewater treatment costs. It has secured Rs 2 crore from MC² Plus and is preparing for a BPCL pilot.",
+          "publishedAt": "2026-11-05T02:03:15.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "PhysicsWallah, Lenskart, Nykaa post stellar profits",
+          "url": "https://yourstory.com/2026/11/physicswallah-lenskart-nykaa-post-stellar-profits",
+          "summary": "PhysicsWallah posted a record quarterly top-line and doubled its net profit in Q2FY27. Lenskart’s net profit too rose over two-fold year on year. Nykaa’s profit grew three times, and revenue rose 28% YoY.",
+          "publishedAt": "2026-11-05T02:00:00.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "After the midterms, a bigger clash over data centers could be coming",
+          "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+          "summary": "Data center opposition crossed party lines in Tuesday’s midterms.",
+          "publishedAt": "2026-11-05T01:02:14.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Meta brings Conductor on board its model train",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/05/meta-brings-conductor-on-board-its-model-train/5307711",
+          "summary": "Agent orchestration startup gets its exit",
+          "publishedAt": "2026-11-05T00:35:29.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Cleantech Startup altM Raises $10.3 Mn To Scale Manufacturing",
+          "url": "https://inc42.com/buzz/cleantech-startup-altm-raises-10-3-mn-to-scale-manufacturing/",
+          "summary": "Cleantech startup altM has raised $10.3 Mn (₹97.5 Cr) in a Series A funding round led by new investors Rainmatter…",
+          "publishedAt": "2026-11-05T00:30:27.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Nintendo's biggest ROM chip supplier is bowing out of the business",
+          "url": "https://arstechnica.com/gaming/2026/11/the-tech-memory-shortage-comes-for-nintendos-cartridge-supply-chain/",
+          "summary": "And what that could mean for physical Switch game costs.",
+          "publishedAt": "2026-11-04T22:47:51.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+          "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+          "summary": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
+          "publishedAt": "2026-11-04T22:45:09.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        }
+      ]
+    }
+  ]
+}
