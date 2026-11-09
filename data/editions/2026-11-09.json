@@ -1,0 +1,584 @@
+{
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T06:06:42.932Z",
+  "stats": {
+    "wires": 40,
+    "wiresOk": 39,
+    "fetched": 3976,
+    "published": 59,
+    "sources": 25,
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Global",
+      "North America"
+    ],
+    "failures": [
+      "Tech.eu: HTTP 403"
+    ]
+  },
+  "lead": {
+    "title": "Jensen Huang: Silicon Valley superstar engulfed by personal scandal",
+    "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Once lauded as the \"Taylor Swift of tech\", Huang is mired in scandal after an affair with a suspected Chinese spy.",
+    "publishedAt": "2026-11-09T06:01:52.000Z",
+    "source": "BBC Technology",
+    "region": "Europe",
+    "desk": "Development"
+  },
+  "sections": [
+    {
+      "name": "Development",
+      "slug": "development",
+      "stories": [
+        {
+          "title": "I Replaced MongoDB with Turso Without Touching Roughly 1,250 Database Calls",
+          "url": "https://dev.to/rayan_aljamal_f93e2a391d0/i-replaced-mongodb-with-turso-without-touching-roughly-1250-database-calls-178k",
+          "summary": "In October 2026, I moved the Future Thinkers Club platform off MongoDB and onto Turso. The interesting part is not the move itself. It is that the application code barely noticed: roughly 1,250 database calls stayed exactly as they were. Why move at all…",
+          "publishedAt": "2026-11-09T06:01:48.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
+          "url": "https://ketchup3d.github.io/app/",
+          "summary": "",
+          "publishedAt": "2026-11-08T22:35:35.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+          "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+          "summary": "",
+          "publishedAt": "2026-11-08T18:16:07.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Moving from AI adoption to an AI operating model: How Docusign engineering went beyond tool rollout",
+          "url": "https://thenewstack.io/docusign-ai-engineering-adoption/",
+          "summary": "Docusign rolled out AI coding tools across its engineering teams, expecting them to help developers write code faster and do The post Moving from AI adoption to an AI operating model: How Docusign engineering went beyond tool rollout appeared first on The…",
+          "publishedAt": "2026-11-08T17:00:00.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Chatbots might be coming to Apple’s HomeView",
+          "url": "https://www.theverge.com/tech/1029526/chatbots-might-be-coming-to-apples-homeview",
+          "summary": "Code in the iOS 27.3 beta suggests that Apple could add support for chatbots to its smart home hub. There's a flag listed for a \"Conversational Apps\" category. While there are no details about what apps would fall under that heading, it seems reasonable…",
+          "publishedAt": "2026-11-08T15:00:30.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Ninja’s AutoBarista is impressively versatile, but one feature was a dealbreaker for me",
+          "url": "https://techcrunch.com/2026/11/08/ninjas-autobarista-is-impressively-versatile-but-one-feature-was-a-dealbreaker-for-me/",
+          "summary": "The AutoBarista's \"Grind iQ\" technology allows the machine to analyze your coffee beans to inform how it pulls a shot of espresso.",
+          "publishedAt": "2026-11-08T15:00:00.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Entire's Git Forge Rethinks Git Collaboration for Coding Agents",
+          "url": "https://www.infoq.com/news/2026/11/entire-git-forge-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Entire is a Git forge designed specifically for collaboration between human developers and AI coding agents. Its premise is that traditional software development infrastructure, particularly the pull request (PR) model, is not well suited to an environment…",
+          "publishedAt": "2026-11-08T11:00:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Cloudflare Scales D1 Control Plane to Millions of Databases",
+          "url": "https://www.infoq.com/news/2026/11/cloudflare-d1-control-plane/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottlenecks, implementing retries and idempotency, and using eventual consistency. By Renato Losio",
+          "publishedAt": "2026-11-08T06:34:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "How we review 4x more AI code without reading every line",
+          "url": "https://thenewstack.io/scale-ai-code-reviews/",
+          "summary": "Do you need to read every line of AI-generated code to trust it? Not necessarily. Instead, check five things: the The post How we review 4x more AI code without reading every line appeared first on The New Stack.",
+          "publishedAt": "2026-11-07T17:30:00.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "In the software factory, engineers become process engineers",
+          "url": "https://thenewstack.io/engineers-become-process-engineers/",
+          "summary": "For most of software’s history, the scarce resource was people who could write code. Every process the industry built assumed The post In the software factory, engineers become process engineers appeared first on The New Stack.",
+          "publishedAt": "2026-11-07T16:30:00.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "How Grab Improved Mobile App Stability by Safely Handling Surge in AI-Generated Code Changes",
+          "url": "https://www.infoq.com/news/2026/11/grab-ai-generated-code-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "The growing adoption of AI coding assistants has accelerated development and increased the volume of code changes per release, bringing more opportunities for defects and crashes, says Grab. To address these challenges, they implemented a layered defense…",
+          "publishedAt": "2026-11-07T11:00:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "Development"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "slug": "testing",
+      "stories": [
+        {
+          "title": "Internet governance about to get its quadrennial stress test at ITU meeting",
+          "url": "https://www.theregister.com/networks/2026/11/08/internet-governance-about-to-get-its-quadrennial-stress-test-at-itu-meeting/5308031",
+          "summary": "278 proposals on table, and some fear they might shift power to governments",
+          "publishedAt": "2026-11-08T09:33:00.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "Workflow, AI, health: test your business creativity with Edition 257 of our weekly quiz!",
+          "url": "https://yourstory.com/2026/11/workflow-ai-health-business-creativity-quiz-entrepreneur-education",
+          "summary": "This insightful feature from YourStory tests and strengthens your business acumen! Here are 5 questions to kick off this 256th quiz. Ready?",
+          "publishedAt": "2026-11-08T02:15:00.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Testing"
+        },
+        {
+          "title": "New-Age Tech Stocks Extend Rally, CarTrade Leads With 23.3% Gain",
+          "url": "https://inc42.com/buzz/new-age-tech-stocks-extend-rally-cartrade-leads-with-23-3-gain/",
+          "summary": "New-age tech stocks extended their rally this week, with 54 of the 69 companies under Inc42’s coverage posting gains ranging…",
+          "publishedAt": "2026-11-07T16:01:36.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Testing"
+        },
+        {
+          "title": "Run Maestro tests on real Android devices using AWS Device Farm",
+          "url": "https://aws.amazon.com/blogs/devops/run-maestro-tests-on-real-android-devices-using-aws-device-farm/",
+          "summary": "Learn how ManoMano runs Maestro mobile UI tests on real Android devices using the AWS Device Farm custom test environment. This post covers packaging your YAML flows, configuring the test spec, installing the Maestro CLI, handling manufacturer-specific…",
+          "publishedAt": "2026-11-06T18:13:33.000Z",
+          "source": "AWS DevOps",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "v1.65.0",
+          "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.0",
+          "summary": "🥟 Run tests with Bun The test runner now runs under Bun. Bun transpiles your TypeScript test files itself, so Playwright does not use Babel or its compilation cache. Pass the --bun flag, because without it bunx playwright test runs on Node.js: bunx --bun…",
+          "publishedAt": "2026-11-05T18:25:45.000Z",
+          "source": "Playwright Releases",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "Secret scanning upgrades detectors, adds SpaceX as partner",
+          "url": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
+          "summary": "This update expands secret scanning’s detection coverage: New partner: SpaceX is now a secret scanning partner. New detector: GitHub now detects starlink_public_api_v2_secret. Upgraded detectors: Alibaba, AWS, Google, OpenVSX, Pydantic Services,… The post…",
+          "publishedAt": "2026-11-05T15:48:50.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "What QA Leads Overlook When Planning Client Site Visits",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/what-qa-leads-overlook-when-planning-client-site-visits/",
+          "summary": "A client site visit can expose gaps that remain invisible during remote test cycles. QA leads often prepare test cases, access credentials and defect reports, yet overlook the physical and operational details that determine how much work the team can…",
+          "publishedAt": "2026-11-05T05:52:39.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "How to Conduct Root Cause Analysis After a Failed Testing Sprint",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/how-to-conduct-root-cause-analysis-after-a-failed-testing-sprint/",
+          "summary": "Your QA team runs final regression testing two days before release. Half the critical tests fail: checkout is broken, staging data checks are inconsistent, and a late feature branch introduced regressions. The release is at risk. The instinct may be to…",
+          "publishedAt": "2026-11-04T15:54:46.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "When Component Tests Fail Before the First Assertion: Separating Module, DOM, and Application Errors",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/when-component-tests-fail-before-the-first-assertion/",
+          "summary": "The article helps to distinguish ESM/CommonJS import failures, missing browser APIs in the test environment, and genuine component defects. It uses a small reproducible fixture, compares a DOM simulator with a real browser, and demonstrates a focused…",
+          "publishedAt": "2026-11-03T17:29:33.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "The Download: controlling AI agents and “Super Intelligence” loyalty tests",
+          "url": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/",
+          "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How “reverse game theory” could keep AI agents in check A new approach known as “reverse game theory” aims to control…",
+          "publishedAt": "2026-11-03T13:10:00.000Z",
+          "source": "MIT Technology Review",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "A New Look for the Next Era of BrowserStack",
+          "url": "https://www.browserstack.com/blog/a-new-look-for-the-next-era-of-browserstack/",
+          "summary": "Meet the new BrowserStack logo and wordmark, made for one platform where all your testing lives.",
+          "publishedAt": "2026-11-03T11:19:28.000Z",
+          "source": "BrowserStack Blog",
+          "region": "Asia",
+          "desk": "Testing"
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "slug": "devops",
+      "stories": [
+        {
+          "title": "Scaling an autonomous agent from one team to fifty: A serverless-to-container decision framework",
+          "url": "https://thenewstack.io/scaling-autonomous-agents-framework/",
+          "summary": "QA teams shipping complex products generate test failures around the clock. Every failure needs a bug ticket with steps, screenshots, The post Scaling an autonomous agent from one team to fifty: A serverless-to-container decision framework appeared first…",
+          "publishedAt": "2026-11-08T16:30:00.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal",
+          "url": "https://www.infoq.com/news/2026/11/google-cloud-self-managed-vmware/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Google Cloud has made a self-managed VMware solution generally available, running VMware Cloud Foundation 9.x on dedicated Z3 bare metal with root access across ESXi, vCenter and NSX in 22 regions. It sits beside the Google-managed VMware Engine and…",
+          "publishedAt": "2026-11-08T07:16:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "AI Gave Your Incident Archive a Second Job",
+          "url": "https://www.darkreading.com/cyber-risk/ai-gave-your-incident-archive-second-job",
+          "summary": "Security records are increasingly being used by vendors to train their models, creating new risks for enterprises.",
+          "publishedAt": "2026-11-06T18:27:30.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Sovereign AI Infrastructure: What Software Testing Teams Need to Verify Before Deployment",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/sovereign-ai-infrastructure-what-software-testing-teams-need-to-verify/",
+          "summary": "An AI application can pass every functional test and still fail to meet an organization’s data sovereignty requirements. Imagine a government agency running an AI model in a domestic data center. The application responds correctly, performance meets…",
+          "publishedAt": "2026-11-06T16:23:48.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "UK Warns Its Critical Infrastructure Faces Grave Risk",
+          "url": "https://www.darkreading.com/cybersecurity-operations/uk-warns-critical-infrastructure-grave-risk",
+          "summary": "Britain's new Labour-led government is making a concerted push to get ahead of the AI risks to its national networks and the industrial complex.",
+          "publishedAt": "2026-11-06T09:00:00.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Docker Sandboxes vs. Containers: Choosing the Right Isolation for AI Agents",
+          "url": "https://www.docker.com/blog/docker-sandboxes-vs-containers/",
+          "summary": "A container shares the host kernel. Docker Sandboxes are microVMs with their own kernel and private Docker Engine. See how they differ and when to use each.",
+          "publishedAt": "2026-11-06T03:17:04.000Z",
+          "source": "Docker Blog",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "This Is Not About Money: Deepinder Goyal Defends Temple Amid Credibility Row",
+          "url": "https://inc42.com/buzz/this-is-not-about-money-deepinder-goyal-defends-temple-amid-credibility-row/",
+          "summary": "Addressing social media debates over the scientific validity of Temple’s eponymous brain-monitoring wearable, founder Deepinder Goyal issued a statement directed…",
+          "publishedAt": "2026-11-05T16:44:34.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "DevOps"
+        },
+        {
+          "title": "CNCF Score project improved its security posture by joining the Docker-Sponsored Open Source Program",
+          "url": "https://www.docker.com/blog/cncf-score-project-improved-its-security-posture-by-joining-the-docker-sponsored-open-source-program/",
+          "summary": "See how CNCF Score improved container security with Docker Scout, Hardened Images, and the Docker-Sponsored Open Source Program.",
+          "publishedAt": "2026-11-05T14:00:00.000Z",
+          "source": "Docker Blog",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "A new bill could change how the US builds energy infrastructure",
+          "url": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/",
+          "summary": "A sweeping bit of legislation designed to cut red tape could speed up the buildout of energy infrastructure in the US. With the dust barely settled on this week’s momentous midterms, the Senate is set to vote on the Bipartisan American Affordability and…",
+          "publishedAt": "2026-11-05T10:00:00.000Z",
+          "source": "MIT Technology Review",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Apple turns iCloud into spy cloud, will start looking at public share links",
+          "url": "https://www.theregister.com/security/2026/11/04/apple-turns-icloud-into-spy-cloud-will-start-looking-at-public-share-links/5307681",
+          "summary": "Content shared with anyone who has the URL will be scanned for 'harmful content,' though the iMaker hasn't defined that term",
+          "publishedAt": "2026-11-04T21:49:38.000Z",
+          "source": "The Register Security",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Want an AI job? Deployment engineers are earning executive-level pay – up to $1.45M a year",
+          "url": "https://www.zdnet.com/innovation/ai-deployment-engineers-salary-christian-timbers-report/",
+          "summary": "AI has ushered in new jobs, and some of them are paying handsomely, according to a new study.",
+          "publishedAt": "2026-11-04T18:02:01.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Your.NET parallel loop can become serial in a one-CPU container",
+          "url": "https://stackoverflow.blog/2026/11/04/your-net-parallel-loop-can-become-serial-in-a-one-cpu-container/",
+          "summary": "CPU-based defaults can leave an I/O-heavy loop processing one record at a time. Raising the limit helps, but each downstream service still needs a concurrency budget it can handle.",
+          "publishedAt": "2026-11-04T16:34:13.000Z",
+          "source": "Stack Overflow Blog",
+          "region": "Global",
+          "desk": "DevOps"
+        }
+      ]
+    },
+    {
+      "name": "DevSecOps",
+      "slug": "devsecops",
+      "stories": [
+        {
+          "title": "Nvidia CEO Jensen Huang admits affair amid Chinese spying allegations; board launches probe",
+          "url": "https://yourstory.com/2026/11/nvidia-ceo-jensen-huang-admits-affair-chinese-spying-allegations-board-probe",
+          "summary": "The AI chipmaker says it has no reason to believe company secrets were compromised, even as US lawmakers seek answers over potential national security risks.",
+          "publishedAt": "2026-11-09T04:33:16.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+          "summary": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the…",
+          "publishedAt": "2026-11-08T20:22:39.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "He arrested a hacker, then spent 18 months clearing his own name. Now he’s a cybersecurity VC.",
+          "url": "https://techcrunch.com/2026/11/08/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/",
+          "summary": "Stephen Ward, a former Secret Service agent and Home Depot CISO, is preparing a second fund of roughly $250 million for Brightmind Partners.",
+          "publishedAt": "2026-11-08T17:30:00.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "I'm not a fan of Deno's security model (2024)",
+          "url": "https://goldstein.lol/posts/deno-security/",
+          "summary": "",
+          "publishedAt": "2026-11-08T14:42:38.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
+          "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+          "summary": "Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses. The post Brava Security Emerges From Stealth With $15 Million in Funding appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-08T12:14:00.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+          "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+          "summary": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+          "publishedAt": "2026-11-07T21:17:08.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+          "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+          "summary": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-07T10:16:23.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Alpine Linux and OpenSSH patch flaw that’s as bad as it can get",
+          "url": "https://www.zdnet.com/tech/alpine-linux-openssh-patch-flaw/",
+          "summary": "This dangerous Linux security hole must be patched as soon as possible.",
+          "publishedAt": "2026-11-07T00:00:45.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "UK Wades Into Tech Sovereignty Amid AI Policy Changes",
+          "url": "https://www.darkreading.com/cybersecurity-operations/uk-tech-sovereignty-ai-policy",
+          "summary": "The UK is betting on domestic AI and cyber investment to reduce reliance on US tech — but security leaders question whether the funding is too fragmented and too late.",
+          "publishedAt": "2026-11-06T21:27:36.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
+          "url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+          "summary": "Company said a \"multifront cyberattack\" included AI agents and an on-path data snatch.",
+          "publishedAt": "2026-11-06T20:56:41.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Nigeria is rewriting its cyber laws, but can it secure its systems against hackers?",
+          "url": "https://techcabal.com/2026/11/06/nigeria-is-rewriting-its-cyber-laws/",
+          "summary": "Nigeria is reviewing its cybersecurity laws to counter mounting threats as artificial intelligence (AI) makes fraud, digital deception, and attacks on critical infrastructure harder to detect.",
+          "publishedAt": "2026-11-06T17:16:28.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days",
+          "url": "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/",
+          "summary": "Noteworthy stories that might have slipped under the radar: Synology warns about NAS ransomware attacks, Flowise ‘hello’ attacks, Chainalysis breach impact expands. The post In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized…",
+          "publishedAt": "2026-11-06T14:40:09.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        }
+      ]
+    },
+    {
+      "name": "Etc",
+      "slug": "etc",
+      "stories": [
+        {
+          "title": "Beyond the award: The people behind our onboarding experience",
+          "url": "https://www.thoughtworks.com/insights/blog/careers-at-thoughtworks/the-people-behind-our-onboarding-experience",
+          "summary": "Beyond the award: The people behind our onboarding experience",
+          "publishedAt": "2026-11-10T00:00:00.000Z",
+          "source": "Thoughtworks",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "NIFTY and Bank Nifty Algo Trading: Why a Strategy Built on Bank Nifty Weeklies Will Not Port Straight to NIFTY",
+          "url": "https://dev.to/rahul_goel_bae7e5881ca7b0/nifty-and-bank-nifty-algo-trading-why-a-strategy-built-on-bank-nifty-weeklies-will-not-port-3j7d",
+          "summary": "Many Indian option sellers built their first strategy on Bank Nifty weekly expiries. For a few years that was the most active weekly contract in the country, and a lot of backtests, courses and shared templates were written around it. Those weekly…",
+          "publishedAt": "2026-11-09T06:02:34.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "WebUSB, WebHID, and Web Serial need an origin-level device policy",
+          "url": "https://dev.to/ioneyrezende/webusb-webhid-and-web-serial-need-an-origin-level-device-policy-4fk8",
+          "summary": "WebUSB, WebHID, and Web Serial need an origin-level device policy Browsers can now expose USB, human interface, and serial devices to web applications. These APIs make hardware workflows possible without a native installer. They also move a device…",
+          "publishedAt": "2026-11-09T06:01:36.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "Voice Robot for Outbound Calls: A Latency Budget from ASR to TTS",
+          "url": "https://dev.to/zoomapps/voice-robot-for-outbound-calls-a-latency-budget-from-asr-to-tts-5hhk",
+          "summary": "A voice robot that confirms appointments can be perfectly accurate and still feel broken. The customer says \"yes, I'm coming\", then hears nothing for two seconds, says \"hello?\", and the robot starts answering on top of them. The transcript looks fine. The…",
+          "publishedAt": "2026-11-09T06:01:26.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+          "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+          "summary": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
+          "publishedAt": "2026-11-09T05:26:29.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Linus Torvalds sees signs AI-prompted patch flood has peaked",
+          "url": "https://www.theregister.com/security/2026/11/09/linus-torvalds-sees-signs-ai-prompted-patch-flood-has-peaked/5308345",
+          "summary": "Fixes are arriving faster than new bug reports for one major Linux project",
+          "publishedAt": "2026-11-09T04:53:08.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Huawei says it’s made a 100 percent Chinese PC",
+          "url": "https://www.theregister.com/systems/2026/11/09/huawei-says-its-made-a-100-percent-chinese-pc/5308335",
+          "summary": "PLUS: Japan declares infosec emergency; Apple’s makes biggest school Mac sale, ever, anywhere, in the Philippines; And more!",
+          "publishedAt": "2026-11-09T02:14:17.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Startup ecosystem sees sharp rise VC inflow; Building a hemp ecosystem in Uttarakhand",
+          "url": "https://yourstory.com/2026/11/angel-one-claims-silver-spot-in-indias-broking-race",
+          "summary": "Industry watchers expect that a post-US midterm slowdown in AI funding could work in favor of Indian startups.",
+          "publishedAt": "2026-11-09T02:00:00.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Profits Are Just Half The Story This Earnings Season",
+          "url": "https://inc42.com/features/profits-are-just-half-the-story-this-earnings-season/",
+          "summary": "The 2026 festive season began in muted fashion, but the performance of some of the key new-age tech stocks in…",
+          "publishedAt": "2026-11-09T00:30:35.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Nvidia CEO Jensen Huang starring in possible remake of The Spy Who Shagged Me",
+          "url": "https://www.theregister.com/legal/2026/11/09/nvidia-ceo-jensen-huang-starring-in-possible-remake-of-the-spy-who-shagged-me/5308327",
+          "summary": "Admits to affair after company board opens probe into alleged contact with possible Chinese asset who bought GPUs in bulk",
+          "publishedAt": "2026-11-09T00:04:47.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+          "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo…",
+          "publishedAt": "2026-11-08T22:54:50.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Soul Glo’s Diaspora Problems is a hardcore record like no other",
+          "url": "https://www.theverge.com/entertainment/1029579/soul-glo-diaspora-problems-hardcore-punk-review",
+          "summary": "Soul Glo has a new record called NA I'M GON GRAB ALLAT coming out in January, and I, for one, can not wait. While two singles have dropped, it's not enough to truly tide me over, so I've been revisiting Songs to Yeet at the Sun and my favorite album of…",
+          "publishedAt": "2026-11-08T22:37:22.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        }
+      ]
+    }
+  ]
+}
