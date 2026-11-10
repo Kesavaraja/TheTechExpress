@@ -1,0 +1,557 @@
+{
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T08:19:45.335Z",
+  "stats": {
+    "wires": 40,
+    "wiresOk": 39,
+    "fetched": 3976,
+    "published": 56,
+    "sources": 22,
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Global",
+      "North America"
+    ],
+    "failures": [
+      "Tech.eu: HTTP 403"
+    ]
+  },
+  "lead": {
+    "title": "Faisal Islam: What Jensen Huang told me about China, national security and persuading Trump",
+    "url": "https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=RSS&at_campaign=rss",
+    "summary": "Huang, who is now being investigated over an affair with an alleged Chinese spy, is far more important to the future of the world order than other tech bosses.",
+    "publishedAt": "2026-11-10T08:07:16.000Z",
+    "source": "BBC Technology",
+    "region": "Europe",
+    "desk": "DevSecOps"
+  },
+  "sections": [
+    {
+      "name": "Development",
+      "slug": "development",
+      "stories": [
+        {
+          "title": "Strategy for a Software Developer in Egypt to Transition from Unpaid Family Labor to Financial Independence Through Coding",
+          "url": "https://dev.to/ilyatech/strategy-for-a-software-developer-in-egypt-to-transition-from-unpaid-family-labor-to-financial-1p0f",
+          "summary": "Systemic Architecture Analysis At a critical juncture marked by the milestone of age 30, the subject operates within a tightly coupled socio-economic feedback loop combining centralized household finances, unpaid enterprise labor, and interrupted technical…",
+          "publishedAt": "2026-11-10T08:09:38.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Black code text survived CRF 33 in a lecture recording, red text was soft at CRF 18",
+          "url": "https://dev.to/token111/black-code-text-survived-crf-33-in-a-lecture-recording-red-text-was-soft-at-crf-18-3d4g",
+          "summary": "The question I wanted answered about lecture-style screen recordings: how high can CRF go before slide text gets hard to read? The usual rule is that lower CRF means better quality, which doesn't say whether a line of code survives when the goal is a…",
+          "publishedAt": "2026-11-10T08:09:04.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "What I learned building an AI tool to remove people from photos",
+          "url": "https://dev.to/johnim2w/what-i-learned-building-an-ai-tool-to-remove-people-from-photos-3p77",
+          "summary": "I'm a solo developer, and my second side project is a small web tool that lets you remove a person from a photo: you paint over a photobomber, tap Remove, and the AI fills the area with background. It sounds like a solved problem. It mostly is, until…",
+          "publishedAt": "2026-11-10T08:08:28.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Otter AI can now follow conversations across 30+ languages",
+          "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+          "summary": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.",
+          "publishedAt": "2026-11-10T07:00:00.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Effect 4.0 Ships: Dependency-Free Rewrite with 5x Smaller Bundles and Long-Term Support",
+          "url": "https://www.infoq.com/news/2026/11/effect-4-0-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Effect 4.0, a TypeScript framework for typed errors and structured concurrency, was released on 30 September 2026 with a rewritten fiber runtime. The team reports a bundle size drop from 35.6 kB to 7.1 kB and about 6.4x higher throughput, though these…",
+          "publishedAt": "2026-11-10T06:33:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "A $60 billion fintech hired a 14-year-old. Its CEO explains why.",
+          "url": "https://thenewstack.io/ramp-hires-teen-intern/",
+          "summary": "Ramp hired a 14-year-old intern after discovering an app he had built for fun that attracted attention from roughly a The post A $60 billion fintech hired a 14-year-old. Its CEO explains why. appeared first on The New Stack.",
+          "publishedAt": "2026-11-09T23:18:34.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Exact – a new cross platform UI framework",
+          "url": "https://github.com/expo/exact",
+          "summary": "",
+          "publishedAt": "2026-11-09T22:59:13.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "USPS now offers official ZIP Code boundary polygons",
+          "url": "https://postalpro.usps.com/zcb",
+          "summary": "",
+          "publishedAt": "2026-11-09T19:58:59.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Anthropic introduces Claude Fable 5.2, Mythos 5.2",
+          "url": "https://sdtimes.com/ai/anthropic-introduces-claude-fable-5-2-mythos-5-2/",
+          "summary": "Claude Fable 5.2 and Claude Mythos 5.2, introduced today by Anthropic, show improvements in areas like coding, reasoning, and vision, and generate outputs up to 30% faster than Claude Fable 5.1 and Claude Mythos 5.1. Claude Fable 5.2 is available today on…",
+          "publishedAt": "2026-11-09T19:57:55.000Z",
+          "source": "SD Times",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Parking-app convenience fees in 312 U.S. cities (median $0.35 per session)",
+          "url": "https://parkgraph.com/parking-app-fees",
+          "summary": "",
+          "publishedAt": "2026-11-09T19:55:53.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Codenotary Releases Open-Source AgentMon Live to Improve AI Coding Productivity",
+          "url": "https://sdtimes.com/open-source-ai/codenotary-releases-open-source-agentmon-live-to-improve-ai-coding-productivity/",
+          "summary": "Codenotary, leaders in assuring safe and secure use of AI, today released AgentMon Live, free, open-source software that helps developers using Claude Code. It checks whether AI coding agents have completed requested work, identifies problems requiring…",
+          "publishedAt": "2026-11-09T19:45:53.000Z",
+          "source": "SD Times",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "You can change Windows settings directly from a search now – how to try it",
+          "url": "https://www.zdnet.com/tech/windows-11-control-settings-from-search-insiders-preview/",
+          "summary": "The latest Windows 11 Insiders Preview enhances the Search feature so that you can access specific settings right from a search window.",
+          "publishedAt": "2026-11-09T19:33:24.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "Development"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "slug": "testing",
+      "stories": [
+        {
+          "title": "v1.65.0",
+          "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.0",
+          "summary": "🥟 Run tests with Bun The test runner now runs under Bun. Bun transpiles your TypeScript test files itself, so Playwright does not use Babel or its compilation cache. Pass the --bun flag, because without it bunx playwright test runs on Node.js: bunx --bun…",
+          "publishedAt": "2026-11-09T21:03:39.000Z",
+          "source": "Playwright Releases",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "Claude Fable 5.2 in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
+          "summary": "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fable… The post Claude Fable 5.2 in GitHub Copilot appeared first…",
+          "publishedAt": "2026-11-09T16:46:43.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "Run Maestro tests on real Android devices using AWS Device Farm",
+          "url": "https://aws.amazon.com/blogs/devops/run-maestro-tests-on-real-android-devices-using-aws-device-farm/",
+          "summary": "Learn how ManoMano runs Maestro mobile UI tests on real Android devices using the AWS Device Farm custom test environment. This post covers packaging your YAML flows, configuring the test spec, installing the Maestro CLI, handling manufacturer-specific…",
+          "publishedAt": "2026-11-06T18:13:33.000Z",
+          "source": "AWS DevOps",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "Secret scanning upgrades detectors, adds SpaceX as partner",
+          "url": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
+          "summary": "This update expands secret scanning’s detection coverage: New partner: SpaceX is now a secret scanning partner. New detector: GitHub now detects starlink_public_api_v2_secret. Upgraded detectors: Alibaba, AWS, Google, OpenVSX, Pydantic Services,… The post…",
+          "publishedAt": "2026-11-05T15:48:50.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "What QA Leads Overlook When Planning Client Site Visits",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/what-qa-leads-overlook-when-planning-client-site-visits/",
+          "summary": "A client site visit can expose gaps that remain invisible during remote test cycles. QA leads often prepare test cases, access credentials and defect reports, yet overlook the physical and operational details that determine how much work the team can…",
+          "publishedAt": "2026-11-05T05:52:39.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "How to Conduct Root Cause Analysis After a Failed Testing Sprint",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/how-to-conduct-root-cause-analysis-after-a-failed-testing-sprint/",
+          "summary": "Your QA team runs final regression testing two days before release. Half the critical tests fail: checkout is broken, staging data checks are inconsistent, and a late feature branch introduced regressions. The release is at risk. The instinct may be to…",
+          "publishedAt": "2026-11-04T15:54:46.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "When Component Tests Fail Before the First Assertion: Separating Module, DOM, and Application Errors",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/when-component-tests-fail-before-the-first-assertion/",
+          "summary": "The article helps to distinguish ESM/CommonJS import failures, missing browser APIs in the test environment, and genuine component defects. It uses a small reproducible fixture, compares a DOM simulator with a real browser, and demonstrates a focused…",
+          "publishedAt": "2026-11-03T17:29:33.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "A New Look for the Next Era of BrowserStack",
+          "url": "https://www.browserstack.com/blog/a-new-look-for-the-next-era-of-browserstack/",
+          "summary": "Meet the new BrowserStack logo and wordmark, made for one platform where all your testing lives.",
+          "publishedAt": "2026-11-03T11:19:28.000Z",
+          "source": "BrowserStack Blog",
+          "region": "Asia",
+          "desk": "Testing"
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "slug": "devops",
+      "stories": [
+        {
+          "title": "Sarvam Ropes In Google Cloud India MD Sashikumar Sreedharan As President & CBO",
+          "url": "https://inc42.com/buzz/sarvam-ropes-in-google-cloud-india-md-sashikumar-sreedharan-as-president-cbo/",
+          "summary": "AI unicorn Sarvam has appointed former Google Cloud India managing director Sashikumar Sreedharan as its president and chief business officer…",
+          "publishedAt": "2026-11-10T07:00:39.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Nigeria turns to hybrid cloud infrastructure for its postcode database",
+          "url": "https://techcabal.com/2026/11/10/nigeria-hybrid-cloud-storage-postcode/",
+          "summary": "TechCabal reported that technical checks of postcode.gov.ng’s public domain name system (DNS) records pointed to Amazon Web Services (AWS) infrastructure in the United States. The finding raised questions about whether a critical public digital asset was…",
+          "publishedAt": "2026-11-10T06:21:31.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Cisco to link all future products to its SaaS-y Cloud Control management tool",
+          "url": "https://www.theregister.com/networks/2026/11/10/cisco-to-link-all-future-products-to-its-saas-y-cloud-control-management-tool/5308660",
+          "summary": "Global rollout of unified portal finally happening in 2027",
+          "publishedAt": "2026-11-10T03:32:40.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "SpaceX now fundamentally an \"infrastructure company,\" senior official says",
+          "url": "https://arstechnica.com/space/2026/11/spacex-now-fundamentally-an-infrastructure-company-senior-official-says/",
+          "summary": "\"Grok analyzing the same video is 99.9 percent perfect.\"",
+          "publishedAt": "2026-11-09T15:39:21.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "This tech firm built the geospatial infrastructure behind Nigeria’s door-level address system",
+          "url": "https://techcabal.com/2026/11/09/milsats-role-in-digital-address-system/",
+          "summary": "Nigeria’s new digital postcode system aims to replace landmark-based directions with precise building-level codes. Behind it is Milsat’s push to build location-data infrastructure—but keeping that information accurate, accessible and useful will be the…",
+          "publishedAt": "2026-11-09T14:25:43.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "DevOps"
+        },
+        {
+          "title": "The AI bubble can wait, but your exit plan can't",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/09/the-ai-bubble-can-wait-but-your-exit-plan-cant/5308415",
+          "summary": "Infrastructure spending outruns measurable returns, with supplier finances key to judging when trouble arrives",
+          "publishedAt": "2026-11-09T14:02:00.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Innovating with AI in the special chemicals industry",
+          "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+          "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products…",
+          "publishedAt": "2026-11-09T13:00:00.000Z",
+          "source": "MIT Technology Review",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Article: Agentic AI Architecture: Current Challenges and Future Opportunities",
+          "url": "https://www.infoq.com/articles/agentic-ai-architecture-challenges-opportunities/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Agentic AI architecture extends microservices and cloud-native architectures with AI agents that work with context, memory, and protocols such as MCP and A2A. The article covers bounded-context integration, task-dependent coordination strategies, new…",
+          "publishedAt": "2026-11-09T10:52:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Pinterest Replaces Journey Clustering with 4B Qwen3 LLM, Reports Improved Engagement",
+          "url": "https://www.infoq.com/news/2026/11/pinterest-journey/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Pinterest has moved its user-journey inference system from a multi-stage clustering pipeline to a fine-tuned 4-billion-parameter language model, reporting a 1.1% improvement in email click-through and 1.3% higher push opens. By Matt Foster",
+          "publishedAt": "2026-11-09T07:25:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Scaling an autonomous agent from one team to fifty: A serverless-to-container decision framework",
+          "url": "https://thenewstack.io/scaling-autonomous-agents-framework/",
+          "summary": "QA teams shipping complex products generate test failures around the clock. Every failure needs a bug ticket with steps, screenshots, The post Scaling an autonomous agent from one team to fifty: A serverless-to-container decision framework appeared first…",
+          "publishedAt": "2026-11-08T16:30:00.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal",
+          "url": "https://www.infoq.com/news/2026/11/google-cloud-self-managed-vmware/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Google Cloud has made a self-managed VMware solution generally available, running VMware Cloud Foundation 9.x on dedicated Z3 bare metal with root access across ESXi, vCenter and NSX in 22 regions. It sits beside the Google-managed VMware Engine and…",
+          "publishedAt": "2026-11-08T07:16:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "AI Gave Your Incident Archive a Second Job",
+          "url": "https://www.darkreading.com/cyber-risk/ai-gave-your-incident-archive-second-job",
+          "summary": "Security records are increasingly being used by vendors to train their models, creating new risks for enterprises.",
+          "publishedAt": "2026-11-06T18:27:30.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevOps"
+        }
+      ]
+    },
+    {
+      "name": "DevSecOps",
+      "slug": "devsecops",
+      "stories": [
+        {
+          "title": "France Blames Iran for a Cyberattack That Heated Supermarket Refrigerators",
+          "url": "https://www.securityweek.com/france-blames-iran-for-a-cyberattack-that-heated-supermarket-refrigerators/",
+          "summary": "France summoned the Iranian ambassador and said it would seek European sanctions against those responsible for the attack The post France Blames Iran for a Cyberattack That Heated Supermarket Refrigerators appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-10T07:35:05.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "OpenAI Deploys Control Room With 35-Second Kill Switch Amid Security Concerns",
+          "url": "https://inc42.com/buzz/openai-deploys-control-room-with-35-second-kill-switch-amid-security-concerns/",
+          "summary": "Amid growing threats of rogue AI agents, ChatGPT parent OpenAI has developed and deployed Control Room, a centralised system to…",
+          "publishedAt": "2026-11-10T06:09:32.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
+          "url": "https://www.bbc.co.uk/news/articles/cmp3g37l566po?at_medium=RSS&at_campaign=rss",
+          "summary": "AI safety regulator will also be created after a rogue OpenAI agent hacked government websites.",
+          "publishedAt": "2026-11-10T05:22:39.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Nvidia probes whether foreign intelligence targeted Jensen Huang",
+          "url": "https://yourstory.com/2026/11/nvidia-probes-whether-foreign-intelligence-targeted-jensen-huang",
+          "summary": "Nvidia’s board has opened an independent investigation into whether CEO Jensen Huang was targeted by a foreign intelligence operation. The company has said its board had no reason to believe company secrets or US national security had been compromised.",
+          "publishedAt": "2026-11-10T02:00:00.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Anthropic's super bug-finding Mythos model is going into Cisco and IBM products",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/10/anthropics-super-bug-finding-mythos-model-is-going-into-cisco-and-ibm-products/5308616",
+          "summary": "Enterprise security tools will offer its capabilities without handing customers the model itself",
+          "publishedAt": "2026-11-10T00:00:20.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+          "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+          "summary": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
+          "publishedAt": "2026-11-09T23:51:22.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Hotel giant Wyndham exposed customer data after app security lapse",
+          "url": "https://techcrunch.com/2026/11/09/hotel-giant-wyndham-exposed-customer-data-after-app-security-lapse/",
+          "summary": "Exclusive: Wyndham left a hardcoded credential in its customer app, allowing anyone to access customer data. The hotel giant wouldn't say if it has the ability to check for any past unauthorized access.",
+          "publishedAt": "2026-11-09T23:03:46.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "France blames Iran for supermarket hack meltdowns",
+          "url": "https://www.theregister.com/security/2026/11/09/france-blames-iran-for-supermarket-hack-meltdowns/5308591",
+          "summary": "The 'first cyber offensive campaign carried out purely for the purpose of sabotage on national territory'",
+          "publishedAt": "2026-11-09T22:45:21.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "CISA Announces Enhanced Reporting Form for Cyber Incidents",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/cisa-announces-enhanced-reporting-form-cyber-incidents",
+          "summary": "New questionnaire captures critical data and information that improves the agency’s ability to assess incidents, identify trends and prioritize response actions.",
+          "publishedAt": "2026-11-09T21:38:20.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Microsoft Fixes RCE Bug in Windows Paint After Weeks of Confusion",
+          "url": "https://www.darkreading.com/application-security/microsoft-rce-bug-windows-paint-confusion",
+          "summary": "Last month, Microsoft disclosed a vulnerability in Microsoft Paint, but messaging regarding a patch was unclear.",
+          "publishedAt": "2026-11-09T21:12:24.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Never Share Your Password Again — The OAuth 2.0 Solution",
+          "url": "https://stackoverflow.blog/2026/11/09/never-share-your-password-again-the-oauth-2-0-solution/",
+          "summary": "",
+          "publishedAt": "2026-11-09T20:50:38.000Z",
+          "source": "Stack Overflow Blog",
+          "region": "Global",
+          "desk": "DevSecOps"
+        }
+      ]
+    },
+    {
+      "name": "Etc",
+      "slug": "etc",
+      "stories": [
+        {
+          "title": "Customer support is the gnarliest AI problem",
+          "url": "https://stackoverflow.blog/2026/11/10/customer-support-is-the-gnarliest-ai-problem/",
+          "summary": "Ryan chats with Ahmad Al-Dahle, CTO at Airbnb, about deploying multi-party AI agents to tackle the uniquely gnarly problem of customer support, how a moving target of rigorous evaluations helps engineers balance latency against accuracy, and the ways in…",
+          "publishedAt": "2026-11-10T08:40:00.000Z",
+          "source": "Stack Overflow Blog",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "Our store's sitemap is eight files now, and that made Search Console useful again",
+          "url": "https://dev.to/elias_0549e0e2ef8cf6ad89a/our-stores-sitemap-is-eight-files-now-and-that-made-search-console-useful-again-43k2",
+          "summary": "For a long time our sitemap at RAMO was one big file. Every product, every category, every article, the contact page, the shipping policy, all in one list. It validated, Google read it, and nobody thought about it again. The problem showed up later, in…",
+          "publishedAt": "2026-11-10T08:09:20.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "Neha Nagar wants to help people take control of their financial future through her debut book",
+          "url": "https://yourstory.com/2026/11/neha-nagar-wants-to-help-people-take-control-of-their-financial-future-through-her-debut-book",
+          "summary": "'Simple Money Serious Wealth', which sold over 3,000 copies on launch day, is another feather in the cap of this popular finance educator and content creator.",
+          "publishedAt": "2026-11-10T06:42:44.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "InMobi Secures Naming Rights For Bengaluru’s Ibbaluru Metro Station For ₹65 Cr",
+          "url": "https://inc42.com/buzz/inmobi-secures-naming-rights-for-bengalurus-ibbaluru-metro-station-for-%e2%82%b965-cr/",
+          "summary": "Ahead of its long due IPO, adtech unicorn InMobi has bolstered its marketing by securing a naming rights for Bengaluru’s…",
+          "publishedAt": "2026-11-10T06:37:10.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "5 tech and startup leaders whose personal scandals shook their careers",
+          "url": "https://yourstory.com/2026/11/5-tech-startup-leaders-whose-personal-scandals-shook-their-careers",
+          "summary": "As Nvidia CEO Jensen Huang faces scrutiny over an extramarital affair, we look at five tech and startup leaders whose personal relationships or workplace controversies made headlines and, in some cases, led to resignations and dismissals.",
+          "publishedAt": "2026-11-10T06:19:33.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Chrome Update Patches Exploited XML Zero-Day, Eighth This Year",
+          "url": "https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/",
+          "summary": "The high-severity use-after-free in Chrome’s XML component was reported anonymously on November 6 and is already exploited in attacks. The post Chrome Update Patches Exploited XML Zero-Day, Eighth This Year appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-10T06:12:24.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "SEBI Clears MakeMyTrip’s India IPO",
+          "url": "https://inc42.com/buzz/sebi-clears-makemytrips-india-ipo/",
+          "summary": "Nasdaq-listed online travel aggregator (OTA) MakeMyTrip’s India arm has received SEBI’s approval to launch its initial public offering (IPO) in…",
+          "publishedAt": "2026-11-10T06:07:44.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "👨🏿‍🚀TechCabal Daily – ‘Too much Access’",
+          "url": "https://techcabal.com/2026/11/10/%f0%9f%91%a8%f0%9f%8f%bf%f0%9f%9a%80techcabal-daily-too-much-access/",
+          "summary": "In today's edition: Access weighs foreign market exit || Kenya banks face conflicting deadlines || MTN and Cell C hit impasse || Yoco secures $100 million for lending",
+          "publishedAt": "2026-11-10T06:00:12.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "Etc"
+        },
+        {
+          "title": "Arka Fincap raises Rs 525 Cr from The Rise Funds of TPG",
+          "url": "https://yourstory.com/2026/11/arka-fincap-raises-rs-525-crore-from-the-rise-funds-of-tpg",
+          "summary": "Arka Fincap was founded in 2018 Arka Fincap will use this capital for expansion, investments into technology and risk management capabilities Arka Fincap Limited, a Kirloskar Group-promoted non-banking financial company (NBFC) has raised an initial…",
+          "publishedAt": "2026-11-10T05:38:07.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "California’s proposed ‘billionaire tax’ fails to pass",
+          "url": "https://techcrunch.com/2026/11/09/californias-proposed-billionaire-tax-fails-to-pass/",
+          "summary": "California voters rejected Proposition 40, the one-time 5% tax on billionaires, the AP reported Monday. Tech leaders outspent backers roughly 10 to 1 to defeat it, and the founders and economists TechCrunch interviewed before the vote were split on whether…",
+          "publishedAt": "2026-11-10T05:18:43.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Jensen Huang’s alleged honeypot scandal has inspired some top-notch memes",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huangs-alleged-honeypot-scandal-has-inspired-some-top-notch-memes/",
+          "summary": "The internet is having a field day with Nvidia's Jensen Huang's alleged honeypot scandal.",
+          "publishedAt": "2026-11-10T04:34:15.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+          "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+          "summary": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
+          "publishedAt": "2026-11-10T03:58:13.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Etc"
+        }
+      ]
+    }
+  ]
+}
