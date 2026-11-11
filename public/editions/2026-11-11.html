@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Tech Express — Wednesday, 11 November 2026</title>
+<meta name="description" content="The Tech Express, Wednesday, 11 November 2026: 60 stories from 23 technology wires, filed under Development, Testing, DevOps and DevSecOps.">
+<meta name="color-scheme" content="light">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the stories</a>
+
+<header class="masthead">
+  <div class="ear">
+    <span>Vol. I · No. 12</span>
+    <span class="ear-date">Wednesday, 11 November 2026</span>
+    <span>Final edition · 02:44 UTC</span>
+  </div>
+  <h1 class="wordmark">The Tech Express</h1>
+  <p class="tagline">All the code that&rsquo;s fit to ship</p>
+  <nav class="rail" aria-label="Desks" id="rail">
+    <a href="#development">Development</a>
+    <a href="#testing">Testing</a>
+    <a href="#devops">DevOps</a>
+    <a href="#devsecops">DevSecOps</a>
+    <a href="#etc">Etc</a>
+    
+  </nav>
+</header>
+
+
+<main id="main">
+  <div class="front">
+    <article class="lead">
+        <p class="kicker">Development desk</p>
+        <h2 class="lead-title"><a href="https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html" target="_blank" rel="noopener noreferrer">A great old-timey game-programming hack (2013)<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h2>
+        
+        <p class="byline"><span class="wire">Hacker News</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-11-11T01:56:31.000Z">01:56 UTC</time></p>
+      </article>
+    <aside class="ledger" aria-label="In this edition">
+      <h2 class="ledger-title">Inside</h2>
+      <ul class="ledger-list">
+          <li><a href="#development"><span>Development</span><span class="n">11</span></a></li>
+          <li><a href="#testing"><span>Testing</span><span class="n">12</span></a></li>
+          <li><a href="#devops"><span>DevOps</span><span class="n">12</span></a></li>
+          <li><a href="#devsecops"><span>DevSecOps</span><span class="n">12</span></a></li>
+          <li><a href="#etc"><span>Etc</span><span class="n">12</span></a></li>
+      </ul>
+      <dl class="ledger-stats">
+        <div><dt>Stories</dt><dd>60</dd></div>
+        <div><dt>Wires</dt><dd>23</dd></div>
+        <div><dt>Regions</dt><dd>5</dd></div>
+      </dl>
+      <p class="ledger-note">Africa · Asia · Europe · Global · North America</p>
+    </aside>
+  </div>
+
+  <div class="desks">
+    <section class="desk" id="development">
+      <h2 class="desk-title"><span>Development</span><span class="count">11</span></h2>
+      <ol class="stories">
+      <li class="story">
+        <h3 class="story-title"><a href="https://dev.to/paswkeria/implementing-nodejs-backpressure-for-daily-report-emails-public-https-push-1lba" target="_blank" rel="noopener noreferrer">Implementing Node.js Backpressure for Daily Report Emails (Public HTTPS Push)<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Short answer: start the daily report with cron, publish one idempotent job per delivery, and let a bounded worker pool enforce the email provider's rate limit; choose push only when a public HTTPS subscriber is an acceptable security boundary. For a…</p>
+        <p class="story-meta"><span class="wire">DEV Community</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-11-11T02:43:23.000Z">02:43 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://dev.to/pantaleonshaw8478/nodejs-send-email-daily-through-third-party-scheduling-services-for-media-reports-4pmp" target="_blank" rel="noopener noreferrer">Node.js Send Email Daily Through Third-Party Scheduling Services for Media Reports<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Short answer: Use a third-party scheduler to trigger an asynchronous worker, then let SendGrid or Amazon SES send the daily email; keep the report data and deletion policy under your control. The safest default for a daily media report is to keep the web…</p>
+        <p class="story-meta"><span class="wire">DEV Community</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-11-11T02:42:49.000Z">02:42 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://techcrunch.com/2026/11/10/x-launches-its-own-clipping-feature-to-spur-influencer-engagement/" target="_blank" rel="noopener noreferrer">X launches its own clipping feature to spur influencer engagement<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">X is jumping into clipping, the popular practice of cutting long videos into short, shareable clips that can go viral.</p>
+        <p class="story-meta"><span class="wire">TechCrunch</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-11T01:02:13.000Z">01:02 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management" target="_blank" rel="noopener noreferrer">GitHub App support for Enterprise Copilot seat management<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Enterprise GitHub Apps can now call the enterprise-level Copilot seat management APIs to control which users and enterprise teams are assigned Copilot seats. The Copilot seat management APIs are accessible… The post GitHub App support for Enterprise…</p>
+        <p class="story-meta"><span class="wire">GitHub Changelog</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-11-11T00:10:31.000Z">00:10 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.theverge.com/tech/1031256/meta-quest-disney-plus-vr-3d-movies" target="_blank" rel="noopener noreferrer">The VR Disney Plus app on Meta Quest now has 3D movies<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Disney is bringing more than 60 3D movies to the Disney Plus app on Meta Quest. The movies will be available to Disney Plus subscribers as part of an updated Disney Plus app that's rolling out today. The 3D movies you can check out include The Avengers and…</p>
+        <p class="story-meta"><span class="wire">The Verge</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-10T22:00:00.000Z">10 Nov · 22:00 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.theverge.com/gadgets/1031284/oura-counsel-health-acquisition" target="_blank" rel="noopener noreferrer">Oura is acquiring medical AI chatbot startup Counsel Health<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Oura announced its quarterly earnings today and said it agreed to acquire Counsel Health for $625 million, after adding the company's AI chatbot to its app earlier this year. Counsel Health calls itself an &quot;AI-native primary care company,&quot; using the app to…</p>
+        <p class="story-meta"><span class="wire">The Verge</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-10T21:40:31.000Z">10 Nov · 21:40 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/" target="_blank" rel="noopener noreferrer">OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.</p>
+        <p class="story-meta"><span class="wire">TechCrunch</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-10T20:52:13.000Z">10 Nov · 20:52 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://thenewstack.io/claude-enterprise-apps-connectors/" target="_blank" rel="noopener noreferrer">Anthropic wants Claude to be the front end for your entire enterprise app stack<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Anthropic is expanding Claude’s ability to work directly inside enterprise applications; it can now open full software interfaces, retrieve information, The post Anthropic wants Claude to be the front end for your entire enterprise app stack appeared first…</p>
+        <p class="story-meta"><span class="wire">The New Stack</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-10T20:00:58.000Z">10 Nov · 20:00 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.theverge.com/games/1031144/sony-playstation-plus-windows-pc-app-shutting-down" target="_blank" rel="noopener noreferrer">The PlayStation Plus PC app is shutting down next month<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Sony is retiring the PlayStation Plus app for PC on December 10th. Sony says it will notify users directly about the shutdown. The app allowed PlayStation Plus Premium subscribers to stream certain games on PC, but according to Sony, not many people are…</p>
+        <p class="story-meta"><span class="wire">The Verge</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-10T19:40:52.000Z">10 Nov · 19:40 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot" target="_blank" rel="noopener noreferrer">Gemini 4 Carbon in GitHub Copilot<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Gemini 4 Carbon, Google’s latest model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks, with a focus on secure code generation… The post Gemini 4 Carbon in GitHub Copilot appeared first on The…</p>
+        <p class="story-meta"><span class="wire">GitHub Changelog</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-11-10T19:26:51.000Z">10 Nov · 19:26 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://sdtimes.com/open-source/red-hat-advances-red-hat-developer-hub-as-an-agent-ready-enterprise-developer-portal/" target="_blank" rel="noopener noreferrer">Red Hat Advances Red Hat Developer Hub as an Agent-Ready Enterprise Developer Portal<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Red Hat today announced Red Hat Developer Hub 2.1, the latest version of Red Hat’s agent-ready developer portal. Designed to turn AI code generation speed into tangible business outcomes, Red Hat Developer Hub 2.1 enables enterprises to equip AI agents and…</p>
+        <p class="story-meta"><span class="wire">SD Times</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-10T18:46:15.000Z">10 Nov · 18:46 UTC</time></p>
+      </li>
+      </ol>
+    </section>
+    <section class="desk" id="testing">
+      <h2 class="desk-title"><span>Testing</span><span class="count">12</span></h2>
+      <ol class="stories">
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.bbc.co.uk/news/articles/cj5yn24llxd6o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">Robot vessels take on the dangerous work of mine hunting<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">The conflict in the Gulf is an opportunity for the US to test its autonomous mine-hunting systems.</p>
+        <p class="story-meta"><span class="wire">BBC Technology</span><span class="sep">·</span><span class="region">Europe</span><span class="sep">·</span><time datetime="2026-11-11T00:19:13.000Z">00:19 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://testguild.com/podcast/a611-oliver/" target="_blank" rel="noopener noreferrer">Playwright at Scale: Run 500 Tests in Minutes with Oliver Stenbom<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">About This Episode: Is your Playwright suite slowing you down instead of speeding you up? In this episode, Oliver Stenbom, […]</p>
+        <p class="story-meta"><span class="wire">TestGuild</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-11-10T21:28:15.000Z">10 Nov · 21:28 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon" target="_blank" rel="noopener noreferrer">Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across multiple industries.</p>
+        <p class="story-meta"><span class="wire">Dark Reading</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-10T21:01:14.000Z">10 Nov · 21:01 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.softwaretestingmagazine.com/knowledge/how-ai-is-changing-the-role-of-qa-engineers/" target="_blank" rel="noopener noreferrer">How AI Is Changing the Role of QA Engineers<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Two years ago, a regression cycle on one of our client releases ate most of a Friday. The nightly suite came back red in dozens of places, and our QA team spent the morning sorting real defects from broken locators and a staging database that timed out on…</p>
+        <p class="story-meta"><span class="wire">Software Testing Magazine</span><span class="sep">·</span><span class="region">Europe</span><span class="sep">·</span><time datetime="2026-11-10T18:02:38.000Z">10 Nov · 18:02 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://sdtimes.com/agentic-qa/own-the-outcome-delegate-the-work-a-framework-for-testing-with-ai-agents/" target="_blank" rel="noopener noreferrer">Own the outcome, delegate the work: A framework for testing with AI agents<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">AI can now generate hundreds of tests in minutes. What it can’t do, according to one testing solutions provider, is decide which of them matter. That was the argument Donovan Brady, vice president of developer relations at Leapwork, made in the final…</p>
+        <p class="story-meta"><span class="wire">SD Times</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-10T17:24:20.000Z">10 Nov · 17:24 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://inc42.com/features/nvidia-scandal-ai-selloff-in-the-us-indias-neocloud-boom-faces-twin-tests/" target="_blank" rel="noopener noreferrer">NVIDIA Scandal &amp; AI Selloff In the US: India’s Neocloud Boom Faces Twin Tests<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">The alleged espionage scandal involving NVIDIA CEO Jensen Huang and the growing scrutiny of the chipmaker’s business dealings with China…</p>
+        <p class="story-meta"><span class="wire">Inc42</span><span class="sep">·</span><span class="region">Asia</span><span class="sep">·</span><time datetime="2026-11-10T16:37:51.000Z">10 Nov · 16:37 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://techcabal.com/2026/11/10/francophone-weekly-by-techcabal-047/" target="_blank" rel="noopener noreferrer">Côte d’Ivoire’s plan to back 32 tech startups faces a funding test<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Abidjan has named the first cohorts of Ivoire Tech Next 15 and Ivoire Tech Scale Up. The selection is credible. The money, procurement rules, and scorecard will decide whether it works.</p>
+        <p class="story-meta"><span class="wire">TechCabal</span><span class="sep">·</span><span class="region">Africa</span><span class="sep">·</span><time datetime="2026-11-10T11:11:54.000Z">10 Nov · 11:11 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://github.com/microsoft/playwright/releases/tag/v1.65.0" target="_blank" rel="noopener noreferrer">v1.65.0<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">🥟 Run tests with Bun The test runner now runs under Bun. Bun transpiles your TypeScript test files itself, so Playwright does not use Babel or its compilation cache. Pass the --bun flag, because without it bunx playwright test runs on Node.js: bunx --bun…</p>
+        <p class="story-meta"><span class="wire">Playwright Releases</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-11-09T21:03:39.000Z">9 Nov · 21:03 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot" target="_blank" rel="noopener noreferrer">Claude Fable 5.2 in GitHub Copilot<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fable… The post Claude Fable 5.2 in GitHub Copilot appeared first…</p>
+        <p class="story-meta"><span class="wire">GitHub Changelog</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-11-09T16:46:43.000Z">9 Nov · 16:46 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://inc42.com/buzz/new-age-tech-stocks-extend-rally-cartrade-leads-with-23-3-gain/" target="_blank" rel="noopener noreferrer">New-Age Tech Stocks Extend Rally, CarTrade Leads With 23.3% Gain<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">New-age tech stocks extended their rally this week, with 54 of the 69 companies under Inc42’s coverage posting gains ranging…</p>
+        <p class="story-meta"><span class="wire">Inc42</span><span class="sep">·</span><span class="region">Asia</span><span class="sep">·</span><time datetime="2026-11-07T16:01:36.000Z">7 Nov · 16:01 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://aws.amazon.com/blogs/devops/run-maestro-tests-on-real-android-devices-using-aws-device-farm/" target="_blank" rel="noopener noreferrer">Run Maestro tests on real Android devices using AWS Device Farm<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Learn how ManoMano runs Maestro mobile UI tests on real Android devices using the AWS Device Farm custom test environment. This post covers packaging your YAML flows, configuring the test spec, installing the Maestro CLI, handling manufacturer-specific…</p>
+        <p class="story-meta"><span class="wire">AWS DevOps</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-11-06T18:13:33.000Z">6 Nov · 18:13 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.softwaretestingmagazine.com/knowledge/what-qa-leads-overlook-when-planning-client-site-visits/" target="_blank" rel="noopener noreferrer">What QA Leads Overlook When Planning Client Site Visits<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">A client site visit can expose gaps that remain invisible during remote test cycles. QA leads often prepare test cases, access credentials and defect reports, yet overlook the physical and operational details that determine how much work the team can…</p>
+        <p class="story-meta"><span class="wire">Software Testing Magazine</span><span class="sep">·</span><span class="region">Europe</span><span class="sep">·</span><time datetime="2026-11-05T05:52:39.000Z">5 Nov · 05:52 UTC</time></p>
+      </li>
+      </ol>
+    </section>
+    <section class="desk" id="devops">
+      <h2 class="desk-title"><span>DevOps</span><span class="count">12</span></h2>
+      <ol class="stories">
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.theregister.com/virtualization/2026/11/10/vmware-floats-new-standard-to-make-sure-apps-dont-break-in-hybrid-k8s-environments/5308956" target="_blank" rel="noopener noreferrer">VMware floats new standard to make sure apps don’t break in hybrid K8s environments<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Virtzilla also taking on KubeVirt by sharing VM API with the CNCF</p>
+        <p class="story-meta"><span class="wire">The Register</span><span class="sep">·</span><span class="region">Europe</span><span class="sep">·</span><time datetime="2026-11-10T22:52:56.000Z">10 Nov · 22:52 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.infoq.com/news/2026/11/cloudflare-basin-analytics/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener noreferrer">Cloudflare Makes Basin Serverless Analytics Generally Available<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Cloudflare has announced the general availability of Basin, a serverless analytics platform built on Apache Iceberg and R2 Object Storage. The managed service supports open data formats and integrates with tools such as DuckDB, Snowflake, and Apache Spark…</p>
+        <p class="story-meta"><span class="wire">InfoQ</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-11-10T19:14:00.000Z">10 Nov · 19:14 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.infoq.com/news/2026/11/pinterest-intel-profiling/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener noreferrer">Pinterest and Intel Take Open-Source Profiling to Internet Scale<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Pinterest has partnered with Intel to extend gProfiler, an open-source continuous profiler that provides production performance visibility across an internet-scale fleet of infrastructure. By Craig Risi</p>
+        <p class="story-meta"><span class="wire">InfoQ</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-11-10T12:00:00.000Z">10 Nov · 12:00 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://yourstory.com/2026/11/beyond-the-cloud-why-businesses-are-turning-to-on-device-ai" target="_blank" rel="noopener noreferrer">Beyond the cloud: Why businesses are turning to on-device AI<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">At TechSparks 2026, Brilyant CEO Akash Saxenaa explained how running AI models locally can help businesses control costs, protect sensitive data, and reduce their dependence on the cloud. AI tools have made it easier for businesses to analyze documents…</p>
+        <p class="story-meta"><span class="wire">YourStory</span><span class="sep">·</span><span class="region">Asia</span><span class="sep">·</span><time datetime="2026-11-10T09:16:11.000Z">10 Nov · 09:16 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.infoq.com/articles/llm-reliability-layers-limits-accuracy/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener noreferrer">Article: LLM Reliability Layers Under Test: Accuracy, Yield, and the Limits of Verification<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Verification layers sort outputs by trust rather than fixing errors. In a benchmark of six reliability layers, voting and self-correction failed to recover accuracy - they only withheld doubtful records. Production systems gain more reliability by…</p>
+        <p class="story-meta"><span class="wire">InfoQ</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-11-10T09:00:00.000Z">10 Nov · 09:00 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.infoq.com/news/2026/11/google-cloud-spend-caps/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener noreferrer">Google Cloud Spend Caps Reach General Availability with API and Monthly Resets<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Google Cloud has made spend caps on Cloud Billing Budgets generally available, pausing new usage of a service in a project once a monthly budget is hit, without deleting resources. GA adds an API, estimated live costs, and automatic monthly resets, but…</p>
+        <p class="story-meta"><span class="wire">InfoQ</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-11-10T08:39:00.000Z">10 Nov · 08:39 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://inc42.com/buzz/sarvam-ropes-in-google-cloud-india-md-sashikumar-sreedharan-as-president-cbo/" target="_blank" rel="noopener noreferrer">Sarvam Ropes In Google Cloud India MD Sashikumar Sreedharan As President &amp; CBO<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">AI unicorn Sarvam has appointed former Google Cloud India managing director Sashikumar Sreedharan as its president and chief business officer…</p>
+        <p class="story-meta"><span class="wire">Inc42</span><span class="sep">·</span><span class="region">Asia</span><span class="sep">·</span><time datetime="2026-11-10T07:00:39.000Z">10 Nov · 07:00 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://techcabal.com/2026/11/10/nigeria-hybrid-cloud-storage-postcode/" target="_blank" rel="noopener noreferrer">Nigeria turns to hybrid cloud infrastructure for its postcode database<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">TechCabal reported that technical checks of postcode.gov.ng’s public domain name system (DNS) records pointed to Amazon Web Services (AWS) infrastructure in the United States. The finding raised questions about whether a critical public digital asset was…</p>
+        <p class="story-meta"><span class="wire">TechCabal</span><span class="sep">·</span><span class="region">Africa</span><span class="sep">·</span><time datetime="2026-11-10T06:21:31.000Z">10 Nov · 06:21 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://techcabal.com/2026/11/09/milsats-role-in-digital-address-system/" target="_blank" rel="noopener noreferrer">This tech firm built the geospatial infrastructure behind Nigeria’s door-level address system<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Nigeria’s new digital postcode system aims to replace landmark-based directions with precise building-level codes. Behind it is Milsat’s push to build location-data infrastructure—but keeping that information accurate, accessible and useful will be the…</p>
+        <p class="story-meta"><span class="wire">TechCabal</span><span class="sep">·</span><span class="region">Africa</span><span class="sep">·</span><time datetime="2026-11-09T14:25:43.000Z">9 Nov · 14:25 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/" target="_blank" rel="noopener noreferrer">Innovating with AI in the special chemicals industry<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products…</p>
+        <p class="story-meta"><span class="wire">MIT Technology Review</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-09T13:00:00.000Z">9 Nov · 13:00 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://yourstory.com/2026/11/sarvam-google-cloud-india-head-sashikumar-sreedharan-president-cbo" target="_blank" rel="noopener noreferrer">Google Cloud India MD Shashikumar Sreedharan joins Sarvam as President and CBO<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Sreedharan will run Sarvam's business across enterprises and government, and widen its work with digital-native companies, developers and partners.</p>
+        <p class="story-meta"><span class="wire">YourStory</span><span class="sep">·</span><span class="region">Asia</span><span class="sep">·</span><time datetime="2026-11-09T11:07:44.000Z">9 Nov · 11:07 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://thenewstack.io/scaling-autonomous-agents-framework/" target="_blank" rel="noopener noreferrer">Scaling an autonomous agent from one team to fifty: A serverless-to-container decision framework<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">QA teams shipping complex products generate test failures around the clock. Every failure needs a bug ticket with steps, screenshots, The post Scaling an autonomous agent from one team to fifty: A serverless-to-container decision framework appeared first…</p>
+        <p class="story-meta"><span class="wire">The New Stack</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-08T16:30:00.000Z">8 Nov · 16:30 UTC</time></p>
+      </li>
+      </ol>
+    </section>
+    <section class="desk" id="devsecops">
+      <h2 class="desk-title"><span>DevSecOps</span><span class="count">12</span></h2>
+      <ol class="stories">
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.theregister.com/security/2026/11/10/november-patch-tuesday-boasts-over-1000-bugs-but-only-one-zero-day-so-far/5308946" target="_blank" rel="noopener noreferrer">November Patch Tuesday boasts over 1,000 bugs but only one zero-day so far<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Microsoft admins wail and gnash their teeth</p>
+        <p class="story-meta"><span class="wire">The Register</span><span class="sep">·</span><span class="region">Europe</span><span class="sep">·</span><time datetime="2026-11-10T22:37:01.000Z">10 Nov · 22:37 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/" target="_blank" rel="noopener noreferrer">Ring cameras go mobile as Amazon debuts AI-powered security drone and robot<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.</p>
+        <p class="story-meta"><span class="wire">Ars Technica</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-10T22:35:01.000Z">10 Nov · 22:35 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves" target="_blank" rel="noopener noreferrer">November Patch Tuesday: An Overflowing Cornucopia of CVEs<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Microsoft serves up an actively exploited Outlook zero-day, and a wave of critical Exchange, SharePoint, Windows Search, and LDAP bugs that exhausted defenders need to prioritize fast.</p>
+        <p class="story-meta"><span class="wire">Dark Reading</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-10T22:26:51.000Z">10 Nov · 22:26 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">What we know so far about Jensen Huang's affair with suspected Chinese spy<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">The billionaire tech executive finds himself mired in a personal and national security scandal.</p>
+        <p class="story-meta"><span class="wire">BBC Technology</span><span class="sep">·</span><span class="region">Europe</span><span class="sep">·</span><time datetime="2026-11-10T21:22:36.000Z">10 Nov · 21:22 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.zdnet.com/tech/november-windows-11-update-customizable-right-click-menu/" target="_blank" rel="noopener noreferrer">New Windows 11 update fixes File Explorer menu mess – and patches an exploited flaw<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">With the November Patch Tuesday rollout, you can finally customize your right-click menu in Windows 11. It fixes 1,094 security flaws, too.</p>
+        <p class="story-meta"><span class="wire">ZDNET</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-10T21:00:31.000Z">10 Nov · 21:00 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them" target="_blank" rel="noopener noreferrer">F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">New AI Harms Taxonomy traces how harm moves through AI systems, from misleading chatbot answers to compromised autonomous agents, and identifies where defenses can intervene.</p>
+        <p class="story-meta"><span class="wire">Dark Reading</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-10T20:41:45.000Z">10 Nov · 20:41 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.darkreading.com/cybersecurity-careers/checkmarx-appoints-kobi-sivilya-chief-information-security-officer" target="_blank" rel="noopener noreferrer">Checkmarx Appoints Kobi Sivilya as Chief Information Security Officer<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Sivilya brings deep cybersecurity and technology leadership to Checkmarx as AI transforms software development.</p>
+        <p class="story-meta"><span class="wire">Dark Reading</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-10T20:35:34.000Z">10 Nov · 20:35 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/" target="_blank" rel="noopener noreferrer">Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">CVE-2026-124194 is the Outlook zero-day for which Microsoft says it’s aware of active exploitation. The post Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft appeared first on SecurityWeek.</p>
+        <p class="story-meta"><span class="wire">SecurityWeek</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-10T19:19:46.000Z">10 Nov · 19:19 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/" target="_blank" rel="noopener noreferrer">Adobe Patches 110 Vulnerabilities Across 9 Products<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Adobe has fixed vulnerabilities in AEM, Premiere, Photoshop, After Effects, Connect, Audition, Dimension, Content Credentials SDK, and Media Encoder. The post Adobe Patches 110 Vulnerabilities Across 9 Products appeared first on SecurityWeek.</p>
+        <p class="story-meta"><span class="wire">SecurityWeek</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-10T18:11:54.000Z">10 Nov · 18:11 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/" target="_blank" rel="noopener noreferrer">Git security vulnerabilities announced<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The…</p>
+        <p class="story-meta"><span class="wire">GitHub Blog</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-11-10T18:00:00.000Z">10 Nov · 18:00 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/" target="_blank" rel="noopener noreferrer">Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.</p>
+        <p class="story-meta"><span class="wire">TechCrunch</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-10T17:04:19.000Z">10 Nov · 17:04 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.zdnet.com/tech/apple-27-2-1-security-fix-iphone-ipad-mac-watch-patch/" target="_blank" rel="noopener noreferrer">All your Apple devices need to be patched ASAP – here’s why<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Security updates for iPhones, iPads, Macs, Apple Watches, and Vision Pro just rolled out.</p>
+        <p class="story-meta"><span class="wire">ZDNET</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-10T16:54:11.000Z">10 Nov · 16:54 UTC</time></p>
+      </li>
+      </ol>
+    </section>
+    <section class="desk" id="etc">
+      <h2 class="desk-title"><span>Etc</span><span class="count">12</span></h2>
+      <ol class="stories">
+      <li class="story">
+        <h3 class="story-title"><a href="https://dev.to/aayam2007/building-an-ai-powered-document-automation-platform-for-nepal-jim" target="_blank" rel="noopener noreferrer">Building an AI-Powered Document Automation Platform for Nepal 🇳🇵<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Building an AI-Powered Document Automation Platform for Nepal 🇳🇵 Paperwork and online forms are a major part of everyday life in Nepal. From municipal applications to travel and administrative documents, people often have to enter the same information…</p>
+        <p class="story-meta"><span class="wire">DEV Community</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-11-11T02:42:56.000Z">02:42 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://dev.to/jiren-edobo/why-do-solar-street-light-prices-vary-so-much-between-suppliers-3m0g" target="_blank" rel="noopener noreferrer">Why Do Solar Street Light Prices Vary So Much Between Suppliers?<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">When comparing solar street lights, it's easy to focus on the most visible specifications: rated wattage, battery capacity, and solar panel power. However, these numbers don't always tell the full story. Two systems with similar headline specifications may…</p>
+        <p class="story-meta"><span class="wire">DEV Community</span><span class="sep">·</span><span class="region">Global</span><span class="sep">·</span><time datetime="2026-11-11T02:42:36.000Z">02:42 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://yourstory.com/2026/11/private-scandals-derailed-tech-execs-careers-neha-nagars-new-book-helping-people-invest" target="_blank" rel="noopener noreferrer">Private scandals that derailed tech execs’ careers; Neha Nagar’s new book on helping people invest<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Executive exits can result from violations of company policies, even when no criminal wrongdoing has been established. Brian Krzanich resigned from Intel over a consensual subordinate relationship, while Phaneesh Murthy was dismissed by iGate for failing…</p>
+        <p class="story-meta"><span class="wire">YourStory</span><span class="sep">·</span><span class="region">Asia</span><span class="sep">·</span><time datetime="2026-11-11T02:00:00.000Z">02:00 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://inc42.com/features/gokwiks-golden-handcuffs-non-compete-clause-puts-vested-esops-in-jeopardy/" target="_blank" rel="noopener noreferrer">GoKwik’s Golden Handcuffs: Non-Compete Clause Puts Vested ESOPs In Jeopardy<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Employee stock options (ESOPs) have become a major talking point in India’s startup ecosystem this year, with questions around liquidity,…</p>
+        <p class="story-meta"><span class="wire">Inc42</span><span class="sep">·</span><span class="region">Asia</span><span class="sep">·</span><time datetime="2026-11-11T01:30:50.000Z">01:30 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling" target="_blank" rel="noopener noreferrer">Microsoft’s DLSS competitor is out for the Xbox Ally X and works in handheld mode<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Microsoft is now rolling out Automatic Super Resolution (Auto SR), an upscaling technology that competes with Nvidia's DLSS, for the Xbox Ally X, Xbox Ally X20, and select Windows Copilot Plus PCs, the company announced today. Auto SR is also getting some…</p>
+        <p class="story-meta"><span class="wire">The Verge</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-11T00:34:24.000Z">00:34 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.theregister.com/software/2026/11/10/anthropic-tiptoes-into-ms-office-territory/5308988" target="_blank" rel="noopener noreferrer">Anthropic tiptoes into MS Office territory<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Sheets, Whiteboards, and Data artifact types bring Claude closer to a productivity suite</p>
+        <p class="story-meta"><span class="wire">The Register</span><span class="sep">·</span><span class="region">Europe</span><span class="sep">·</span><time datetime="2026-11-10T23:45:26.000Z">10 Nov · 23:45 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://arstechnica.com/gadgets/2026/11/seagate-resurrects-the-ssd-hdd-hybrid-drive/" target="_blank" rel="noopener noreferrer">Seagate's new hybrid drive raises some old questions<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">The FireCuda Forge revisits an old idea, with some familiar questions.</p>
+        <p class="story-meta"><span class="wire">Ars Technica</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-10T23:30:56.000Z">10 Nov · 23:30 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.theregister.com/networks/2026/11/10/ye-olde-server-consolidation-has-made-cisco-push-top-of-rack-switching-to-100g/5308970" target="_blank" rel="noopener noreferrer">Ye olde server consolidation has made Cisco push top-of-rack switching to 100G<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Newer server processors pack more cores into fewer boxes, creating a need for network speed</p>
+        <p class="story-meta"><span class="wire">The Register</span><span class="sep">·</span><span class="region">Europe</span><span class="sep">·</span><time datetime="2026-11-10T23:25:37.000Z">10 Nov · 23:25 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://arstechnica.com/space/2026/11/the-us-military-seems-to-be-getting-nervous-about-the-launch-supply-crunch/" target="_blank" rel="noopener noreferrer">The US military seems to be getting nervous about the launch supply crunch<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">&quot;Launch is extremely constrained and that is exactly the situation we predicted.&quot;</p>
+        <p class="story-meta"><span class="wire">Ars Technica</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-10T23:02:39.000Z">10 Nov · 23:02 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">Nvidia hires major US law firm to investigate alleged Chinese spy affair<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.</p>
+        <p class="story-meta"><span class="wire">BBC Technology</span><span class="sep">·</span><span class="region">Europe</span><span class="sep">·</span><time datetime="2026-11-10T22:52:15.000Z">10 Nov · 22:52 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://arstechnica.com/tech-policy/2026/11/democrats-oppose-plan-to-stack-fcc-with-republicans-plan-probes-of-chairman-carr/" target="_blank" rel="noopener noreferrer">Democrats oppose plan to stack FCC with Republicans, plan probes of Chairman Carr<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">Democrats accuse FCC nominee of evading questions about Carr, her current boss.</p>
+        <p class="story-meta"><span class="wire">Ars Technica</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-10T21:55:26.000Z">10 Nov · 21:55 UTC</time></p>
+      </li>
+      <li class="story">
+        <h3 class="story-title"><a href="https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/" target="_blank" rel="noopener noreferrer">OpenAI acquires Odessia, travel startup created by Sonder founder<svg class="link-icon" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.1 8.9 8.9 3.1"/><path d="M4.6 3.1h4.3v4.3"/></svg><span class="sr-only"> (opens in a new tab)</span></a></h3>
+        <p class="story-dek">OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry.</p>
+        <p class="story-meta"><span class="wire">TechCrunch</span><span class="sep">·</span><span class="region">North America</span><span class="sep">·</span><time datetime="2026-11-10T21:08:52.000Z">10 Nov · 21:08 UTC</time></p>
+      </li>
+      </ol>
+    </section>
+  </div>
+</main>
+
+<footer class="colophon">
+  <section class="back-issues">
+    <h2>Back Issues</h2>
+    <ul>
+            <li class="current"><a href="2026-11-11.html">11 November 2026</a></li>
+            <li><a href="2026-11-10.html">10 November 2026</a></li>
+            <li><a href="2026-11-09.html">9 November 2026</a></li>
+            <li><a href="2026-11-08.html">8 November 2026</a></li>
+            <li><a href="2026-11-07.html">7 November 2026</a></li>
+            <li><a href="2026-11-06.html">6 November 2026</a></li>
+            <li><a href="2026-11-05.html">5 November 2026</a></li>
+            <li><a href="2026-11-04.html">4 November 2026</a></li>
+            <li><a href="2026-11-03.html">3 November 2026</a></li>
+            <li><a href="2026-11-02.html">2 November 2026</a></li>
+            <li><a href="2026-11-01.html">1 November 2026</a></li>
+            <li><a href="2026-10-31.html">31 October 2026</a></li>
+    </ul>
+  </section>
+  <div class="imprint">
+    <p class="imprint-mark">The Tech Express</p>
+    <p>Compiled automatically from 40 public RSS wires on Wednesday, 11 November 2026. Headlines and excerpts belong to their publishers and link back to the original reporting.</p>
+    <p class="small">38/40 wires answered the phone. 3966 items received, 60 went to press.</p>
+  </div>
+</footer>
+</body>
+</html>
