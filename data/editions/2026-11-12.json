@@ -1,0 +1,592 @@
+{
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T09:42:46.807Z",
+  "stats": {
+    "wires": 40,
+    "wiresOk": 39,
+    "fetched": 3852,
+    "published": 60,
+    "sources": 23,
+    "regions": [
+      "Asia",
+      "Europe",
+      "Global",
+      "North America"
+    ],
+    "failures": [
+      "Tech.eu: HTTP 403"
+    ]
+  },
+  "lead": {
+    "title": "Author Q+A: finprim is a Case for One Financial Validation Library in TypeScript",
+    "url": "https://www.infoq.com/news/2026/11/finprim-validation-qanda/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "summary": "finprim is an MIT-licensed TypeScript library that offers IBAN, BIC, card, sort code, VAT, routing number and loan functions through one API with no runtime dependencies. Its author built it after duplicated validators drifted apart across web and mobile…",
+    "publishedAt": "2026-11-12T09:28:00.000Z",
+    "source": "InfoQ",
+    "region": "Global",
+    "desk": "Development"
+  },
+  "sections": [
+    {
+      "name": "Development",
+      "slug": "development",
+      "stories": [
+        {
+          "title": "Query Single Record In JooqTemplate",
+          "url": "https://dev.to/javaer/query-single-record-in-jooqtemplate-390k",
+          "summary": "Using JooqTemplate requires no code generation and no XML configuration. Add Dependency gradle: implementation 'net.sf.sprtool:sprtool-jooq:1.7.0' maven: <dependency> <groupId> net.sf.sprtool </groupId> <artifactId> sprtool-jooq </artifactId> <version>…",
+          "publishedAt": "2026-11-12T09:38:31.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Why Your Prompts Break in Production: The 5-Pillar Enterprise Prompt Contract (with Python & Local Llama 3.2)",
+          "url": "https://dev.to/subraatakumar/why-your-prompts-break-in-production-the-5-pillar-enterprise-prompt-contract-with-python-local-1h30",
+          "summary": "Imagine this scenario: It is 9:15 AM on a Monday. Your customer support automation pilot has been live for barely twenty minutes when an urgent alert flashes across your Slack operations channel. An angry customer whose laptop arrived with a shattered…",
+          "publishedAt": "2026-11-12T09:37:57.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Gemini in action: How voice, agents, and coding tools are changing the way businesses use AI",
+          "url": "https://yourstory.com/2026/11/gemini-in-action-how-voice-agents-and-coding-tools-are-changing-the-way-businesses-use-ai",
+          "summary": "At TechSparks 2026, Google Cloud’s Rajesh Shewani walked through how businesses are using Gemini for voice, agents, and coding, and why the systems built around a model now matter as much as the model itself.",
+          "publishedAt": "2026-11-12T06:18:08.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Development"
+        },
+        {
+          "title": "Disgraced former CA eMudhra blames buggy script for hopelessly weak certificates",
+          "url": "https://www.theregister.com/security/2026/11/12/disgraced-former-ca-emudhra-blames-buggy-script-for-hopelessly-weak-certificates/5309244",
+          "summary": "Couldn’t get the hardware it needed to generate certs, so tried to code a workaround",
+          "publishedAt": "2026-11-12T04:22:18.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Development"
+        },
+        {
+          "title": "Anthropic built a model that beats Opus. It recommends Opus anyway.",
+          "url": "https://thenewstack.io/anthropic-fable-opus-cost/",
+          "summary": "Anthropic just released a coding model that beats Opus 5.5 on two major benchmarks and can complete certain difficult tasks The post Anthropic built a model that beats Opus. It recommends Opus anyway. appeared first on The New Stack.",
+          "publishedAt": "2026-11-11T19:15:21.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Gemini Decisions API",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "summary": "",
+          "publishedAt": "2026-11-11T18:32:42.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Anthropic’s Claude Fable 5.2 built a shooter in 1 prompt — and it only took 8 hours and $550",
+          "url": "https://thenewstack.io/claude-fable-game-demos/",
+          "summary": "An Anthropic engineer gave Claude Fable 5.2 one prompt to build a first-person shooter and let it run for eight The post Anthropic’s Claude Fable 5.2 built a shooter in 1 prompt — and it only took 8 hours and $550 appeared first on The New Stack.",
+          "publishedAt": "2026-11-11T17:52:06.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Oura Ring users may get in-app access to real doctors soon – what we know",
+          "url": "https://www.zdnet.com/tech/oura-ring-users-may-get-in-app-access-to-real-doctors-soon-what-we-know/",
+          "summary": "Oura’s acquisition of Counsel Health could signal a new dawn for digital care.",
+          "publishedAt": "2026-11-11T17:45:55.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+          "url": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
+          "summary": "Any amount of AI coding is too much for many Independent Games Festival judges.",
+          "publishedAt": "2026-11-11T17:37:32.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Issue types and fields are available for personal accounts",
+          "url": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
+          "summary": "Issue types and issue fields are now generally available on repositories owned by personal accounts. This brings the same planning capabilities to individual developers and open source maintainers to standardize… The post Issue types and fields are…",
+          "publishedAt": "2026-11-11T17:16:46.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Ocarina of Time is even better if you use a smartphone app",
+          "url": "https://www.theverge.com/games/1031321/the-legend-of-zelda-ocarina-of-time-notes-app-gold-skulltula",
+          "summary": "I never liked hunting for Golden Skulltulas in The Legend of Zelda: Ocarina of Time. The game has 100 of them tucked all over Hyrule, and even over my many hours with the N64 classic growing up, I can't remember ever actually finding all of them, or even…",
+          "publishedAt": "2026-11-11T15:00:00.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Development"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "slug": "testing",
+      "stories": [
+        {
+          "title": "Exclusive: Orakl Oncology raises $34m to test cancer drugs on ‘virtual patients’",
+          "url": "https://sifted.eu/articles/exclusive-orakl-oncology-fundraise/",
+          "summary": "",
+          "publishedAt": "2026-11-12T05:00:39.000Z",
+          "source": "Sifted",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "AI-Assisted Mainframe Modernization: Progress Does Not Mean Production-Ready",
+          "url": "https://sdtimes.com/mainframe-ai/ai-assisted-mainframe-modernization-progress-does-not-mean-production-ready/",
+          "summary": "If you ask most companies where they are on their mainframe modernization journey, they will tell you that they are “about 80 percent converted.” They’ll tell you that the dashboards are green, the new Java compiles, and the tests are passing. However, the…",
+          "publishedAt": "2026-11-11T20:50:20.000Z",
+          "source": "SD Times",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "How to Test an AI API Integration Before It Reaches Production",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/how-to-test-an-ai-api-integration-before-it-reaches-production/",
+          "summary": "Testing an AI API integration requires more than checking whether an endpoint returns HTTP 200. A successful response can still contain invalid structure, miss required information, expose unsafe instructions, exceed the product’s latency target, or cost…",
+          "publishedAt": "2026-11-11T16:26:48.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "Tests as data: ensuring AI-generated code does what we want",
+          "url": "https://martinfowler.com/articles/tests-as-data.html",
+          "summary": "Automated testing in the age of AI coding assistants is problematic: when AI agents write both production and test code, developers risk losing the assurance that automated tests protect against functional errors. Matteo Vaccari makes three claims: (1)…",
+          "publishedAt": "2026-11-11T15:17:00.000Z",
+          "source": "Martin Fowler",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "Robot vessels take on the dangerous work of mine hunting",
+          "url": "https://www.bbc.co.uk/news/articles/cj5yn24llxd6o?at_medium=RSS&at_campaign=rss",
+          "summary": "The conflict in the Gulf is an opportunity for the US to test its autonomous mine-hunting systems.",
+          "publishedAt": "2026-11-11T00:19:13.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "Playwright at Scale: Run 500 Tests in Minutes with Oliver Stenbom",
+          "url": "https://testguild.com/podcast/a611-oliver/",
+          "summary": "About This Episode: Is your Playwright suite slowing you down instead of speeding you up? In this episode, Oliver Stenbom, […]",
+          "publishedAt": "2026-11-10T21:28:15.000Z",
+          "source": "TestGuild",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "How AI Is Changing the Role of QA Engineers",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/how-ai-is-changing-the-role-of-qa-engineers/",
+          "summary": "Two years ago, a regression cycle on one of our client releases ate most of a Friday. The nightly suite came back red in dozens of places, and our QA team spent the morning sorting real defects from broken locators and a staging database that timed out on…",
+          "publishedAt": "2026-11-10T18:02:38.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "Own the outcome, delegate the work: A framework for testing with AI agents",
+          "url": "https://sdtimes.com/agentic-qa/own-the-outcome-delegate-the-work-a-framework-for-testing-with-ai-agents/",
+          "summary": "AI can now generate hundreds of tests in minutes. What it can’t do, according to one testing solutions provider, is decide which of them matter. That was the argument Donovan Brady, vice president of developer relations at Leapwork, made in the final…",
+          "publishedAt": "2026-11-10T17:24:20.000Z",
+          "source": "SD Times",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "NVIDIA Scandal & AI Selloff In the US: India’s Neocloud Boom Faces Twin Tests",
+          "url": "https://inc42.com/features/nvidia-scandal-ai-selloff-in-the-us-indias-neocloud-boom-faces-twin-tests/",
+          "summary": "The alleged espionage scandal involving NVIDIA CEO Jensen Huang and the growing scrutiny of the chipmaker’s business dealings with China…",
+          "publishedAt": "2026-11-10T16:37:51.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Testing"
+        },
+        {
+          "title": "v1.65.0",
+          "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.0",
+          "summary": "🥟 Run tests with Bun The test runner now runs under Bun. Bun transpiles your TypeScript test files itself, so Playwright does not use Babel or its compilation cache. Pass the --bun flag, because without it bunx playwright test runs on Node.js: bunx --bun…",
+          "publishedAt": "2026-11-09T21:03:39.000Z",
+          "source": "Playwright Releases",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "Claude Fable 5.2 in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
+          "summary": "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fable… The post Claude Fable 5.2 in GitHub Copilot appeared first…",
+          "publishedAt": "2026-11-09T16:46:43.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "Run Maestro tests on real Android devices using AWS Device Farm",
+          "url": "https://aws.amazon.com/blogs/devops/run-maestro-tests-on-real-android-devices-using-aws-device-farm/",
+          "summary": "Learn how ManoMano runs Maestro mobile UI tests on real Android devices using the AWS Device Farm custom test environment. This post covers packaging your YAML flows, configuring the test spec, installing the Maestro CLI, handling manufacturer-specific…",
+          "publishedAt": "2026-11-06T18:13:33.000Z",
+          "source": "AWS DevOps",
+          "region": "Global",
+          "desk": "Testing"
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "slug": "devops",
+      "stories": [
+        {
+          "title": "LinkedIn Replaces Argo CD with a Custom GitOps Engine for Kubernetes Deployments",
+          "url": "https://www.infoq.com/news/2026/11/kubernetes-argocd-linkedin/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "In a recent post, LinkedIn revealed it has replaced Argo CD with its own GitOps engine. This new system deploys applications across over 250 Kubernetes clusters. It supports more than 4,000 services and manages over 100,000 deployments each week. By…",
+          "publishedAt": "2026-11-12T09:00:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "From multi-lingual AI agents to the future of voice: Google Cloud’s Naren Kachroo at TechSparks 2026",
+          "url": "https://yourstory.com/2026/11/from-multi-lingual-ai-agents-to-the-future-of-voice-google-clouds-naren-kachroo-at-techsparks-2026",
+          "summary": "At TechSparks 2026, Google Cloud’s Head of Sales & GTM AI showcased Gemini 3.8 Live and Live Avatar, and showed an AI sales agent negotiating a helmet order in Hindi on a weak mobile hotspot.",
+          "publishedAt": "2026-11-12T08:48:57.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "DevOps"
+        },
+        {
+          "title": "ValueQuest commits Rs 775 Cr to advance India’s defence, manufacturing push",
+          "url": "https://yourstory.com/2026/11/valuequest-commits-rs-775-cr-to-advance-indias-defence-manufacturing-push",
+          "summary": "The Mumbai-based investment manager is backing three businesses operating in the areas of defence tech, precision engineering, and power infrastructure: Sagar Defence Engineering, TASE Global, and Rational Engineers.",
+          "publishedAt": "2026-11-12T07:37:10.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "DevOps"
+        },
+        {
+          "title": "AWS distills its cloud into a local emulator that runs on your PC",
+          "url": "https://www.theregister.com/off-prem/2026/11/12/aws-distills-its-cloud-into-a-local-emulator-that-runs-on-your-pc/5309251",
+          "summary": "Hyperscale meets micro-computing by offering APIs to test your apps",
+          "publishedAt": "2026-11-12T05:47:31.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Lock Your GitHub Actions",
+          "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
+          "summary": "",
+          "publishedAt": "2026-11-11T22:16:41.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Attackers Say 'Hello' to a Different Scale of Cloud Attack",
+          "url": "https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack",
+          "summary": "Researchers dubbed an attack chain \"Greeter\" after discovering that attackers deliberately covered their trail by leaving \"hello\" messages in logs.",
+          "publishedAt": "2026-11-11T21:44:04.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "This tiny box gives your older tech smart home superpowers – and it’s only $69",
+          "url": "https://www.zdnet.com/home-and-office/home-assistant-connect-aux-2-hardware-older-tech-smart/",
+          "summary": "Home Assistant gets new equipment to battle planned obsolescence and abandoned cloud services.",
+          "publishedAt": "2026-11-11T20:30:00.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Why Nvidia gave OpenShell to the CNCF",
+          "url": "https://thenewstack.io/nvidia-donates-openshell-cncf/",
+          "summary": "Nvidia this week donated OpenShell, its open-source runtime for securing and governing AI agents, to the Cloud Native Computing Foundation. The post Why Nvidia gave OpenShell to the CNCF appeared first on The New Stack.",
+          "publishedAt": "2026-11-11T19:13:54.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Expensive accelerators, no workload-level visibility: Introducing Amazon CloudWatch accelerated compute insights",
+          "url": "https://thenewstack.io/cloudwatch-accelerated-compute-insights/",
+          "summary": "Accelerator bills have become one of the largest lines in the infrastructure budget. GPUs have become the most expensive resource The post Expensive accelerators, no workload-level visibility: Introducing Amazon CloudWatch accelerated compute insights…",
+          "publishedAt": "2026-11-11T18:00:00.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "GitHub Makes Agentic Workflows Generally Available with Isolation and Budget Controls",
+          "url": "https://www.infoq.com/news/2026/11/github-agentic-workflows-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "GitHub Agentic Workflows is generally available, running coding agents in GitHub Actions with read-only defaults and separately scoped write jobs. Those protections do not cover direct write permissions or custom jobs, so they depend on how each workflow…",
+          "publishedAt": "2026-11-11T17:00:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Cloudflare Makes Basin Serverless Analytics Generally Available",
+          "url": "https://www.infoq.com/news/2026/11/cloudflare-basin-analytics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Cloudflare has announced the general availability of Basin, a serverless analytics platform built on Apache Iceberg and R2 Object Storage. The managed service supports open data formats and integrates with tools such as DuckDB, Snowflake, and Apache Spark…",
+          "publishedAt": "2026-11-10T19:14:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "From insight to action: improving infrastructure risk posture with Terraform and Concert",
+          "url": "https://www.hashicorp.com/blog/from-insight-to-action-improving-infrastructure-risk-posture-with-terraform-and-c",
+          "summary": "Learn how Terraform and IBM Concert connect trusted infrastructure context, policy-driven governance, and vulnerability management to improve risk posture across the infrastructure lifecycle.",
+          "publishedAt": "2026-11-10T17:00:00.000Z",
+          "source": "HashiCorp",
+          "region": "Global",
+          "desk": "DevOps"
+        }
+      ]
+    },
+    {
+      "name": "DevSecOps",
+      "slug": "devsecops",
+      "stories": [
+        {
+          "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
+          "url": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
+          "summary": "Attackers could exploit a critical Red Hat Quay flaw to steal private container images, overwrite repositories and maintain persistent access. The post Critical Red Hat Quay Vulnerability Could Expose Private Container Images appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-12T09:23:21.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt",
+          "url": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/",
+          "summary": "The WhiteArmor ransomware group claims it stole 100GB of data from the shipping giant’s systems. The post Maersk Confirms Data Theft Amid $5 Million Extortion Attempt appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-12T08:38:47.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Humble Bundle just killed most of their security through vibecoding",
+          "url": "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1346295/",
+          "summary": "",
+          "publishedAt": "2026-11-12T06:52:48.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Critical RCE Vulnerability in Apache HTTP Server",
+          "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+          "summary": "",
+          "publishedAt": "2026-11-12T02:11:11.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Chinese AI Project Scouts Spies in Taiwan Chip Industry",
+          "url": "https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry",
+          "summary": "The CCP built a Big Data system to scrape reams of information and learn about individuals abroad, to potentially target and exploit them. Think Alice Huang Lite.",
+          "publishedAt": "2026-11-12T01:00:00.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Japan Pushes Emergency Funding for Cybersecurity as AI-Assisted Breaches Rise",
+          "url": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches",
+          "summary": "The package adds public-private cyber responders, an AI-focused team run by the economic ministry, and more leeway to use the government's new active cyber-defense powers.",
+          "publishedAt": "2026-11-12T00:00:00.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "The unfolding Jensen Huang scandal: a timeline",
+          "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "summary": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+          "publishedAt": "2026-11-11T23:50:00.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "AI Raises the Stakes for Cyber Resilience",
+          "url": "https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience",
+          "summary": "An organization's ability to quickly recover from a business disruption will be a competitive advantage in an era of AI-driven threats and business enablement.",
+          "publishedAt": "2026-11-11T21:20:41.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Critical Xen Orchestra Flaws Exploited in Attacks",
+          "url": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
+          "summary": "A critical authentication bypass allows attackers to execute arbitrary code as admin and take over XCP-ng nodes. The post Critical Xen Orchestra Flaws Exploited in Attacks appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-11T15:42:47.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Centre Bans Export of Lithium-Ion Battery’s ‘Black Mass’",
+          "url": "https://inc42.com/buzz/centre-bans-export-of-lithium-ion-batterys-black-mass/",
+          "summary": "In a major regulatory shift for India’s EV supply chain ecosystem, the Centre has issued directions to prohibit export of…",
+          "publishedAt": "2026-11-11T12:57:14.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+          "url": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+          "summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
+          "publishedAt": "2026-11-10T22:35:01.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Microsoft fixes over 1,000 Windows flaws – and one is being exploited",
+          "url": "https://www.zdnet.com/tech/november-windows-11-update-customizable-right-click-menu/",
+          "summary": "With the November Patch Tuesday rollout, you can finally customize your right-click menu in Windows 11. But don’t skip these security fixes.",
+          "publishedAt": "2026-11-10T21:00:31.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "DevSecOps"
+        }
+      ]
+    },
+    {
+      "name": "Etc",
+      "slug": "etc",
+      "stories": [
+        {
+          "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
+          "url": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",
+          "summary": "The malicious activity started shortly after a researcher dropped over 30 zero-days. N-able patched the unauthenticated ones. The post Hackers Target N-central Zero-Days as N-able Rushes Patches appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-12T09:39:55.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "From Executable to Trustworthy: Identity and Attribution in the AI Recommendation Economy",
+          "url": "https://dev.to/alirezaai/from-executable-to-trustworthy-identity-and-attribution-in-the-ai-recommendation-economy-1mla",
+          "summary": "A recommendation can be relevant. Its product link can work. Its checkout can accept the buyer’s details. And an important question can still remain unresolved: Who, exactly, is being recommended—and what evidence connects that identity to the claims and…",
+          "publishedAt": "2026-11-12T09:38:56.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "Drafting a Doc, a Deck and a Sheet From One AI Conversation",
+          "url": "https://dev.to/tikpal/drafting-a-doc-a-deck-and-a-sheet-from-one-ai-conversation-17e",
+          "summary": "TL;DR: Talk through the situation first. Ask for a document, build the slides from the document, then add a sheet for the numbers. Mark unknowns instead of letting the assistant guess, edit one thing at a time, and check every figure before the files leave…",
+          "publishedAt": "2026-11-12T09:38:22.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "Data sovereignty takes more than keeping data close to home",
+          "url": "https://www.theregister.com/storage/2026/11/12/sponsored-data-sovereignty-takes-more-than-keeping-data-close-to-home/5308742",
+          "summary": "SPONSORED POST: Knowing where your data lives is only part of the challenge. Who controls it, who can access it and how quickly you can recover when things go wrong matter just as much.",
+          "publishedAt": "2026-11-12T09:06:00.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Your AI agent is only as good as your endpoint data",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/12/partner-content-your-ai-agent-is-only-as-good-as-your-endpoint-data/5308469",
+          "summary": "PARTNER CONTENT: Real-time endpoint data keeps AI-driven IT operations accurate, fast and under control",
+          "publishedAt": "2026-11-12T09:00:00.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "CCPA Fines Ola ₹10 Lakh For Advance Tipping Prompts",
+          "url": "https://inc42.com/buzz/ccpa-fines-ola-%e2%82%b910-lakh-for-advance-tipping-prompts/",
+          "summary": "The Central Consumer Protection Authority (CCPA) has imposed a penalty of ₹10 Lakh on ANI Technologies Pvt Ltd, parent of…",
+          "publishedAt": "2026-11-12T07:38:40.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "‘What we have done is not enough’: Lenskart CEO a year after IPO",
+          "url": "https://yourstory.com/2026/11/what-we-have-done-is-not-enough-lenskart-ceo-a-year-after-ipo",
+          "summary": "One year after Lenskart’s public listing, CEO Peyush Bansal scrapped blue-light lens upsells and pledged free glasses to 100,000 children to target India’s widespread vision accessibility crisis.",
+          "publishedAt": "2026-11-12T06:26:47.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "What we know as pressure builds on embattled Nvidia CEO Jensen Huang",
+          "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+          "summary": "The billionaire tech executive's future is in question after reports of a second extramarital affair.",
+          "publishedAt": "2026-11-12T04:18:33.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+          "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+          "summary": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
+          "publishedAt": "2026-11-12T03:13:10.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "GoKwik’s ESOP Twist, New CEO At Unacademy & More",
+          "url": "https://inc42.com/buzz/gokwiks-esop-twist-new-ceo-at-unacademy-more/",
+          "summary": "GoKwik’s Golden Handcuffs GoKwik has added a contentious twist to its ESOP policy. Under the new rules, current and former…",
+          "publishedAt": "2026-11-12T02:30:11.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+          "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+          "summary": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
+          "publishedAt": "2026-11-11T23:28:45.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+          "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+          "summary": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
+          "publishedAt": "2026-11-11T23:17:05.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        }
+      ]
+    }
+  ]
+}
