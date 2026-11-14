@@ -1,0 +1,593 @@
+{
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T03:05:24.514Z",
+  "stats": {
+    "wires": 40,
+    "wiresOk": 39,
+    "fetched": 3854,
+    "published": 60,
+    "sources": 26,
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Global",
+      "North America"
+    ],
+    "failures": [
+      "Tech.eu: HTTP 403"
+    ]
+  },
+  "lead": {
+    "title": "Tech Now",
+    "url": "https://www.bbc.co.uk/iplayer/episode/m0034hf1?at_medium=RSS&at_campaign=rss",
+    "summary": "Yasmin Morgan-Griffiths follows a team testing AI early warning systems for landslides.",
+    "publishedAt": "2026-11-14T01:00:00.000Z",
+    "source": "BBC Technology",
+    "region": "Europe",
+    "desk": "Testing"
+  },
+  "sections": [
+    {
+      "name": "Development",
+      "slug": "development",
+      "stories": [
+        {
+          "title": "Schedule Python Jobs with APScheduler",
+          "url": "https://dev.to/ali_82f3409ed625e8ba8515b/schedule-python-jobs-with-apscheduler-56e2",
+          "summary": "APScheduler is a Python library that runs functions on a schedule. We give it a function and a trigger, such as every five minutes or weekdays at 09:00, and it calls that function on time without cron, without a separate service, and without keeping a…",
+          "publishedAt": "2026-11-14T03:00:02.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Getting Started with Voice AI Development in 2026",
+          "url": "https://dev.to/voice_developer/getting-started-with-voice-ai-development-in-2026-1fmf",
+          "summary": "Why Voice AI is Still Hot in 2026 Voice has become the new touchpad. From hands‑free navigation in cars to conversational agents that can read code, answer questions, or even write essays, voice AI is the backbone of a generation of products that feel more…",
+          "publishedAt": "2026-11-14T02:58:52.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Extension Tables, Expo Configs, and Static MCP Scanners in supabase-rls-check 0.6.3",
+          "url": "https://dev.to/tthanh2k6/extension-tables-expo-configs-and-static-mcp-scanners-in-supabase-rls-check-063-4pni",
+          "summary": "After shipping supabase-rls-check 0.6.0 on November 11, 2026, I ran into three edge cases across PostgreSQL system catalogs, React Native build files, and Model Context Protocol (MCP) directory scanners. Versions 0.6.1 through 0.6.3 address those three…",
+          "publishedAt": "2026-11-14T02:58:37.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Even Grand Theft Auto's original creators haven't been able to play GTA 6",
+          "url": "https://www.bbc.co.uk/news/articles/c6jd7k5ryl1mo?at_medium=RSS&at_campaign=rss",
+          "summary": "The next title in the series is expected to be the biggest video game release ever.",
+          "publishedAt": "2026-11-14T00:37:01.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Development"
+        },
+        {
+          "title": "Anthropic Upgrades Claude Code Projects to Run Parallel AI Workers Hands-Free",
+          "url": "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free",
+          "summary": "",
+          "publishedAt": "2026-11-14T00:28:11.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Chinese AI labs are training models on Nvidia's Blackwell despite export controls, says ex-OpenAI engineer",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/13/chinese-ai-labs-are-training-models-on-nvidias-blackwell-despite-export-controls-says-ex-openai-engineer/5309891",
+          "summary": "Forensic report finds Blackwell's fingerprint in DeepSeek, Moonshot AI, MiniMax and Ant Group models",
+          "publishedAt": "2026-11-13T21:16:22.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Development"
+        },
+        {
+          "title": "Verification and Validation Software for Medical Devices: 6 Best Tools",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/verification-and-validation-software-for-medical-devices-6-best-tools/",
+          "summary": "Short answer: Verification and validation software for medical devices should prove that every requirement was tested and every risk control works, and the best choice in 2026 is Matrix Req, followed by Aligned Elements, SpiraTeam, Orcanos, Xebrio and…",
+          "publishedAt": "2026-11-13T21:10:09.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Development"
+        },
+        {
+          "title": "Upcoming deprecation of selected GitHub Copilot models in December",
+          "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+          "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on December 14, 2026: Model Deprecation date… The post Upcoming deprecation of selected GitHub…",
+          "publishedAt": "2026-11-13T20:40:05.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "GitHub Enterprise Server support in the GitHub Copilot app",
+          "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+          "summary": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests. This… The post GitHub Enterprise Server support in the GitHub Copilot app…",
+          "publishedAt": "2026-11-13T18:27:13.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Gemini 4 Hydrogen in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+          "summary": "Gemini 4 Hydrogen, Google’s latest Flash model, is now generally available in GitHub Copilot. It is designed for fast, efficient agentic coding, tool use, and multistep workflows, with improved instruction… The post Gemini 4 Hydrogen in GitHub Copilot…",
+          "publishedAt": "2026-11-13T18:23:48.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "DeepSeek’s coding agent is too tidy for its own good — and benchmarks are punishing it",
+          "url": "https://thenewstack.io/deepseek-harness-cleanup-benchmark/",
+          "summary": "DeepSeek’s open-source coding agent is losing points on a major benchmark for a habit developers usually treat as good practice: The post DeepSeek’s coding agent is too tidy for its own good — and benchmarks are punishing it appeared first on The New Stack.",
+          "publishedAt": "2026-11-13T17:56:30.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Your coding agent shouldn't grade its own homework",
+          "url": "https://stackoverflow.blog/2026/11/13/your-coding-agent-shouldn-t-grade-its-own-homework/",
+          "summary": "AI coding agents can now write design docs, mock up frontends, and implement entire projects end to end. But can they be trusted to verify that their own code actually works?",
+          "publishedAt": "2026-11-13T17:27:39.000Z",
+          "source": "Stack Overflow Blog",
+          "region": "Global",
+          "desk": "Development"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "slug": "testing",
+      "stories": [
+        {
+          "title": "v1.65.1",
+          "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.1",
+          "summary": "Bug Fixes #43936 [Regression]: decorated class with a static field fails to load in 1.65 (\"_initClass is not a function\") with useDefineForClassFields: false #43934 [Bug]: Test locations are one column off under Bun 1.4.4+ Browser Versions Chromium…",
+          "publishedAt": "2026-11-13T21:46:58.000Z",
+          "source": "Playwright Releases",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "Dropbox Shares How Its In-House Cookie Auditor Tests Consent Behaviour Across 200+ Web Surfaces",
+          "url": "https://www.infoq.com/news/2026/11/dropbox-cookie-auditor/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Dropbox engineers described a Playwright-based auditor that checks cookie consent behavior across more than 200 web surfaces. It runs three tests per page: US visitor, EU visitor, and Global Privacy Control signal. Cookie rules are kept outside the code. A…",
+          "publishedAt": "2026-11-13T06:15:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "Amazon releases AWS Emulator to allows its services to run locally",
+          "url": "https://sdtimes.com/amazon-web-services-aws/amazon-releases-aws-emulator-to-allows-its-services-to-run-locally/",
+          "summary": "Amazon has released AWS Emulator, a local emulator of AWS services, written entirely by autonomous agents, for building and testing AWS applications. One of the keys in having agents create the emulator, without humans writing or reviewing the code, was…",
+          "publishedAt": "2026-11-12T17:14:58.000Z",
+          "source": "SD Times",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "Jensen Huang’s exit puts Nvidia’s African AI bet to the test",
+          "url": "https://techcabal.com/2026/11/12/jensen-huang-exit-puts-nvidia-africa-test/",
+          "summary": "Before he resigned as Nvidia chief executive, Jensen Huang singled out African markets as where US technology companies should compete.",
+          "publishedAt": "2026-11-12T16:04:29.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "Testing"
+        },
+        {
+          "title": "Azure Logic Apps Standard Gets a Local CLI in Preview",
+          "url": "https://www.infoq.com/news/2026/11/logic-apps-local-cli/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Microsoft has released a public preview of the logicapp extension for the Azure CLI, adding local project creation, workflow authoring, a runtime lifecycle, connector management, run inspection, and test scaffolding for Logic Apps Standard, work that…",
+          "publishedAt": "2026-11-12T10:23:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "Exclusive: Orakl Oncology raises $34m to test cancer drugs on ‘virtual patients’",
+          "url": "https://sifted.eu/articles/exclusive-orakl-oncology-fundraise/",
+          "summary": "",
+          "publishedAt": "2026-11-12T05:00:39.000Z",
+          "source": "Sifted",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "AI-Assisted Mainframe Modernization: Progress Does Not Mean Production-Ready",
+          "url": "https://sdtimes.com/mainframe-ai/ai-assisted-mainframe-modernization-progress-does-not-mean-production-ready/",
+          "summary": "If you ask most companies where they are on their mainframe modernization journey, they will tell you that they are “about 80 percent converted.” They’ll tell you that the dashboards are green, the new Java compiles, and the tests are passing. However, the…",
+          "publishedAt": "2026-11-11T20:50:20.000Z",
+          "source": "SD Times",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "How to Test an AI API Integration Before It Reaches Production",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/how-to-test-an-ai-api-integration-before-it-reaches-production/",
+          "summary": "Testing an AI API integration requires more than checking whether an endpoint returns HTTP 200. A successful response can still contain invalid structure, miss required information, expose unsafe instructions, exceed the product’s latency target, or cost…",
+          "publishedAt": "2026-11-11T16:26:48.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "Tests as data: ensuring AI-generated code does what we want",
+          "url": "https://martinfowler.com/articles/tests-as-data.html",
+          "summary": "Automated testing in the age of AI coding assistants is problematic: when AI agents write both production and test code, developers risk losing the assurance that automated tests protect against functional errors. Matteo Vaccari makes three claims: (1)…",
+          "publishedAt": "2026-11-11T15:17:00.000Z",
+          "source": "Martin Fowler",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "Playwright at Scale: Run 500 Tests in Minutes with Oliver Stenbom",
+          "url": "https://testguild.com/podcast/a611-oliver/",
+          "summary": "About This Episode: Is your Playwright suite slowing you down instead of speeding you up? In this episode, Oliver Stenbom, […]",
+          "publishedAt": "2026-11-10T21:28:15.000Z",
+          "source": "TestGuild",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "How AI Is Changing the Role of QA Engineers",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/how-ai-is-changing-the-role-of-qa-engineers/",
+          "summary": "Two years ago, a regression cycle on one of our client releases ate most of a Friday. The nightly suite came back red in dozens of places, and our QA team spent the morning sorting real defects from broken locators and a staging database that timed out on…",
+          "publishedAt": "2026-11-10T18:02:38.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "slug": "devops",
+      "stories": [
+        {
+          "title": "Microsoft’s global outage; Vidya Balan’s call to put child safety first",
+          "url": "https://yourstory.com/2026/11/microsofts-global-outage-vidya-balan-call-child-safety-first",
+          "summary": "Problems with Exchange Online spread across Microsoft 365 and external businesses, highlighting how dependent workplaces have become on shared cloud infrastructure.",
+          "publishedAt": "2026-11-14T02:00:00.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+          "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+          "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+          "publishedAt": "2026-11-13T22:43:00.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Microsoft’s 18-hour outage exposed South Africa’s dependence on Big Tech",
+          "url": "https://techcabal.com/2026/11/13/microsoft-outage-south-africa-big-tech/",
+          "summary": "Microsoft's global outage disrupted South African businesses and public institutions, including Eskom, Absa and FlySafair, exposing the country's growing dependence on Big Tech's cloud infrastructure.",
+          "publishedAt": "2026-11-13T17:41:02.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Microsoft Struggles to Restore Email and Other Services in a Global Outage",
+          "url": "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage/",
+          "summary": "Microsoft is trying different ways to identify the cause of the problem and get its servers back online, using “a measured approach to identify and repair affected infrastructure.” The post Microsoft Struggles to Restore Email and Other Services in a…",
+          "publishedAt": "2026-11-13T13:47:42.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Netflix Turns Operational Data Into a Knowledge Graph for AI-Driven Observability",
+          "url": "https://www.infoq.com/news/2026/11/netflix-ai-driven-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Netflix is developing an ontology-driven knowledge graph to accelerate production investigations and provide AI agents with a shared understanding of its operational environment. By Craig Risi",
+          "publishedAt": "2026-11-13T12:00:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Schema Drift vs. Semantic Drift in Data Pipelines",
+          "url": "https://www.freecodecamp.org/news/schema-drift-vs-semantic-drift-in-data-pipelines/",
+          "summary": "When a column is removed from a source database or dataset, the next pipeline run usually fails, making the problem easy to detect. But when a field keeps the same name and data type but its meaning c",
+          "publishedAt": "2026-11-13T11:23:18.000Z",
+          "source": "freeCodeCamp News",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "One outage, millions affected. What went wrong at Microsoft?",
+          "url": "https://yourstory.com/2026/11/one-outage-millions-affected-what-went-wrong-at-microsoft",
+          "summary": "Problems with Exchange Online spread across Microsoft 365 and external businesses, highlighting how dependent workplaces have become on shared cloud infrastructure.",
+          "publishedAt": "2026-11-13T10:35:56.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Delhivery partners with Tata Motors, Euler Motors, Montra Electric to deploy up to 2,000 electric commercial vehicles",
+          "url": "https://yourstory.com/2026/11/delhivery-partners-with-tata-motors-euler-motors-montra-electric-deploy-2000-ecvs",
+          "summary": "The pacts are part of the company's plan to put close to 5,000 EVs into operation within three years.",
+          "publishedAt": "2026-11-13T07:16:26.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Actions for ARM32 Linux & Windows retirement",
+          "url": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
+          "summary": "GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node… The post Actions for ARM32 Linux & Windows retirement appeared first on The GitHub Blog.",
+          "publishedAt": "2026-11-12T20:59:36.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "The Pulse: Details of incident.io’s AI spend",
+          "url": "https://blog.pragmaticengineer.com/the-pulse-details-of-incident-ios-ai-spend/",
+          "summary": "The resiliency startup has slashed the amount it spends on AI; down from $4,500 per dev, per month, in August, to $1,600 now.",
+          "publishedAt": "2026-11-12T19:00:11.000Z",
+          "source": "The Pragmatic Engineer",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs",
+          "url": "https://www.infoq.com/news/2026/11/google-tpu-sync/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Google Cloud has open-sourced TPU Sync, a native C++ library that moves KV cache blocks and model weights between TPU HBM, host DRAM, shared storage, and the data center network. By Daniel Dominguez",
+          "publishedAt": "2026-11-12T10:06:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Attackers Say 'Hello' to a Different Scale of Cloud Attack",
+          "url": "https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack",
+          "summary": "Researchers dubbed an attack chain \"Greeter\" after discovering that attackers deliberately covered their trail by leaving \"hello\" messages in logs.",
+          "publishedAt": "2026-11-11T21:44:04.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevOps"
+        }
+      ]
+    },
+    {
+      "name": "DevSecOps",
+      "slug": "devsecops",
+      "stories": [
+        {
+          "title": "The FBI’s ARTEX Flash: When Noise Stopped Meaning Unsophisticated",
+          "url": "https://dev.to/threataft_dev/the-fbis-artex-flash-when-noise-stopped-meaning-unsophisticated-1nc2",
+          "summary": "The FBI issued a flash on ARTEX-class AI attack frameworks. It doesn’t describe a new vulnerability or a specific victim set. It describes a shift in who can run known techniques, and how fast those techniques run when a language model is executing them…",
+          "publishedAt": "2026-11-14T03:00:20.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’",
+          "url": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
+          "summary": "Federal officials have yet to say what caused the communications disruption or whether they are investigating a possible cyberattack. The post FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’ appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-13T21:33:27.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "This year’s bug count just passed 100K",
+          "url": "https://www.theregister.com/security/2026/11/13/this-years-bug-count-just-passed-100k/5309882",
+          "summary": "‘We don’t have a security problem anymore. We have a data problem now’",
+          "publishedAt": "2026-11-13T20:52:17.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "ArcticRAT Cybercrime Gang Profiles Victim Finances With AI",
+          "url": "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
+          "summary": "The Android malware has expanded from focusing on crypto theft to full device control, and the attackers have added advanced analysis of stolen information.",
+          "publishedAt": "2026-11-13T20:20:27.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
+          "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
+          "summary": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
+          "publishedAt": "2026-11-13T16:26:32.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "The unfolding Jensen Huang scandal: a timeline",
+          "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+          "publishedAt": "2026-11-13T15:58:00.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
+          "url": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
+          "summary": "Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors. The post In Other News: New CISA Director Nominee, Connected Car Hacking, Baker…",
+          "publishedAt": "2026-11-13T15:20:00.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Quantum Systems drones back in the air after malware scare",
+          "url": "https://www.theregister.com/security/2026/11/13/quantum-systems-drones-back-in-the-air-after-malware-scare/5309658",
+          "summary": "Germany's Bundeswehr lifted precautionary grounding after malicious update reportedly reached military servers",
+          "publishedAt": "2026-11-13T13:14:00.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Attackers in Binance Breach Targeted Known Weakness, Missing Controls",
+          "url": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls",
+          "summary": "Blockchain complexities, such as attacker-deployed sweepers, hobble security controls designed to limit the damage of an exchange compromise.",
+          "publishedAt": "2026-11-13T13:00:00.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Apify Confirms Customer Data Accessed in Cyberattack",
+          "url": "https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/",
+          "summary": "The web scraping company says an intruder accessed customer accounts and obtained personal information or stored data. The post Apify Confirms Customer Data Accessed in Cyberattack appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-13T12:41:01.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Cyber Experts Weigh In: How to Fight Artex & AntiFox",
+          "url": "https://www.darkreading.com/cybersecurity-operations/cyber-experts-fight-artex-antifox",
+          "summary": "Cybercriminals using agentic pen-testing tools is a proverbial genie out of the bottle at this point, so enterprises need to get a defense plan in place right away.",
+          "publishedAt": "2026-11-12T21:18:52.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+          "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+          "summary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even…",
+          "publishedAt": "2026-11-12T20:16:24.000Z",
+          "source": "MIT Technology Review",
+          "region": "North America",
+          "desk": "DevSecOps"
+        }
+      ]
+    },
+    {
+      "name": "Etc",
+      "slug": "etc",
+      "stories": [
+        {
+          "title": "How art exhibitions provide unmatched experiences of aesthetics, scale and technique",
+          "url": "https://yourstory.com/2026/11/lalit-kala-akademi-art-exhibition-experience-creativity-photography",
+          "summary": "In this photo essay from Lalit Kala Akademi in New Delhi, we showcase more highlights from its annual national art exhibition.",
+          "publishedAt": "2026-11-14T02:35:00.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
+          "url": "https://www.theverge.com/news/1033489/faa-ground-stop",
+          "summary": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop at 3:44PM ET \"due to extraordinary circumstances and for reasons of safety,\" while planes in the air will be allowed to land. The FAA tweeted…",
+          "publishedAt": "2026-11-14T01:53:04.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "‘We need more reviewers’: Finding Linux bugs is easy now – fixing them is another story",
+          "url": "https://www.zdnet.com/innovation/ai-bug-reports-linux-windows/",
+          "summary": "Some Linux maintainers are quitting under the crushing strain of AI bug reports, while others see signs for hope.",
+          "publishedAt": "2026-11-14T01:20:06.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Starship flight 15 powers to orbit—setting up a possible catch on Saturday",
+          "url": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
+          "summary": "One way or another, the company will get some more data on Saturday.",
+          "publishedAt": "2026-11-14T00:49:13.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Amazon has a plan to index the world’s online shopping data",
+          "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+          "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is…",
+          "publishedAt": "2026-11-13T23:49:11.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "FAA orders third nationwide ground stop in its history",
+          "url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
+          "summary": "Rare nationwide ground stop could go on for awhile as FAA troubleshoots.",
+          "publishedAt": "2026-11-13T23:17:38.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "How the Jensen Huang scandal created a headache for business-friendly Singapore",
+          "url": "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss",
+          "summary": "The scandal has cast a spotlight on Singapore's success as a chip hub - and a location for alleged illicit trade.",
+          "publishedAt": "2026-11-13T23:00:31.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price",
+          "url": "https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/",
+          "summary": "The latest model is lighter and thinner than its predecessor and features an edge-to-edge display. But if you already own the first-generation Colorsoft, there’s little reason to upgrade.",
+          "publishedAt": "2026-11-13T23:00:00.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "FAA lifts ground stop after hours-long delays snag travelers",
+          "url": "https://www.theregister.com/offbeat/2026/11/13/faa-lifts-ground-stop-after-hours-long-delays-snag-travelers/5309912",
+          "summary": "Safety reasons and unspecified communications issue cited",
+          "publishedAt": "2026-11-13T22:42:28.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "SoftBank Offloads Meesho Shares Worth ₹1,855 Cr",
+          "url": "https://inc42.com/buzz/softbank-offloads-meesho-shares-worth-%e2%82%b91855-cr/",
+          "summary": "Japanese tech investor SoftBank yesterday offloaded 7.6 Cr shares of listed ecommerce giant Meesho in a block deal worth ₹1,885.2…",
+          "publishedAt": "2026-11-13T22:09:36.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Millions of Americans are not taking their GLP-1 drugs as prescribed",
+          "url": "https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways/",
+          "summary": "Cost and access barriers are pushing people to modified use and unapproved versions.",
+          "publishedAt": "2026-11-13T21:59:01.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "US government grounds all flights across the United States ‘due to extraordinary circumstances’",
+          "url": "https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances/",
+          "summary": "A spokesperson for the FAA told TechCrunch that it issued the ground stop \"following communication issues impacting multiple Air Route Traffic Control Centers,\" which manage the airspace across the United States.",
+          "publishedAt": "2026-11-13T21:44:38.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        }
+      ]
+    }
+  ]
+}
