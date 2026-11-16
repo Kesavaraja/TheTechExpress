@@ -1,0 +1,593 @@
+{
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T01:54:44.270Z",
+  "stats": {
+    "wires": 40,
+    "wiresOk": 39,
+    "fetched": 3854,
+    "published": 60,
+    "sources": 23,
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Global",
+      "North America"
+    ],
+    "failures": [
+      "Tech.eu: HTTP 403"
+    ]
+  },
+  "lead": {
+    "title": "Apple launches new app to study how people use AI for health",
+    "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+    "summary": "Apple's new app for a study will answer everyday medical questions",
+    "publishedAt": "2026-11-16T01:30:00.000Z",
+    "source": "TechCrunch",
+    "region": "North America",
+    "desk": "Development"
+  },
+  "sections": [
+    {
+      "name": "Development",
+      "slug": "development",
+      "stories": [
+        {
+          "title": "My agent opened 229 PRs to its own repo in two weeks.",
+          "url": "https://dev.to/coe0718/my-agent-opened-229-prs-to-its-own-repo-in-two-weeks-39pa",
+          "summary": "My agent opened 229 PRs to its own repo in two weeks. It isn't allowed to merge any of them. I work factory shifts and build software on the side. For the last couple of months my main project has mostly been building itself. Diaktoros is a plugin for…",
+          "publishedAt": "2026-11-16T01:48:40.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Building a Cold Email Tool: What I Learned About Email Deliverability as a Developer",
+          "url": "https://dev.to/peterpark_coldmail/building-a-cold-email-tool-what-i-learned-about-email-deliverability-as-a-developer-a32",
+          "summary": "When I started building ColdMailAI, I assumed the hard part would be generating good email copy with AI. I was wrong. The real challenge was understanding email deliverability. Here's what I learned building a cold email tool as a developer, and the…",
+          "publishedAt": "2026-11-16T01:47:42.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Uber's Secure AI Framework Governs Autonomous AI Agents across Their Lifecycle",
+          "url": "https://www.infoq.com/news/2026/11/uber-secure-ai-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "In a recent article, Uber Engineering highlights the limitations of traditional identity and API controls in securing AI agents that dynamically reason over external content and take real-world actions. Uber developed a framework to determine whether an…",
+          "publishedAt": "2026-11-15T20:00:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Eclipse Mosquitto – An open source MQTT broker",
+          "url": "https://github.com/eclipse-mosquitto/mosquitto",
+          "summary": "",
+          "publishedAt": "2026-11-15T18:36:40.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "DuckDB has an answer to “bloated” database messages",
+          "url": "https://thenewstack.io/duckdb-quack-database-protocol/",
+          "summary": "Older database protocols were built before big data. Some still send results row by row, repeating details like column names The post DuckDB has an answer to “bloated” database messages appeared first on The New Stack.",
+          "publishedAt": "2026-11-15T15:05:56.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "India, US have agreed on preferential market access for Indian goods in America: Piyush Goyal",
+          "url": "https://yourstory.com/2026/11/india-us-agree-on-preferential-market-access-for-indian-goods-in-america-goyal",
+          "summary": "India and the US finalised the framework for the first phase of the bilateral trade agreement in February.",
+          "publishedAt": "2026-11-15T11:11:50.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Development"
+        },
+        {
+          "title": "Anthropic Outlines its AI-Powered Code Review Process for Claude Code",
+          "url": "https://www.infoq.com/news/2026/11/claude-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Anthropic has outlined how the Claude Code team handles code reviews as AI agents increasingly contribute to its codebase. The approach relies on multiple layers of automated verification, AI-powered reviews, and risk-based human approval, aiming to reduce…",
+          "publishedAt": "2026-11-15T09:55:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "LEO gets a birthday bash, 75 years after clocking in",
+          "url": "https://www.theregister.com/offbeat/2026/11/15/leo-gets-a-birthday-bash-75-years-after-clocking-in/5308806",
+          "summary": "Cambridge museum celebrates the world's first business computer with films, family activities, and a little Python",
+          "publishedAt": "2026-11-15T09:03:00.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Development"
+        },
+        {
+          "title": "Build and Train a GLM-5.3-Flash Model From Scratch with Python",
+          "url": "https://www.freecodecamp.org/news/build-and-train-a-glm-53-flash-model-from-scratch-with-python/",
+          "summary": "GLM-5.3-Flash combines linear and sparse attention, a mixture-of-experts design, and manifold constrained hyperconnections. A scaled-down version with 25 million parameters can be built in Python and",
+          "publishedAt": "2026-11-14T16:02:56.000Z",
+          "source": "freeCodeCamp News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "DuckLake 1.1 solves the absurd complexity of data lakes at AI scale",
+          "url": "https://thenewstack.io/ducklake-sql-lakehouse-metadata/",
+          "summary": "How much simpler could a data lakehouse get if an ordinary SQL database kept track of its files? That’s the The post DuckLake 1.1 solves the absurd complexity of data lakes at AI scale appeared first on The New Stack.",
+          "publishedAt": "2026-11-14T15:45:04.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Anthropic wants you to build on Claude. There’s a catch.",
+          "url": "https://thenewstack.io/anthropic-enterprise-developer-competition/",
+          "summary": "Anthropic wants developers to build businesses on Claude, but its expansion into enterprise software is raising concerns among founders that The post Anthropic wants you to build on Claude. There’s a catch. appeared first on The New Stack.",
+          "publishedAt": "2026-11-14T15:15:00.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "slug": "testing",
+      "stories": [
+        {
+          "title": "South Korea's top scorer in tax accountancy exam admits cheating",
+          "url": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&at_campaign=rss",
+          "summary": "Han Won-seok, 34, confessed to using a hidden camera and AI to get a near-perfect mark on the significant test.",
+          "publishedAt": "2026-11-15T13:37:45.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "Space, sustainability, AI: test your business creativity with Edition 258 of our weekly quiz!",
+          "url": "https://yourstory.com/2026/11/space-sustainability-ai-business-creativity-entrepreneur-quiz-education",
+          "summary": "This insightful feature from YourStory tests and strengthens your business acumen! Here are 5 questions to kick off this 258th quiz. Ready?",
+          "publishedAt": "2026-11-15T02:35:00.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Testing"
+        },
+        {
+          "title": "AWS Emulator proves agents need a verification loop. Realism is the hard part.",
+          "url": "https://thenewstack.io/aws-emulator-verification-loops/",
+          "summary": "This week, Amazon Web Services released AWS Emulator, a local copy of AWS that coding agents can test against. It The post AWS Emulator proves agents need a verification loop. Realism is the hard part. appeared first on The New Stack.",
+          "publishedAt": "2026-11-14T17:30:00.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "New-Age Tech Stocks Continue Rally; E2E Network, Turtlemint Lead Gains",
+          "url": "https://inc42.com/buzz/new-age-tech-stocks-continue-rally-e2e-network-turtlemint-lead-gains/",
+          "summary": "New-age tech stocks extended their rally this week, gaining about $8 Bn in cumulative market cap this week. Fifty five…",
+          "publishedAt": "2026-11-14T10:55:10.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Testing"
+        },
+        {
+          "title": "Odisha startup BabyCue wins national challenge with its rapid diagnostic test for children",
+          "url": "https://yourstory.com/2026/11/babycue-wins-rs-5-lakh-at-tribal-business-conclave-for-diacue-healthtech-innovation",
+          "summary": "Odisha-based BabyCue wins first prize at the Tribal Business Conclave Open Grand Challenge for DiaCue, its rapid test for childhood diarrhoea.",
+          "publishedAt": "2026-11-14T08:03:59.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Testing"
+        },
+        {
+          "title": "Tech Now",
+          "url": "https://www.bbc.co.uk/iplayer/episode/m0034hf1?at_medium=RSS&at_campaign=rss",
+          "summary": "Yasmin Morgan-Griffiths follows a team testing AI early warning systems for landslides.",
+          "publishedAt": "2026-11-14T01:00:00.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "v1.65.1",
+          "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.1",
+          "summary": "Bug Fixes #43936 [Regression]: decorated class with a static field fails to load in 1.65 (\"_initClass is not a function\") with useDefineForClassFields: false #43934 [Bug]: Test locations are one column off under Bun 1.4.4+ Browser Versions Chromium…",
+          "publishedAt": "2026-11-13T21:46:58.000Z",
+          "source": "Playwright Releases",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "12 BEST AI Test Automation Tools for 2026 The Third Wave",
+          "url": "https://testguild.com/7-innovative-ai-test-automation-tools-future-third-wave/",
+          "summary": "The Bottom Line for 2026: The best AI test automation tools for 2026, by category: agentic testing with no script […]",
+          "publishedAt": "2026-11-13T13:57:20.000Z",
+          "source": "TestGuild",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "Rocket Report: Starship set for historic test flight; a century of Electron",
+          "url": "https://arstechnica.com/space/2026/11/rocket-report-starship-set-for-historic-test-flight-a-century-of-electron/",
+          "summary": "\"You can simplify it as a big tank feeding engines.\"",
+          "publishedAt": "2026-11-13T12:00:40.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "Amazon releases AWS Emulator to allows its services to run locally",
+          "url": "https://sdtimes.com/amazon-web-services-aws/amazon-releases-aws-emulator-to-allows-its-services-to-run-locally/",
+          "summary": "Amazon has released AWS Emulator, a local emulator of AWS services, written entirely by autonomous agents, for building and testing AWS applications. One of the keys in having agents create the emulator, without humans writing or reviewing the code, was…",
+          "publishedAt": "2026-11-12T17:14:58.000Z",
+          "source": "SD Times",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "Exclusive: Orakl Oncology raises $34m to test cancer drugs on ‘virtual patients’",
+          "url": "https://sifted.eu/articles/exclusive-orakl-oncology-fundraise/",
+          "summary": "",
+          "publishedAt": "2026-11-12T05:00:39.000Z",
+          "source": "Sifted",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "AI-Assisted Mainframe Modernization: Progress Does Not Mean Production-Ready",
+          "url": "https://sdtimes.com/mainframe-ai/ai-assisted-mainframe-modernization-progress-does-not-mean-production-ready/",
+          "summary": "If you ask most companies where they are on their mainframe modernization journey, they will tell you that they are “about 80 percent converted.” They’ll tell you that the dashboards are green, the new Java compiles, and the tests are passing. However, the…",
+          "publishedAt": "2026-11-11T20:50:20.000Z",
+          "source": "SD Times",
+          "region": "North America",
+          "desk": "Testing"
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "slug": "devops",
+      "stories": [
+        {
+          "title": "Coles hit by a cybersecurity incident",
+          "url": "https://www.colesgroup.com.au/updates/",
+          "summary": "",
+          "publishedAt": "2026-11-16T01:14:35.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Microsoft lifts Indian cloud prices by 15 percent, cuts costs in China",
+          "url": "https://www.theregister.com/off-prem/2026/11/15/microsoft-lifts-indian-cloud-prices-by-15-percent-cuts-costs-in-china/5309993",
+          "summary": "PLUS: SEGA Japan suffers outage and data leak; India bans dead battery exports; Alibaba chip unit to float; and more",
+          "publishedAt": "2026-11-15T23:46:01.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Cohere Finding Shows Self-Hosted Open-Weight Models Still Need Egress Controls",
+          "url": "https://www.infoq.com/news/2026/11/cohere-open-weight-egress-risk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Cohere recently reported that one of Alibaba’s newest Qwen3.8 models attempted to upload a probe file to a storage container in Beijing while explicitly stating in its reasoning trace that no tools would be triggered. While there is no evidence of…",
+          "publishedAt": "2026-11-15T02:42:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Google Cloud Moves the Compute Engine API to Immutable Date-Based Versions",
+          "url": "https://www.infoq.com/news/2026/11/compute-engine-api-versioning/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Google Cloud has made date-based versioning of the Compute Engine API generally available, replacing the single mutable /v1 surface with immutable quarterly snapshots such as 2026-09-01, selected per request with a header or query parameter. New versions…",
+          "publishedAt": "2026-11-14T07:27:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Microsoft’s global outage; Vidya Balan’s call to put child safety first",
+          "url": "https://yourstory.com/2026/11/microsofts-global-outage-vidya-balan-call-child-safety-first",
+          "summary": "Problems with Exchange Online spread across Microsoft 365 and external businesses, highlighting how dependent workplaces have become on shared cloud infrastructure.",
+          "publishedAt": "2026-11-14T02:00:00.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Microsoft’s 18-hour outage exposed South Africa’s dependence on Big Tech",
+          "url": "https://techcabal.com/2026/11/13/microsoft-outage-south-africa-big-tech/",
+          "summary": "Microsoft's global outage disrupted South African businesses and public institutions, including Eskom, Absa and FlySafair, exposing the country's growing dependence on Big Tech's cloud infrastructure.",
+          "publishedAt": "2026-11-13T17:41:02.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Schema Drift vs. Semantic Drift in Data Pipelines",
+          "url": "https://www.freecodecamp.org/news/schema-drift-vs-semantic-drift-in-data-pipelines/",
+          "summary": "When a column is removed from a source database or dataset, the next pipeline run usually fails, making the problem easy to detect. But when a field keeps the same name and data type but its meaning c",
+          "publishedAt": "2026-11-13T11:23:18.000Z",
+          "source": "freeCodeCamp News",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Actions for ARM32 Linux & Windows retirement",
+          "url": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
+          "summary": "GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node… The post Actions for ARM32 Linux & Windows retirement appeared first on The GitHub Blog.",
+          "publishedAt": "2026-11-12T20:59:36.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "The Pulse: Details of incident.io’s AI spend",
+          "url": "https://blog.pragmaticengineer.com/the-pulse-details-of-incident-ios-ai-spend/",
+          "summary": "The resiliency startup has slashed the amount it spends on AI; down from $4,500 per dev, per month, in August, to $1,600 now.",
+          "publishedAt": "2026-11-12T19:00:11.000Z",
+          "source": "The Pragmatic Engineer",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Public monitoring alerts now have direct links",
+          "url": "https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links",
+          "summary": "You can now access individual public monitoring alerts with a direct link to each alert. In your enterprise’s Public monitoring view, click an alert number to open the alert. You… The post Public monitoring alerts now have direct links appeared first on…",
+          "publishedAt": "2026-11-12T14:37:38.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Attackers Say 'Hello' to a Different Scale of Cloud Attack",
+          "url": "https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack",
+          "summary": "Researchers dubbed an attack chain \"Greeter\" after discovering that attackers deliberately covered their trail by leaving \"hello\" messages in logs.",
+          "publishedAt": "2026-11-11T21:44:04.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "This tiny box gives your older tech smart home superpowers – and it’s only $69",
+          "url": "https://www.zdnet.com/home-and-office/home-assistant-connect-aux-2-hardware-older-tech-smart/",
+          "summary": "Home Assistant gets new equipment to battle planned obsolescence and abandoned cloud services.",
+          "publishedAt": "2026-11-11T20:30:00.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "DevOps"
+        }
+      ]
+    },
+    {
+      "name": "DevSecOps",
+      "slug": "devsecops",
+      "stories": [
+        {
+          "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
+          "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
+          "summary": "",
+          "publishedAt": "2026-11-16T00:21:54.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Is AI Making Us Worse at Cybersecurity?",
+          "url": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
+          "summary": "Overreliance on AI could erode the creativity, clear communication, and critical thinking security teams need when there’s no playbook. The post Is AI Making Us Worse at Cybersecurity? appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-14T14:00:00.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
+          "url": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
+          "summary": "The tech giant has detailed the architecture designed to isolate ambient sensor data from the main OS on HomeView and new iPhones. The post Apple Reveals How Secure Exclaves Shield Camera and Microphone Data appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-14T11:00:00.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’",
+          "url": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
+          "summary": "Federal officials have yet to say what caused the communications disruption or whether they are investigating a possible cyberattack. The post FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’ appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-13T21:33:27.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "This year’s bug count just passed 100K",
+          "url": "https://www.theregister.com/security/2026/11/13/this-years-bug-count-just-passed-100k/5309882",
+          "summary": "‘We don’t have a security problem anymore. We have a data problem now’",
+          "publishedAt": "2026-11-13T20:52:17.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "ArcticRAT Cybercrime Gang Profiles Victim Finances With AI",
+          "url": "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
+          "summary": "The Android malware has expanded from focusing on crypto theft to full device control, and the attackers have added advanced analysis of stolen information.",
+          "publishedAt": "2026-11-13T20:20:27.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
+          "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
+          "summary": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
+          "publishedAt": "2026-11-13T16:26:32.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
+          "url": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
+          "summary": "Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors. The post In Other News: New CISA Director Nominee, Connected Car Hacking, Baker…",
+          "publishedAt": "2026-11-13T15:20:00.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Quantum Systems drones back in the air after malware scare",
+          "url": "https://www.theregister.com/security/2026/11/13/quantum-systems-drones-back-in-the-air-after-malware-scare/5309658",
+          "summary": "Germany's Bundeswehr lifted precautionary grounding after malicious update reportedly reached military servers",
+          "publishedAt": "2026-11-13T13:14:00.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Attackers in Binance Breach Targeted Known Weakness, Missing Controls",
+          "url": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls",
+          "summary": "Blockchain complexities, such as attacker-deployed sweepers, hobble security controls designed to limit the damage of an exchange compromise.",
+          "publishedAt": "2026-11-13T13:00:00.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Cyber Experts Weigh In: How to Fight Artex & AntiFox",
+          "url": "https://www.darkreading.com/cybersecurity-operations/cyber-experts-fight-artex-antifox",
+          "summary": "Cybercriminals using agentic pen-testing tools is a proverbial genie out of the bottle at this point, so enterprises need to get a defense plan in place right away.",
+          "publishedAt": "2026-11-12T21:18:52.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+          "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+          "summary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even…",
+          "publishedAt": "2026-11-12T20:16:24.000Z",
+          "source": "MIT Technology Review",
+          "region": "North America",
+          "desk": "DevSecOps"
+        }
+      ]
+    },
+    {
+      "name": "Etc",
+      "slug": "etc",
+      "stories": [
+        {
+          "title": "Snow Bros. (NES): The Co-op Classic Where Every Enemy Becomes a Bowling Ball",
+          "url": "https://dev.to/sun_jack_eddy/snow-bros-nes-the-co-op-classic-where-every-enemy-becomes-a-bowling-ball-2ceb",
+          "summary": "Some games need a tutorial. Snow Bros. needs about five seconds: you're a snowman, you throw snow at monsters until they turn into giant snowballs, and then you kick those snowballs into everything else on the screen. That's it. And somehow that one idea…",
+          "publishedAt": "2026-11-16T01:48:27.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+          "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+          "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+          "publishedAt": "2026-11-16T01:47:57.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Why WebSockets Break Telephony Voice AI: Building a 60ms Barge-In Loop on Raw 8kHz RTP",
+          "url": "https://dev.to/wangguode/why-websockets-break-telephony-voice-ai-building-a-60ms-barge-in-loop-on-raw-8khz-rtp-27o4",
+          "summary": "Author: Wang Guo ( @wangguode ) Source Lab: https://github.com/wangguode/ai-agent-voice/tree/main/01-voice-agent-rtp-bargein Stack: FreeSWITCH 8kHz Raw RTP / Pipecat Full-Duplex / SenseVoice / SOXR VHQ Resampling 1. The Telephony Gap: Browser Demos vs…",
+          "publishedAt": "2026-11-16T01:47:17.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+          "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+          "summary": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with…",
+          "publishedAt": "2026-11-16T01:26:56.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Yatra’s ‘MICE’ Problem",
+          "url": "https://inc42.com/features/yatras-mice-problem/",
+          "summary": "Bookings grew, but revenue shrank and profit disappeared. That was the paradox of Yatra in the September quarter, when India’s…",
+          "publishedAt": "2026-11-16T00:30:52.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+          "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+          "summary": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
+          "publishedAt": "2026-11-15T23:30:00.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
+          "url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
+          "summary": "This was the first total mission failure in United Launch Alliance's 20-year history.",
+          "publishedAt": "2026-11-15T23:11:54.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+          "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+          "summary": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+          "publishedAt": "2026-11-15T21:56:35.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Listen to this: Armand Hammer’s Snakes & Ladders",
+          "url": "https://www.theverge.com/entertainment/1034013/armand-hammers-snakes-ladders-review",
+          "summary": "I open with this caveat: I haven't had a ton of time to digest the surprise Armand Hammer record that dropped this week. Billy Woods and Elucid rarely miss, though, and my initial reaction is that Snakes & Ladders ranks among their best. It doesn't have…",
+          "publishedAt": "2026-11-15T21:49:22.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
+          "url": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
+          "summary": "United Launch Alliance (ULA) suffered what is reportedly its first mission failure in its 20-year history, failing to deliver 40 Amazon Leo satellites to orbit. Leo is Amazon's competitor to SpaceX's Starlink, but it has struggled to get off the ground so…",
+          "publishedAt": "2026-11-15T21:05:02.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+          "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+          "summary": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning. That includes rumors…",
+          "publishedAt": "2026-11-15T20:43:49.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+          "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+          "summary": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
+          "publishedAt": "2026-11-15T20:20:57.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        }
+      ]
+    }
+  ]
+}
