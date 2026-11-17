@@ -1,0 +1,592 @@
+{
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T03:42:56.727Z",
+  "stats": {
+    "wires": 40,
+    "wiresOk": 39,
+    "fetched": 3852,
+    "published": 60,
+    "sources": 23,
+    "regions": [
+      "Asia",
+      "Europe",
+      "Global",
+      "North America"
+    ],
+    "failures": [
+      "Tech.eu: HTTP 403"
+    ]
+  },
+  "lead": {
+    "title": "If an App Asks for Full Disk Access or System and App Protection Override",
+    "url": "https://support.apple.com/en-us/149699",
+    "summary": "",
+    "publishedAt": "2026-11-17T02:17:04.000Z",
+    "source": "Hacker News",
+    "region": "Global",
+    "desk": "Development"
+  },
+  "sections": [
+    {
+      "name": "Development",
+      "slug": "development",
+      "stories": [
+        {
+          "title": "Compress an image to a target file size in the browser with the Canvas API",
+          "url": "https://dev.to/aztechtools/compress-an-image-to-a-target-file-size-in-the-browser-with-the-canvas-api-22kl",
+          "summary": "Many forms ask for a photo under a fixed size, such as 50 KB or 200 KB. You can do this fully in the browser, without uploading the file anywhere. The idea is simple: draw the image on a canvas, export it as JPEG with a quality value, and search for the…",
+          "publishedAt": "2026-11-17T03:37:12.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "QR code error correction levels explained: L, M, Q and H",
+          "url": "https://dev.to/aztechtools/qr-code-error-correction-levels-explained-l-m-q-and-h-4ib8",
+          "summary": "A QR code can still scan when part of it is dirty, scratched or covered. That is thanks to error correction. When you generate a code, you usually pick a level, and the choice has real trade-offs. The four levels Level Approx. damage it can recover from L…",
+          "publishedAt": "2026-11-17T03:36:45.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Running coding agents without handing them my credentials",
+          "url": "https://blog.antonio.cx/running-agents-with-lend",
+          "summary": "",
+          "publishedAt": "2026-11-17T01:18:56.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+          "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+          "summary": "",
+          "publishedAt": "2026-11-16T22:58:20.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "GitHub Copilot weekly releases — November 9",
+          "url": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
+          "summary": "This week, bring GitHub Enterprise Server repositories into the Copilot app and see which agent sessions need you first in VS Code. You can also try two new models, Claude… The post GitHub Copilot weekly releases — November 9 appeared first on The GitHub Blog.",
+          "publishedAt": "2026-11-16T21:34:53.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "GitHub Copilot models deprecated on November 16, 2026",
+          "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
+          "summary": "As of today, November 16, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note… The post GitHub Copilot models deprecated on November…",
+          "publishedAt": "2026-11-16T20:25:20.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "How British Airways is accelerating the modernization of its Java services",
+          "url": "https://aws.amazon.com/blogs/devops/how-british-airways-is-accelerating-the-modernization-of-its-java-services/",
+          "summary": "Learn how British Airways is using AWS Transform custom, agentic AI, and automation to accelerate the modernization of its Java services, migrating more than 250 business services from Amazon EC2 to a containerized, auto scaling architecture on Amazon ECS…",
+          "publishedAt": "2026-11-16T20:16:41.000Z",
+          "source": "AWS DevOps",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "iPhone Duo 2 prototypes suggest FaceID, Action Button, other potential 2027 features",
+          "url": "https://www.zdnet.com/tech/apple-iphone-duo-2-face-id-upgrades-2027/",
+          "summary": "With manufacturing deadlines looming, it’s unclear which of several feature upgrades may have to wait until the foldable’s third generation.",
+          "publishedAt": "2026-11-16T18:43:17.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Dax Raad rebuilt his browser tool in Rust for $60. Then memory use fell 97%.",
+          "url": "https://thenewstack.io/opencode-browse-rust-rewrite/",
+          "summary": "OpenCode developer Dax Raad says he rebuilt the project’s browser automation tool in Rust for $60, replacing the parts of The post Dax Raad rebuilt his browser tool in Rust for $60. Then memory use fell 97%. appeared first on The New Stack.",
+          "publishedAt": "2026-11-16T17:59:39.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Your Samsung phone could soon get a personal AI agent – what we know about Galaxy Claw",
+          "url": "https://www.zdnet.com/innovation/samsung-galaxy-claw-ai-cross-app-upgrade/",
+          "summary": "Similar to Gemini Intelligence and Siri AI, Galaxy Claw could bring cross-app intelligence to your phone.",
+          "publishedAt": "2026-11-16T17:35:43.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Predicting Defects Before They Ship: An AI Approach to Software Quality",
+          "url": "https://www.softwaretestingmagazine.com/tools/predicting-defects-before-they-ship-an-ai-approach-to-software-quality/",
+          "summary": "Every software release carries risk, but that risk is not spread evenly. In most codebases a relatively small share of changes accounts for a large share of the defects that reach customers, yet most teams test every change in roughly the same way. Effort…",
+          "publishedAt": "2026-11-16T17:14:20.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Development"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "slug": "testing",
+      "stories": [
+        {
+          "title": "AI Tests You Can’t Trust? Flaky Agents, Playwright MCP, Google EGM TGNS",
+          "url": "https://testguild.com/podcast/n200-nov16/",
+          "summary": "About This Episode: What’s new with Playwright MCP? Can you trust tests that AI keeps rewriting? Have you seen the […]",
+          "publishedAt": "2026-11-16T19:36:18.000Z",
+          "source": "TestGuild",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "India’s deeptech funding record faces a test of scale: Speciale Invest report",
+          "url": "https://yourstory.com/2026/11/indias-deeptech-funding-record-faces-a-test-of-scale-speciale-invest-report",
+          "summary": "India’s deeptech funding hit $914 million in 2025, but limited growth capital, manufacturing dependencies and weak commercialisation pathways continue to hinder startups from scaling.",
+          "publishedAt": "2026-11-16T14:48:32.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Testing"
+        },
+        {
+          "title": "The Download: testing tech promises and searching for cognitive immortality",
+          "url": "https://www.technologyreview.com/2026/11/16/1148599/the-download-testing-tech-promises-cognitive-immortality-quest/",
+          "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? Six technologies that promised to change the world How do you measure progress towards the future?…",
+          "publishedAt": "2026-11-16T13:10:00.000Z",
+          "source": "MIT Technology Review",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "AWS Emulator proves agents need a verification loop. Realism is the hard part.",
+          "url": "https://thenewstack.io/aws-emulator-verification-loops/",
+          "summary": "This week, Amazon Web Services released AWS Emulator, a local copy of AWS that coding agents can test against. It The post AWS Emulator proves agents need a verification loop. Realism is the hard part. appeared first on The New Stack.",
+          "publishedAt": "2026-11-14T17:30:00.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "v1.65.1",
+          "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.1",
+          "summary": "Bug Fixes #43936 [Regression]: decorated class with a static field fails to load in 1.65 (\"_initClass is not a function\") with useDefineForClassFields: false #43934 [Bug]: Test locations are one column off under Bun 1.4.4+ Browser Versions Chromium…",
+          "publishedAt": "2026-11-13T21:46:58.000Z",
+          "source": "Playwright Releases",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "12 BEST AI Test Automation Tools for 2026 The Third Wave",
+          "url": "https://testguild.com/7-innovative-ai-test-automation-tools-future-third-wave/",
+          "summary": "The Bottom Line for 2026: The best AI test automation tools for 2026, by category: agentic testing with no script […]",
+          "publishedAt": "2026-11-13T13:57:20.000Z",
+          "source": "TestGuild",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "Amazon releases AWS Emulator to allows its services to run locally",
+          "url": "https://sdtimes.com/amazon-web-services-aws/amazon-releases-aws-emulator-to-allows-its-services-to-run-locally/",
+          "summary": "Amazon has released AWS Emulator, a local emulator of AWS services, written entirely by autonomous agents, for building and testing AWS applications. One of the keys in having agents create the emulator, without humans writing or reviewing the code, was…",
+          "publishedAt": "2026-11-12T17:14:58.000Z",
+          "source": "SD Times",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "Exclusive: Orakl Oncology raises $34m to test cancer drugs on ‘virtual patients’",
+          "url": "https://sifted.eu/articles/exclusive-orakl-oncology-fundraise/",
+          "summary": "",
+          "publishedAt": "2026-11-12T05:00:39.000Z",
+          "source": "Sifted",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "AI-Assisted Mainframe Modernization: Progress Does Not Mean Production-Ready",
+          "url": "https://sdtimes.com/mainframe-ai/ai-assisted-mainframe-modernization-progress-does-not-mean-production-ready/",
+          "summary": "If you ask most companies where they are on their mainframe modernization journey, they will tell you that they are “about 80 percent converted.” They’ll tell you that the dashboards are green, the new Java compiles, and the tests are passing. However, the…",
+          "publishedAt": "2026-11-11T20:50:20.000Z",
+          "source": "SD Times",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "How to Test an AI API Integration Before It Reaches Production",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/how-to-test-an-ai-api-integration-before-it-reaches-production/",
+          "summary": "Testing an AI API integration requires more than checking whether an endpoint returns HTTP 200. A successful response can still contain invalid structure, miss required information, expose unsafe instructions, exceed the product’s latency target, or cost…",
+          "publishedAt": "2026-11-11T16:26:48.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "Tests as data: ensuring AI-generated code does what we want",
+          "url": "https://martinfowler.com/articles/tests-as-data.html",
+          "summary": "Automated testing in the age of AI coding assistants is problematic: when AI agents write both production and test code, developers risk losing the assurance that automated tests protect against functional errors. Matteo Vaccari makes three claims: (1)…",
+          "publishedAt": "2026-11-11T15:17:00.000Z",
+          "source": "Martin Fowler",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "Playwright at Scale: Run 500 Tests in Minutes with Oliver Stenbom",
+          "url": "https://testguild.com/podcast/a611-oliver/",
+          "summary": "About This Episode: Is your Playwright suite slowing you down instead of speeding you up? In this episode, Oliver Stenbom, […]",
+          "publishedAt": "2026-11-10T21:28:15.000Z",
+          "source": "TestGuild",
+          "region": "Global",
+          "desk": "Testing"
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "slug": "devops",
+      "stories": [
+        {
+          "title": "US extends chip sale restrictions to more Asian countries to reduce risk of ‘diversion’ to China",
+          "url": "https://www.theregister.com/off-prem/2026/11/17/us-extends-chip-sale-restrictions-to-more-asian-countries-to-reduce-risk-of-diversion-to-china/5310307",
+          "summary": "'Know Your Customer's Workload' requirements imposed on cloud operators across Asia, Brazil",
+          "publishedAt": "2026-11-17T00:55:39.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "California sues OpenAI for misleading public about AI safety",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/16/california-sues-openai-for-misleading-public-about-ai-safety/5310297",
+          "summary": "A-G cites Hugging Face incident as example of why industry must be accountable",
+          "publishedAt": "2026-11-16T23:43:17.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "AI agents were all over KubeCon. Production is another story",
+          "url": "https://thenewstack.io/cncf-bryce-ai-agents/",
+          "summary": "AI agents are testing systems that were originally built for people, and Jonathan Bryce thinks the cloud-native community has a The post AI agents were all over KubeCon. Production is another story appeared first on The New Stack.",
+          "publishedAt": "2026-11-16T22:08:42.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "India & Nine Other Nations Sign Joint Declaration To Safeguard AI Supply Chains",
+          "url": "https://inc42.com/buzz/india-nine-other-nations-sign-declaration-to-secure-ai-supply-chains/",
+          "summary": "India and nine other nations have signed a joint declaration to safeguard supply chains and infrastructure that are central to…",
+          "publishedAt": "2026-11-16T21:44:01.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Budget limit increased to 40,000 budgets per account",
+          "url": "https://github.blog/changelog/2026-11-16-budget-limit-increased-to-40000-budgets-per-account",
+          "summary": "You can now create up to 40,000 budgets per GitHub Enterprise Cloud account, up from 10,000. If you set budgets for individual users, or manage budgets across many cost centers… The post Budget limit increased to 40,000 budgets per account appeared first…",
+          "publishedAt": "2026-11-16T21:30:49.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "California state AG sues OpenAI over rogue agent incidents",
+          "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+          "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
+          "publishedAt": "2026-11-16T20:07:13.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "NoisyTCP bug gives Linux servers a remote crash problem 11 years in the making",
+          "url": "https://www.theregister.com/security/2026/11/16/noisytcp-bug-gives-linux-servers-a-remote-crash-problem-11-years-in-the-making/5310144",
+          "summary": "Flaw can take down an entire host, even when the vulnerable service is running inside a container",
+          "publishedAt": "2026-11-16T18:28:00.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "A governed AI-driven development lifecycle for financial services with Kiro and AWS Frontier Agents",
+          "url": "https://aws.amazon.com/blogs/devops/a-governed-ai-driven-development-lifecycle-for-financial-services-with-kiro-and-aws-frontier-agents/",
+          "summary": "A hands-on walkthrough of a governed, AI-driven development lifecycle for financial services that wires Kiro, AWS Security Agent, and AWS DevOps Agent into a shared GitHub-based pipeline, so every change is authored, reviewed, security-gated, deployed to…",
+          "publishedAt": "2026-11-16T17:33:13.000Z",
+          "source": "AWS DevOps",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Building trustworthy AI by fencing it in, not predicting it",
+          "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+          "summary": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during…",
+          "publishedAt": "2026-11-16T16:04:28.000Z",
+          "source": "MIT Technology Review",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Give sandboxed agents live web access with the Firecrawl kit for Docker Sandboxes",
+          "url": "https://www.docker.com/blog/docker-sandboxes-firecrawl-web-access/",
+          "summary": "Give AI coding agents live web access with the Firecrawl kit for Docker Sandboxes. Learn to search, scrape, and crawl websites with network controls.",
+          "publishedAt": "2026-11-16T14:00:00.000Z",
+          "source": "Docker Blog",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Beyond payments: Where venture capital will flow across Indian fintech over the next 24 months",
+          "url": "https://yourstory.com/2026/11/where-venture-capital-will-flow-across-indian-fintech-over-next-24-months",
+          "summary": "India's fintech decade was built on distribution. The next one will be built on infrastructure, advice and intelligence—and capital is already repricing accordingly.",
+          "publishedAt": "2026-11-16T09:20:56.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Cohere Finding Shows Self-Hosted Open-Weight Models Still Need Egress Controls",
+          "url": "https://www.infoq.com/news/2026/11/cohere-open-weight-egress-risk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Cohere recently reported that one of Alibaba’s newest Qwen3.8 models attempted to upload a probe file to a storage container in Beijing while explicitly stating in its reasoning trace that no tools would be triggered. While there is no evidence of…",
+          "publishedAt": "2026-11-15T02:42:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        }
+      ]
+    },
+    {
+      "name": "DevSecOps",
+      "slug": "devsecops",
+      "stories": [
+        {
+          "title": "Ola Electric’s dealer-led model reset; Menopause in India’s public health agenda",
+          "url": "https://yourstory.com/2026/11/ola-electrics-dealer-led-model-reset-menopause-in-indias-public-health-agenda",
+          "summary": "The company is betting on a cheaper S1Z scooter and in-house battery manufacturing to win back customers, though the long-term success of its reset depends on retail registrations, supply chain stability, and margin recovery.",
+          "publishedAt": "2026-11-17T02:00:00.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "6 Chrome settings tweaks every power user needs to know",
+          "url": "https://www.zdnet.com/home-and-office/chrome-default-settings-to-change/",
+          "summary": "For improved privacy and security, fewer interruptions, and enhanced productivity, I highly recommend changing these default browser settings.",
+          "publishedAt": "2026-11-17T01:05:00.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Hacker behind 2022 GTA VI leaks pleads guilty",
+          "url": "https://www.theverge.com/games/1035087/gta-vi-leaks-2022-hacker-pleads-guilty-arion-kurtaj",
+          "summary": "Arion Kurtaj, a member of the Lapsus$ cybercrime group who leaked 90 videos of Grand Theft Auto VI in 2022 and hacked other big companies, pleaded guilty on Monday, according to the UK's Crown Prosecution Service (CPS). Kurtaj, who is now 21, hacked BT/EE…",
+          "publishedAt": "2026-11-16T23:35:58.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Optimizely Compromised, Served Malware on Zoom, GitLab",
+          "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+          "summary": "",
+          "publishedAt": "2026-11-16T23:00:34.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Cyber giant Infoblox confirms security incident after hackers access ‘company information’",
+          "url": "https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information/",
+          "summary": "The cybersecurity and automation giant said it's working with outside investigators to understand the scale of the breach.",
+          "publishedAt": "2026-11-16T22:12:31.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Infoblox customer and staff data exposed in Sharepoint breach",
+          "url": "https://www.theregister.com/security/2026/11/16/infoblox-customer-and-staff-data-exposed-in-sharepoint-breach/5310280",
+          "summary": "The company is investigating",
+          "publishedAt": "2026-11-16T21:53:28.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Google found hackers using autonomous AI agents to turn security patches into exploits",
+          "url": "https://thenewstack.io/autonomous-ai-exploit-agents/",
+          "summary": "Google’s Threat Intelligence Group says attackers are using autonomous AI agents to reverse-engineer security patches, generate exploits, and attempt to The post Google found hackers using autonomous AI agents to turn security patches into exploits…",
+          "publishedAt": "2026-11-16T21:27:38.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Apple reveals new Mac security controls as AI agents raise privacy risks",
+          "url": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
+          "summary": "Following an October announcement, Apple has detailed new permission controls, warnings, and transparency features coming to macOS 27.3 to address risks posed by AI agents and other apps.",
+          "publishedAt": "2026-11-16T21:01:02.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "California sues OpenAI over rogue AI hacking incidents",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+          "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly…",
+          "publishedAt": "2026-11-16T20:46:01.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Ransomware Attacks Increase Behind AI, But Payments Decline",
+          "url": "https://www.darkreading.com/threat-intelligence/ransomware-attacks-increase-ai-payments-decline",
+          "summary": "Large language models and other AI systems allow a growing number of ransomware groups to create convincing phishing emails and identify sensitive data quickly.",
+          "publishedAt": "2026-11-16T19:56:05.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "'Sleeper Agent' Tactic Hides Payloads in Open-Weight AI Models",
+          "url": "https://www.darkreading.com/vulnerabilities-threats/sleeper-agent-tactic-payloads-open-weight-ai-models",
+          "summary": "Malware can lurk inside just 0.00001% of a neural network. How, then, can any user tell it's there?",
+          "publishedAt": "2026-11-16T19:10:03.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "5 ways AI will change how you defend your business in 2027",
+          "url": "https://www.zdnet.com/innovation/google-cloud-ciso-perspectives-2027-ai-security-defenses/",
+          "summary": "Security leaders reveal the future consequences of AI outpacing human defenders.",
+          "publishedAt": "2026-11-16T18:58:52.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "DevSecOps"
+        }
+      ]
+    },
+    {
+      "name": "Etc",
+      "slug": "etc",
+      "stories": [
+        {
+          "title": "How zkVerify Makes My Agent Verifiable",
+          "url": "https://dev.to/ethang/how-zkverify-makes-my-agent-verifiable-59on",
+          "summary": "My agent, ibank.ai, competes in Proof Gatekeeper at the zkVerify Agent Games, Season 01. It runs from 21 October to 21 November 2026, with 400,000 VFY in prizes across four tracks. This article is a walkthrough of the build, not a score report. It shows…",
+          "publishedAt": "2026-11-17T03:37:14.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "Building a Real-Time Multiplayer Board Game Engine with HTML5 Canvas & WebSockets: The Architecture of Ludo Classic",
+          "url": "https://dev.to/uchitchakma/building-a-real-time-multiplayer-board-game-engine-with-html5-canvas-websockets-the-architecture-10a4",
+          "summary": "Building a Real-Time Multiplayer Board Game Engine with HTML5 Canvas & WebSockets: The Architecture of Ludo Classic Turn-based board games might appear trivial compared to 3D shooters, but architecting a flawless, cross-platform multiplayer board game…",
+          "publishedAt": "2026-11-17T03:36:47.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+          "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+          "summary": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
+          "publishedAt": "2026-11-17T02:37:53.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "D2C Price Hike, Bharat Semi Bags $24 Mn & More",
+          "url": "https://inc42.com/buzz/d2c-price-hike-bharat-semi-bags-24-mn-more/",
+          "summary": "D2C Brands Caught In Margin Squeeze Rising crude prices are squeezing India’s D2C brands. Increasing freight and raw material costs…",
+          "publishedAt": "2026-11-17T02:30:42.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "New Zealand tricks and annual leave - the lengths fans are going to for GTA 6",
+          "url": "https://www.bbc.co.uk/news/articles/cm4gn9xnn1ppo?at_medium=RSS&at_campaign=rss",
+          "summary": "Sensor Tower estimates the game has already made $1.18bn from pre-orders across PlayStation and Xbox",
+          "publishedAt": "2026-11-17T01:04:45.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Dependabot alert dismissal requests now last one year",
+          "url": "https://github.blog/changelog/2026-11-16-dependabot-alert-dismissal-requests-now-last-one-year",
+          "summary": "If you use delegated alert dismissal for Dependabot, dismissal requests now stay open for one year instead of one week. Reviewers have more time to respond before a request expires… The post Dependabot alert dismissal requests now last one year appeared…",
+          "publishedAt": "2026-11-17T00:09:27.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+          "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+          "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+          "publishedAt": "2026-11-16T23:32:32.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "The AI start-ups fixing India's broken roads and messy land records",
+          "url": "https://www.bbc.co.uk/news/articles/c820vnln2lzpo?at_medium=RSS&at_campaign=rss",
+          "summary": "From legal-tech to healthcare, dozens of Indian AI start-ups are solving uniquely Indian challenges.",
+          "publishedAt": "2026-11-16T23:25:53.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+          "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+          "summary": "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are calling for Huang's reinstatement, and many are also hopping on board with a theory spreading throughout…",
+          "publishedAt": "2026-11-16T23:17:34.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "California sues OpenAI over Hugging Face attack",
+          "url": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
+          "summary": "Attorney General Rob Bonta alleges OpenAI misled and endangered the public",
+          "publishedAt": "2026-11-16T23:12:24.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+          "url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
+          "summary": "Robotics startup misses payroll a year after CEO used funds for luxury home.",
+          "publishedAt": "2026-11-16T22:58:27.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "United Airlines system outage disrupts departures just days after the big ground stop",
+          "url": "https://www.theverge.com/transportation/1035025/united-airlines-outage-down-departures",
+          "summary": "Less than a week after an issue with air traffic control communications and radar caused the FAA to halt takeoffs nationwide, United Airlines departing flights are being disrupted by an outage. At 6:13PM ET, United said the problem has been fixed: Earlier…",
+          "publishedAt": "2026-11-16T22:54:59.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        }
+      ]
+    }
+  ]
+}
