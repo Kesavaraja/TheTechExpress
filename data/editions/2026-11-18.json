@@ -1,0 +1,593 @@
+{
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T04:10:34.653Z",
+  "stats": {
+    "wires": 40,
+    "wiresOk": 39,
+    "fetched": 3856,
+    "published": 60,
+    "sources": 23,
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Global",
+      "North America"
+    ],
+    "failures": [
+      "Tech.eu: HTTP 403"
+    ]
+  },
+  "lead": {
+    "title": "GoGoGrandparent (YC S16) Is a Front End JavaScript / TypeScript Engineer",
+    "url": "https://www.ycombinator.com/companies/gogograndparent/jobs/05woouL-front-end-javascript-typescript-engineer",
+    "summary": "",
+    "publishedAt": "2026-11-18T03:35:47.000Z",
+    "source": "Hacker News",
+    "region": "Global",
+    "desk": "Development"
+  },
+  "sections": [
+    {
+      "name": "Development",
+      "slug": "development",
+      "stories": [
+        {
+          "title": "Top Debugging Tips for Voice AI Applications",
+          "url": "https://dev.to/voice_developer/top-debugging-tips-for-voice-ai-applications-4i6m",
+          "summary": "Why Debugging Voice AI Feels Like Tuning a Musical Instrument When you’re building a voice‑enabled app—whether it’s a chatbot that reads responses aloud, a podcast‑style narrator, or a custom voice clone for an interactive game—the code is only half the…",
+          "publishedAt": "2026-11-18T04:00:21.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Nobody Runs `npm config list` Before Installing. That's Why the Override Keeps Winning.",
+          "url": "https://dev.to/aheadkit/nobody-runs-npm-config-list-before-installing-thats-why-the-override-keeps-winning-5e87",
+          "summary": "Yesterday I showed a repo's.npmrc beating my own user config. One line, ignore-scripts=false, in a folder I had just cloned, switched my protection off, and the install gave me no sign it had happened. The marker file was the only witness. That piece ended…",
+          "publishedAt": "2026-11-18T04:00:00.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+          "url": "https://github.com/microsoft/onnxruntime",
+          "summary": "",
+          "publishedAt": "2026-11-17T23:18:49.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+          "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+          "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+          "publishedAt": "2026-11-17T23:04:35.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Microsoft says its new AI coding model rivals Claude Opus 5.5 at 5% of the cost",
+          "url": "https://www.zdnet.com/innovation/microsoft-ai-coding-model-rivals-claude-opus-5-5-ignite/",
+          "summary": "Microsoft announced two new AI models at Ignite 2026 that promise impressive performance for much lower cost. They could reshape its relationship with OpenAI and Anthropic for good.",
+          "publishedAt": "2026-11-17T22:42:44.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Your AI coding agent could cost 5x more depending on the harness, benchmark finds",
+          "url": "https://thenewstack.io/coding-agent-harness-costs/",
+          "summary": "The same AI model can cost up to five times more to run depending on the coding agent harness it’s The post Your AI coding agent could cost 5x more depending on the harness, benchmark finds appeared first on The New Stack.",
+          "publishedAt": "2026-11-17T22:13:52.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+          "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+          "summary": "Interim Nvidia CEO Colette Kress announced the company's Q3 earnings on Tuesday, without initially mentioning former CEO Jensen Huang or the details of his departure, or possible attempt at a return. On the earnings call accompanying the release, board…",
+          "publishedAt": "2026-11-17T21:40:59.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+          "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+          "summary": "",
+          "publishedAt": "2026-11-17T21:16:12.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "How Shopify Orchestrates AI-Powered Mobile App Development Without Overloading Developers' Machines",
+          "url": "https://www.infoq.com/news/2026/11/shopify-remote-ai-dev/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "To prevent AI development workflows from exhausting developer machines' resources, Shopify built Remote Dev, a remote mobile development environment that enables AI agents to independently build, test and maintain iOS and Android applications and in…",
+          "publishedAt": "2026-11-17T21:00:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Instagram is helping creators crack down on copycat videos",
+          "url": "https://www.theverge.com/tech/1035943/instagram-creators-crack-down-copycat-videos",
+          "summary": "Instagram is beginning to roll out a \"content protection\" feature that lets creators see and review copies of their videos posted to the platform. \"For eligible creators who enroll, content protection is a tool that automatically looks out for visual…",
+          "publishedAt": "2026-11-17T20:46:31.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
+          "url": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
+          "summary": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol are now generally available in GitHub Copilot. Both models are designed for agentic coding and code review, with stronger coding judgment than earlier GPT-6… The post OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now…",
+          "publishedAt": "2026-11-17T20:20:29.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "Development"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "slug": "testing",
+      "stories": [
+        {
+          "title": "OpenAI’s own tests show GPT-6.2 Astra is twice as likely to hide coding failures",
+          "url": "https://thenewstack.io/astra-hides-coding-failures/",
+          "summary": "OpenAI’s new GPT-6.2 Astra is nearly twice as likely as its predecessor to leave users unaware of problems that prevented The post OpenAI’s own tests show GPT-6.2 Astra is twice as likely to hide coding failures appeared first on The New Stack.",
+          "publishedAt": "2026-11-17T19:59:04.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "Gemini test proves once again that amoral AI agents will do almost anything if told ‘NEVER give up’",
+          "url": "https://www.theregister.com/security/2026/11/17/gemini-test-proves-once-again-that-amoral-ai-agents-will-do-almost-anything-if-told-never-give-up/5310574",
+          "summary": "If you design a test to find misalignment, you will find misalignment",
+          "publishedAt": "2026-11-17T19:52:57.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "Robot Framework Test Automation: Automate Web, Desktop, Mobile, and Embedded Systems",
+          "url": "https://testguild.com/podcast/a612-robocon2027/",
+          "summary": "About This Episode: What makes Robot Framework flexible enough to test medical devices, low code bots, monitoring systems, and embedded […]",
+          "publishedAt": "2026-11-17T15:43:23.000Z",
+          "source": "TestGuild",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "Benin wants to be Africa’s AI testbed. Cybersecurity is its starting point",
+          "url": "https://techcabal.com/2026/11/17/benin-wants-to-be-africas-ai-testbed/",
+          "summary": "Benin wants to become a testing ground for Africa’s artificial intelligence (AI) and cybersecurity innovations. Its strategy, according to Mahuna Akplogan, Benin’s Minister of Digital Transformation and Innovation, begins with protecting government…",
+          "publishedAt": "2026-11-17T15:35:22.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "Testing"
+        },
+        {
+          "title": "Windows 11 previews remote padlock only IT can open",
+          "url": "https://www.theregister.com/os-platforms/2026/11/17/windows-11-previews-remote-padlock-only-it-can-open/5310402",
+          "summary": "Intune feature blocks normal sign-ins without wiping data, while another test build drops Offline Maps settings",
+          "publishedAt": "2026-11-17T15:29:00.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "How to Set Up Scalable QA Staging Environments Using Managed VPS Hosting",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/how-to-set-up-scalable-qa-staging-environments-using-managed-vps-hosting/",
+          "summary": "A stable staging environment enables the QA teams to test the software in a realistic, production-like environment. But as the development teams grow, one test server may not be enough; with new features and parallel testing, more and more resources are…",
+          "publishedAt": "2026-11-17T15:09:44.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "Deterministic Simulation Testing",
+          "url": "https://martinfowler.com/articles/deterministic-simulation-testing.html",
+          "summary": "Distributed systems are hard to test because partial failures overlap with live traffic and the same fault can produce different execution traces on different runs. Unmesh Joshi describes how deterministic simulation testing addresses this by replacing…",
+          "publishedAt": "2026-11-17T14:33:00.000Z",
+          "source": "Martin Fowler",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "D2C’s ‘Red Label’ Test",
+          "url": "https://inc42.com/features/d2cs-red-label-test/",
+          "summary": "Open Amazon, Blinkit or any quick commerce or ecommerce app, pick a bottle of tomato ketchup from a new-age, clean-label…",
+          "publishedAt": "2026-11-17T05:31:40.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Testing"
+        },
+        {
+          "title": "AI Tests You Can’t Trust? Flaky Agents, Playwright MCP, Google EGM TGNS",
+          "url": "https://testguild.com/podcast/n200-nov16/",
+          "summary": "About This Episode: What’s new with Playwright MCP? Can you trust tests that AI keeps rewriting? Have you seen the […]",
+          "publishedAt": "2026-11-16T19:36:18.000Z",
+          "source": "TestGuild",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "India’s deeptech funding record faces a test of scale: Speciale Invest",
+          "url": "https://yourstory.com/2026/11/indias-deeptech-funding-record-faces-a-test-of-scale-speciale-invest-report",
+          "summary": "India’s deeptech funding hit $914 million in 2025, but limited growth capital, manufacturing dependencies and weak commercialisation pathways continue to hinder startups from scaling.",
+          "publishedAt": "2026-11-16T14:48:32.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Testing"
+        },
+        {
+          "title": "The Download: testing tech promises and searching for cognitive immortality",
+          "url": "https://www.technologyreview.com/2026/11/16/1148599/the-download-testing-tech-promises-cognitive-immortality-quest/",
+          "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? Six technologies that promised to change the world How do you measure progress towards the future?…",
+          "publishedAt": "2026-11-16T13:10:00.000Z",
+          "source": "MIT Technology Review",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "Tech Now",
+          "url": "https://www.bbc.co.uk/iplayer/episode/m0034hf1?at_medium=RSS&at_campaign=rss",
+          "summary": "Yasmin Morgan-Griffiths follows a team testing AI early warning systems for landslides.",
+          "publishedAt": "2026-11-14T01:00:00.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Testing"
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "slug": "devops",
+      "stories": [
+        {
+          "title": "Microsoft unveiled Copilot Workspaces at Ignite 2026, plus more AI workplace updates",
+          "url": "https://www.zdnet.com/innovation/microsoft-copilot-workspaces-ignite-2026/",
+          "summary": "The company also released new ROI tracking tools for companies monitoring their AI spend.",
+          "publishedAt": "2026-11-17T23:14:05.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Yet another satellite company is jockeying for a rocket—but this one makes sense",
+          "url": "https://arstechnica.com/space/2026/11/yet-another-satellite-company-is-jockeying-for-a-rocket-but-this-one-makes-sense/",
+          "summary": "\"Governments need control of their critical space infrastructure, and Europe needs it most.\"",
+          "publishedAt": "2026-11-17T22:44:46.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Read everything that Nvidia’s board chair had to say about Jensen Huang",
+          "url": "https://www.theverge.com/tech/1036160/nvidia-earnings-harvey-c-jones-jensen-huang",
+          "summary": "Nvidia's quarterly earnings call on Tuesday was its first with CFO and interim CEO Colette Kress at the helm alongside the company's first board chair, Harvey C. Jones. The leadership change followed Jensen Huang's resignation last week after reports he…",
+          "publishedAt": "2026-11-17T22:32:50.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Reducing database incident MTTR by 73% with a custom AWS DevOps Agent Skill",
+          "url": "https://aws.amazon.com/blogs/devops/reducing-database-incident-mttr-by-73-with-a-custom-aws-devops-agent-skill/",
+          "summary": "Database incidents routinely take 45 to 60 minutes to triage. This post shows how to build a custom AWS DevOps Agent Skill that encodes expert Aurora PostgreSQL triage into decision-tree logic across five failure modes, cutting mean time to resolution from…",
+          "publishedAt": "2026-11-17T22:27:48.000Z",
+          "source": "AWS DevOps",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Quad9's withdrawal from France: A canary in the coal mine",
+          "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+          "summary": "",
+          "publishedAt": "2026-11-17T22:13:34.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Enforcing zero-trust dependency policies in AWS CodeBuild with JFrog Curation",
+          "url": "https://aws.amazon.com/blogs/devops/enforcing-zero-trust-dependency-policies-in-aws-codebuild-with-jfrog-curation/",
+          "summary": "Integrate JFrog Curation into an AWS CodeBuild pipeline to block vulnerable and malicious open source packages at download time. A package that violates policy returns an HTTP 403 (Access Denied) error that fails the build, so a risky dependency never…",
+          "publishedAt": "2026-11-17T20:08:18.000Z",
+          "source": "AWS DevOps",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Building the Agent Host Protocol for sessions that continue across devices",
+          "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+          "summary": "Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud. The post Building the Agent Host Protocol for sessions that continue across devices appeared first on The GitHub Blog.",
+          "publishedAt": "2026-11-17T18:20:40.000Z",
+          "source": "GitHub Blog",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Replit’s agent swarms built an app monitoring platform in 2 days on a $3K budget. Now, it’s offering them to customers.",
+          "url": "https://thenewstack.io/replit-missions-agent-swarms/",
+          "summary": "Agent swarms are all the rage, as companies set about finding ways to coordinate multiple AI agents to tackle complex The post Replit’s agent swarms built an app monitoring platform in 2 days on a $3K budget. Now, it’s offering them to customers. appeared…",
+          "publishedAt": "2026-11-17T17:37:13.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "SAP's cloud migration chief is migrating to Ionos as CEO",
+          "url": "https://www.theregister.com/software/2026/11/17/saps-cloud-migration-chief-is-migrating-to-ionos-as-ceo/5310530",
+          "summary": "After more than two decades in Walldorf, Thomas Saueressig takes reins at hosting provider in April",
+          "publishedAt": "2026-11-17T17:13:28.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "CoreWeave connects custom training loops to model serving",
+          "url": "https://thenewstack.io/coreweave-forge-training-loops/",
+          "summary": "Production traffic shows failures that benchmarks or pre-deployment evaluations can’t fully reveal. It tells you which edge cases matter and The post CoreWeave connects custom training loops to model serving appeared first on The New Stack.",
+          "publishedAt": "2026-11-17T16:30:00.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Datadog Brings Production Experimentation to AI Agent Observability",
+          "url": "https://www.infoq.com/news/2026/11/datadog-ai-agent-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Datadog is extending its Agent Observability platform with Online Experiments, allowing engineering teams to compare AI agent versions against real production traffic rather than relying exclusively on predefined evaluation datasets. By Craig Risi",
+          "publishedAt": "2026-11-17T12:00:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Production AI, Architecture Trade-offs & Team Design: InfoQ Opens Registration for 6 January Cohorts",
+          "url": "https://www.infoq.com/news/2026/11/onlinecohort-jan27-certification/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "From agent reliability to architecture decisions and delivery bottlenecks, InfoQ’s January 2027 cohorts give senior practitioners five weeks to examine current challenges, test approaches in their own work, and compare results with peers. By Artenisa Chatziou",
+          "publishedAt": "2026-11-17T11:00:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        }
+      ]
+    },
+    {
+      "name": "DevSecOps",
+      "slug": "devsecops",
+      "stories": [
+        {
+          "title": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says",
+          "url": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/",
+          "summary": "The problem disrupted the operations of NSANet, a classified internal network used by employees of the agency. The post Classified Communications Network at the National Security Agency Goes Down, Defense Official Says appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-18T02:15:07.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Emerging cryptographic requirements and the transition to quantum-resistant security",
+          "url": "https://yourstory.com/2026/11/emerging-cryptographic-requirements-and-the-transition-to-quantum-resistant-security",
+          "summary": "Encryption forms the backbone of our everyday digital lives including banking transactions, healthcare and communication. However, the rise of quantum computing is challenging our assumptions about how long certain types of security will remain effective.",
+          "publishedAt": "2026-11-18T01:50:00.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Optimizely Malware Attacks Highlight Third-Party Vendor Risks",
+          "url": "https://www.darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks",
+          "summary": "At least 178 organizations, including several major brands, unwittingly exposed website visitors to hydra-like malware via a third-party platform.",
+          "publishedAt": "2026-11-17T22:34:22.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Hundreds of websites deliver potent malware cocktail to unsuspecting visitors",
+          "url": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/",
+          "summary": "Malware cocktail delivers cryptocurrency theft payloads and iOS exploits, among other things.",
+          "publishedAt": "2026-11-17T22:32:16.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "'TheMailer' Phishing Kit Puts AI in the Driver's Seat",
+          "url": "https://www.darkreading.com/perimeter/themailer-phishing-kit-ai-drivers-seat",
+          "summary": "The commercial kit uses attacker-supplied AI models to personalize lures, evade spam filters, and scale campaigns to tens of thousands of targets.",
+          "publishedAt": "2026-11-17T20:58:13.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Vulnerabilities are being found 18 times faster than they’re fixed, Black Duck report finds",
+          "url": "https://sdtimes.com/software-security/vulnerabilities-are-being-found-18-times-faster-than-theyre-fixed-black-duck-report-finds/",
+          "summary": "For most of the past decade, security teams had time on their side. That cushion is gone, and the backlog is growing anyway. According to Black Duck’s 2027 AI Readiness Report, organizations found 18 new vulnerabilities for every one they closed in May…",
+          "publishedAt": "2026-11-17T20:31:29.000Z",
+          "source": "SD Times",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "AI-Discovered Vulnerabilities in Foundational Open-Source Software Are Fueling Global Cyberattacks",
+          "url": "https://sdtimes.com/test/ai-discovered-vulnerabilities-in-foundational-open-source-software-are-fueling-global-cyberattacks/",
+          "summary": "Attackers exploited critical AI-identified PHP vulnerabilities before the fixes were publicly released. On August 11, 2026, researchers from OpenAI privately reported critical security vulnerabilities in PHP, one of the foundational technologies powering…",
+          "publishedAt": "2026-11-17T19:01:58.000Z",
+          "source": "SD Times",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Cursor Traces Malicious Claude Code Extension to Third-Party Breach",
+          "url": "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach",
+          "summary": "A compromised key issued to AI infrastructure provider Fireworks was used by threat actors to access Cursor data and credentials.",
+          "publishedAt": "2026-11-17T18:38:37.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Opsera Expands Forge to Help Enterprises Understand and Secure Legacy Applications as AI Accelerates Modernization",
+          "url": "https://sdtimes.com/software-modernization/opsera-expands-forge-to-help-enterprises-understand-and-secure-legacy-applications-as-ai-accelerates-modernization/",
+          "summary": "PALO ALTO, Calif. — Opsera, the AI-native Software Factory for the enterprise, today announced new capabilities for its Forge platform that help enterprises better understand, assess and secure legacy applications. As AI accelerates the discovery of…",
+          "publishedAt": "2026-11-17T18:35:21.000Z",
+          "source": "SD Times",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Secure MCP integrations for AWS DevOps Agent with Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/devops/secure-mcp-integrations-for-aws-devops-agent-with-amazon-bedrock-agentcore/",
+          "summary": "As you connect more Model Context Protocol (MCP) tools to AWS DevOps Agent, each one adds its own authentication, credential rotation, and audit overhead. This post shows how to extend AWS DevOps Agent with MCP tools securely using Amazon Bedrock…",
+          "publishedAt": "2026-11-17T18:24:37.000Z",
+          "source": "AWS DevOps",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "GitHub Copilot CLI adds Microsoft Entra sign-in as a preview",
+          "url": "https://github.blog/changelog/2026-11-17-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview",
+          "summary": "GitHub Copilot CLI now supports Microsoft Entra authentication in public preview. You can sign in with your Microsoft Entra account to silently authenticate to a linked GitHub Enterprise Managed User… The post GitHub Copilot CLI adds Microsoft Entra…",
+          "publishedAt": "2026-11-17T18:00:35.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Market Research Giant Ipsos Investigating Breach of Internal System",
+          "url": "https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system/",
+          "summary": "The company made the incident public on Monday, November 16, five days after filing a complaint with authorities. The post Market Research Giant Ipsos Investigating Breach of Internal System appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-17T14:55:30.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        }
+      ]
+    },
+    {
+      "name": "Etc",
+      "slug": "etc",
+      "stories": [
+        {
+          "title": "How I Check an AI-Generated Video with ffprobe",
+          "url": "https://dev.to/lee_xiaoyuan_a97212d2f33b/how-i-check-an-ai-generated-video-with-ffprobe-45f1",
+          "summary": "I generated a skiing clip in Astorie and downloaded it as an MP4. Windows Properties showed eight seconds. Before dropping it into an edit, I wanted to know exactly how long it ran. GIF preview of the skiing clip I generated in Astorie. I ran the check…",
+          "publishedAt": "2026-11-18T03:57:10.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "FMZ's WebSocket Interface Gets a Major Upgrade: Bringing Strategies Closer to Market Changes",
+          "url": "https://dev.to/quant001/fmzs-websocket-interface-gets-a-major-upgrade-bringing-strategies-closer-to-market-changes-146n",
+          "summary": "When writing quantitative strategies, we tend to focus on trading logic: the conditions for entering a position, where to exit, and how to control position size. Once a strategy is running, however, another question comes before the signal: how closely…",
+          "publishedAt": "2026-11-18T03:56:21.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "Waymo pulls driverless taxis from all US freeways",
+          "url": "https://www.bbc.co.uk/news/articles/cmy86pp336qlo?at_medium=RSS&at_campaign=rss",
+          "summary": "The decision comes after California banned Waymo's driverless vehicles from operating on the state's highways following a series of traffic incidents.",
+          "publishedAt": "2026-11-18T03:07:22.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Sarvam’s AI Inference Play, Perplexity’s IPO Soon & More",
+          "url": "https://inc42.com/buzz/sarvams-ai-inference-play-perplexitys-ipo-soon-more/",
+          "summary": "Sarvam AI Fires Up Its Inference Engine Sarvam’s Token Factory is finally live. The new offering will let enterprises access…",
+          "publishedAt": "2026-11-18T02:30:55.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Karnataka aims to become a global hub for frontier tech; Fadnavis’ vision for a new Maharashtra",
+          "url": "https://yourstory.com/2026/11/karnataka-aim-global-hub-frontier-tech-fadnavi-vision-new-maharashtra",
+          "summary": "Karnataka aims to become a global hub for frontier technologies such as AI, deeptech, and biotech, said CM DK Shivakumar at Bengaluru Tech Summit. Meanwhile, Maharashtra CM Fadnavis has shared his roadmap for a trillion-dollar, drought-free, deeptech…",
+          "publishedAt": "2026-11-18T02:00:00.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+          "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+          "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+          "publishedAt": "2026-11-18T01:44:21.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Nvidia says it won't reinstate Huang as firm reports bumper results",
+          "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+          "summary": "The AI chip giant reported strong quarterly earnings on Tuesday after the dramatic exit of Jensen Huang.",
+          "publishedAt": "2026-11-18T01:18:18.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+          "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+          "summary": "Word, Excel, and PowerPoint now live inside Copilot; always-on agents are next.",
+          "publishedAt": "2026-11-18T00:27:29.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Nvidia promises that revenue will keep soaring — for now",
+          "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+          "summary": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
+          "publishedAt": "2026-11-18T00:16:50.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Stripe backer Atomico calls for Europe to own its success stories",
+          "url": "https://techcrunch.com/2026/11/17/stripe-backer-atomico-calls-for-europe-to-own-its-success-stories/",
+          "summary": "Europe is home to many of the world's fastest growing companies of all time, veteran VC firm Atomico highlighted in its latest annual State of European Tech report.",
+          "publishedAt": "2026-11-18T00:01:00.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Europe plans to catch the next computer chip wave",
+          "url": "https://www.bbc.co.uk/news/articles/cqglwjd450k0o?at_medium=RSS&at_campaign=rss",
+          "summary": "Europe hopes to be a leader in a new generation of computer chips which use light to process data.",
+          "publishedAt": "2026-11-18T00:00:24.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Daily disruptive outages that ground planes and halt work – welcome to the new normal",
+          "url": "https://www.theregister.com/security/2026/11/17/daily-disruptive-outages-that-ground-planes-and-halt-work-welcome-to-the-new-normal/5310634",
+          "summary": "NSA, Apple add to a week of high-profile network outages, largely attributed to 'routine maintenance'",
+          "publishedAt": "2026-11-17T23:41:31.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Etc"
+        }
+      ]
+    }
+  ]
+}
