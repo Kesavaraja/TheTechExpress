@@ -1,0 +1,593 @@
+{
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T03:14:23.694Z",
+  "stats": {
+    "wires": 40,
+    "wiresOk": 39,
+    "fetched": 3856,
+    "published": 60,
+    "sources": 24,
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Global",
+      "North America"
+    ],
+    "failures": [
+      "Tech.eu: HTTP 403"
+    ]
+  },
+  "lead": {
+    "title": "FailTrace – Reproduce a failed GitHub Actions run locally from its URL",
+    "url": "https://github.com/Ri4dH/failtrace",
+    "summary": "",
+    "publishedAt": "2026-11-19T01:30:43.000Z",
+    "source": "Hacker News",
+    "region": "Global",
+    "desk": "DevOps"
+  },
+  "sections": [
+    {
+      "name": "Development",
+      "slug": "development",
+      "stories": [
+        {
+          "title": "Comment utiliser l'API Gemini 4 Neon?",
+          "url": "https://dev.to/antoine_laurentt/comment-utiliser-lapi-gemini-4-neon--32h2",
+          "summary": "L'API Gemini 4 Neon utilise l'identifiant de modèle gemini-4-neon. Vous l'appelez avec une requête POST vers https://generativelanguage.googleapis.com/v1beta/interactions, votre clé dans l'en-tête x-goog-api-key, et model plus input dans le corps JSON…",
+          "publishedAt": "2026-11-19T03:08:59.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "The watcher spent the whole month's budget watching",
+          "url": "https://dev.to/bananafestdestiny/the-watcher-spent-the-whole-months-budget-watching-1odc",
+          "summary": "This site posts short clips of the keepers' software to four social accounts, four times a day, through Buffer's API. This morning it had posted nothing for five and a half days, and the reason turned out to be the monitoring. Here is the response that…",
+          "publishedAt": "2026-11-19T03:08:28.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Google’s Gemini 4 Neon tripled its coding score without changing the model",
+          "url": "https://thenewstack.io/gemini-neon-antigravity-harness/",
+          "summary": "Google’s new Gemini 4 Neon resolved 12.8% of the SWE-sweep coding benchmark using the mini-SWE harness, but that score jumped The post Google’s Gemini 4 Neon tripled its coding score without changing the model appeared first on The New Stack.",
+          "publishedAt": "2026-11-19T00:45:11.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Get ready for another critical PHP security release to drop",
+          "url": "https://www.theregister.com/patches/2026/11/18/get-ready-for-another-critical-php-security-release-to-drop/5310911",
+          "summary": "At least one dangerous RCE bug will get a fix on Thursday",
+          "publishedAt": "2026-11-18T22:38:12.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Development"
+        },
+        {
+          "title": "LLM assisted reverse engineering",
+          "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+          "summary": "",
+          "publishedAt": "2026-11-18T22:29:13.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Gemini 4 Neon in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
+          "summary": "Gemini 4 Neon is now generally available in GitHub Copilot. It is designed for agentic coding, multistep tool use, and knowledge work. According to Google, Gemini 4 Neon delivers quality… The post Gemini 4 Neon in GitHub Copilot appeared first on The…",
+          "publishedAt": "2026-11-18T21:49:21.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Anthropic decides to go head-to-head with GTA VI release, schedules IPO for the same day",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/18/anthropic-decides-to-go-head-to-head-with-gta-vi-release-schedules-ipo-for-the-same-day/5310872",
+          "summary": "We get it, Dario - you don't want people calling out sick to play",
+          "publishedAt": "2026-11-18T21:40:09.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Development"
+        },
+        {
+          "title": "Netflix CEO admits app may bury stuff you want to watch under stuff you don’t",
+          "url": "https://arstechnica.com/gadgets/2026/11/netflix-ceo-admits-app-may-bury-stuff-you-want-to-watch-under-stuff-you-dont/",
+          "summary": "CEO Ted Sarandos discusses gaps in making hit shows that streamers can find.",
+          "publishedAt": "2026-11-18T21:29:24.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "AI found more critical bugs in another widely used technology running 225M websites",
+          "url": "https://www.theregister.com/security/2026/11/18/ai-found-more-critical-bugs-in-another-widely-used-technology-running-225m-websites/5310887",
+          "summary": "Open source NGINX joins patchapalooza",
+          "publishedAt": "2026-11-18T21:11:04.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Development"
+        },
+        {
+          "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+          "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+          "summary": "Lens creators can describe the Lens they want in plain language, and their AI assistant handles the process from start to finish, Snapchat says.",
+          "publishedAt": "2026-11-18T19:56:39.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Google Wallet comes to your iPhone – but without this feature",
+          "url": "https://www.zdnet.com/tech/google-wallet-iphone-ios-no-tap-to-pay/",
+          "summary": "The new Google Wallet app brings Gemini agentic shopping to US-based iOS users – sorry, no tap-to-pay.",
+          "publishedAt": "2026-11-18T18:02:15.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "5 new Apple Health features you should try in iOS 27.3 – if your phone qualifies",
+          "url": "https://www.zdnet.com/health/apple-health-ios-27-3-ai-features-compatible-iphones/",
+          "summary": "Apple’s redesigned Health app arrives in December with some major upgrades, but not every iPhone will get the full experience.",
+          "publishedAt": "2026-11-18T18:00:48.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "Development"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "slug": "testing",
+      "stories": [
+        {
+          "title": "PW To Set Up Digital University To Offer UG & PG Courses",
+          "url": "https://inc42.com/buzz/pw-to-set-up-digital-university-to-offer-ug-pg-courses/",
+          "summary": "Moving beyond test preparation, listed edtech major PhysicsWallah (PW) has now said that it is establishing a “greenfield digital” university. …",
+          "publishedAt": "2026-11-19T01:12:09.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Testing"
+        },
+        {
+          "title": "Put the Human Gate Where Mistakes Go Public",
+          "url": "https://sdtimes.com/ai-agents/put-the-human-gate-where-mistakes-go-public/",
+          "summary": "Most arguments about AI agents at work come back to the same question: how much should we let them do on their own? Teams answer it with a percentage, a maturity model or a gut feeling. I think there is a simpler test, and it starts with asking where a…",
+          "publishedAt": "2026-11-18T21:03:25.000Z",
+          "source": "SD Times",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "TechCabal deepens South African coverage with new weekly newsletter",
+          "url": "https://techcabal.com/2026/11/18/techcabal-launches-tc-mzansi/",
+          "summary": "TechCabal is launching TC Mzansi, a weekly newsletter covering South Africa's technology ecosystem, from startups and investment to innovation, telecommunications and policy.",
+          "publishedAt": "2026-11-18T15:44:29.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "Testing"
+        },
+        {
+          "title": "Anthropic’s $1.4tn IPO puts Europe’s AI boom to the test",
+          "url": "https://sifted.eu/articles/anthropic-ipo-puts-europe-ai-boom-to-the-test/",
+          "summary": "",
+          "publishedAt": "2026-11-18T05:00:46.000Z",
+          "source": "Sifted",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "Robot Framework Test Automation: Automate Web, Desktop, Mobile, and Embedded Systems",
+          "url": "https://testguild.com/podcast/a612-robocon2027/",
+          "summary": "About This Episode: What makes Robot Framework flexible enough to test medical devices, low code bots, monitoring systems, and embedded […]",
+          "publishedAt": "2026-11-17T15:43:23.000Z",
+          "source": "TestGuild",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "How to Set Up Scalable QA Staging Environments Using Managed VPS Hosting",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/how-to-set-up-scalable-qa-staging-environments-using-managed-vps-hosting/",
+          "summary": "A stable staging environment enables the QA teams to test the software in a realistic, production-like environment. But as the development teams grow, one test server may not be enough; with new features and parallel testing, more and more resources are…",
+          "publishedAt": "2026-11-17T15:09:44.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "Deterministic Simulation Testing",
+          "url": "https://martinfowler.com/articles/deterministic-simulation-testing.html",
+          "summary": "Distributed systems are hard to test because partial failures overlap with live traffic and the same fault can produce different execution traces on different runs. Unmesh Joshi describes how deterministic simulation testing addresses this by replacing…",
+          "publishedAt": "2026-11-17T14:33:00.000Z",
+          "source": "Martin Fowler",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "AI Tests You Can’t Trust? Flaky Agents, Playwright MCP, Google EGM TGNS",
+          "url": "https://testguild.com/podcast/n200-nov16/",
+          "summary": "About This Episode: What’s new with Playwright MCP? Can you trust tests that AI keeps rewriting? Have you seen the […]",
+          "publishedAt": "2026-11-16T19:36:18.000Z",
+          "source": "TestGuild",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "The Download: testing tech promises and searching for cognitive immortality",
+          "url": "https://www.technologyreview.com/2026/11/16/1148599/the-download-testing-tech-promises-cognitive-immortality-quest/",
+          "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? Six technologies that promised to change the world How do you measure progress towards the future?…",
+          "publishedAt": "2026-11-16T13:10:00.000Z",
+          "source": "MIT Technology Review",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "Tech Now",
+          "url": "https://www.bbc.co.uk/iplayer/episode/m0034hf1?at_medium=RSS&at_campaign=rss",
+          "summary": "Yasmin Morgan-Griffiths follows a team testing AI early warning systems for landslides.",
+          "publishedAt": "2026-11-14T01:00:00.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "v1.65.1",
+          "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.1",
+          "summary": "Bug Fixes #43936 [Regression]: decorated class with a static field fails to load in 1.65 (\"_initClass is not a function\") with useDefineForClassFields: false #43934 [Bug]: Test locations are one column off under Bun 1.4.4+ Browser Versions Chromium…",
+          "publishedAt": "2026-11-13T21:46:58.000Z",
+          "source": "Playwright Releases",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "12 BEST AI Test Automation Tools for 2026 The Third Wave",
+          "url": "https://testguild.com/7-innovative-ai-test-automation-tools-future-third-wave/",
+          "summary": "The Bottom Line for 2026: The best AI test automation tools for 2026, by category: agentic testing with no script […]",
+          "publishedAt": "2026-11-13T13:57:20.000Z",
+          "source": "TestGuild",
+          "region": "Global",
+          "desk": "Testing"
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "slug": "devops",
+      "stories": [
+        {
+          "title": "Debate brews over Sarvam hosting Chinese AI models; Grand Theft Auto VI is finally here",
+          "url": "https://yourstory.com/2026/11/debate-brews-over-sarvam-hosting-chinese-ai-modelsgrand-theft-auto-vi-is-finally-here",
+          "summary": "Token Factory is an inference platform, which provides the computing infrastructure required to run trained AI models and generate responses.",
+          "publishedAt": "2026-11-19T02:00:00.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+          "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+          "summary": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
+          "publishedAt": "2026-11-18T23:45:00.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "“The best escape room players that you’ve ever met”: What Red Hat’s AI architect really thinks about agents.",
+          "url": "https://thenewstack.io/openshell-ai-agent-security/",
+          "summary": "Last week at KubeCon + CloudNativeCon North America, a major gathering of the open-source and cloud-native communities, many speakers — The post “The best escape room players that you’ve ever met”: What Red Hat’s AI architect really thinks about agents…",
+          "publishedAt": "2026-11-18T20:25:18.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Launch HN: Maritime (YC F26) – A managed cloud for production AI agents",
+          "url": "https://news.ycombinator.com/item?id=50549188",
+          "summary": "Hi HN, we're Ary and Maria, co-founders of Maritime ( https://maritime.sh ). We're building an agent-native cloud that handles everything from custom environments to lifecycle management for AI agents. Demo: https://www.youtube.com/watch?v=lCWMdBQ96rY…",
+          "publishedAt": "2026-11-18T17:26:28.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "AI needs fresh data. Vector indexing is getting in the way",
+          "url": "https://thenewstack.io/gpu-accelerated-vector-indexing/",
+          "summary": "It’s not a revelation to say AI workflows are changing enterprise infrastructure. What gets less attention, though, is how they’re The post AI needs fresh data. Vector indexing is getting in the way appeared first on The New Stack.",
+          "publishedAt": "2026-11-18T17:11:35.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "LinkedIn Cuts Daily Spark Shuffle Fetch Failures from 750 to 20 with Apache Celeborn",
+          "url": "https://www.infoq.com/news/2026/11/linkedin-celeborn-remote-shuffle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "LinkedIn deployed Apache Celeborn as a shared remote shuffle platform across most Spark and Flink workloads, reducing daily shuffle fetch failures from approximately 750 to 20. The deployment also lowered compute costs by 10%, improved application runtimes…",
+          "publishedAt": "2026-11-18T15:05:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "The Trust Layer: Securing Agentic AI with Docker AI Governance",
+          "url": "https://www.docker.com/blog/agentic-ai-security-docker-governance/",
+          "summary": "Learn how Docker AI Governance secures agentic AI with sandbox policies, MCP tool governance, and audit visibility to support controlled AI agent workflows.",
+          "publishedAt": "2026-11-18T14:00:00.000Z",
+          "source": "Docker Blog",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Apollo, Microsoft turn to AI to help hospitals learn from medical errors",
+          "url": "https://yourstory.com/2026/11/apollo-microsoft-turn-to-ai-to-help-hospitals-learn-from-medical-errors",
+          "summary": "The partnership aims to turn fragmented hospital records into faster incident reviews and shared lessons.",
+          "publishedAt": "2026-11-18T13:02:26.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Presentation: Behind Booking.com's AI Evolution: The Unpolished Story",
+          "url": "https://www.infoq.com/presentations/bookingcom-ml-data-platform-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Jabez Eliezer Manuel discusses the 20-year evolution of Booking.com’s data management and ML platforms. He explains how they scaled MySQL topologies, sunset Hadoop for cloud architecture, and built high-throughput model serving and feature stores operating…",
+          "publishedAt": "2026-11-18T11:00:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Yelp Migrates Cassandra to EKS by Moving EBS Volumes",
+          "url": "https://www.infoq.com/news/2026/11/kubernetes-cassandra-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Yelp has moved its Cassandra fleet from legacy self-managed Kubernetes clusters to Amazon EKS by re-pointing existing EBS volumes at new pods, rather than streaming data between nodes. By Claudio Masolo",
+          "publishedAt": "2026-11-18T09:00:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Microsoft unveiled Copilot Workspaces at Ignite 2026, plus more AI workplace updates",
+          "url": "https://www.zdnet.com/innovation/microsoft-copilot-workspaces-ignite-2026/",
+          "summary": "The company also released new ROI tracking tools for companies monitoring their AI spend.",
+          "publishedAt": "2026-11-17T23:14:05.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "DevOps"
+        }
+      ]
+    },
+    {
+      "name": "DevSecOps",
+      "slug": "devsecops",
+      "stories": [
+        {
+          "title": "Breach At External Vendor Exposes CoinDCX User Data",
+          "url": "https://inc42.com/buzz/breach-at-external-vendor-exposes-coindcx-user-data/",
+          "summary": "CoinDCX has informed its customers that unauthorised access at the crypto exchange’s messaging vendor Plotline exposed data of a “small…",
+          "publishedAt": "2026-11-19T00:21:05.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Multiple vulnerabilities in Regexp and String case conversion",
+          "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
+          "summary": "",
+          "publishedAt": "2026-11-18T23:52:50.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Russia's Cold Relic APT Turns One Cloud Breach Into Another",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/cold-relic-turns-one-cloud-breach-into-another",
+          "summary": "The Russia-linked threat group is using data stolen from one victim to target others via convincing impersonations and social engineering attacks.",
+          "publishedAt": "2026-11-18T21:59:46.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Strike Graph Launches Integration AI to Automate Continuous Compliance Evidence Using Any Existing Tool",
+          "url": "https://www.darkreading.com/cyber-risk/strike-graph-launches-integration-ai-to-automate-continuous-compliance-evidence-using-any-existing-tool",
+          "summary": "New agentic AI solution leverages APIs to collect compliance evidence from systems and applies it to over 30 frameworks with no duplicate work.",
+          "publishedAt": "2026-11-18T20:45:49.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Windows Server 2028 trades compatibility for out-of-the-box security",
+          "url": "https://arstechnica.com/gadgets/2026/11/windows-server-2028-public-preview-bets-on-a-security-first-approach/",
+          "summary": "Hardened defaults align with DoD standards, but there may be growing pains.",
+          "publishedAt": "2026-11-18T20:41:12.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "AttackIQ Research Reveals How Iranian Cyber Groups Hand Off Network Access to Enable Destructive Attacks",
+          "url": "https://www.darkreading.com/threat-intelligence/attackiq-research-reveals-iranian-cyber-groups",
+          "summary": "Analysis of 20 Iranian state-sponsored threat groups details how espionage, ransomware, and hacktivism intersect in state-backed cyber campaigns.",
+          "publishedAt": "2026-11-18T20:38:42.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "The leaked Lenovo Legion Go Beam could be the affordable handheld we need",
+          "url": "https://www.theverge.com/games/1036819/the-leaked-lenovo-legion-go-beam-could-be-the-affordable-handheld-we-need",
+          "summary": "For a while there, it seemed like Lenovo had given up on selling handheld gaming PCs, hiking the price of its Legion Go 2 and Legion Go S far higher than other RAM-starved competitors. A decent one can easily cost $1,000 if not $2,000 now. But it looks…",
+          "publishedAt": "2026-11-18T19:11:50.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "OpenAI spent $1.2 million finding nearly 1,000 Linux security flaws. Sam Altman says this is just the beginning.",
+          "url": "https://thenewstack.io/openai-entire-ai-stack/",
+          "summary": "OpenAI spent approximately $1.2 million in API costs to generate working exploits for 948 Linux kernel vulnerabilities. At The New The post OpenAI spent $1.2 million finding nearly 1,000 Linux security flaws. Sam Altman says this is just the beginning…",
+          "publishedAt": "2026-11-18T18:17:50.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Security risk assessments run automatically on GitHub Team",
+          "url": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team",
+          "summary": "GitHub security risk assessments now run automatically for organizations on GitHub Team. Organization admins and security managers can review findings from the free assessments to identify exposed credentials and code… The post Security risk assessments…",
+          "publishedAt": "2026-11-18T16:54:26.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "VeroSecurity Raises $11 Million for AI Security Engineering Platform",
+          "url": "https://www.securityweek.com/verosecurity-raises-11-million-for-ai-security-engineering-platform/",
+          "summary": "AI Security Engineering is a new and essential security discipline now being brought into focus by VeroSecurity. The post VeroSecurity Raises $11 Million for AI Security Engineering Platform appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-18T15:30:42.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Ethiopian Airlines reports cyberattack a week after Air Botswana",
+          "url": "https://techcabal.com/2026/11/18/ethiopian-airlines-reports-cyberattack/",
+          "summary": "Ethiopian Airlines has warned customers that some of their information may have been exposed in a recent cyberattack, weeks after Air Botswana disclosed a suspected ransomware incident on its internal systems.",
+          "publishedAt": "2026-11-18T15:07:35.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Major Brazilian Signature Apps Enable RCE & Fraud",
+          "url": "https://www.darkreading.com/vulnerabilities-threats/major-brazilian-signature-app-rce-fraud",
+          "summary": "Government-sanctioned authentication middleware is used for exceptionally important legal documents, yet it's often rife with RCE bugs.",
+          "publishedAt": "2026-11-18T14:00:00.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        }
+      ]
+    },
+    {
+      "name": "Etc",
+      "slug": "etc",
+      "stories": [
+        {
+          "title": "Cloudflare opens weights for Clairic extraction models",
+          "url": "https://dev.to/mikefluff/cloudflare-opens-weights-for-clairic-extraction-models-275k",
+          "summary": "Cloudflare has released two open-weight extraction models: an updated Clairic, which leaves preview, and a new, smaller Clairic-flash. Both run on Workers AI, and the full weights are on Hugging Face. Cloudflare presents them as the work of its new Workers…",
+          "publishedAt": "2026-11-19T03:09:30.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "Our biggest search query returns thirteen pages about roof drainage",
+          "url": "https://dev.to/bananafestdestiny/our-biggest-search-query-returns-thirteen-pages-about-roof-drainage-29h3",
+          "summary": "Search Console, the 28 days to 9 November: the largest single source of search impressions for anything on this property is the phrase \"book gutter size calculator\". Fifteen impressions. Zero clicks. Average position 84.7, which is page nine. The page it…",
+          "publishedAt": "2026-11-19T03:08:41.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "Elon Musk says record spending on US midterms was 'pretty foolish'",
+          "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
+          "summary": "The multi-billionaire also said he was \"not Maga\", distancing himself from the political movement linked to Trump.",
+          "publishedAt": "2026-11-19T02:59:06.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Humyn Labs’ $47 Mn Round, From Blinkit To Vice City & More",
+          "url": "https://inc42.com/buzz/humyn-labs-47-mn-round-from-blinkit-to-vice-city-more/",
+          "summary": "Humyn Labs’s $47 Mn Physical AI Play Humyn Labs is capitalising on the physical AI gold rush. The startup has…",
+          "publishedAt": "2026-11-19T02:30:59.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "AI giant Anthropic valued at up to $1.5tn ahead of stock market debut",
+          "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+          "summary": "Anthropic started just five years ago and is now one of the biggest names in artificial intelligence.",
+          "publishedAt": "2026-11-19T02:20:15.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Mufin Green Finance To Acquire 23% Stake In BimaPay For ₹66 Cr",
+          "url": "https://inc42.com/buzz/mufin-green-finance-to-acquire-23-stake-in-bimapay-for-%e2%82%b966-cr/",
+          "summary": "Listed non-banking financial company (NBFC) Mufin Green Finance’s board has approved the acquisition of a 23% stake in insurtech startup…",
+          "publishedAt": "2026-11-19T02:00:21.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Inside MS Dhoni’s startup playbook: 13 companies backed by Captain Cool",
+          "url": "https://yourstory.com/2026/11/ms-dhonis-startup-investments-13-companies-he-has-backed",
+          "summary": "From Garuda Aerospace to SolarSquare, explore 13 startups backed by MS Dhoni across fintech, electric mobility, gaming and clean energy.",
+          "publishedAt": "2026-11-19T02:00:00.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Elon Musk tries to explain what’s going on with Ukraine and Starlink",
+          "url": "https://www.theverge.com/tech/1037448/elon-musk-ukraine-starlink-starshield-nyt-dealbook",
+          "summary": "Elon Musk said Ukrainian president Volodymyr Zelenskyy is lying about disruptions to Starshield in Ukraine and that he's trying to misuse SpaceX's consumer service, Starlink, for military purposes. Musk made the comments at The New York Times' DealBook…",
+          "publishedAt": "2026-11-19T01:39:45.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+          "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+          "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you…",
+          "publishedAt": "2026-11-19T00:42:56.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Elon Musk says: ‘I’m not MAGA’",
+          "url": "https://techcrunch.com/2026/11/18/elon-musk-says-im-not-maga/",
+          "summary": "During his appearance Wednesday at The New York Times' DealBook Summit, Elon Musk said that he wasn't sure what the term \"MAGA\" meant and also commented that he felt \"pretty foolish\" for having spent so much money during the U.S. midterms.",
+          "publishedAt": "2026-11-19T00:40:49.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Chinese web giant Tencent says new US GPU ban ‘sets everyone back in China’",
+          "url": "https://www.theregister.com/systems/2026/11/19/chinese-web-giant-tencent-says-new-us-gpu-ban-sets-everyone-back-in-china/5310927",
+          "summary": "Don’t hoist the Mission Accomplished banner, because company president thinks it also will spur China’s chip biz into action",
+          "publishedAt": "2026-11-19T00:39:16.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Quick service restaurant chain Boba Bhai raises $18M in Series B round",
+          "url": "https://yourstory.com/2026/11/boba-bhai-raises-18-million-in-series-b-round",
+          "summary": "Bubble tea and Korean street food brand Boba Bhai will use this funding round for store expansion and also launch new brands.",
+          "publishedAt": "2026-11-19T00:35:00.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Etc"
+        }
+      ]
+    }
+  ]
+}
