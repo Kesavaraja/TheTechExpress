@@ -1,0 +1,594 @@
+{
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T08:56:02.040Z",
+  "stats": {
+    "wires": 40,
+    "wiresOk": 39,
+    "fetched": 3857,
+    "published": 60,
+    "sources": 23,
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Global",
+      "Latin America",
+      "North America"
+    ],
+    "failures": [
+      "Tech.eu: HTTP 403"
+    ]
+  },
+  "lead": {
+    "title": "Software issues have even reached Mercury as BepiColombo probe arrives in uncertain state",
+    "url": "https://www.theregister.com/science/2026/11/23/software-issues-have-even-reached-mercury-as-bepicolombo-probe-arrives-in-uncertain-state/5311554",
+    "summary": "Spacecraft enters orbit after epic journey but something shortened a burn",
+    "publishedAt": "2026-11-23T07:24:00.000Z",
+    "source": "The Register",
+    "region": "Europe",
+    "desk": "Development"
+  },
+  "sections": [
+    {
+      "name": "Development",
+      "slug": "development",
+      "stories": [
+        {
+          "title": "Generate a lofi track from Claude Code with an MCP server",
+          "url": "https://dev.to/auteoteam/generate-a-lofi-track-from-claude-code-with-an-mcp-server-7ji",
+          "summary": "Most coding sessions end up with the same small distraction: you want low-key instrumental music in the background, or a quick 60-second lo-fi loop for a product demo, and suddenly you are ten tabs deep into stock audio sites checking license restrictions…",
+          "publishedAt": "2026-11-23T08:46:10.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "AI is doing to programmers what it did to farmers, weavers: Sridhar Vembu",
+          "url": "https://yourstory.com/2026/11/what-happened-farmers-weavers-happening-to-programmers-sridhar-vembu-ai",
+          "summary": "Sridhar Vembu argues AI could transform intellectual work just as mechanisation transformed traditional trades, citing examples of AI tackling complex coding and engineering tasks with striking speed.",
+          "publishedAt": "2026-11-23T04:58:05.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Development"
+        },
+        {
+          "title": "Localcode, open source agentic coding on your Mac with one command",
+          "url": "https://github.com/mjwsolo/localcode",
+          "summary": "",
+          "publishedAt": "2026-11-22T22:18:48.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+          "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+          "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft…",
+          "publishedAt": "2026-11-22T17:25:20.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Some of our favorite Switch 2 games are cheaper through Black Friday",
+          "url": "https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale",
+          "summary": "Black Friday is a great time to expand your game library because it’s a chance to catch deals that aren’t normally happening throughout the year. That’s true for Nintendo Switch 2 games, as well. In addition to a $50 off sale on one of its console bundles…",
+          "publishedAt": "2026-11-22T17:00:00.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls",
+          "url": "https://www.infoq.com/news/2026/11/postgresql-19-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing administrative overhead and improving performance, with…",
+          "publishedAt": "2026-11-22T12:54:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Claude Code Has Been Leaking Secrets through its \"Don't Ask Again\" Feature",
+          "url": "https://www.infoq.com/news/2026/11/claude-code-leaking-secrets/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\". The company identified 1,122 secrets in…",
+          "publishedAt": "2026-11-22T11:00:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU",
+          "url": "https://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "AWS Lambda now runs Event Functions on EC2 G-series GPU instances through Lambda Managed Instances, with up to 48 concurrent invocations sharing one model per GPU, vLLM and SGLang base images that need no handler code, and 90-minute asynchronous timeouts…",
+          "publishedAt": "2026-11-22T06:27:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
+          "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
+          "summary": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains. The post FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-22T00:53:02.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "“It is a rollercoaster ride”: Angie Jones of the Agentic AI Foundation on keeping up with AI agents",
+          "url": "https://thenewstack.io/junior-developers-ai-agents-block/",
+          "summary": "Only a few years ago, it would have been impossible to picture this scenario: A lead developer once gave 10 The post “It is a rollercoaster ride”: Angie Jones of the Agentic AI Foundation on keeping up with AI agents appeared first on The New Stack.",
+          "publishedAt": "2026-11-21T21:58:14.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Trump says reported FBI database hack is ‘not good’",
+          "url": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/",
+          "summary": "The FBI is reportedly investigating a hack of the National Crime Information Center.",
+          "publishedAt": "2026-11-21T18:44:53.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Development"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "slug": "testing",
+      "stories": [
+        {
+          "title": "How to Test SMS Verification Without Putting Your Personal Number in Your Test Data",
+          "url": "https://dev.to/quackr/how-to-test-sms-verification-without-putting-your-personal-number-in-your-test-data-1887",
+          "summary": "We run Quackr, a virtual phone number platform that lets developers and individuals receive SMS verifications without exposing a real number. One question comes up from developers more than any other: how do you test a phone verification flow properly?…",
+          "publishedAt": "2026-11-23T08:47:09.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "India’s Inference Test, Scaler Founder’s New AI Bet & More",
+          "url": "https://inc42.com/buzz/indias-inference-test-scaler-founders-new-ai-bet-more/",
+          "summary": "Inside The Business Of Inference Platforms Sarvam is entering its commercial era with Token Factory. By serving global AI models…",
+          "publishedAt": "2026-11-23T02:30:21.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Testing"
+        },
+        {
+          "title": "TechCrunch Mobility: A/B testing robots vs. humans",
+          "url": "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/",
+          "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and, now more than ever, the role AI is playing in it.",
+          "publishedAt": "2026-11-22T17:06:00.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "GPT-6.2 Sol vs. Claude Opus 5.5: Not as accurate, but still might be the better buy",
+          "url": "https://thenewstack.io/gpt-6-2-sol-vs-claude-opus-5-5/",
+          "summary": "Claude Opus 5.5 is the model everyone wants to beat, and it has a mixed record in my tests since The post GPT-6.2 Sol vs. Claude Opus 5.5: Not as accurate, but still might be the better buy appeared first on The New Stack.",
+          "publishedAt": "2026-11-21T17:08:44.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "Can AI really help spot Black Friday deals? We put it to the test",
+          "url": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss",
+          "summary": "We put four AI models to the test to see if they could save us money on a new TV.",
+          "publishedAt": "2026-11-21T00:06:11.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "Prisons get OK to jam contraband phones. CTIA says nearby phones will be jammed too.",
+          "url": "https://arstechnica.com/tech-policy/2026/11/prisons-get-ok-to-jam-contraband-phones-ctia-says-nearby-phones-will-be-jammed-too/",
+          "summary": "CTIA said jamming test showed \"interference... up to two and a half miles away.\"",
+          "publishedAt": "2026-11-20T19:52:59.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "How to Test Computer Vision Systems Before They Reach Production",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/how-to-test-computer-vision-systems-before-they-reach-production/",
+          "summary": "Testing a computer vision system breaks the assumption most test suites rest on: that every input has one correct, known output. A vision model returns a probability, not a fact. Its failures depend on lighting, camera, and data rather than on a line of…",
+          "publishedAt": "2026-11-20T13:23:26.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+          "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
+          "summary": "Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry.",
+          "publishedAt": "2026-11-19T23:33:51.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "CircleCI Expands Smarter Testing to Power Independent Validation for AI-Driven Development",
+          "url": "https://sdtimes.com/software-testing/circleci-expands-smarter-testing-to-power-independent-validation-for-ai-driven-development/",
+          "summary": "SAN FRANCISCO, CA — CircleCI, a leading continuous integration and continuous delivery (CI/CD) platform, announced new features available in its Smarter Testing suite. Smarter Testing helps engineering teams get faster feedback by running only the tests…",
+          "publishedAt": "2026-11-19T18:02:50.000Z",
+          "source": "SD Times",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "Put the Human Gate Where Mistakes Go Public",
+          "url": "https://sdtimes.com/ai-agents/put-the-human-gate-where-mistakes-go-public/",
+          "summary": "Most arguments about AI agents at work come back to the same question: how much should we let them do on their own? Teams answer it with a percentage, a maturity model or a gut feeling. I think there is a simpler test, and it starts with asking where a…",
+          "publishedAt": "2026-11-18T21:03:25.000Z",
+          "source": "SD Times",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "Anthropic’s $1.4tn IPO puts Europe’s AI boom to the test",
+          "url": "https://sifted.eu/articles/anthropic-ipo-puts-europe-ai-boom-to-the-test/",
+          "summary": "",
+          "publishedAt": "2026-11-18T05:00:46.000Z",
+          "source": "Sifted",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "Gemini test proves once again that amoral AI agents will do almost anything if told ‘NEVER give up’",
+          "url": "https://www.theregister.com/security/2026/11/17/gemini-test-proves-once-again-that-amoral-ai-agents-will-do-almost-anything-if-told-never-give-up/5310574",
+          "summary": "If you design a test to find misalignment, you will find misalignment",
+          "publishedAt": "2026-11-17T19:52:57.000Z",
+          "source": "The Register Security",
+          "region": "Europe",
+          "desk": "Testing"
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "slug": "devops",
+      "stories": [
+        {
+          "title": "Caddy vs NGINX vs Traefik: Reverse Proxy Guide 2026",
+          "url": "https://dev.to/naveedkumbhar/caddy-vs-nginx-vs-traefik-reverse-proxy-guide-2026-47hd",
+          "summary": "Originally published on Naveed Ahmed's Engineering Blog. Choosing a reverse proxy is no longer just a question of raw HTTP performance. Your team also needs to think about certificate management, configuration changes, container discovery, Kubernetes…",
+          "publishedAt": "2026-11-23T08:46:45.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Sarvam clarifies AI strategy amid debate over hosting Chinese models",
+          "url": "https://yourstory.com/2026/11/sarvam-clarifies-ai-strategy-amid-debate-over-hosting-chinese-models",
+          "summary": "Co-founder Pratyush Kumar contends that a model’s country of origin and the location of the infrastructure on which it runs are two different matters. Building inference infrastructure does not take away from Sarvam’s core focus on developing its own…",
+          "publishedAt": "2026-11-23T07:22:02.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "DevOps"
+        },
+        {
+          "title": "The New Docker: Built to Run on Trust",
+          "url": "https://www.docker.com/blog/meet-the-new-docker-built-to-run-on-trust/",
+          "summary": "",
+          "publishedAt": "2026-11-23T03:34:29.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Dynatrace just laid out its AI observability playbook at KubeCon. Here’s why it matters for developers.",
+          "url": "https://thenewstack.io/ai-feature-flags-observability/",
+          "summary": "A new AI model goes live for a small group of users. Some of them start seeing errors. The build The post Dynatrace just laid out its AI observability playbook at KubeCon. Here’s why it matters for developers. appeared first on The New Stack.",
+          "publishedAt": "2026-11-21T16:08:55.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "What We Missed: Nvidia CEO Scandal Rocks AI Industry",
+          "url": "https://www.darkreading.com/cyber-risk/what-we-missed-nvidia-ceo-scandal-rocks-ai-industry",
+          "summary": "In this video, Dark Reading editors discuss some of the news they didn't get a chance to cover, from Jensen Huang's resignation from Nvidia to Microsoft's recent cloud outage.",
+          "publishedAt": "2026-11-20T17:04:04.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Track AWS CloudFormation StackSets deployments with progress visibility",
+          "url": "https://aws.amazon.com/blogs/devops/track-aws-cloudformation-stacksets-deployments-with-progress-visibility/",
+          "summary": "AWS CloudFormation StackSets now adds deployment progress visibility, a stage-by-stage view of where each stack set operation stands. See how much work is complete and which accounts and stack instances need attention, and follow a deployment while it runs…",
+          "publishedAt": "2026-11-20T00:40:44.000Z",
+          "source": "AWS DevOps",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Crescite proposes a seven-pillar \"TOKEN Act\" to fund the real economy with blockchain",
+          "url": "https://contxto.com/en/blockchain/crescite-proposes-a-seven-pillar-token-act-to-fund-the-real-economy-with-blockchain/",
+          "summary": "Tokenizing real-world assets could open new funding channels for housing, energy, agriculture and infrastructure projects, particularly in the United States, where digital assets have already drawn millions of participants and mobilized billions of…",
+          "publishedAt": "2026-11-19T20:46:10.000Z",
+          "source": "Contxto",
+          "region": "Latin America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "The Pulse: What can we learn from the Railway hack?",
+          "url": "https://blog.pragmaticengineer.com/the-pulse-what-can-we-learn-from-the-railway-hack/",
+          "summary": "Cloud platform Railway published a detailed postmortem about their recent hack in which the attacker likely used no-safeguards AI models. Railway hardened its systems as a result.",
+          "publishedAt": "2026-11-19T18:53:58.000Z",
+          "source": "The Pragmatic Engineer",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Enterprise Live Migrations from Azure DevOps generally available",
+          "url": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available",
+          "summary": "Enterprise Live Migrations (ELM) from Azure DevOps Services to GitHub Enterprise Cloud with data residency is now generally available. You can move your repositories while your teams keep working, then… The post Enterprise Live Migrations from Azure DevOps…",
+          "publishedAt": "2026-11-19T18:50:57.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Docker patches Java4Shell and the NGINX HTTP/2 with Docker Hardened Images",
+          "url": "https://www.docker.com/blog/docker-patches-java4shell-and-the-nginx-http-2-with-docker-hardened-images/",
+          "summary": "Docker publishes fixed images for both Java4Shell and the NGINX HTTP/2 in the Docker Hardened Images (DHI) catalog.",
+          "publishedAt": "2026-11-19T17:38:08.000Z",
+          "source": "Docker Blog",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "How Amazon ECS handles blue/green, canary, and linear deployments",
+          "url": "https://thenewstack.io/amazon-ecs-deployment-strategies/",
+          "summary": "Deploying containers safely at scale can mean assembling your own system: traffic-splitting logic, alarm evaluation, rollback automation, approval gates. It’s The post How Amazon ECS handles blue/green, canary, and linear deployments appeared first on The…",
+          "publishedAt": "2026-11-19T16:00:00.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "S3 audit log streaming with OpenID Connect expands to GHE.com",
+          "url": "https://github.blog/changelog/2026-11-19-s3-audit-log-streaming-with-openid-connect-expands-to-ghe-com",
+          "summary": "You can now stream enterprise audit logs to Amazon S3 using OpenID Connect (OIDC) on GitHub Enterprise Cloud with data residency (GHE.com). This extends the existing github.com capability, letting you… The post S3 audit log streaming with OpenID Connect…",
+          "publishedAt": "2026-11-19T08:27:16.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "DevOps"
+        }
+      ]
+    },
+    {
+      "name": "DevSecOps",
+      "slug": "devsecops",
+      "stories": [
+        {
+          "title": "[Update] WazirX, ZebPay Among Platforms Impacted By MoEngage Data Breach",
+          "url": "https://inc42.com/buzz/now-moengage-suffers-cybersecurity-attack-due-to-compromised-third-party-vendor/",
+          "summary": "Update | November 23, 11:02 IST Cryptocurrency exchanges WazirX and ZebPay have disclosed that some of their users’ information was…",
+          "publishedAt": "2026-11-23T05:32:01.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Google claims last week’s critical VMware bug was under attack in September",
+          "url": "https://www.theregister.com/virtualization/2026/11/23/google-claims-last-weeks-critical-vmware-bug-was-under-attack-in-september/5311547",
+          "summary": "China-linked ARMORY CASTLE knew about it weeks before it unleashed five custom malware tools targeting vCenter",
+          "publishedAt": "2026-11-23T04:39:19.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "GL.iNet Security Notice 2026-11-20",
+          "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20",
+          "summary": "",
+          "publishedAt": "2026-11-22T23:06:37.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Google Announces Agent Compute Engine for Secure AI Agent Execution",
+          "url": "https://www.infoq.com/news/2026/11/google-agent-compute-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Google recently announced Agent Compute Engine, a managed service that runs AI agents in isolated microVMs, with checkpointing capabilities to suspend and resume execution environments. The design keeps credentials, API keys, and OAuth refresh tokens…",
+          "publishedAt": "2026-11-22T06:30:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+          "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+          "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+          "publishedAt": "2026-11-21T21:37:10.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "President Trump Taps Kirsten Davies as National Cyber Director",
+          "url": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
+          "summary": "White House says the battle-tested cyber leader will drive an America First cyber strategy. The post President Trump Taps Kirsten Davies as National Cyber Director appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-21T13:00:00.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
+          "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+          "summary": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-21T12:08:50.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "How Security Vendors Are Tackling Access-Control Challenges for AI Agents",
+          "url": "https://www.darkreading.com/identity-access-management-security/ai-agents-bring-enterprises-new-access-control-challenges",
+          "summary": "Identity, runtime and development controls are converging as enterprises are tasked with keeping agents within their assigned tasks. But vendors' approaches vary, so CISOs face a choice.",
+          "publishedAt": "2026-11-21T01:31:23.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Security advisory permissions are now generally available",
+          "url": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available",
+          "summary": "Organization owners can now let people work on repository security advisories, including private vulnerability reports, through custom repository roles. You no longer have to make them repository administrators or give… The post Security advisory…",
+          "publishedAt": "2026-11-20T21:49:29.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
+          "summary": "During the last wave of major VMware vCenter security updates, a China-nexus threat group likely already had its next zero-day up its sleeve.",
+          "publishedAt": "2026-11-20T21:03:27.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+          "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+          "summary": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
+          "publishedAt": "2026-11-20T20:59:08.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "White House removes cyber-security chief after series of tech outages",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
+          "summary": "He has been fired after losing the confidence of new White House chief of staff Stephen Miller, according to reports.",
+          "publishedAt": "2026-11-20T19:03:56.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "DevSecOps"
+        }
+      ]
+    },
+    {
+      "name": "Etc",
+      "slug": "etc",
+      "stories": [
+        {
+          "title": "GSC MCP for Claude: Connect Google Search Console and Ask It Real Questions",
+          "url": "https://dev.to/jbobbink/gsc-mcp-for-claude-connect-google-search-console-and-ask-it-real-questions-3dg9",
+          "summary": "If you search for \"GSC MCP for Claude\" you find two kinds of answers. One is a GitHub repository you clone, give a Google service account, and run next to Claude Desktop. The other is a remote server you add as a connector with one URL. I built one of the…",
+          "publishedAt": "2026-11-23T08:46:57.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "When Microsoft, Apple, and the FAA can't keep it up, it's a system of a down",
+          "url": "https://www.theregister.com/columnists/2026/11/23/when-microsoft-apple-and-the-faa-cant-keep-it-up-its-a-system-of-a-down/5311363",
+          "summary": "Outage after outage after outage is a syndrome that needs radical treatment",
+          "publishedAt": "2026-11-23T08:42:00.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "India ranks sixth globally in GTA VI search volume, says study",
+          "url": "https://yourstory.com/2026/11/india-ranks-sixth-globally-in-gta-6-search-volume-study",
+          "summary": "India recorded nearly 9.44 lakh average monthly searches for GTA VI-related terms, ranking sixth globally by search volume. However, it ranked 106th on a per-capita basis, according to a study by The Action Network.",
+          "publishedAt": "2026-11-23T07:47:36.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Startup news and updates: Daily roundup (November 23, 2026)",
+          "url": "https://yourstory.com/2026/11/startup-news-updates-daily-roundup-november-23-2026",
+          "summary": "YourStory presents the daily news roundup from the Indian startup ecosystem and beyond. Here's the roundup for Monday, November 23, 2026.",
+          "publishedAt": "2026-11-23T07:03:12.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Techie turned his too-easy job interview into a trap",
+          "url": "https://www.theregister.com/personal-tech/2026/11/23/techie-turned-his-too-easy-job-interview-into-a-trap/5311213",
+          "summary": "With the flick of a switch, he smoked out competent PC maintenance skills",
+          "publishedAt": "2026-11-23T06:35:00.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "FY26 Financial Tracker: Tracking The Financial Performance Of Indian Startups",
+          "url": "https://inc42.com/features/fy26-financial-tracker-tracking-the-financial-performance-of-indian-startups/",
+          "summary": "The Indian startup ecosystem continued to mature in FY26, with 22 new-age tech companies making their public market debut as…",
+          "publishedAt": "2026-11-23T06:21:38.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "👨🏿‍🚀TechCabal Daily – Dangote’s encore",
+          "url": "https://techcabal.com/2026/11/23/techcabal-daily-dangotes-encore/",
+          "summary": "In today's edition: Dangote weighs refinery share sale || Baobab raises $50m || Kenyan banks seek more time || South Africa plans $5.7m AI fund",
+          "publishedAt": "2026-11-23T05:51:49.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "Etc"
+        },
+        {
+          "title": "Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker",
+          "url": "https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink",
+          "summary": "After expanding its Charmera collection with a Millennium Edition featuring Y2K-inspired designs earlier this year, Reto's follow-up to its tiny Kodak camera is an equally small digital photo frame you can use to display your shots. But while the…",
+          "publishedAt": "2026-11-23T03:00:00.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+          "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+          "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+          "publishedAt": "2026-11-23T01:25:53.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Fintech Stocks Put MDR Dreams On Hold",
+          "url": "https://inc42.com/features/fintech-stocks-put-mdr-dreams-on-hold/",
+          "summary": "It seems India’s fintech investors may have counted their chickens too early. The timeline for the much-anticipated merchant discount rate…",
+          "publishedAt": "2026-11-23T00:30:44.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
+          "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+          "summary": "AI employees in the industry's epicentre - San Francisco - worry that the sector is overheated.",
+          "publishedAt": "2026-11-23T00:08:00.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "We haven’t seen the last of the major tech outages",
+          "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+          "summary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National…",
+          "publishedAt": "2026-11-22T22:48:02.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        }
+      ]
+    }
+  ]
+}
