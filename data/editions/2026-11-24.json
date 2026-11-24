@@ -1,0 +1,594 @@
+{
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T05:56:04.809Z",
+  "stats": {
+    "wires": 40,
+    "wiresOk": 39,
+    "fetched": 3859,
+    "published": 60,
+    "sources": 27,
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Global",
+      "Latin America",
+      "North America"
+    ],
+    "failures": [
+      "Tech.eu: HTTP 403"
+    ]
+  },
+  "lead": {
+    "title": "Orgs that leak data ‘prioritize corporate interests over customers’ says Have I Been Pwned’s Troy Hunt",
+    "url": "https://www.theregister.com/security/2026/11/24/orgs-that-leak-data-prioritize-corporate-interests-over-customers-says-have-i-been-pwneds-troy-hunt/5311802",
+    "summary": "Leakers move through denial, bargaining, delay, legal threats, then claiming Hunt is the real villain",
+    "publishedAt": "2026-11-24T05:13:51.000Z",
+    "source": "The Register",
+    "region": "Europe",
+    "desk": "DevSecOps"
+  },
+  "sections": [
+    {
+      "name": "Development",
+      "slug": "development",
+      "stories": [
+        {
+          "title": "Designing Sub-Second RFID Access Control for High-Density Sports Venues",
+          "url": "https://dev.to/stampiq/designing-sub-second-rfid-access-control-for-high-density-sports-venues-49l2",
+          "summary": "Validating 1,000 credentials per minute at a stadium turnstile or championship perimeter is a completely different engineering problem than checking in 200 guests at a hotel ballroom. If your access-control gate waits on a round-trip cloud API call over…",
+          "publishedAt": "2026-11-24T05:53:10.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Find the Longest Consecutive Rising Streak of a Single Stock",
+          "url": "https://dev.to/esproc_spl/find-the-longest-consecutive-rising-streak-of-a-single-stock-392",
+          "summary": "Problem Description The table stock records the daily closing prices of many stocks, with the fields CODE (stock code), DT (trading date) and CL (closing price). For a given stock (100046 in this example), find the number of days in its longest consecutive…",
+          "publishedAt": "2026-11-24T05:52:37.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+          "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+          "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+          "publishedAt": "2026-11-23T22:05:50.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Shirudo: OpenAI and Cisco's open-source runtime for shielding unpatched Linux",
+          "url": "https://openai.com/index/introducing-shirudo/",
+          "summary": "",
+          "publishedAt": "2026-11-23T21:30:41.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Google’s AI agents cut quantum computing costs 290-fold — now you can check their work",
+          "url": "https://thenewstack.io/deepmind-lean-quantum-verification/",
+          "summary": "Google DeepMind has open-sourced the Lean 4 framework used to verify quantum algorithms developed by its Gemini 4 agents, including The post Google’s AI agents cut quantum computing costs 290-fold — now you can check their work appeared first on The New Stack.",
+          "publishedAt": "2026-11-23T20:08:34.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Claude can ship code for you now – how to try it (if you dare)",
+          "url": "https://www.zdnet.com/innovation/claude-ship-code-how-to-try/",
+          "summary": "Would you let a few Claude agents review and ship your code for you?",
+          "publishedAt": "2026-11-23T20:00:00.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+          "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+          "summary": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem",
+          "publishedAt": "2026-11-23T19:14:46.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "New guidance to optimize Git performance in Azure Repos",
+          "url": "https://devblogs.microsoft.com/devops/new-guidance-to-optimize-git-performance-in-azure-repos/",
+          "summary": "Git works well for most development workflows. But a change that seems harmless can make a repository harder to work with. Here are a few examples of how that can happen. Committing binaries directly to your repository Binaries are more likely than source…",
+          "publishedAt": "2026-11-23T18:00:44.000Z",
+          "source": "Microsoft DevOps",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "AWS launches 5 new open decision models for AI agents",
+          "url": "https://thenewstack.io/aws-strands-decider-v2/",
+          "summary": "AWS on Monday launched Strands Decider v2, a family of five open decision models. The release comes only seven weeks The post AWS launches 5 new open decision models for AI agents appeared first on The New Stack.",
+          "publishedAt": "2026-11-23T18:00:00.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "How to save your Google Nest app videos before the January shutdown",
+          "url": "https://www.zdnet.com/home-and-office/how-to-save-your-google-nest-app-videos-switch-to-google-home/",
+          "summary": "Google is retiring the Nest app in favor of the Google Home app. Here’s how to transfer your data.",
+          "publishedAt": "2026-11-23T17:52:52.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Pixel Weather’s new feature lets you report your local conditions now",
+          "url": "https://www.zdnet.com/tech/pixel-weather-feature-local-weather-reports/",
+          "summary": "Weather apps are notoriously inaccurate. Google’s new feature can help.",
+          "publishedAt": "2026-11-23T17:22:27.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Java News Roundup: Java4Shell, Oracle CSPUs, OpenJDK, Azul Payara, BellSoft, Helidon, LangChain4j",
+          "url": "https://www.infoq.com/news/2026/11/java-news-roundup-nov16-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "This week's Java roundup for November 16th, 2026, features news highlighting: the Java4Shell RCE vulnerability; Oracle CSPUs; Lazy Constants targeted for JDK 28; the November 2026 edition of Azul Payara; point releases of Java Operator SDK, LangChain4j and…",
+          "publishedAt": "2026-11-23T15:30:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "Development"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "slug": "testing",
+      "stories": [
+        {
+          "title": "Ladybird, the first new browser engine in years, is now available to test",
+          "url": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
+          "summary": "Ladybird, an independent web browser with a built-from-scratch engine, is finally available for testing. On Monday, Ladybird developer Andreas Kling announced that the browser is launching in alpha on macOS and Linux following more than four years of…",
+          "publishedAt": "2026-11-23T22:38:09.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "How to Test Applications Under Poor Network Conditions with Bean Network Tester",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/how-to-test-applications-under-poor-network-conditions-with-bean-network-tester/",
+          "summary": "What happens when the application we’re testing suddenly encounters poor network conditions? Limited download/upload speeds, a sudden loss of connection, blocked connections, high ping and jitter, or something else? Will the famous “It works on my machine”…",
+          "publishedAt": "2026-11-23T17:32:56.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "Code coverage uploads now flag invalid report formats",
+          "url": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats",
+          "summary": "The GitHub Code Quality upload-code-coverage action now checks that your coverage report is in Cobertura XML format. If it isn’t in a supported format, the upload step fails and the… The post Code coverage uploads now flag invalid report formats appeared…",
+          "publishedAt": "2026-11-23T15:28:36.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "IG Defence test-fires counter-drone micro-missile system",
+          "url": "https://yourstory.com/2026/11/ig-defence-test-fires-jwala-mk-i-counter-drone-micro-missile-system",
+          "summary": "The company's indigenously developed micro-missile system JWALA MK-I was successfully tested at Pokhran, Rajasthan.",
+          "publishedAt": "2026-11-23T14:16:31.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Testing"
+        },
+        {
+          "title": "India’s Inference Test, Scaler Founder’s New AI Bet & More",
+          "url": "https://inc42.com/buzz/indias-inference-test-scaler-founders-new-ai-bet-more/",
+          "summary": "Inside The Business Of Inference Platforms Sarvam is entering its commercial era with Token Factory. By serving global AI models…",
+          "publishedAt": "2026-11-23T02:30:21.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Testing"
+        },
+        {
+          "title": "GPT-6.2 Sol vs. Claude Opus 5.5: Not as accurate, but still might be the better buy",
+          "url": "https://thenewstack.io/gpt-6-2-sol-vs-claude-opus-5-5/",
+          "summary": "Claude Opus 5.5 is the model everyone wants to beat, and it has a mixed record in my tests since The post GPT-6.2 Sol vs. Claude Opus 5.5: Not as accurate, but still might be the better buy appeared first on The New Stack.",
+          "publishedAt": "2026-11-21T17:08:44.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "Can AI really help spot Black Friday deals? We put it to the test",
+          "url": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss",
+          "summary": "We put four AI models to the test to see if they could save us money on a new TV.",
+          "publishedAt": "2026-11-21T00:06:11.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "How to Test Computer Vision Systems Before They Reach Production",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/how-to-test-computer-vision-systems-before-they-reach-production/",
+          "summary": "Testing a computer vision system breaks the assumption most test suites rest on: that every input has one correct, known output. A vision model returns a probability, not a fact. Its failures depend on lighting, camera, and data rather than on a line of…",
+          "publishedAt": "2026-11-20T13:23:26.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "CircleCI Expands Smarter Testing to Power Independent Validation for AI-Driven Development",
+          "url": "https://sdtimes.com/software-testing/circleci-expands-smarter-testing-to-power-independent-validation-for-ai-driven-development/",
+          "summary": "SAN FRANCISCO, CA — CircleCI, a leading continuous integration and continuous delivery (CI/CD) platform, announced new features available in its Smarter Testing suite. Smarter Testing helps engineering teams get faster feedback by running only the tests…",
+          "publishedAt": "2026-11-19T18:02:50.000Z",
+          "source": "SD Times",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "Put the Human Gate Where Mistakes Go Public",
+          "url": "https://sdtimes.com/ai-agents/put-the-human-gate-where-mistakes-go-public/",
+          "summary": "Most arguments about AI agents at work come back to the same question: how much should we let them do on their own? Teams answer it with a percentage, a maturity model or a gut feeling. I think there is a simpler test, and it starts with asking where a…",
+          "publishedAt": "2026-11-18T21:03:25.000Z",
+          "source": "SD Times",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "Gemini test proves once again that amoral AI agents will do almost anything if told ‘NEVER give up’",
+          "url": "https://www.theregister.com/security/2026/11/17/gemini-test-proves-once-again-that-amoral-ai-agents-will-do-almost-anything-if-told-never-give-up/5310574",
+          "summary": "If you design a test to find misalignment, you will find misalignment",
+          "publishedAt": "2026-11-17T19:52:57.000Z",
+          "source": "The Register Security",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "Robot Framework Test Automation: Automate Web, Desktop, Mobile, and Embedded Systems",
+          "url": "https://testguild.com/podcast/a612-robocon2027/",
+          "summary": "About This Episode: What makes Robot Framework flexible enough to test medical devices, low code bots, monitoring systems, and embedded […]",
+          "publishedAt": "2026-11-17T15:43:23.000Z",
+          "source": "TestGuild",
+          "region": "Global",
+          "desk": "Testing"
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "slug": "devops",
+      "stories": [
+        {
+          "title": "CKS: The Kubernetes Security Exam That Tests What You Can Do, Not What You Can Memorize",
+          "url": "https://dev.to/study4pass/cks-the-kubernetes-security-exam-that-tests-what-you-can-do-not-what-you-can-memorize-4lgn",
+          "summary": "CKS: The Kubernetes Security Exam That Tests What You Can Do, Not What You Can Memorize The Certified Kubernetes Security Specialist (CKS) exam is a two-hour, hands-on, performance-based test from the Cloud Native Computing Foundation (CNCF) and The Linux…",
+          "publishedAt": "2026-11-24T05:53:46.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "A ~45 MB control plane for 1,000+ GPU nodes — GPUWorks is now Apache 2.0",
+          "url": "https://dev.to/flitai/a-45-mb-control-plane-for-1000-gpu-nodes-gpuworks-is-now-apache-20-2380",
+          "summary": "On November 5 we open-sourced GPUWorks under Apache 2.0. It's a ~45 MB inference platform that turns the GPU servers a team already has into one shared cluster, with no Kubernetes underneath. We built it because four questions kept coming back: A handful…",
+          "publishedAt": "2026-11-24T05:53:06.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Google Cloud confirms 30 role cuts in India, rejects claims of wider layoffs",
+          "url": "https://yourstory.com/2026/11/google-cloud-confirms-30-role-cuts-in-india-rejects-claims-of-wider-layoffs",
+          "summary": "However, Google Cloud has not identified the teams involved or disclosed the exit terms.",
+          "publishedAt": "2026-11-24T05:00:34.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "DevOps"
+        },
+        {
+          "title": "How to Use the GitHub CLI with GitHub Actions",
+          "url": "https://www.freecodecamp.org/news/how-to-use-the-github-cli-with-github-actions/",
+          "summary": "GitHub CLI is a command-line tool that lets you manage GitHub's web features right in your local terminal. You can manage repositories, issues, pull requests, and automation workflows without needing",
+          "publishedAt": "2026-11-23T15:17:35.000Z",
+          "source": "freeCodeCamp News",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Sarvam clarifies AI strategy amid debate over hosting Chinese models",
+          "url": "https://yourstory.com/2026/11/sarvam-clarifies-ai-strategy-amid-debate-over-hosting-chinese-models",
+          "summary": "Co-founder Pratyush Kumar contends that a model’s country of origin and the location of the infrastructure on which it runs are two different matters. Building inference infrastructure does not take away from Sarvam’s core focus on its own models, he says.",
+          "publishedAt": "2026-11-23T07:22:02.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "DevOps"
+        },
+        {
+          "title": "We started a hackathon; we got a pipeline",
+          "url": "https://www.thoughtworks.com/insights/blog/technology-strategy/hackathon-pipeline",
+          "summary": "We started a hackathon; we got a pipeline",
+          "publishedAt": "2026-11-23T00:00:00.000Z",
+          "source": "Thoughtworks",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Dynatrace just laid out its AI observability playbook at KubeCon. Here’s why it matters for developers.",
+          "url": "https://thenewstack.io/ai-feature-flags-observability/",
+          "summary": "A new AI model goes live for a small group of users. Some of them start seeing errors. The build The post Dynatrace just laid out its AI observability playbook at KubeCon. Here’s why it matters for developers. appeared first on The New Stack.",
+          "publishedAt": "2026-11-21T16:08:55.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Grafana 13.3 Adds Shared Dashboard Variables and Notebooks",
+          "url": "https://www.infoq.com/news/2026/11/grafana-13-3-shared-variables/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Grafana 13.3 introduces shared variables across dashboards and adds Notebooks to record investigations. Both features are in public preview and require feature toggles for self-managed installations. By Mark Silvester",
+          "publishedAt": "2026-11-21T14:30:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Track AWS CloudFormation StackSets deployments with progress visibility",
+          "url": "https://aws.amazon.com/blogs/devops/track-aws-cloudformation-stacksets-deployments-with-progress-visibility/",
+          "summary": "AWS CloudFormation StackSets now adds deployment progress visibility, a stage-by-stage view of where each stack set operation stands. See how much work is complete and which accounts and stack instances need attention, and follow a deployment while it runs…",
+          "publishedAt": "2026-11-20T00:40:44.000Z",
+          "source": "AWS DevOps",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Crescite proposes a seven-pillar \"TOKEN Act\" to fund the real economy with blockchain",
+          "url": "https://contxto.com/en/blockchain/crescite-proposes-a-seven-pillar-token-act-to-fund-the-real-economy-with-blockchain/",
+          "summary": "Tokenizing real-world assets could open new funding channels for housing, energy, agriculture and infrastructure projects, particularly in the United States, where digital assets have already drawn millions of participants and mobilized billions of…",
+          "publishedAt": "2026-11-19T20:46:10.000Z",
+          "source": "Contxto",
+          "region": "Latin America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "The Pulse: What can we learn from the Railway hack?",
+          "url": "https://blog.pragmaticengineer.com/the-pulse-what-can-we-learn-from-the-railway-hack/",
+          "summary": "Cloud platform Railway published a detailed postmortem about their recent hack in which the attacker likely used no-safeguards AI models. Railway hardened its systems as a result.",
+          "publishedAt": "2026-11-19T18:53:58.000Z",
+          "source": "The Pragmatic Engineer",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Enterprise Live Migrations from Azure DevOps generally available",
+          "url": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available",
+          "summary": "Enterprise Live Migrations (ELM) from Azure DevOps Services to GitHub Enterprise Cloud with data residency is now generally available. You can move your repositories while your teams keep working, then… The post Enterprise Live Migrations from Azure DevOps…",
+          "publishedAt": "2026-11-19T18:50:57.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "DevOps"
+        }
+      ]
+    },
+    {
+      "name": "DevSecOps",
+      "slug": "devsecops",
+      "stories": [
+        {
+          "title": "The hacker behind early GTA VI leaks has been sentenced — and released",
+          "url": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released",
+          "summary": "Arion Kurtaj, who pleaded guilty last week to hacking Grand Theft Auto VI developer Rockstar Games and other companies, including Uber and Revolut, was sentenced to seven years in prison but released on license, the BBC reports. After hacking Rockstar…",
+          "publishedAt": "2026-11-23T23:25:01.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Industrial Serial Gateways Broadcast That They're Insecure",
+          "url": "https://www.darkreading.com/ics-ot-security/industrial-serial-gateways-broadcast-insecure",
+          "summary": "Critical OT access devices will often tell you, and anyone else, whether they're protected by authentication — and many aren't.",
+          "publishedAt": "2026-11-23T22:02:46.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Inception - possibly a ShinyHunters reboot - claims seven victims in a week",
+          "url": "https://www.theregister.com/security/2026/11/23/inception-possibly-a-shinyhunters-reboot-claims-seven-victims-in-a-week/5311768",
+          "summary": "Whatever they call themselves these days: be on the lookout for voice phishing attempts",
+          "publishedAt": "2026-11-23T21:52:23.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "CrowdStrike Makes AI Security Push With Blockbuster Zscaler Deal",
+          "url": "https://www.darkreading.com/endpoint-security/crowdstrike-ai-security-push-zscaler-deal",
+          "summary": "CrowdStrike's $44 billion acquisition of Zscaler would unite endpoint protection and zero-trust network security to obtain greater control over AI agents.",
+          "publishedAt": "2026-11-23T21:21:42.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Agentic Autofix for GitHub Advanced Security for Azure DevOps is in public preview",
+          "url": "https://devblogs.microsoft.com/devops/agentic-autofix-for-advanced-security-for-azure-devops-public-preview/",
+          "summary": "Today, we’re announcing the public preview of Agentic Autofix for GitHub Advanced Security for Azure DevOps. Thank you to everyone who participated in our June private preview and our October limited preview. Your feedback helped us expand alert coverage…",
+          "publishedAt": "2026-11-23T20:21:42.000Z",
+          "source": "Microsoft DevOps",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "US Cyber Director Pick Signals Shift Toward Expertise",
+          "url": "https://www.darkreading.com/cybersecurity-operations/us-cyber-director-pick-signals-shift-toward-expertise",
+          "summary": "Trump named Kirsten Davies as Acting National Cyber Director, bringing greater industry experience to the role amid recent outages and rising geopolitical tensions.",
+          "publishedAt": "2026-11-23T20:13:48.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Secret scanning reduces false positives for Slack",
+          "url": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
+          "summary": "Secret scanning now reduces false-positive detections for Slack secrets. False positives reduced The following detector improvements reduce false-positive matches for supported secrets. Provider Secret type Improvement Slack slack_incoming_webhook_url…",
+          "publishedAt": "2026-11-23T18:32:59.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Behind the Alias: How One Researcher Unmasked a Decade of Ransomware Actors",
+          "url": "https://www.darkreading.com/cybersecurity-operations/alias-researcher-unmasked-ransomware-actors",
+          "summary": "Ransomware isn't slowing down. A new framework gives security teams the edge to trace attackers back to their source.",
+          "publishedAt": "2026-11-23T17:45:52.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Why African banks and telecoms cannot wait for quantum computers to arrive",
+          "url": "https://techcabal.com/2026/11/23/why-african-must-prepare-for-quantum/",
+          "summary": "Quantum computers capable of breaking today’s encryption do not yet exist, but data stolen now could become readable later. For African banks and telecom operators, protecting long-lived secrets means preparing before those machines arrive.",
+          "publishedAt": "2026-11-23T16:44:28.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms",
+          "url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
+          "summary": "Microsoft closed an Azure API Management flaw exploited to target secrets at Norwegian energy companies, with other sectors also affected. The post Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-23T15:47:40.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "AI Network Firewalls for Enterprise Security Architecture",
+          "url": "https://www.freecodecamp.org/news/ai-network-firewalls-for-enterprise-security-architecture/",
+          "summary": "Enterprise AI traffic is hard to secure because security-relevant information is often inside an otherwise legitimate connection. A developer can send source code to a coding assistant over HTTPS. An",
+          "publishedAt": "2026-11-23T15:12:49.000Z",
+          "source": "freeCodeCamp News",
+          "region": "Global",
+          "desk": "DevSecOps"
+        }
+      ]
+    },
+    {
+      "name": "Etc",
+      "slug": "etc",
+      "stories": [
+        {
+          "title": "Agent swarms need more than a message board",
+          "url": "https://stackoverflow.blog/2026/11/24/agent-swarms-need-more-than-a-message-board/",
+          "summary": "Agent swarms are really distributed systems problems in disguise.",
+          "publishedAt": "2026-11-24T08:40:00.000Z",
+          "source": "Stack Overflow Blog",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "Sarvam Vs Critics, Jensen Huang Returns & More",
+          "url": "https://inc42.com/buzz/sarvam-vs-critics-jensen-huang-returns-more/",
+          "summary": "Sarvam Defends Token Factory Sarvam is standing its ground. Under fire for hosting Chinese AI models on its inference service,…",
+          "publishedAt": "2026-11-24T02:30:05.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "NVIDIA reinstates Jensen Huang as CEO; Sarvam unveils upgraded model amid Token Factory row",
+          "url": "https://yourstory.com/2026/11/nvidia-reinstates-jensen-huang-as-ceo-sarvam-unveils-upgraded-model",
+          "summary": "Nvidia has reinstated co-founder Jensen Huang as its president, CEO, and board director, less than two weeks after his resignation from the company. In other news, Sarvam’s new AI model promises better performance at a lower cost.",
+          "publishedAt": "2026-11-24T02:00:00.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Cisco and OpenAI pitch eBPF kernel plugins as the way to tame the patchpocalypse",
+          "url": "https://www.theregister.com/security/2026/11/24/cisco-and-openai-pitch-ebpf-kernel-plugins-as-the-way-to-tame-the-patchpocalypse/5311795",
+          "summary": "‘Shirudo’ project promises to whip up compensating controls in a hurry",
+          "publishedAt": "2026-11-24T01:46:56.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Anthropic says Claude solved an age-old math problem, but the written proof is 250,000 pages of slop",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/24/anthropic-says-claude-solved-an-age-old-math-problem-but-the-written-proof-is-250000-pages-of-slop/5311775",
+          "summary": "If the AI can't explain what it's proven, are we actually any closer to understanding?",
+          "publishedAt": "2026-11-24T00:18:17.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "Google alternative Kagi launches an email service",
+          "url": "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative",
+          "summary": "Kagi, which already offers a paid alternative to Google Search and its own Orion browser as a rival to Chrome, is taking on another Google service: Gmail. Today, Kagi announced a public beta of Kagi Mail, a new email service that has \"no surveillance, no…",
+          "publishedAt": "2026-11-24T00:02:52.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+          "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+          "summary": "Megaspeed has been accused of funneling AI chips to China after a former executive's affair with Jensen Huang became public.",
+          "publishedAt": "2026-11-23T23:16:08.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "The Verge’s 2026 holiday gift guide",
+          "url": "https://www.theverge.com/gadgets/1026041/holiday-gift-guide-2026",
+          "summary": "Gift-giving isn't just about grabbing something solid under a determined spending limit. It's an expression of love, a way to show someone how well you really know them. That doesn't mean you have to do it all on your own, though. Sometimes you just need a…",
+          "publishedAt": "2026-11-23T23:14:10.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Figma employee sues, alleging company forced her to confront harassers",
+          "url": "https://techcrunch.com/2026/11/23/figma-employee-sues-alleging-company-forced-her-to-confront-harassers/",
+          "summary": "Figma and its CEO are being sued by a current employee for alleged sexual harassment and discrimination.",
+          "publishedAt": "2026-11-23T23:07:49.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "VP ≠ VNP over Every Field",
+          "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+          "summary": "Paper: https://github.com/anthropics/formal-math/blob/11b6c7e3c927d...",
+          "publishedAt": "2026-11-23T22:09:10.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+          "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+          "summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
+          "publishedAt": "2026-11-23T22:02:05.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Trump halts Iowa detonation, says new governor to blame if it blows accidentally",
+          "url": "https://arstechnica.com/health/2026/11/trump-halts-iowa-detonation-says-new-governor-to-blame-if-it-blows-accidentally/",
+          "summary": "The Army said on Sunday that it would carry out the detonation on Wednesday.",
+          "publishedAt": "2026-11-23T21:58:34.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "Etc"
+        }
+      ]
+    }
+  ]
+}
