@@ -1,0 +1,575 @@
+{
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T08:10:49.927Z",
+  "stats": {
+    "wires": 40,
+    "wiresOk": 39,
+    "fetched": 3742,
+    "published": 58,
+    "sources": 20,
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Global",
+      "North America"
+    ],
+    "failures": [
+      "Tech.eu: HTTP 403"
+    ]
+  },
+  "lead": {
+    "title": "Hex Package Manager Warns of Potential Data Breach",
+    "url": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
+    "summary": "A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged. The post Hex Package Manager Warns of Potential Data Breach appeared first on SecurityWeek.",
+    "publishedAt": "2026-11-27T07:44:49.000Z",
+    "source": "SecurityWeek",
+    "region": "North America",
+    "desk": "DevSecOps"
+  },
+  "sections": [
+    {
+      "name": "Development",
+      "slug": "development",
+      "stories": [
+        {
+          "title": "Why Standard PDF Taggers Turn LaTeX Matrices Into Gibberish (and 4 Math TTS Traps)",
+          "url": "https://dev.to/kittenlabs/why-standard-pdf-taggers-turn-latex-matrices-into-gibberish-and-4-math-tts-traps-1k9c",
+          "summary": "With ADA Title II (WCAG 2.1 AA) deadlines coming up for U.S. public universities, most accessibility discussions focus on web pages and body text. In math, physics, and engineering departments, the real bottleneck is legacy lecture PDFs: compiled LaTeX…",
+          "publishedAt": "2026-11-27T08:09:35.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "The need for a formally verifiable mainstream programming language",
+          "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
+          "summary": "",
+          "publishedAt": "2026-11-27T05:22:06.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "‘We’re not migration software’: Conduct’s CEO on building an AI operating system for enterprise IT teams",
+          "url": "https://sifted.eu/articles/conduct-ceo-on-building-an-ai-operating-system-for-enterprise-it-teams/",
+          "summary": "",
+          "publishedAt": "2026-11-27T05:00:27.000Z",
+          "source": "Sifted",
+          "region": "Europe",
+          "desk": "Development"
+        },
+        {
+          "title": "The token factory never sleeps",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/27/sponsored-the-token-factory-never-sleeps/5311612",
+          "summary": "SPONSORED FEATURE: Agentic AI turns inference into a round-the-clock production job. Here's what it takes to keep the tokens flowing in the datacenter you already have.",
+          "publishedAt": "2026-11-27T01:00:00.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Development"
+        },
+        {
+          "title": "Netflix’s coziest show has made a very quiet return",
+          "url": "https://www.theverge.com/entertainment/1043489/midnight-diner-season3",
+          "summary": "The bigger Netflix gets, the easier it is to miss stuff. This is true of all digital platforms, of course, but it's especially true of Netflix of late, as the streaming service's lineup now also includes a growing library of reality shows…",
+          "publishedAt": "2026-11-26T21:00:00.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Rvoip: VoIP stack in Rust",
+          "url": "https://github.com/eisenzopf/rvoip",
+          "summary": "",
+          "publishedAt": "2026-11-26T19:18:09.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Cloudflare now lets websites add search for AI agents with a single toggle. Site owners foot the query bill.",
+          "url": "https://thenewstack.io/cloudflare-agent-search-endpoint/",
+          "summary": "Cloudflare has announced a new feature that makes it easier for AI agents to find and retrieve relevant information from The post Cloudflare now lets websites add search for AI agents with a single toggle. Site owners foot the query bill. appeared first on…",
+          "publishedAt": "2026-11-26T18:46:47.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Largest 2D Chart library in the world using BUI: BlenderUI",
+          "url": "https://bui.preetham.top/charts/",
+          "summary": "",
+          "publishedAt": "2026-11-26T18:37:24.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "QCon San Francisco 2026: How to Kill the Code Review",
+          "url": "https://www.infoq.com/news/2026/11/qcon-sf-26-kill-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Ankit Jain of Aviator told QCon San Francisco 2026 that line-by-line code review is already fading, since most review comments concern knowledge sharing rather than defects and over 75% of PRs merge without human review. He proposed six layers: argue…",
+          "publishedAt": "2026-11-26T17:16:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Android app developers will soon have to share their address publicly",
+          "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+          "summary": "Independent Android app developers are worried about their privacy after Google announced that from next year many of them will be required to share a phone number and address publicly. The policy change is intended to meet European Union regulations under…",
+          "publishedAt": "2026-11-26T17:06:24.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "AI wrote the code. Can your test data tell you if it works?",
+          "url": "https://thenewstack.io/protecting-enterprise-ai-data/",
+          "summary": "As organizations invest in AI, many are discovering a new bottleneck: obtaining data that is both protected and useful. Engineering The post AI wrote the code. Can your test data tell you if it works? appeared first on The New Stack.",
+          "publishedAt": "2026-11-26T16:18:49.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "A developer ran 50 agents at once. Then his Mac became the bottleneck.",
+          "url": "https://thenewstack.io/ai-agents-remote-sandboxes/",
+          "summary": "As developers move from working with individual AI coding agents to orchestrating dozens of concurrent sessions, the hardware they use The post A developer ran 50 agents at once. Then his Mac became the bottleneck. appeared first on The New Stack.",
+          "publishedAt": "2026-11-26T16:12:29.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "slug": "testing",
+      "stories": [
+        {
+          "title": "The Garmin Forerunner 265S is down to $300, its best price of the year",
+          "url": "https://www.theverge.com/gadgets/1042483/garmin-forerunner-265s-fitness-tracker-wearable-deal-sale-black-friday",
+          "summary": "The Forerunner 265S may not be the newest or flashiest Garmin, but it’s one that I’ve always loved most in testing. For runners with smaller wrists, it fits nicely. The battery life is pretty good thanks in part to its OLED touchscreen. When I reviewed it…",
+          "publishedAt": "2026-11-26T19:00:00.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "Agnikul’s rocket ambitions gather pace, but commercial revenue yet to take off",
+          "url": "https://yourstory.com/2026/11/agnikuls-rocket-ambitions-gather-pace-but-commercial-revenue-is-yet-to-take-off",
+          "summary": "The spacetech company is investing heavily in its launch ambitions and attracting fresh funding, but, with no operating revenue yet, commercialisation remains its biggest test.",
+          "publishedAt": "2026-11-26T12:30:21.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Testing"
+        },
+        {
+          "title": "Green Aero raises $14M as India pushes for indigenous jet propulsion",
+          "url": "https://yourstory.com/2026/11/green-aero-raises-usd-14m-as-india-pushes-for-indigenous-jet-propulsion",
+          "summary": "Over the next 12 to 18 months, Green Aero plans to expand engine-testing facilities, hire engineers, and advance the flight qualification of transonic and supersonic drones.",
+          "publishedAt": "2026-11-26T05:45:38.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Testing"
+        },
+        {
+          "title": "Test Automation Days, Hilversum, Netherlands, March 3-4 2027",
+          "url": "https://www.softwaretestingmagazine.com/conferences/test-automation-day/",
+          "summary": "Test Automation Day is a multitracks software testing conference organized for software testers and IT professionals in the Netherlands. It features talks and workshops by international speakers focused on Test Automation. The Test Automation Day…",
+          "publishedAt": "2026-11-26T05:00:26.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "Visualize Test Coverage & Prioritization with Quality Criteria",
+          "url": "https://www.softwaretestingmagazine.com/videos/visualize-test-coverage-prioritization-with-quality-criteria/",
+          "summary": "In software development, organizations often prioritize functional testing while overlooking critical quality dimensions like usability, installability or maintainability, creating blind spots that risk product success. As a test manager, the presenter has…",
+          "publishedAt": "2026-11-25T15:28:12.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "Your Coding Agent Wrote the Test. Who Checks It? with Donovan Brady",
+          "url": "https://testguild.com/podcast/a613-donovan/",
+          "summary": "About This Episode: Your coding agent just wrote the test. Who checks it? Donovan Brady of Leapwork is back on […]",
+          "publishedAt": "2026-11-24T21:17:30.000Z",
+          "source": "TestGuild",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "Prompt Injection Fixes Need Regression Tests",
+          "url": "https://stackoverflow.blog/2026/11/24/prompt-injection-fixes-need-regression-tests/",
+          "summary": "",
+          "publishedAt": "2026-11-24T16:24:41.000Z",
+          "source": "Stack Overflow Blog",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "How to Test Applications Under Poor Network Conditions with Bean Network Tester",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/how-to-test-applications-under-poor-network-conditions-with-bean-network-tester/",
+          "summary": "What happens when the application we’re testing suddenly encounters poor network conditions? Limited download/upload speeds, a sudden loss of connection, blocked connections, high ping and jitter, or something else? Will the famous “It works on my machine”…",
+          "publishedAt": "2026-11-23T17:32:56.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "AI Agents Zip From Flaw Discovery to Root Access in 11 Minutes",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes",
+          "summary": "A China-nexus actor used the Cairn penetration testing tool in attacks against East Asian universities, exploiting a zero-day in a medical imaging app.",
+          "publishedAt": "2026-11-23T16:17:21.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "Code coverage uploads now flag invalid report formats",
+          "url": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats",
+          "summary": "The GitHub Code Quality upload-code-coverage action now checks that your coverage report is in Cobertura XML format. If it isn’t in a supported format, the upload step fails and the… The post Code coverage uploads now flag invalid report formats appeared…",
+          "publishedAt": "2026-11-23T15:28:36.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "Testing"
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "slug": "devops",
+      "stories": [
+        {
+          "title": "AWS adds virtual iPhones to its cloud",
+          "url": "https://www.theregister.com/off-prem/2026/11/27/aws-adds-virtual-iphones-to-its-cloud/5312457",
+          "summary": "Emulating Android, too, but offers just two handsets and one tablet",
+          "publishedAt": "2026-11-27T05:13:32.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Building a Production-Ready Culture and Skills Through SRE-based Training",
+          "url": "https://www.infoq.com/news/2026/11/SRE-based-training/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Training can act as a confidence engine, turning repeated behaviors into habits and culture. We can tailor training programs that equip developers and operators with the skills to run their services in line with the organization’s maturity and growth, and…",
+          "publishedAt": "2026-11-26T11:09:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Why Nigerian companies are choosing Kenya for their next move",
+          "url": "https://techcabal.com/2026/11/26/nigerian-companies-eyeing-kenya/",
+          "summary": "Dangote found a pipeline that can carry fuel to customers beyond Kenya. Moniepoint bought a bank that already lends to small businesses. Across energy, banking and capital markets, Nigerian companies are buying in Kenya what would take years to build from…",
+          "publishedAt": "2026-11-26T05:35:03.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "DevOps"
+        },
+        {
+          "title": "How to Deploy to Amazon S3 Using GitLab CI/CD and AWS OIDC Without AWS Access Keys",
+          "url": "https://www.freecodecamp.org/news/how-to-deploy-to-amazon-s3-using-gitlab-ci-cd-and-aws-oidc-without-aws-access-keys/",
+          "summary": "When you're learning AWS, Amazon S3 is one of the services you're likely to come across early. Storage is one of the core components of cloud computing, and S3 makes it easy to store and manage files",
+          "publishedAt": "2026-11-25T19:49:25.000Z",
+          "source": "freeCodeCamp News",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "The FCC has authorized SpaceX to deploy 1 million satellites",
+          "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
+          "summary": "This constellation would increase the number of satellites in orbit by roughly 50-fold.",
+          "publishedAt": "2026-11-25T18:22:38.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "DeepMind's Gemini Robotics 2.5 Aims to Make Robots Safer, More Dexterous, and Faster Learners",
+          "url": "https://www.infoq.com/news/2026/11/deepmind-gemini-robotics-2-5/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Google DeepMind introduced Gemini Robotics 2.5, a vision-language-action (VLA) model designed to improve robots' dexterity, reliability, and learning speed, while enabling safer operation in unstructured real-world environments. By Sergio De Simone",
+          "publishedAt": "2026-11-25T17:00:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Prove your AI agent guardrails work",
+          "url": "https://www.docker.com/blog/prove-your-ai-agent-guardrails-work/",
+          "summary": "Coding agents can reach more than their task needs. See how Docker AI Governance controls network, filesystem, credential, and MCP access, then test it.",
+          "publishedAt": "2026-11-25T16:57:00.000Z",
+          "source": "Docker Blog",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
+          "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+          "summary": "Militaries have many reasons to target data centers and the cloud in wartime.",
+          "publishedAt": "2026-11-25T16:47:14.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Latin America Sees Cyberattacks on Ports, Pipelines & Manufacturing",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/latin-america-cyberattacks-ports-pipelines-manufacturing",
+          "summary": "From the Port of Santos in Brazil to a pipeline in Argentina, cyberattacks are increasingly affecting industrial systems throughout the region.",
+          "publishedAt": "2026-11-25T14:00:00.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Satellites Have a Ground-Level Cybersecurity Problem",
+          "url": "https://www.darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem",
+          "summary": "Weaknesses in the ground-based infrastructure supporting satellite services are becoming more consequential as a new space race gathers pace.",
+          "publishedAt": "2026-11-24T22:05:34.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Please don’t give the robot my SSH keys: How to keep AI out of trouble",
+          "url": "https://thenewstack.io/teleport-agent-delegated-identity/",
+          "summary": "Say a developer asks an AI agent to find out why a Kubernetes pod keeps crashing. The agent needs logs. The post Please don’t give the robot my SSH keys: How to keep AI out of trouble appeared first on The New Stack.",
+          "publishedAt": "2026-11-24T21:57:58.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Top 8 Cloud Monitoring Tools for Software Testing Teams in 2026",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/top-8-cloud-monitoring-tools-for-software-testing-teams-in-2026/",
+          "summary": "A load test fails at 2 a.m. The assertions say response times blew past the threshold, and the test logs say nothing else. Was it a code regression, a noisy neighbor on the test cluster, or a CI runner that ran out of memory? Testing tells you something…",
+          "publishedAt": "2026-11-24T16:10:58.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "DevOps"
+        }
+      ]
+    },
+    {
+      "name": "DevSecOps",
+      "slug": "devsecops",
+      "stories": [
+        {
+          "title": "Sandboxes, secure inference, and keeping agents from going rogue",
+          "url": "https://stackoverflow.blog/2026/11/27/sandboxes-secure-inference-and-rogue-agents/",
+          "summary": "At We Are Developers, Ryan talks with Daytona CEO and cofounder Ivan Burazin about agent sandboxes and Blackbox AI CTO and cofounder Richard Risk about encrypted inference.",
+          "publishedAt": "2026-11-27T08:40:00.000Z",
+          "source": "Stack Overflow Blog",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+          "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+          "summary": "SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code. The post SAP Confirms Cyberattack, Source Code Reportedly Compromised appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-27T07:36:14.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "👨🏿‍🚀TechCabal Daily – La Visa loca",
+          "url": "https://techcabal.com/2026/11/27/%f0%9f%91%a8%f0%9f%8f%bf%f0%9f%9a%80techcabal-daily-la-visa-loca/",
+          "summary": "In today's edition: EasyEquities locks customer accounts after breach || Visa opens Cameroon office || Mukuru partners PayPal for international payments || Who secured the bag? 💰",
+          "publishedAt": "2026-11-27T06:06:53.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Free e-government platform that serves two billion people in ten countries has critical SQL injection bug",
+          "url": "https://www.theregister.com/security/2026/11/27/free-e-government-platform-that-serves-two-billion-people-in-ten-countries-has-critical-sql-injection-bug/5312449",
+          "summary": "India’s Digital Infrastructure for Governance Impact and Transformation tool can leak data",
+          "publishedAt": "2026-11-27T01:19:31.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Microsoft: Hackers in China, N Korea using ARTEX AI tool to break into global tech systems",
+          "url": "https://www.theregister.com/security/2026/11/26/microsoft-hackers-in-china-n-korea-using-artex-ai-tool-to-break-into-global-tech-systems/5312433",
+          "summary": "Agentic offensive framework automates familiar attack techniques, with weak defenses potentially breached in minutes",
+          "publishedAt": "2026-11-26T19:04:00.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
+          "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
+          "summary": "FIFA didn’t say when the cyberattack took place, or the precise nature of the hacked information. The post FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’ appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-26T17:06:55.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+          "url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
+          "summary": "Tracked as CVE-2026-103406, the vulnerability allows remote attackers to execute arbitrary commands as root. The post Critical Juniper Session Smart Conductor Flaw Exploited in Attacks appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-26T13:04:06.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Cyprus Becomes Espionage Target for Iranian Hackers",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/cyprus-espionage-target-iranian-hackers",
+          "summary": "A previously undocumented Iranian threat group called \"Volant Manticore\" is targeting Cypriot organizations as part of an intelligence-gathering effort for Tehran.",
+          "publishedAt": "2026-11-26T08:00:00.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "👨🏿‍🚀TechCabal Daily – A house breach",
+          "url": "https://techcabal.com/2026/11/26/%f0%9f%91%a8%f0%9f%8f%bf%f0%9f%9a%80techcabal-daily-a-house-breach/",
+          "summary": "In today's news: SA Home Loans hit by data breach || Dangote refinery to list on NGX || Raenest secures six US licences || WorldRemit founder launches Odola",
+          "publishedAt": "2026-11-26T06:39:43.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "DOJ accuses former cyber executive of defrauding ransomware victims by secretly paying hackers",
+          "url": "https://techcrunch.com/2026/11/25/doj-accuses-former-cyber-executive-of-defrauding-ransomware-victims-by-secretly-paying-hackers/",
+          "summary": "U.S. prosecutors accused the former executive of defrauding victims of ransomware by paying the hackers, charging victims more, and pocketing the difference.",
+          "publishedAt": "2026-11-25T17:36:51.000Z",
+          "source": "TechCrunch",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Guilty: Huawei faces steep penalties for stealing T-Mobile, Cisco trade secrets",
+          "url": "https://arstechnica.com/tech-policy/2026/11/jury-convicts-huawei-of-stealing-us-trade-secrets-evading-iran-sanctions/",
+          "summary": "Huawei didn’t try very hard to hide thefts of US trade secrets, DOJ says.",
+          "publishedAt": "2026-11-25T16:33:45.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "DevSecOps"
+        }
+      ]
+    },
+    {
+      "name": "Etc",
+      "slug": "etc",
+      "stories": [
+        {
+          "title": "Build a care home agency staffing review in a spreadsheet",
+          "url": "https://dev.to/keyledgersglobaluk/build-a-care-home-agency-staffing-review-in-a-spreadsheet-305i",
+          "summary": "A workbook with 5 tabs can show what a care home's single staffing figure hides. This post builds it step by step, with a formula for each column. The workbook suits a buyer, lender or investor with monthly figures from a UK care home. Every number in the…",
+          "publishedAt": "2026-11-27T08:09:32.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "Back up MongoDB to S3: from mongodump to a verified restore",
+          "url": "https://dev.to/benjy33000/back-up-mongodb-to-s3-from-mongodump-to-a-verified-restore-c5h",
+          "summary": "Most MongoDB backup guides stop at the mongodump command line. That is the easy part. What decides whether you get your data back is everything around it: what the dump leaves out, which options change what you will be able to restore, whether the script…",
+          "publishedAt": "2026-11-27T08:08:54.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "The Cheap-Lane Green Light: Equal AI Scores at 1/45th the Price",
+          "url": "https://dev.to/tm_gunderson_9cff63a7ba/the-cheap-lane-green-light-equal-ai-scores-at-145th-the-price-5180",
+          "summary": "For two years, the honest advice about cheap AI models has been cautious: audit your tiers, pilot the budget lane, see what sticks. This month, the evidence changed shape. In OpenAI's own launch data for GPT-6.2, the cheap model in the lineup — Sol —…",
+          "publishedAt": "2026-11-27T08:08:28.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "Volvo's big batteries: We drive its updated 2028 plug-in hybrids",
+          "url": "https://arstechnica.com/cars/2026/11/volvos-big-batteries-we-drive-its-updated-2028-plug-in-hybrids/",
+          "summary": "There’s just one thing we still don’t know: How much will they cost?",
+          "publishedAt": "2026-11-27T08:00:53.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Nigeria, Togo seek investors for $50 million data park project",
+          "url": "https://techcabal.com/2026/11/27/nigeria-togo-seek-data-park-investors/",
+          "summary": "Nigeria and Togo are seeking private investors for a $30 million to $50 million twin data park project, with one facility in each country.",
+          "publishedAt": "2026-11-27T07:53:47.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "Etc"
+        },
+        {
+          "title": "NUUK Expands Its Home Appliances Portfolio To Drive ₹150 Cr Revenue In FY27",
+          "url": "https://inc42.com/startups/nuuk-expands-its-home-appliances-portfolio-to-drive-%e2%82%b9150-cr-revenue-in-fy27/",
+          "summary": "Indian consumers are more discerning than ever, particularly when setting up their dream homes. After spending months obsessing over every…",
+          "publishedAt": "2026-11-27T07:21:56.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Walmart International CEO To Meet Flipkart Staff After Kalyan Krishnamurthy’s Exit: Report",
+          "url": "https://inc42.com/buzz/walmart-international-ceo-to-meet-flipkart-staff-after-kalyan-krishnamurthys-exit-report/",
+          "summary": "Walmart International CEO Chris Nicholas is expected to visit India on Monday (November 30) to meet Flipkart employees, days after…",
+          "publishedAt": "2026-11-27T06:58:23.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Mozilla Partners with Mistral to Bring Open-Weight AI Models to Firefox Smart Window",
+          "url": "https://www.infoq.com/news/2026/11/mozilla-mistral-ai-smart-window/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Mozilla has partnered with Mistral AI to offer Mistral Small 4, an open-weight model, in Firefox's Smart Window AI assistant, now in beta. It is recommended for users in France, the US and Canada. Users can choose among several models, and Mistral agreed…",
+          "publishedAt": "2026-11-27T06:58:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "Swiggy Instamart Lays Off 340 Employees Amid Organisational Restructuring",
+          "url": "https://inc42.com/buzz/swiggy-instamart-lays-off-340-employees-amid-organisational-restructuring/",
+          "summary": "Swiggy’s quick commerce arm Instamart is laying off around 340 employees across its corporate and support teams as part of…",
+          "publishedAt": "2026-11-27T06:28:51.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Meet the women creators who are making finance, science and farming easier for millions to follow",
+          "url": "https://yourstory.com/2026/11/women-creators-making-finance-science-farming-easier",
+          "summary": "From index funds to research papers to terrace gardens, 11 women creators explain finance, science and farming to millions on YouTube and Instagram.",
+          "publishedAt": "2026-11-27T06:20:59.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Swara Baby Products' Rs 800-cr IPO to open on Dec 2; price band fixed at Rs 105-111",
+          "url": "https://yourstory.com/2026/11/swara-baby-products-rs-800-cr-ipo-dec-2-price-band-fixed-at-rs-105-111",
+          "summary": "The three-day issue will close on December 4, while the bidding for anchor investors will take place on December 1, according to a public notice on Friday.",
+          "publishedAt": "2026-11-27T05:20:48.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Etc"
+        },
+        {
+          "title": "Norwest Sells ₹262 Cr Stake In Amagi Through Block Deal",
+          "url": "https://inc42.com/buzz/norwest-sells-%e2%82%b9262-cr-stake-in-amagi-through-block-deal/",
+          "summary": "US-based VC firm Norwest Venture Partners sold shares worth ₹262.4 Cr in listed media technology company Amagi Media Labs for…",
+          "publishedAt": "2026-11-27T05:09:22.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Etc"
+        }
+      ]
+    }
+  ]
+}
