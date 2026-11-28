@@ -1,0 +1,566 @@
+{
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-28T01:53:42.569Z",
+  "stats": {
+    "wires": 40,
+    "wiresOk": 39,
+    "fetched": 3743,
+    "published": 57,
+    "sources": 22,
+    "regions": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Global",
+      "North America"
+    ],
+    "failures": [
+      "Tech.eu: HTTP 403"
+    ]
+  },
+  "lead": {
+    "title": "How gamers are using AI and leaked files to clone Grand Theft Auto 6",
+    "url": "https://www.bbc.co.uk/news/articles/c64gn8pe5eeqo?at_medium=RSS&at_campaign=rss",
+    "summary": "With an official PC version potentially still months away, fans are getting impatient.",
+    "publishedAt": "2026-11-28T01:30:50.000Z",
+    "source": "BBC Technology",
+    "region": "Europe",
+    "desk": "DevSecOps"
+  },
+  "sections": [
+    {
+      "name": "Development",
+      "slug": "development",
+      "stories": [
+        {
+          "title": "Painting 1990s anime scenes in Python",
+          "url": "https://www.fofr.ai/greenhouse-after-the-typhoon",
+          "summary": "",
+          "publishedAt": "2026-11-27T23:50:17.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "RBI Clubs 25 Card Payment Circulars Into A Single Framework",
+          "url": "https://inc42.com/buzz/rbi-clubs-25-card-payment-circulars-into-a-single-framework/",
+          "summary": "The Reserve Bank of India (RBI) has clubbed 25 existing circulars, governing debit, credit and prepaid card transactions, under a…",
+          "publishedAt": "2026-11-27T20:31:12.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Development"
+        },
+        {
+          "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+          "url": "https://github.com/skeeto/prospero",
+          "summary": "",
+          "publishedAt": "2026-11-27T20:23:14.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "AWS Nitro Sandboxes give AI agents a place to run",
+          "url": "https://thenewstack.io/aws-nitro-sandboxes-agents/",
+          "summary": "A coding agent has written a script and wants to run it. The script may do exactly what the developer The post AWS Nitro Sandboxes give AI agents a place to run appeared first on The New Stack.",
+          "publishedAt": "2026-11-27T19:16:41.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Development"
+        },
+        {
+          "title": "Meta Brings Code Review Auto-Approval More Mainstream with PyTorch GreenLight",
+          "url": "https://www.infoq.com/news/2026/11/uber-agent-spend-steady/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "PyTorch now lets an AI reviewer approve pull requests from its own maintainers. GreenLight is an open-source take on RADAR, the system Meta uses to auto-land low-risk diffs after safety checks, a risk score and an LLM review. OpenAI, Anthropic and Sonar…",
+          "publishedAt": "2026-11-27T14:36:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Netflix Builds Quasar to Measure the Blast Radius of Library API Changes",
+          "url": "https://www.infoq.com/news/2026/11/netflix-quasar-api-impact/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Netflix developed Quasar, an internal tool that combines semantic code indexing and API comparisons to identify downstream consumers affected by library changes. Using SCIP, Amazon S3, and Athena, it traces API references across repositories, helping…",
+          "publishedAt": "2026-11-27T14:35:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "Can Dreamteam Take On CRM Old Guards With Its Platoon Of AI Agents?",
+          "url": "https://inc42.com/startups/can-dreamteam-take-on-crm-old-guards-with-its-platoon-of-ai-agents/",
+          "summary": "In B2B sales, customer relationship management (CRM) is as old as fire. It encompasses the strategies and software tools businesses…",
+          "publishedAt": "2026-11-27T11:11:29.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Development"
+        },
+        {
+          "title": "Presentation: From Fan-Out to Fast: Sub-100ms API Design in Distributed Systems",
+          "url": "https://www.infoq.com/presentations/sub-100ms-latency-distributed-systems/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Saranya Vedagiri explains how to design resilient, low-latency distributed APIs under 100ms. Drawing on practical scale at eBay, she discusses hop-by-hop latency budgets, async fanout tradeoffs, thread pool sizing, caching, and circuit breakers. Learn…",
+          "publishedAt": "2026-11-27T11:00:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "‘We’re not migration software’: Conduct’s CEO on building an AI operating system for enterprise IT teams",
+          "url": "https://sifted.eu/articles/conduct-ceo-on-building-an-ai-operating-system-for-enterprise-it-teams/",
+          "summary": "",
+          "publishedAt": "2026-11-27T05:00:27.000Z",
+          "source": "Sifted",
+          "region": "Europe",
+          "desk": "Development"
+        },
+        {
+          "title": "Refactoring the Engine: An Incremental Path to AI-Assisted Delivery",
+          "url": "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/refactoring_the_engine_an_incremental_path_to_AI_assisted_delivery",
+          "summary": "Refactoring the Engine: An Incremental Path to AI-Assisted Delivery",
+          "publishedAt": "2026-11-27T00:00:00.000Z",
+          "source": "Thoughtworks",
+          "region": "Global",
+          "desk": "Development"
+        },
+        {
+          "title": "WhatsApp To Partner Jio To Launch Int’l Data eSIM Feature In India",
+          "url": "https://inc42.com/buzz/whatsapp-to-partner-jio-to-launch-intl-data-esim-feature-in-india/",
+          "summary": "Messaging platform WhatsApp plans to roll out a new feature that lets users buy and install international data eSIMs directly…",
+          "publishedAt": "2026-11-26T20:49:55.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "Development"
+        },
+        {
+          "title": "NITES seeks policy framework to ringfence IT workers from AI job displacement",
+          "url": "https://yourstory.com/2026/11/nites-seeks-policy-framework-ringfence-it-workers-ai-job-displacement",
+          "summary": "The Nascent Information Technology Employees Senate (NITES) is for technology moving forward the industry but not with leaving workforce behind",
+          "publishedAt": "2026-11-26T15:03:22.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Development"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "slug": "testing",
+      "stories": [
+        {
+          "title": "Supercoin’s Gideon Greaves sees a business in moving money without dollars",
+          "url": "https://techcabal.com/2026/11/27/supercoin-gideon-greaves-payment-strategy/",
+          "summary": "The commercial test is whether Supercoin can trade enough rand and shillings to give payment companies a better rate and deliver the money as quickly as their existing providers.",
+          "publishedAt": "2026-11-27T11:14:31.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "Testing"
+        },
+        {
+          "title": "Agnikul’s rocket ambitions gather pace, but commercial revenue yet to take off",
+          "url": "https://yourstory.com/2026/11/agnikuls-rocket-ambitions-gather-pace-but-commercial-revenue-is-yet-to-take-off",
+          "summary": "The spacetech company is investing heavily in its launch ambitions and attracting fresh funding, but, with no operating revenue yet, commercialisation remains its biggest test.",
+          "publishedAt": "2026-11-26T12:30:21.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "Testing"
+        },
+        {
+          "title": "Test Automation Days, Hilversum, Netherlands, March 3-4 2027",
+          "url": "https://www.softwaretestingmagazine.com/conferences/test-automation-day/",
+          "summary": "Test Automation Day is a multitracks software testing conference organized for software testers and IT professionals in the Netherlands. It features talks and workshops by international speakers focused on Test Automation. The Test Automation Day…",
+          "publishedAt": "2026-11-26T05:00:26.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "Visualize Test Coverage & Prioritization with Quality Criteria",
+          "url": "https://www.softwaretestingmagazine.com/videos/visualize-test-coverage-prioritization-with-quality-criteria/",
+          "summary": "In software development, organizations often prioritize functional testing while overlooking critical quality dimensions like usability, installability or maintainability, creating blind spots that risk product success. As a test manager, the presenter has…",
+          "publishedAt": "2026-11-25T15:28:12.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "Your Coding Agent Wrote the Test. Who Checks It? with Donovan Brady",
+          "url": "https://testguild.com/podcast/a613-donovan/",
+          "summary": "About This Episode: Your coding agent just wrote the test. Who checks it? Donovan Brady of Leapwork is back on […]",
+          "publishedAt": "2026-11-24T21:17:30.000Z",
+          "source": "TestGuild",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "Prompt Injection Fixes Need Regression Tests",
+          "url": "https://stackoverflow.blog/2026/11/24/prompt-injection-fixes-need-regression-tests/",
+          "summary": "",
+          "publishedAt": "2026-11-24T16:24:41.000Z",
+          "source": "Stack Overflow Blog",
+          "region": "Global",
+          "desk": "Testing"
+        },
+        {
+          "title": "How to Test Applications Under Poor Network Conditions with Bean Network Tester",
+          "url": "https://www.softwaretestingmagazine.com/knowledge/how-to-test-applications-under-poor-network-conditions-with-bean-network-tester/",
+          "summary": "What happens when the application we’re testing suddenly encounters poor network conditions? Limited download/upload speeds, a sudden loss of connection, blocked connections, high ping and jitter, or something else? Will the famous “It works on my machine”…",
+          "publishedAt": "2026-11-23T17:32:56.000Z",
+          "source": "Software Testing Magazine",
+          "region": "Europe",
+          "desk": "Testing"
+        },
+        {
+          "title": "AI Agents Zip From Flaw Discovery to Root Access in 11 Minutes",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes",
+          "summary": "A China-nexus actor used the Cairn penetration testing tool in attacks against East Asian universities, exploiting a zero-day in a medical imaging app.",
+          "publishedAt": "2026-11-23T16:17:21.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "Testing"
+        },
+        {
+          "title": "Code coverage uploads now flag invalid report formats",
+          "url": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats",
+          "summary": "The GitHub Code Quality upload-code-coverage action now checks that your coverage report is in Cobertura XML format. If it isn’t in a supported format, the upload step fails and the… The post Code coverage uploads now flag invalid report formats appeared…",
+          "publishedAt": "2026-11-23T15:28:36.000Z",
+          "source": "GitHub Changelog",
+          "region": "Global",
+          "desk": "Testing"
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "slug": "devops",
+      "stories": [
+        {
+          "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+          "url": "https://tabernet.es/",
+          "summary": "",
+          "publishedAt": "2026-11-27T23:00:30.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Houston, we have a networking problem: Why NTT thinks space computing is the final frontier",
+          "url": "https://thenewstack.io/ntt-space-computing-networking/",
+          "summary": "After cloud computing comes space computing, obviously, right? There’s a neat irony here: Real-world clouds can interfere with optical satellite The post Houston, we have a networking problem: Why NTT thinks space computing is the final frontier appeared…",
+          "publishedAt": "2026-11-27T17:00:00.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "A year from now, VMware wants AI troubleshooting your private cloud",
+          "url": "https://thenewstack.io/vmware-private-cloud-kubernetes/",
+          "summary": "A developer who needs two containers to test a change or modification has a different problem from a platform engineer The post A year from now, VMware wants AI troubleshooting your private cloud appeared first on The New Stack.",
+          "publishedAt": "2026-11-27T16:07:11.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "What’s next for Kalyan Krishnamurthy after Flipkart? 5 possible paths",
+          "url": "https://yourstory.com/2026/11/whats-next-for-kalyan-krishnamurthy-after-flipkart-5-possible-paths",
+          "summary": "From building a startup and backing founders to running another company, joining a board or advising the government, Kalyan Krishnamurthy has several paths open after nearly a decade at Flipkart’s helm.",
+          "publishedAt": "2026-11-27T12:36:08.000Z",
+          "source": "YourStory",
+          "region": "Asia",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Grafana Begins Its Biggest UI Refresh Since Version 7",
+          "url": "https://www.infoq.com/news/2026/11/grfana-ui-refresh/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "summary": "Grafana Labs has introduced the first phase of its biggest visual refresh since Grafana 7, bringing updated themes, more consistent interface components, and improved visual hierarchy to its observability platform. By Craig Risi",
+          "publishedAt": "2026-11-27T12:00:00.000Z",
+          "source": "InfoQ",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Europe's AI sovereignty push: Lots of cloud, not much silver lining",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/27/europes-ai-sovereignty-push-lots-of-cloud-not-much-silver-lining/5312120",
+          "summary": "Datacenter spending is booming but the models, the chips, and the clout all live in US and Asia",
+          "publishedAt": "2026-11-27T11:32:00.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "AWS adds virtual iPhones to its cloud",
+          "url": "https://www.theregister.com/off-prem/2026/11/27/aws-adds-virtual-iphones-to-its-cloud/5312457",
+          "summary": "Emulating Android, too, but offers just two handsets and one tablet",
+          "publishedAt": "2026-11-27T05:13:32.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Why Nigerian companies are choosing Kenya for their next move",
+          "url": "https://techcabal.com/2026/11/26/nigerian-companies-eyeing-kenya/",
+          "summary": "Dangote found a pipeline that can carry fuel to customers beyond Kenya. Moniepoint bought a bank that already lends to small businesses. Across energy, banking and capital markets, Nigerian companies are buying in Kenya what would take years to build from…",
+          "publishedAt": "2026-11-26T05:35:03.000Z",
+          "source": "TechCabal",
+          "region": "Africa",
+          "desk": "DevOps"
+        },
+        {
+          "title": "How to Deploy to Amazon S3 Using GitLab CI/CD and AWS OIDC Without AWS Access Keys",
+          "url": "https://www.freecodecamp.org/news/how-to-deploy-to-amazon-s3-using-gitlab-ci-cd-and-aws-oidc-without-aws-access-keys/",
+          "summary": "When you're learning AWS, Amazon S3 is one of the services you're likely to come across early. Storage is one of the core components of cloud computing, and S3 makes it easy to store and manage files",
+          "publishedAt": "2026-11-25T19:49:25.000Z",
+          "source": "freeCodeCamp News",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "The FCC has authorized SpaceX to deploy 1 million satellites",
+          "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
+          "summary": "This constellation would increase the number of satellites in orbit by roughly 50-fold.",
+          "publishedAt": "2026-11-25T18:22:38.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Prove your AI agent guardrails work",
+          "url": "https://www.docker.com/blog/prove-your-ai-agent-guardrails-work/",
+          "summary": "Coding agents can reach more than their task needs. See how Docker AI Governance controls network, filesystem, credential, and MCP access, then test it.",
+          "publishedAt": "2026-11-25T16:57:00.000Z",
+          "source": "Docker Blog",
+          "region": "Global",
+          "desk": "DevOps"
+        },
+        {
+          "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
+          "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+          "summary": "Militaries have many reasons to target data centers and the cloud in wartime.",
+          "publishedAt": "2026-11-25T16:47:14.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "DevOps"
+        }
+      ]
+    },
+    {
+      "name": "DevSecOps",
+      "slug": "devsecops",
+      "stories": [
+        {
+          "title": "Choosing Audit Logs over Auth Provider History for SOC 2 Deletion Evidence",
+          "url": "https://dev.to/celthyrdusk7341/choosing-audit-logs-over-auth-provider-history-for-soc-2-deletion-evidence-3j5e",
+          "summary": "Choose an application-owned audit log as the primary evidence for property account deletion when the control includes disabling account recovery and revoking every session. Keep auth provider event history as supporting evidence. The deciding boundary is…",
+          "publishedAt": "2026-11-28T01:52:54.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Passkey blues",
+          "url": "https://ssg.dev/passkey-blues/",
+          "summary": "",
+          "publishedAt": "2026-11-27T23:51:28.000Z",
+          "source": "Hacker News",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Matters.AI Lands India’s Largest Cybersecurity Pre-Series A Round to Fight AI Data Risks",
+          "url": "https://www.darkreading.com/cyber-risk/matters-india-cybersecurity-pre-series-ai-data-risks",
+          "summary": "The security startup consolidates four legacy security tools into an autonomous platform that uses context-aware AI to trace sensitive data lineage, analyze user intent, and automatically remediate threats across enterprise environments.",
+          "publishedAt": "2026-11-27T15:27:20.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "CERT-In Flags Five Cybersecurity Vulnerabilities In WhatsApp, Warns Of Data Exposure",
+          "url": "https://inc42.com/buzz/cert-in-flags-five-cybersecurity-vulnerabilities-in-whatsapp-warns-of-data-exposure/",
+          "summary": "India’s nodal cybersecurity agency CERT-In has flagged five vulnerabilities in Meta’s messenger platform WhatsApp which can be exploited by attackers…",
+          "publishedAt": "2026-11-27T15:16:11.000Z",
+          "source": "Inc42",
+          "region": "Asia",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "'God Mode' Flaws Could Wreak Border-Control Havoc",
+          "url": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
+          "summary": "Attackers could have disrupted traveler entry into Nigeria, Ethiopia, Zambia, Sri Lanka, Fiji, and Ghana via several vulnerabilities in their online visa and immigration systems.",
+          "publishedAt": "2026-11-27T14:00:00.000Z",
+          "source": "Dark Reading",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
+          "url": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+          "summary": "Noteworthy stories that might have slipped under the radar: RansomwareHelp accused of profiting from ransom payments, USDA payment systems breach, cybersecurity firm Radware hacked. The post In Other News: Tanker Cyberattacks, EU Quantum Act, New…",
+          "publishedAt": "2026-11-27T11:00:00.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "British social security system techies yank services offline following 'cyber incident'",
+          "url": "https://www.theregister.com/security/2026/11/27/british-social-security-system-techies-yank-services-offline-following-cyber-incident/5312522",
+          "summary": "Pensioners assured their funds will arrive as normal",
+          "publishedAt": "2026-11-27T10:01:00.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "100,000 Potentially Impacted by Colorado Data Breach",
+          "url": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
+          "summary": "Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data. The post 100,000 Potentially Impacted by Colorado Data Breach appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-27T09:30:54.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Sandboxes, secure inference, and keeping agents from going rogue",
+          "url": "https://stackoverflow.blog/2026/11/27/sandboxes-secure-inference-and-rogue-agents/",
+          "summary": "At We Are Developers, Ryan talks with Daytona CEO and cofounder Ivan Burazin about agent sandboxes and Blackbox AI CTO and cofounder Richard Risk about encrypted inference.",
+          "publishedAt": "2026-11-27T08:40:00.000Z",
+          "source": "Stack Overflow Blog",
+          "region": "Global",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "Hex Package Manager Warns of Potential Data Breach",
+          "url": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
+          "summary": "A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged. The post Hex Package Manager Warns of Potential Data Breach appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-27T07:44:49.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        },
+        {
+          "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+          "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+          "summary": "SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code. The post SAP Confirms Cyberattack, Source Code Reportedly Compromised appeared first on SecurityWeek.",
+          "publishedAt": "2026-11-27T07:36:14.000Z",
+          "source": "SecurityWeek",
+          "region": "North America",
+          "desk": "DevSecOps"
+        }
+      ]
+    },
+    {
+      "name": "Etc",
+      "slug": "etc",
+      "stories": [
+        {
+          "title": "UG21 log review: compare wrapping counters without inventing a timeline",
+          "url": "https://dev.to/united_uav/ug21-log-review-compare-wrapping-counters-without-inventing-a-timeline-4k99",
+          "summary": "A log viewer receives counter values 254, 255, zero and one. Sorting them as ordinary integers moves the last two records to the beginning. Treating every decrease as a restart splits one continuous sequence into separate sessions. Both choices can produce…",
+          "publishedAt": "2026-11-28T01:53:02.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "SBF Analyzer Front End Gain (AGC): Check SBF Logs and Find Antenna or Interference Problems",
+          "url": "https://dev.to/eview_gnss_solutions/sbf-analyzer-front-end-gain-agc-check-sbf-logs-and-find-antenna-or-interference-problems-5g3m",
+          "summary": "SBF Analyzer answers two questions about any recorded Septentrio SBF file: which SBF blocks it actually contains, and whether the receiver's RF front end was healthy while the file was being logged. Both checks live in the same free tool that ships with…",
+          "publishedAt": "2026-11-28T01:53:00.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "Receipt Boundaries Prevent SMS OTP Abuse and Toll Fraud (Application-Owned Templates)",
+          "url": "https://dev.to/xanderblack5716/receipt-boundaries-prevent-sms-otp-abuse-and-toll-fraud-application-owned-templates-409c",
+          "summary": "Keep receipt templates under application ownership, and prevent SMS OTP abuse and toll fraud through a separate admission policy before contacting a messaging provider. For an e-commerce system sending an order receipt after payment settles, the deciding…",
+          "publishedAt": "2026-11-28T01:52:24.000Z",
+          "source": "DEV Community",
+          "region": "Global",
+          "desk": "Etc"
+        },
+        {
+          "title": "We found 60-odd Black Friday deals we love for $100 or less",
+          "url": "https://www.theverge.com/gadgets/1043445/black-friday-best-cheap-tech-deals-under-100-2026",
+          "summary": "Between holiday travel, gifts, and the rising cost of just about everything, expenses can quickly add up during this time of year. Thankfully, you don’t have to dip too far into your savings to take advantage of some of the better Black Friday deals we’ve…",
+          "publishedAt": "2026-11-28T01:30:00.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "I found a DualSense deal that knocks 28% off this wireless PlayStation controller",
+          "url": "https://www.zdnet.com/home-and-office/playstation-5-dualsense-controller-black-friday-deal/",
+          "summary": "The basic white variant is down to a record-low $54 for Black Friday, with plenty of other colors also on sale.",
+          "publishedAt": "2026-11-28T01:12:07.000Z",
+          "source": "ZDNET",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Tech Now",
+          "url": "https://www.bbc.co.uk/iplayer/episode/m00353dd?at_medium=RSS&at_campaign=rss",
+          "summary": "Ammie Sekhon looks at robotics that could one day help spacecraft act independently.",
+          "publishedAt": "2026-11-28T01:00:00.000Z",
+          "source": "BBC Technology",
+          "region": "Europe",
+          "desk": "Etc"
+        },
+        {
+          "title": "The absolute best Black Friday deals we’ve found (so far)",
+          "url": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas",
+          "summary": "This year's Black Friday deals have launched in waves over the past several weeks, but now the floodgates have officially opened. You can now take advantage of the lowest prices we've seen in-store and online for video games, wireless earbuds, TVs…",
+          "publishedAt": "2026-11-28T00:44:11.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "This purple electric Chinese minivan can go up to 559 miles on a charge",
+          "url": "https://www.theverge.com/transportation/1044706/this-purple-electric-chinese-minivan-can-go-up-to-559-miles-on-a-charge",
+          "summary": "Electric minivans could be the ultimate in utility, with room for passengers, gear, and huge batteries. While VW's ID Buzz only gave us 200 miles of real-world driving on a charge in 2023, China's BYD has just announced a flagship purple peoplemover that…",
+          "publishedAt": "2026-11-28T00:02:49.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "The best Black Friday deals you can still get on AirPods, Macs, and other Apple gear",
+          "url": "https://www.theverge.com/gadgets/1043935/best-black-friday-apple-deals-2026",
+          "summary": "Black Friday is entering the evening, which means one of the best times of the year to save some cash on a new pair of AirPods or the latest Apple Watch is coming to a close. After all, the holiday savings can help offset the unfortunate price hikes from…",
+          "publishedAt": "2026-11-27T23:53:19.000Z",
+          "source": "The Verge",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "The best Black Friday deals Ars could find",
+          "url": "https://arstechnica.com/shopping/2026/11/the-best-black-friday-deals-ars-could-find/",
+          "summary": "Perhaps some commerce, to help all the Turkey Day leftovers go down easier?",
+          "publishedAt": "2026-11-27T17:05:37.000Z",
+          "source": "Ars Technica",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Vercel’s CEO thinks the next big AI speedup won’t come from smarter models",
+          "url": "https://thenewstack.io/vercel-workflow-sdk-harness/",
+          "summary": "Some of the biggest gains in AI performance over the past year have come from improvements to the harness, not The post Vercel’s CEO thinks the next big AI speedup won’t come from smarter models appeared first on The New Stack.",
+          "publishedAt": "2026-11-27T16:50:06.000Z",
+          "source": "The New Stack",
+          "region": "North America",
+          "desk": "Etc"
+        },
+        {
+          "title": "Smartphone shipments face another bleak year before modest 2028 comeback",
+          "url": "https://www.theregister.com/personal-tech/2026/11/27/smartphone-shipments-face-another-bleak-year-before-modest-2028-comeback/5312580",
+          "summary": "Counterpoint forecasts another 6% shipment drop in 2027, with volumes still below 2025 levels by decade's end",
+          "publishedAt": "2026-11-27T15:33:00.000Z",
+          "source": "The Register",
+          "region": "Europe",
+          "desk": "Etc"
+        }
+      ]
+    }
+  ]
+}
